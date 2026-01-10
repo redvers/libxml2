@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-  fun xmlSchematronNewParserCtxt(URL: String): NullablePointer[XmlSchematronParserCtxt] =>
-    @xmlSchematronNewParserCtxt(URL.cstring())
+  fun xmlSchematronNewParserCtxt(uRL: String): NullablePointer[XmlSchematronParserCtxt] =>
+    @xmlSchematronNewParserCtxt(uRL.cstring())

@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=128,fid: f65]
 */
-  fun xmlXPathWrapNodeSet(val: NullablePointer[XmlNodeSet] tag): NullablePointer[XmlXPathObject] =>
-    @xmlXPathWrapNodeSet(val)
+  fun xmlXPathWrapNodeSet(xmlval: NullablePointer[XmlNodeSet] tag): NullablePointer[XmlXPathObject] =>
+    @xmlXPathWrapNodeSet(xmlval)

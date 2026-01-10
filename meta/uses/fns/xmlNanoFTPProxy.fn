@@ -13,5 +13,5 @@
     [PointerType size=64]->[FundamentalType(char) size=8]
     [FundamentalType(int) size=32]
 */
-  fun xmlNanoFTPProxy(host: String, port: I32, user: String, passwd: String, type: I32): None =>
-    @xmlNanoFTPProxy(host.cstring(), port, user.cstring(), passwd.cstring(), type)
+  fun xmlNanoFTPProxy(host: String, port: I32, user: String, passwd: String, xmltype: I32): None =>
+    @xmlNanoFTPProxy(host.cstring(), port, user.cstring(), passwd.cstring(), xmltype)

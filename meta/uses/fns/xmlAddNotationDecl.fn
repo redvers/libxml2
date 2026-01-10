@@ -13,5 +13,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlAddNotationDecl(ctxt: NullablePointer[XmlValidCtxt] tag, dtd: NullablePointer[XmlDtd] tag, name: String, PublicID: String, SystemID: String): NullablePointer[XmlNotation] =>
-    @xmlAddNotationDecl(ctxt, dtd, name.cstring(), PublicID.cstring(), SystemID.cstring())
+  fun xmlAddNotationDecl(ctxt: NullablePointer[XmlValidCtxt] tag, dtd: NullablePointer[XmlDtd] tag, name: String, publicID: String, systemID: String): NullablePointer[XmlNotation] =>
+    @xmlAddNotationDecl(ctxt, dtd, name.cstring(), publicID.cstring(), systemID.cstring())

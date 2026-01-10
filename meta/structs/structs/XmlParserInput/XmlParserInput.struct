@@ -24,18 +24,18 @@
      000800: [FundamentalType(int) size=32]: id  
 */
 struct XmlParserInput
-    var _buf: NullablePointer[XmlParserInputBuffer] = NullablePointer[XmlParserInputBuffer].none()
-  _filename: Pointer[U8] = Pointer[U8]
-  _directory: Pointer[U8] = Pointer[U8]
-  _base: Pointer[U8] = Pointer[U8]
-  _cur: Pointer[U8] = Pointer[U8]
-  _end: Pointer[U8] = Pointer[U8]
-    var _length: I32 = I32(0)
-    var _line: I32 = I32(0)
-    var _col: I32 = I32(0)
-    var _consumed: U64 = U64(0)
-    var _free: Pointer[None] = Pointer[None]
-  _encoding: Pointer[U8] = Pointer[U8]
-  _version: Pointer[U8] = Pointer[U8]
-    var _standalone: I32 = I32(0)
-    var _id: I32 = I32(0)
+  var buf: NullablePointer[XmlParserInputBuffer] = NullablePointer[XmlParserInputBuffer].none()
+  var filename: Pointer[U8] = Pointer[U8]
+  var directory: Pointer[U8] = Pointer[U8]
+  var base: Pointer[U8] = Pointer[U8]
+  var cur: Pointer[U8] = Pointer[U8]
+  var xmlend: Pointer[U8] = Pointer[U8]
+  var length: I32 = I32(0)
+  var line: I32 = I32(0)
+  var col: I32 = I32(0)
+  var consumed: U64 = U64(0)
+  var free: Pointer[None] = Pointer[None]
+  var encoding: Pointer[U8] = Pointer[U8]
+  var version: Pointer[U8] = Pointer[U8]
+  var standalone: I32 = I32(0)
+  var id: I32 = I32(0)

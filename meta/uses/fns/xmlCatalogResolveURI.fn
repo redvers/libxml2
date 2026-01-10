@@ -9,7 +9,7 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlCatalogResolveURI(URI: String): String =>
-    var pcstring: Pointer[U8] =  @xmlCatalogResolveURI(URI.cstring())
+  fun xmlCatalogResolveURI(uRI: String): String =>
+    var pcstring: Pointer[U8] =  @xmlCatalogResolveURI(uRI.cstring())
     let p: String iso = String.from_cstring(pcstring).clone()
     consume p

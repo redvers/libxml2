@@ -8,5 +8,5 @@
     [PointerType size=64]->[FundamentalType(char) size=8]
     [Enumeration size=32,fid: f42]
 */
-use @xmlParserInputBufferCreateFilename[NullablePointer[XmlParserInputBuffer]](URI: Pointer[U8] tag, enc: I32)
+use @xmlParserInputBufferCreateFilename[NullablePointer[XmlParserInputBuffer]](uRI: Pointer[U8] tag, enc: I32)
 

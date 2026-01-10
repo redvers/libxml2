@@ -9,7 +9,7 @@
   Arguments:
     [FundamentalType(double) size=64]
 */
-  fun xmlXPathCastNumberToString(val: F64): String =>
-    var pcstring: Pointer[U8] =  @xmlXPathCastNumberToString(val)
+  fun xmlXPathCastNumberToString(xmlval: F64): String =>
+    var pcstring: Pointer[U8] =  @xmlXPathCastNumberToString(xmlval)
     let p: String iso = String.from_cstring(pcstring).clone()
     consume p

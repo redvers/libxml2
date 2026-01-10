@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=,fid: f77]
 */
-  fun xmlSchemaCopyValue(val: NullablePointer[XmlSchemaVal] tag): NullablePointer[XmlSchemaVal] =>
-    @xmlSchemaCopyValue(val)
+  fun xmlSchemaCopyValue(xmlval: NullablePointer[XmlSchemaVal] tag): NullablePointer[XmlSchemaVal] =>
+    @xmlSchemaCopyValue(xmlval)

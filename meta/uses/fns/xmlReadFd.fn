@@ -12,5 +12,5 @@
     [PointerType size=64]->[FundamentalType(char) size=8]
     [FundamentalType(int) size=32]
 */
-  fun xmlReadFd(fd: I32, URL: String, encoding: String, options: I32): NullablePointer[XmlDoc] =>
-    @xmlReadFd(fd, URL.cstring(), encoding.cstring(), options)
+  fun xmlReadFd(fd: I32, uRL: String, encoding: String, options: I32): NullablePointer[XmlDoc] =>
+    @xmlReadFd(fd, uRL.cstring(), encoding.cstring(), options)

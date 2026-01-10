@@ -7,5 +7,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=832,fid: f17]
 */
-use @xmlParserInputShrink[None](in: NullablePointer[XmlParserInput] tag)
+use @xmlParserInputShrink[None](xmlin: NullablePointer[XmlParserInput] tag)
 

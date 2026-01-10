@@ -8,5 +8,5 @@
     [Enumeration size=32,fid: f16]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @xmlValidateAttributeValue[I32](type: I32, value: Pointer[U8] tag)
+use @xmlValidateAttributeValue[I32](xmltype: I32, value: Pointer[U8] tag)
 

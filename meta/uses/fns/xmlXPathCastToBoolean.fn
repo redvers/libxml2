@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=576,fid: f65]
 */
-  fun xmlXPathCastToBoolean(val: NullablePointer[XmlXPathObject] tag): I32 =>
-    @xmlXPathCastToBoolean(val)
+  fun xmlXPathCastToBoolean(xmlval: NullablePointer[XmlXPathObject] tag): I32 =>
+    @xmlXPathCastToBoolean(xmlval)

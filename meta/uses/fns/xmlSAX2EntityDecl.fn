@@ -14,5 +14,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlSAX2EntityDecl(ctx: Pointer[None] tag, name: String, type: I32, publicId: String, systemId: String, content: String): None =>
-    @xmlSAX2EntityDecl(ctx, name.cstring(), type, publicId.cstring(), systemId.cstring(), content.cstring())
+  fun xmlSAX2EntityDecl(ctx: Pointer[None] tag, name: String, xmltype: I32, publicId: String, systemId: String, content: String): None =>
+    @xmlSAX2EntityDecl(ctx, name.cstring(), xmltype, publicId.cstring(), systemId.cstring(), content.cstring())

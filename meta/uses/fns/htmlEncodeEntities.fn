@@ -13,5 +13,5 @@
     [PointerType size=64]->[FundamentalType(int) size=32]
     [FundamentalType(int) size=32]
 */
-  fun htmlEncodeEntities(out: String, outlen: Pointer[I32] tag, in: String, inlen: Pointer[I32] tag, quoteChar: I32): I32 =>
-    @htmlEncodeEntities(out.cstring(), outlen, in.cstring(), inlen, quoteChar)
+  fun htmlEncodeEntities(out: String, outlen: Pointer[I32] tag, xmlin: String, inlen: Pointer[I32] tag, quoteChar: I32): I32 =>
+    @htmlEncodeEntities(out.cstring(), outlen, xmlin.cstring(), inlen, quoteChar)

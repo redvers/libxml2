@@ -8,5 +8,5 @@
     [PointerType size=64]->[FundamentalType(void) size=0]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @xmlCatalogAddLocal[Pointer[None]](catalogs: Pointer[None] tag, URL: Pointer[U8] tag)
+use @xmlCatalogAddLocal[Pointer[None]](catalogs: Pointer[None] tag, uRL: Pointer[U8] tag)
 

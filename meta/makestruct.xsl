@@ -44,7 +44,7 @@ struct <xsl:value-of select="$n/@name"/><xsl:text>
 <xsl:variable name="key" select="@type"/>
 <xsl:variable name="fieldid" select="@fieldid"/>
 <xsl:variable name="ffid" select="@fid"/>
-<xsl:text>  </xsl:text><xsl:value-of select="/castxml2pony/typedefs/typedef[@name=$key]/@decl"/>
+<xsl:text>  var </xsl:text><!-- <xsl:value-of select="/castxml2pony/typedefs/typedef[@name=$key]/@decl"/> -->
 <xsl:value-of select="@name"/>
 <xsl:text>: </xsl:text>
 <xsl:value-of select="/castxml2pony/typedefs/typedef[@name=$key]/@structtype"/>

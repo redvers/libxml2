@@ -13,7 +13,7 @@
      000128: [PointerType size=64]->[Struct size=64,fid: f68]: longRange  
 */
 struct XmlChRangeGroup
-    var _nbShortRange: I32 = I32(0)
-    var _nbLongRange: I32 = I32(0)
-    var _shortRange: NullablePointer[XmlChSRange] = NullablePointer[XmlChSRange].none()
-    var _longRange: NullablePointer[XmlChLRange] = NullablePointer[XmlChLRange].none()
+  var nbShortRange: I32 = I32(0)
+  var nbLongRange: I32 = I32(0)
+  var shortRange: NullablePointer[XmlChSRange] = NullablePointer[XmlChSRange].none()
+  var longRange: NullablePointer[XmlChLRange] = NullablePointer[XmlChLRange].none()

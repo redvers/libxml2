@@ -7,5 +7,5 @@
   Arguments:
     [FundamentalType(double) size=64]
 */
-use @xmlXPathNewFloat[NullablePointer[XmlXPathObject]](val: F64)
+use @xmlXPathNewFloat[NullablePointer[XmlXPathObject]](xmlval: F64)
 

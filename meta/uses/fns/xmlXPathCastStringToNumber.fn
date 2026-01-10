@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlXPathCastStringToNumber(val: String): F64 =>
-    @xmlXPathCastStringToNumber(val.cstring())
+  fun xmlXPathCastStringToNumber(xmlval: String): F64 =>
+    @xmlXPathCastStringToNumber(xmlval.cstring())

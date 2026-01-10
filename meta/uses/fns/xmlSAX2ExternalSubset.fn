@@ -12,5 +12,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlSAX2ExternalSubset(ctx: Pointer[None] tag, name: String, ExternalID: String, SystemID: String): None =>
-    @xmlSAX2ExternalSubset(ctx, name.cstring(), ExternalID.cstring(), SystemID.cstring())
+  fun xmlSAX2ExternalSubset(ctx: Pointer[None] tag, name: String, externalID: String, systemID: String): None =>
+    @xmlSAX2ExternalSubset(ctx, name.cstring(), externalID.cstring(), systemID.cstring())

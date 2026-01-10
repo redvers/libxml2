@@ -30,24 +30,24 @@
      001216: [PointerType size=64]->[FundamentalType(void) size=0]: volatiles  
 */
 struct XmlSchema
-  _name: Pointer[U8] = Pointer[U8]
-  _targetNamespace: Pointer[U8] = Pointer[U8]
-  _version: Pointer[U8] = Pointer[U8]
-  _id: Pointer[U8] = Pointer[U8]
-    var _doc: NullablePointer[XmlDoc] = NullablePointer[XmlDoc].none()
-    var _annot: NullablePointer[XmlSchemaAnnot] = NullablePointer[XmlSchemaAnnot].none()
-    var _flags: I32 = I32(0)
-    var _typeDecl: NullablePointer[XmlHashTable] = NullablePointer[XmlHashTable].none()
-    var _attrDecl: NullablePointer[XmlHashTable] = NullablePointer[XmlHashTable].none()
-    var _attrgrpDecl: NullablePointer[XmlHashTable] = NullablePointer[XmlHashTable].none()
-    var _elemDecl: NullablePointer[XmlHashTable] = NullablePointer[XmlHashTable].none()
-    var _notaDecl: NullablePointer[XmlHashTable] = NullablePointer[XmlHashTable].none()
-    var _schemasImports: NullablePointer[XmlHashTable] = NullablePointer[XmlHashTable].none()
-    var __private: Pointer[None] = Pointer[None]
-    var _groupDecl: NullablePointer[XmlHashTable] = NullablePointer[XmlHashTable].none()
-    var _dict: NullablePointer[XmlDict] = NullablePointer[XmlDict].none()
-    var _includes: Pointer[None] = Pointer[None]
-    var _preserve: I32 = I32(0)
-    var _counter: I32 = I32(0)
-    var _idcDef: NullablePointer[XmlHashTable] = NullablePointer[XmlHashTable].none()
-    var _volatiles: Pointer[None] = Pointer[None]
+  var name: Pointer[U8] = Pointer[U8]
+  var targetNamespace: Pointer[U8] = Pointer[U8]
+  var version: Pointer[U8] = Pointer[U8]
+  var id: Pointer[U8] = Pointer[U8]
+  var doc: NullablePointer[XmlDoc] = NullablePointer[XmlDoc].none()
+  var annot: NullablePointer[XmlSchemaAnnot] = NullablePointer[XmlSchemaAnnot].none()
+  var flags: I32 = I32(0)
+  var typeDecl: NullablePointer[XmlHashTable] = NullablePointer[XmlHashTable].none()
+  var attrDecl: NullablePointer[XmlHashTable] = NullablePointer[XmlHashTable].none()
+  var attrgrpDecl: NullablePointer[XmlHashTable] = NullablePointer[XmlHashTable].none()
+  var elemDecl: NullablePointer[XmlHashTable] = NullablePointer[XmlHashTable].none()
+  var notaDecl: NullablePointer[XmlHashTable] = NullablePointer[XmlHashTable].none()
+  var schemasImports: NullablePointer[XmlHashTable] = NullablePointer[XmlHashTable].none()
+  var private: Pointer[None] = Pointer[None]
+  var groupDecl: NullablePointer[XmlHashTable] = NullablePointer[XmlHashTable].none()
+  var dict: NullablePointer[XmlDict] = NullablePointer[XmlDict].none()
+  var includes: Pointer[None] = Pointer[None]
+  var preserve: I32 = I32(0)
+  var counter: I32 = I32(0)
+  var idcDef: NullablePointer[XmlHashTable] = NullablePointer[XmlHashTable].none()
+  var volatiles: Pointer[None] = Pointer[None]

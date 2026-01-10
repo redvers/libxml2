@@ -7,5 +7,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=512,fid: f15]
 */
-use @xmlFreeParserInputBuffer[None](in: NullablePointer[XmlParserInputBuffer] tag)
+use @xmlFreeParserInputBuffer[None](xmlin: NullablePointer[XmlParserInputBuffer] tag)
 

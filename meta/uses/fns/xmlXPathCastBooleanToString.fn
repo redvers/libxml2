@@ -9,7 +9,7 @@
   Arguments:
     [FundamentalType(int) size=32]
 */
-  fun xmlXPathCastBooleanToString(val: I32): String =>
-    var pcstring: Pointer[U8] =  @xmlXPathCastBooleanToString(val)
+  fun xmlXPathCastBooleanToString(xmlval: I32): String =>
+    var pcstring: Pointer[U8] =  @xmlXPathCastBooleanToString(xmlval)
     let p: String iso = String.from_cstring(pcstring).clone()
     consume p

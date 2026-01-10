@@ -12,5 +12,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(int) size=32]
 */
-  fun isolat1ToUTF8(out: String, outlen: Pointer[I32] tag, in: String, inlen: Pointer[I32] tag): I32 =>
-    @isolat1ToUTF8(out.cstring(), outlen, in.cstring(), inlen)
+  fun isolat1ToUTF8(out: String, outlen: Pointer[I32] tag, xmlin: String, inlen: Pointer[I32] tag): I32 =>
+    @isolat1ToUTF8(out.cstring(), outlen, xmlin.cstring(), inlen)

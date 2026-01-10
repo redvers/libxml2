@@ -11,5 +11,5 @@
     [PointerType size=64]->[Struct size=256,fid: f16]
     [PointerType size=64]->[Struct size=256,fid: f16]
 */
-  fun xmlCharEncFirstLine(handler: NullablePointer[XmlCharEncodingHandler] tag, out: NullablePointer[XmlBuffer] tag, in: NullablePointer[XmlBuffer] tag): I32 =>
-    @xmlCharEncFirstLine(handler, out, in)
+  fun xmlCharEncFirstLine(handler: NullablePointer[XmlCharEncodingHandler] tag, out: NullablePointer[XmlBuffer] tag, xmlin: NullablePointer[XmlBuffer] tag): I32 =>
+    @xmlCharEncFirstLine(handler, out, xmlin)

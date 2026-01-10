@@ -12,6 +12,6 @@
      000128: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: SystemID  
 */
 struct XmlNotation
-  _name: Pointer[U8] = Pointer[U8]
-  _PublicID: Pointer[U8] = Pointer[U8]
-  _SystemID: Pointer[U8] = Pointer[U8]
+  var name: Pointer[U8] = Pointer[U8]
+  var publicID: Pointer[U8] = Pointer[U8]
+  var systemID: Pointer[U8] = Pointer[U8]

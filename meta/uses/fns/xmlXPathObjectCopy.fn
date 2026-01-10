@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=576,fid: f65]
 */
-  fun xmlXPathObjectCopy(val: NullablePointer[XmlXPathObject] tag): NullablePointer[XmlXPathObject] =>
-    @xmlXPathObjectCopy(val)
+  fun xmlXPathObjectCopy(xmlval: NullablePointer[XmlXPathObject] tag): NullablePointer[XmlXPathObject] =>
+    @xmlXPathObjectCopy(xmlval)

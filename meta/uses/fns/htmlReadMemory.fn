@@ -13,5 +13,5 @@
     [PointerType size=64]->[FundamentalType(char) size=8]
     [FundamentalType(int) size=32]
 */
-  fun htmlReadMemory(buffer: String, size: I32, URL: String, encoding: String, options: I32): NullablePointer[XmlDoc] =>
-    @htmlReadMemory(buffer.cstring(), size, URL.cstring(), encoding.cstring(), options)
+  fun htmlReadMemory(buffer: String, size: I32, uRL: String, encoding: String, options: I32): NullablePointer[XmlDoc] =>
+    @htmlReadMemory(buffer.cstring(), size, uRL.cstring(), encoding.cstring(), options)

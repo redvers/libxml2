@@ -9,5 +9,5 @@
   Arguments:
     [FundamentalType(double) size=64]
 */
-  fun xmlXPathIsNaN(val: F64): I32 =>
-    @xmlXPathIsNaN(val)
+  fun xmlXPathIsNaN(xmlval: F64): I32 =>
+    @xmlXPathIsNaN(xmlval)

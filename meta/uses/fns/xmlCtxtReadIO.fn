@@ -15,5 +15,5 @@
     [PointerType size=64]->[FundamentalType(char) size=8]
     [FundamentalType(int) size=32]
 */
-  fun xmlCtxtReadIO(ctxt: NullablePointer[XmlParserCtxt] tag, ioread: Pointer[None] tag, ioclose: Pointer[None] tag, ioctx: Pointer[None] tag, URL: String, encoding: String, options: I32): NullablePointer[XmlDoc] =>
-    @xmlCtxtReadIO(ctxt, ioread, ioclose, ioctx, URL.cstring(), encoding.cstring(), options)
+  fun xmlCtxtReadIO(ctxt: NullablePointer[XmlParserCtxt] tag, ioread: Pointer[None] tag, ioclose: Pointer[None] tag, ioctx: Pointer[None] tag, uRL: String, encoding: String, options: I32): NullablePointer[XmlDoc] =>
+    @xmlCtxtReadIO(ctxt, ioread, ioclose, ioctx, uRL.cstring(), encoding.cstring(), options)

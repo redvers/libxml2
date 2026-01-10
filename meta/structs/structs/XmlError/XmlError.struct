@@ -22,16 +22,16 @@
      000640: [PointerType size=64]->[FundamentalType(void) size=0]: node  
 */
 struct XmlError
-    var _domain: I32 = I32(0)
-    var _code: I32 = I32(0)
-  _message: Pointer[U8] = Pointer[U8]
-    var _level: I32 = I32(0)
-  _file: Pointer[U8] = Pointer[U8]
-    var _line: I32 = I32(0)
-  _str1: Pointer[U8] = Pointer[U8]
-  _str2: Pointer[U8] = Pointer[U8]
-  _str3: Pointer[U8] = Pointer[U8]
-    var _int1: I32 = I32(0)
-    var _int2: I32 = I32(0)
-    var _ctxt: Pointer[None] = Pointer[None]
-    var _node: Pointer[None] = Pointer[None]
+  var domain: I32 = I32(0)
+  var code: I32 = I32(0)
+  var message: Pointer[U8] = Pointer[U8]
+  var level: I32 = I32(0)
+  var file: Pointer[U8] = Pointer[U8]
+  var line: I32 = I32(0)
+  var str1: Pointer[U8] = Pointer[U8]
+  var str2: Pointer[U8] = Pointer[U8]
+  var str3: Pointer[U8] = Pointer[U8]
+  var int1: I32 = I32(0)
+  var int2: I32 = I32(0)
+  var ctxt: Pointer[None] = Pointer[None]
+  var node: Pointer[None] = Pointer[None]

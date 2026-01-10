@@ -10,5 +10,5 @@
     [Enumeration size=32,fid: f16]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlValidateAttributeValue(type: I32, value: String): I32 =>
-    @xmlValidateAttributeValue(type, value.cstring())
+  fun xmlValidateAttributeValue(xmltype: I32, value: String): I32 =>
+    @xmlValidateAttributeValue(xmltype, value.cstring())

@@ -13,5 +13,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[Struct size=128,fid: f16]
 */
-use @xmlSAX2AttributeDecl[None](ctx: Pointer[None] tag, elem: Pointer[U8] tag, fullname: Pointer[U8] tag, type: I32, def: I32, defaultValue: Pointer[U8] tag, tree: NullablePointer[XmlEnumeration] tag)
+use @xmlSAX2AttributeDecl[None](ctx: Pointer[None] tag, elem: Pointer[U8] tag, fullname: Pointer[U8] tag, xmltype: I32, def: I32, defaultValue: Pointer[U8] tag, tree: NullablePointer[XmlEnumeration] tag)
 

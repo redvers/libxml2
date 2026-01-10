@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-  fun xmlNewTextReaderFilename(URI: String): NullablePointer[XmlTextReader] =>
-    @xmlNewTextReaderFilename(URI.cstring())
+  fun xmlNewTextReaderFilename(uRI: String): NullablePointer[XmlTextReader] =>
+    @xmlNewTextReaderFilename(uRI.cstring())

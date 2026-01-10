@@ -12,6 +12,6 @@
      000128: [PointerType size=64]->[Struct size=320,fid: f17]: buffer  
 */
 struct XmlParserNodeInfoSeq
-    var _maximum: U64 = U64(0)
-    var _length: U64 = U64(0)
-    var _buffer: NullablePointer[XmlParserNodeInfo] = NullablePointer[XmlParserNodeInfo].none()
+  var maximum: U64 = U64(0)
+  var length: U64 = U64(0)
+  var buffer: NullablePointer[XmlParserNodeInfo] = NullablePointer[XmlParserNodeInfo].none()

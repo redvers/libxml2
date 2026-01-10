@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-  fun xmlNanoFTPOpen(URL: String): Pointer[None] =>
-    @xmlNanoFTPOpen(URL.cstring())
+  fun xmlNanoFTPOpen(uRL: String): Pointer[None] =>
+    @xmlNanoFTPOpen(uRL.cstring())

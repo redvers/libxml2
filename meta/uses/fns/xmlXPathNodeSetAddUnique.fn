@@ -10,5 +10,5 @@
     [PointerType size=64]->[Struct size=128,fid: f65]
     [PointerType size=64]->[Struct size=960,fid: f16]
 */
-  fun xmlXPathNodeSetAddUnique(cur: NullablePointer[XmlNodeSet] tag, val: NullablePointer[XmlNode] tag): I32 =>
-    @xmlXPathNodeSetAddUnique(cur, val)
+  fun xmlXPathNodeSetAddUnique(cur: NullablePointer[XmlNodeSet] tag, xmlval: NullablePointer[XmlNode] tag): I32 =>
+    @xmlXPathNodeSetAddUnique(cur, xmlval)

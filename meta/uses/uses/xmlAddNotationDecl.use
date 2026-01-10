@@ -11,5 +11,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @xmlAddNotationDecl[NullablePointer[XmlNotation]](ctxt: NullablePointer[XmlValidCtxt] tag, dtd: NullablePointer[XmlDtd] tag, name: Pointer[U8] tag, PublicID: Pointer[U8] tag, SystemID: Pointer[U8] tag)
+use @xmlAddNotationDecl[NullablePointer[XmlNotation]](ctxt: NullablePointer[XmlValidCtxt] tag, dtd: NullablePointer[XmlDtd] tag, name: Pointer[U8] tag, publicID: Pointer[U8] tag, systemID: Pointer[U8] tag)
 

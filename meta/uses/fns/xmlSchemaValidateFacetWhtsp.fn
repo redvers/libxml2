@@ -14,5 +14,5 @@
     [PointerType size=64]->[Struct size=,fid: f77]
     [Enumeration size=32,fid: f85]
 */
-  fun xmlSchemaValidateFacetWhtsp(facet: NullablePointer[XmlSchemaFacet] tag, fws: I32, valType: I32, value: String, val: NullablePointer[XmlSchemaVal] tag, ws: I32): I32 =>
-    @xmlSchemaValidateFacetWhtsp(facet, fws, valType, value.cstring(), val, ws)
+  fun xmlSchemaValidateFacetWhtsp(facet: NullablePointer[XmlSchemaFacet] tag, fws: I32, valType: I32, value: String, xmlval: NullablePointer[XmlSchemaVal] tag, ws: I32): I32 =>
+    @xmlSchemaValidateFacetWhtsp(facet, fws, valType, value.cstring(), xmlval, ws)

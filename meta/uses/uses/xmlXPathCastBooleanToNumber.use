@@ -7,5 +7,5 @@
   Arguments:
     [FundamentalType(int) size=32]
 */
-use @xmlXPathCastBooleanToNumber[F64](val: I32)
+use @xmlXPathCastBooleanToNumber[F64](xmlval: I32)
 

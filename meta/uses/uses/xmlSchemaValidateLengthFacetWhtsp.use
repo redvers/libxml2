@@ -12,5 +12,5 @@
     [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
     [Enumeration size=32,fid: f85]
 */
-use @xmlSchemaValidateLengthFacetWhtsp[I32](facet: NullablePointer[XmlSchemaFacet] tag, valType: I32, value: Pointer[U8] tag, val: NullablePointer[XmlSchemaVal] tag, length: Pointer[U64] tag, ws: I32)
+use @xmlSchemaValidateLengthFacetWhtsp[I32](facet: NullablePointer[XmlSchemaFacet] tag, valType: I32, value: Pointer[U8] tag, xmlval: NullablePointer[XmlSchemaVal] tag, length: Pointer[U64] tag, ws: I32)
 

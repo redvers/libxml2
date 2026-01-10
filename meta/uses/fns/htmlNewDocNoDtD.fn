@@ -10,5 +10,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun htmlNewDocNoDtD(URI: String, ExternalID: String): NullablePointer[XmlDoc] =>
-    @htmlNewDocNoDtD(URI.cstring(), ExternalID.cstring())
+  fun htmlNewDocNoDtD(uRI: String, externalID: String): NullablePointer[XmlDoc] =>
+    @htmlNewDocNoDtD(uRI.cstring(), externalID.cstring())

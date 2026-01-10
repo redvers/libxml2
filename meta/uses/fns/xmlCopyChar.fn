@@ -11,5 +11,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [FundamentalType(int) size=32]
 */
-  fun xmlCopyChar(len: I32, out: String, val: I32): I32 =>
-    @xmlCopyChar(len, out.cstring(), val)
+  fun xmlCopyChar(len: I32, out: String, xmlval: I32): I32 =>
+    @xmlCopyChar(len, out.cstring(), xmlval)

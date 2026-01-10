@@ -12,5 +12,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlACatalogAdd(catal: NullablePointer[XmlCatalog] tag, type: String, orig: String, replace: String): I32 =>
-    @xmlACatalogAdd(catal, type.cstring(), orig.cstring(), replace.cstring())
+  fun xmlACatalogAdd(catal: NullablePointer[XmlCatalog] tag, xmltype: String, orig: String, replace: String): I32 =>
+    @xmlACatalogAdd(catal, xmltype.cstring(), orig.cstring(), replace.cstring())

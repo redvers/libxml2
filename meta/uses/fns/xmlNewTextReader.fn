@@ -10,5 +10,5 @@
     [PointerType size=64]->[Struct size=512,fid: f15]
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-  fun xmlNewTextReader(input: NullablePointer[XmlParserInputBuffer] tag, URI: String): NullablePointer[XmlTextReader] =>
-    @xmlNewTextReader(input, URI.cstring())
+  fun xmlNewTextReader(input: NullablePointer[XmlParserInputBuffer] tag, uRI: String): NullablePointer[XmlTextReader] =>
+    @xmlNewTextReader(input, uRI.cstring())

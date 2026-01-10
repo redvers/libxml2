@@ -20,14 +20,14 @@
      000640: [PointerType size=64]->[FundamentalType(char) size=8]: query_raw  
 */
 struct XmlURI
-  _scheme: Pointer[U8] = Pointer[U8]
-  _opaque: Pointer[U8] = Pointer[U8]
-  _authority: Pointer[U8] = Pointer[U8]
-  _server: Pointer[U8] = Pointer[U8]
-  _user: Pointer[U8] = Pointer[U8]
-    var _port: I32 = I32(0)
-  _path: Pointer[U8] = Pointer[U8]
-  _query: Pointer[U8] = Pointer[U8]
-  _fragment: Pointer[U8] = Pointer[U8]
-    var _cleanup: I32 = I32(0)
-  _query_raw: Pointer[U8] = Pointer[U8]
+  var scheme: Pointer[U8] = Pointer[U8]
+  var opaque: Pointer[U8] = Pointer[U8]
+  var authority: Pointer[U8] = Pointer[U8]
+  var server: Pointer[U8] = Pointer[U8]
+  var user: Pointer[U8] = Pointer[U8]
+  var port: I32 = I32(0)
+  var path: Pointer[U8] = Pointer[U8]
+  var query: Pointer[U8] = Pointer[U8]
+  var fragment: Pointer[U8] = Pointer[U8]
+  var cleanup: I32 = I32(0)
+  var query_raw: Pointer[U8] = Pointer[U8]

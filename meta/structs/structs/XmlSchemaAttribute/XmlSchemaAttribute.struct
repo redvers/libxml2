@@ -28,22 +28,22 @@
      001152: [PointerType size=64]->[Struct size=1216,fid: f77]: refDecl  
 */
 struct XmlSchemaAttribute
-    var _type: I32 = I32(0)
-    var _next: NullablePointer[XmlSchemaAttribute] = NullablePointer[XmlSchemaAttribute].none()
-  _name: Pointer[U8] = Pointer[U8]
-  _id: Pointer[U8] = Pointer[U8]
-  _ref: Pointer[U8] = Pointer[U8]
-  _refNs: Pointer[U8] = Pointer[U8]
-  _typeName: Pointer[U8] = Pointer[U8]
-  _typeNs: Pointer[U8] = Pointer[U8]
-    var _annot: NullablePointer[XmlSchemaAnnot] = NullablePointer[XmlSchemaAnnot].none()
-    var _base: NullablePointer[XmlSchemaType] = NullablePointer[XmlSchemaType].none()
-    var _occurs: I32 = I32(0)
-  _defValue: Pointer[U8] = Pointer[U8]
-    var _subtypes: NullablePointer[XmlSchemaType] = NullablePointer[XmlSchemaType].none()
-    var _node: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-  _targetNamespace: Pointer[U8] = Pointer[U8]
-    var _flags: I32 = I32(0)
-  _refPrefix: Pointer[U8] = Pointer[U8]
-    var _defVal: NullablePointer[XmlSchemaVal] = NullablePointer[XmlSchemaVal].none()
-    var _refDecl: NullablePointer[XmlSchemaAttribute] = NullablePointer[XmlSchemaAttribute].none()
+  var xmltype: I32 = I32(0)
+  var next: NullablePointer[XmlSchemaAttribute] = NullablePointer[XmlSchemaAttribute].none()
+  var name: Pointer[U8] = Pointer[U8]
+  var id: Pointer[U8] = Pointer[U8]
+  var xmlref: Pointer[U8] = Pointer[U8]
+  var refNs: Pointer[U8] = Pointer[U8]
+  var typeName: Pointer[U8] = Pointer[U8]
+  var typeNs: Pointer[U8] = Pointer[U8]
+  var annot: NullablePointer[XmlSchemaAnnot] = NullablePointer[XmlSchemaAnnot].none()
+  var base: NullablePointer[XmlSchemaType] = NullablePointer[XmlSchemaType].none()
+  var occurs: I32 = I32(0)
+  var defValue: Pointer[U8] = Pointer[U8]
+  var subtypes: NullablePointer[XmlSchemaType] = NullablePointer[XmlSchemaType].none()
+  var node: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var targetNamespace: Pointer[U8] = Pointer[U8]
+  var flags: I32 = I32(0)
+  var refPrefix: Pointer[U8] = Pointer[U8]
+  var defVal: NullablePointer[XmlSchemaVal] = NullablePointer[XmlSchemaVal].none()
+  var refDecl: NullablePointer[XmlSchemaAttribute] = NullablePointer[XmlSchemaAttribute].none()

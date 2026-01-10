@@ -9,5 +9,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @xmlSAXParseDTD[NullablePointer[XmlDtd]](sax: NullablePointer[XmlSAXHandler] tag, ExternalID: Pointer[U8] tag, SystemID: Pointer[U8] tag)
+use @xmlSAXParseDTD[NullablePointer[XmlDtd]](sax: NullablePointer[XmlSAXHandler] tag, externalID: Pointer[U8] tag, systemID: Pointer[U8] tag)
 

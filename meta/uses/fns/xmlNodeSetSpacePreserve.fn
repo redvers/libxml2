@@ -10,5 +10,5 @@
     [PointerType size=64]->[Struct size=960,fid: f16]
     [FundamentalType(int) size=32]
 */
-  fun xmlNodeSetSpacePreserve(cur: NullablePointer[XmlNode] tag, val: I32): None =>
-    @xmlNodeSetSpacePreserve(cur, val)
+  fun xmlNodeSetSpacePreserve(cur: NullablePointer[XmlNode] tag, xmlval: I32): None =>
+    @xmlNodeSetSpacePreserve(cur, xmlval)

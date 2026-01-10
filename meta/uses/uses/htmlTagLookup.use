@@ -7,5 +7,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @htmlTagLookup[NullablePointer[HtmlElemDesc]](tag: Pointer[U8] tag)
+use @htmlTagLookup[NullablePointer[HtmlElemDesc]](xmltag: Pointer[U8] tag)
 

@@ -10,5 +10,5 @@
     [PointerType size=64]->[Struct size=960,fid: f16]
     [FundamentalType(int) size=32]
 */
-use @xmlXPtrNewRange[NullablePointer[XmlXPathObject]](start: NullablePointer[XmlNode] tag, startindex: I32, end: NullablePointer[XmlNode] tag, endindex: I32)
+use @xmlXPtrNewRange[NullablePointer[XmlXPathObject]](start: NullablePointer[XmlNode] tag, startindex: I32, xmlend: NullablePointer[XmlNode] tag, endindex: I32)
 

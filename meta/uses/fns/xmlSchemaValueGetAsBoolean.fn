@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=,fid: f77]
 */
-  fun xmlSchemaValueGetAsBoolean(val: NullablePointer[XmlSchemaVal] tag): I32 =>
-    @xmlSchemaValueGetAsBoolean(val)
+  fun xmlSchemaValueGetAsBoolean(xmlval: NullablePointer[XmlSchemaVal] tag): I32 =>
+    @xmlSchemaValueGetAsBoolean(xmlval)

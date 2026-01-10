@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlXPathNewString(val: String): NullablePointer[XmlXPathObject] =>
-    @xmlXPathNewString(val.cstring())
+  fun xmlXPathNewString(xmlval: String): NullablePointer[XmlXPathObject] =>
+    @xmlXPathNewString(xmlval.cstring())

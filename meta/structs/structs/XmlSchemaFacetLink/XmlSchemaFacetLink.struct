@@ -11,5 +11,5 @@
      000064: [PointerType size=64]->[Struct size=576,fid: f77]: facet  
 */
 struct XmlSchemaFacetLink
-    var _next: NullablePointer[XmlSchemaFacetLink] = NullablePointer[XmlSchemaFacetLink].none()
-    var _facet: NullablePointer[XmlSchemaFacet] = NullablePointer[XmlSchemaFacet].none()
+  var next: NullablePointer[XmlSchemaFacetLink] = NullablePointer[XmlSchemaFacetLink].none()
+  var facet: NullablePointer[XmlSchemaFacet] = NullablePointer[XmlSchemaFacet].none()

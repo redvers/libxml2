@@ -11,5 +11,5 @@
     [PointerType size=64]->[FundamentalType(int) size=32]
     [FundamentalType(int) size=32]
 */
-use @htmlEncodeEntities[I32](out: Pointer[U8] tag, outlen: Pointer[I32] tag, in: Pointer[U8] tag, inlen: Pointer[I32] tag, quoteChar: I32)
+use @htmlEncodeEntities[I32](out: Pointer[U8] tag, outlen: Pointer[I32] tag, xmlin: Pointer[U8] tag, inlen: Pointer[I32] tag, quoteChar: I32)
 

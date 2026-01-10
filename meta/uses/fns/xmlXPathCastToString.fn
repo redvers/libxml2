@@ -9,7 +9,7 @@
   Arguments:
     [PointerType size=64]->[Struct size=576,fid: f65]
 */
-  fun xmlXPathCastToString(val: NullablePointer[XmlXPathObject] tag): String =>
-    var pcstring: Pointer[U8] =  @xmlXPathCastToString(val)
+  fun xmlXPathCastToString(xmlval: NullablePointer[XmlXPathObject] tag): String =>
+    var pcstring: Pointer[U8] =  @xmlXPathCastToString(xmlval)
     let p: String iso = String.from_cstring(pcstring).clone()
     consume p

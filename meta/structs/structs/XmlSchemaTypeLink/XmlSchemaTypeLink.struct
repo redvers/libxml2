@@ -11,5 +11,5 @@
      000064: [PointerType size=64]->[Struct size=1792,fid: f77]: type  
 */
 struct XmlSchemaTypeLink
-    var _next: NullablePointer[XmlSchemaTypeLink] = NullablePointer[XmlSchemaTypeLink].none()
-    var _type: NullablePointer[XmlSchemaType] = NullablePointer[XmlSchemaType].none()
+  var next: NullablePointer[XmlSchemaTypeLink] = NullablePointer[XmlSchemaTypeLink].none()
+  var xmltype: NullablePointer[XmlSchemaType] = NullablePointer[XmlSchemaType].none()

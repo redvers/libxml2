@@ -14,8 +14,8 @@
      000192: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: contentIO  
 */
 struct XmlBuffer
-  _content: Pointer[U8] = Pointer[U8]
-    var _use: U32 = U32(0)
-    var _size: U32 = U32(0)
-    var _alloc: I32 = I32(0)
-  _contentIO: Pointer[U8] = Pointer[U8]
+  var content: Pointer[U8] = Pointer[U8]
+  var xmluse: U32 = U32(0)
+  var size: U32 = U32(0)
+  var alloc: I32 = I32(0)
+  var contentIO: Pointer[U8] = Pointer[U8]

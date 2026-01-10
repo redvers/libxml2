@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=128,fid: f65]
 */
-  fun xmlXPathNewNodeSetList(val: NullablePointer[XmlNodeSet] tag): NullablePointer[XmlXPathObject] =>
-    @xmlXPathNewNodeSetList(val)
+  fun xmlXPathNewNodeSetList(xmlval: NullablePointer[XmlNodeSet] tag): NullablePointer[XmlXPathObject] =>
+    @xmlXPathNewNodeSetList(xmlval)

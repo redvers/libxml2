@@ -8,5 +8,5 @@
     [PointerType size=64]->[FundamentalType(char) size=8]
     [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
 */
-use @xmlNanoHTTPOpen[Pointer[None]](URL: Pointer[U8] tag, contentType: Pointer[Pointer[U8]] tag)
+use @xmlNanoHTTPOpen[Pointer[None]](uRL: Pointer[U8] tag, contentType: Pointer[Pointer[U8]] tag)
 

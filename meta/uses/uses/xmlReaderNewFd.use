@@ -11,5 +11,5 @@
     [PointerType size=64]->[FundamentalType(char) size=8]
     [FundamentalType(int) size=32]
 */
-use @xmlReaderNewFd[I32](reader: NullablePointer[XmlTextReader] tag, fd: I32, URL: Pointer[U8] tag, encoding: Pointer[U8] tag, options: I32)
+use @xmlReaderNewFd[I32](reader: NullablePointer[XmlTextReader] tag, fd: I32, uRL: Pointer[U8] tag, encoding: Pointer[U8] tag, options: I32)
 

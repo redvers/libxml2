@@ -20,14 +20,14 @@
      000512: [FundamentalType(int) size=32]: flags  
 */
 struct XmlSchemaWildcard
-    var _type: I32 = I32(0)
-  _id: Pointer[U8] = Pointer[U8]
-    var _annot: NullablePointer[XmlSchemaAnnot] = NullablePointer[XmlSchemaAnnot].none()
-    var _node: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _minOccurs: I32 = I32(0)
-    var _maxOccurs: I32 = I32(0)
-    var _processContents: I32 = I32(0)
-    var _any: I32 = I32(0)
-    var _nsSet: NullablePointer[XmlSchemaWildcardNs] = NullablePointer[XmlSchemaWildcardNs].none()
-    var _negNsSet: NullablePointer[XmlSchemaWildcardNs] = NullablePointer[XmlSchemaWildcardNs].none()
-    var _flags: I32 = I32(0)
+  var xmltype: I32 = I32(0)
+  var id: Pointer[U8] = Pointer[U8]
+  var annot: NullablePointer[XmlSchemaAnnot] = NullablePointer[XmlSchemaAnnot].none()
+  var node: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var minOccurs: I32 = I32(0)
+  var maxOccurs: I32 = I32(0)
+  var processContents: I32 = I32(0)
+  var any: I32 = I32(0)
+  var nsSet: NullablePointer[XmlSchemaWildcardNs] = NullablePointer[XmlSchemaWildcardNs].none()
+  var negNsSet: NullablePointer[XmlSchemaWildcardNs] = NullablePointer[XmlSchemaWildcardNs].none()
+  var flags: I32 = I32(0)

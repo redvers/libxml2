@@ -10,5 +10,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @xmlSAX2EndElementNs[None](ctx: Pointer[None] tag, localname: Pointer[U8] tag, prefix: Pointer[U8] tag, URI: Pointer[U8] tag)
+use @xmlSAX2EndElementNs[None](ctx: Pointer[None] tag, localname: Pointer[U8] tag, prefix: Pointer[U8] tag, uRI: Pointer[U8] tag)
 

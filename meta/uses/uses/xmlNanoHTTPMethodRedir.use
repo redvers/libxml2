@@ -13,5 +13,5 @@
     [PointerType size=64]->[FundamentalType(char) size=8]
     [FundamentalType(int) size=32]
 */
-use @xmlNanoHTTPMethodRedir[Pointer[None]](URL: Pointer[U8] tag, method: Pointer[U8] tag, input: Pointer[U8] tag, contentType: Pointer[Pointer[U8]] tag, redir: Pointer[Pointer[U8]] tag, headers: Pointer[U8] tag, ilen: I32)
+use @xmlNanoHTTPMethodRedir[Pointer[None]](uRL: Pointer[U8] tag, method: Pointer[U8] tag, input: Pointer[U8] tag, contentType: Pointer[Pointer[U8]] tag, redir: Pointer[Pointer[U8]] tag, headers: Pointer[U8] tag, ilen: I32)
 

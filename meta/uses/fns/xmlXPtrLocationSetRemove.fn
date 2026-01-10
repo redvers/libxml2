@@ -10,5 +10,5 @@
     [PointerType size=64]->[Struct size=128,fid: f89]
     [FundamentalType(int) size=32]
 */
-  fun xmlXPtrLocationSetRemove(cur: NullablePointer[XmlLocationSet] tag, val: I32): None =>
-    @xmlXPtrLocationSetRemove(cur, val)
+  fun xmlXPtrLocationSetRemove(cur: NullablePointer[XmlLocationSet] tag, xmlval: I32): None =>
+    @xmlXPtrLocationSetRemove(cur, xmlval)

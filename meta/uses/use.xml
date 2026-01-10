@@ -69,7 +69,7 @@
      rv="String">
      <useargs>
        <usearg name="str" type="String"/>
-       <usearg name="val" type="U8"/>
+       <usearg name="xmlval" type="U8"/>
      </useargs>
   </use>
   <use id="_199" name="xmlStrstr"
@@ -79,7 +79,7 @@
      rv="String">
      <useargs>
        <usearg name="str" type="String"/>
-       <usearg name="val" type="String"/>
+       <usearg name="xmlval" type="String"/>
      </useargs>
   </use>
   <use id="_200" name="xmlStrcasestr"
@@ -89,7 +89,7 @@
      rv="String">
      <useargs>
        <usearg name="str" type="String"/>
-       <usearg name="val" type="String"/>
+       <usearg name="xmlval" type="String"/>
      </useargs>
   </use>
   <use id="_201" name="xmlStrcmp"
@@ -354,7 +354,7 @@
      lineno="170"
      rv="NullablePointer[XmlParserInputBuffer]">
      <useargs>
-       <usearg name="URI" type="String"/>
+       <usearg name="uRI" type="String"/>
        <usearg name="enc" type="I32"/>
      </useargs>
   </use>
@@ -418,7 +418,7 @@
      lineno="190"
      rv="I32">
      <useargs>
-       <usearg name="in" type="NullablePointer[XmlParserInputBuffer]"/>
+       <usearg name="xmlin" type="NullablePointer[XmlParserInputBuffer]"/>
        <usearg name="len" type="I32"/>
      </useargs>
   </use>
@@ -428,7 +428,7 @@
      lineno="193"
      rv="I32">
      <useargs>
-       <usearg name="in" type="NullablePointer[XmlParserInputBuffer]"/>
+       <usearg name="xmlin" type="NullablePointer[XmlParserInputBuffer]"/>
        <usearg name="len" type="I32"/>
      </useargs>
   </use>
@@ -438,7 +438,7 @@
      lineno="196"
      rv="I32">
      <useargs>
-       <usearg name="in" type="NullablePointer[XmlParserInputBuffer]"/>
+       <usearg name="xmlin" type="NullablePointer[XmlParserInputBuffer]"/>
        <usearg name="len" type="I32"/>
        <usearg name="buf" type="String"/>
      </useargs>
@@ -449,7 +449,7 @@
      lineno="200"
      rv="None">
      <useargs>
-       <usearg name="in" type="NullablePointer[XmlParserInputBuffer]"/>
+       <usearg name="xmlin" type="NullablePointer[XmlParserInputBuffer]"/>
      </useargs>
   </use>
   <use id="_1008" name="xmlParserGetDirectory"
@@ -479,7 +479,7 @@
      lineno="211"
      rv="NullablePointer[XmlParserInputBuffer]">
      <useargs>
-       <usearg name="URI" type="String"/>
+       <usearg name="uRI" type="String"/>
        <usearg name="enc" type="I32"/>
      </useargs>
   </use>
@@ -519,7 +519,7 @@
      lineno="228"
      rv="NullablePointer[XmlOutputBuffer]">
      <useargs>
-       <usearg name="URI" type="String"/>
+       <usearg name="uRI" type="String"/>
        <usearg name="encoder" type="NullablePointer[XmlCharEncodingHandler]"/>
        <usearg name="compression" type="I32"/>
      </useargs>
@@ -652,7 +652,7 @@
      lineno="280"
      rv="NullablePointer[XmlOutputBuffer]">
      <useargs>
-       <usearg name="URI" type="String"/>
+       <usearg name="uRI" type="String"/>
        <usearg name="encoder" type="NullablePointer[XmlCharEncodingHandler]"/>
        <usearg name="compression" type="I32"/>
      </useargs>
@@ -680,8 +680,8 @@
      lineno="300"
      rv="NullablePointer[XmlParserInput]">
      <useargs>
-       <usearg name="URL" type="String"/>
-       <usearg name="ID" type="String"/>
+       <usearg name="uRL" type="String"/>
+       <usearg name="iD" type="String"/>
        <usearg name="ctxt" type="NullablePointer[XmlParserCtxt]"/>
      </useargs>
   </use>
@@ -1123,8 +1123,8 @@
      <useargs>
        <usearg name="doc" type="NullablePointer[XmlDoc]"/>
        <usearg name="name" type="String"/>
-       <usearg name="ExternalID" type="String"/>
-       <usearg name="SystemID" type="String"/>
+       <usearg name="externalID" type="String"/>
+       <usearg name="systemID" type="String"/>
      </useargs>
   </use>
   <use id="_376" name="xmlNewDtd"
@@ -1135,8 +1135,8 @@
      <useargs>
        <usearg name="doc" type="NullablePointer[XmlDoc]"/>
        <usearg name="name" type="String"/>
-       <usearg name="ExternalID" type="String"/>
-       <usearg name="SystemID" type="String"/>
+       <usearg name="externalID" type="String"/>
+       <usearg name="systemID" type="String"/>
      </useargs>
   </use>
   <use id="_377" name="xmlGetIntSubset"
@@ -2044,7 +2044,7 @@
      rv="None">
      <useargs>
        <usearg name="cur" type="NullablePointer[XmlNode]"/>
-       <usearg name="val" type="I32"/>
+       <usearg name="xmlval" type="I32"/>
      </useargs>
   </use>
   <use id="_467" name="xmlNodeGetBase"
@@ -2098,7 +2098,7 @@
      </useargs>
   </use>
   <use id="_472" name="xmlBufferWriteCHAR"
-     ponyname="xmlBufferWriteCHAR"
+     ponyname="xmlBufferWriteXmlChar"
      fid="f16"
      lineno="1137"
      rv="None">
@@ -2515,7 +2515,7 @@
      lineno="833"
      rv="I32">
      <useargs>
-       <usearg name="in" type="NullablePointer[XmlParserInput]"/>
+       <usearg name="xmlin" type="NullablePointer[XmlParserInput]"/>
        <usearg name="len" type="I32"/>
      </useargs>
   </use>
@@ -2525,7 +2525,7 @@
      lineno="836"
      rv="I32">
      <useargs>
-       <usearg name="in" type="NullablePointer[XmlParserInput]"/>
+       <usearg name="xmlin" type="NullablePointer[XmlParserInput]"/>
        <usearg name="len" type="I32"/>
      </useargs>
   </use>
@@ -2563,7 +2563,7 @@
      lineno="852"
      rv="I32">
      <useargs>
-       <usearg name="val" type="I32"/>
+       <usearg name="xmlval" type="I32"/>
      </useargs>
   </use>
   <use id="_1055" name="xmlKeepBlanksDefault"
@@ -2572,7 +2572,7 @@
      lineno="854"
      rv="I32">
      <useargs>
-       <usearg name="val" type="I32"/>
+       <usearg name="xmlval" type="I32"/>
      </useargs>
   </use>
   <use id="_1056" name="xmlStopParser"
@@ -2590,7 +2590,7 @@
      lineno="858"
      rv="I32">
      <useargs>
-       <usearg name="val" type="I32"/>
+       <usearg name="xmlval" type="I32"/>
      </useargs>
   </use>
   <use id="_1058" name="xmlLineNumbersDefault"
@@ -2599,7 +2599,7 @@
      lineno="860"
      rv="I32">
      <useargs>
-       <usearg name="val" type="I32"/>
+       <usearg name="xmlval" type="I32"/>
      </useargs>
   </use>
   <use id="_1059" name="xmlRecoverDoc"
@@ -2756,8 +2756,8 @@
      rv="NullablePointer[XmlDtd]">
      <useargs>
        <usearg name="sax" type="NullablePointer[XmlSAXHandler]"/>
-       <usearg name="ExternalID" type="String"/>
-       <usearg name="SystemID" type="String"/>
+       <usearg name="externalID" type="String"/>
+       <usearg name="systemID" type="String"/>
      </useargs>
   </use>
   <use id="_1074" name="xmlParseDTD"
@@ -2766,8 +2766,8 @@
      lineno="929"
      rv="NullablePointer[XmlDtd]">
      <useargs>
-       <usearg name="ExternalID" type="String"/>
-       <usearg name="SystemID" type="String"/>
+       <usearg name="externalID" type="String"/>
+       <usearg name="systemID" type="String"/>
      </useargs>
   </use>
   <use id="_1075" name="xmlIOParseDTD"
@@ -2820,7 +2820,7 @@
        <usearg name="depth" type="I32"/>
        <usearg name="string" type="String"/>
        <usearg name="lst" type="Pointer[NullablePointer[XmlNode]]"/>
-       <usearg name="recover" type="I32"/>
+       <usearg name="xmlrecover" type="I32"/>
      </useargs>
   </use>
   <use id="_1079" name="xmlParseExternalEntity"
@@ -2833,8 +2833,8 @@
        <usearg name="sax" type="NullablePointer[XmlSAXHandler]"/>
        <usearg name="userdata" type="Pointer[None]"/>
        <usearg name="depth" type="I32"/>
-       <usearg name="URL" type="String"/>
-       <usearg name="ID" type="String"/>
+       <usearg name="uRL" type="String"/>
+       <usearg name="iD" type="String"/>
        <usearg name="lst" type="Pointer[NullablePointer[XmlNode]]"/>
      </useargs>
   </use>
@@ -2845,8 +2845,8 @@
      rv="I32">
      <useargs>
        <usearg name="ctx" type="NullablePointer[XmlParserCtxt]"/>
-       <usearg name="URL" type="String"/>
-       <usearg name="ID" type="String"/>
+       <usearg name="uRL" type="String"/>
+       <usearg name="iD" type="String"/>
        <usearg name="lst" type="Pointer[NullablePointer[XmlNode]]"/>
      </useargs>
   </use>
@@ -3056,8 +3056,8 @@
      lineno="1072"
      rv="NullablePointer[XmlParserInput]">
      <useargs>
-       <usearg name="URL" type="String"/>
-       <usearg name="ID" type="String"/>
+       <usearg name="uRL" type="String"/>
+       <usearg name="iD" type="String"/>
        <usearg name="ctxt" type="NullablePointer[XmlParserCtxt]"/>
      </useargs>
   </use>
@@ -3109,7 +3109,7 @@
      rv="NullablePointer[XmlDoc]">
      <useargs>
        <usearg name="cur" type="String"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -3120,7 +3120,7 @@
      lineno="1136"
      rv="NullablePointer[XmlDoc]">
      <useargs>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -3133,7 +3133,7 @@
      <useargs>
        <usearg name="buffer" type="String"/>
        <usearg name="size" type="I32"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -3145,7 +3145,7 @@
      rv="NullablePointer[XmlDoc]">
      <useargs>
        <usearg name="fd" type="I32"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -3159,7 +3159,7 @@
        <usearg name="ioread" type="Pointer[None]"/>
        <usearg name="ioclose" type="Pointer[None]"/>
        <usearg name="ioctx" type="Pointer[None]"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -3172,7 +3172,7 @@
      <useargs>
        <usearg name="ctxt" type="NullablePointer[XmlParserCtxt]"/>
        <usearg name="cur" type="String"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -3198,7 +3198,7 @@
        <usearg name="ctxt" type="NullablePointer[XmlParserCtxt]"/>
        <usearg name="buffer" type="String"/>
        <usearg name="size" type="I32"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -3211,7 +3211,7 @@
      <useargs>
        <usearg name="ctxt" type="NullablePointer[XmlParserCtxt]"/>
        <usearg name="fd" type="I32"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -3226,7 +3226,7 @@
        <usearg name="ioread" type="Pointer[None]"/>
        <usearg name="ioclose" type="Pointer[None]"/>
        <usearg name="ioctx" type="Pointer[None]"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -3255,9 +3255,9 @@
      <useargs>
        <usearg name="doc" type="NullablePointer[XmlDoc]"/>
        <usearg name="name" type="String"/>
-       <usearg name="type" type="I32"/>
-       <usearg name="ExternalID" type="String"/>
-       <usearg name="SystemID" type="String"/>
+       <usearg name="xmltype" type="I32"/>
+       <usearg name="externalID" type="String"/>
+       <usearg name="systemID" type="String"/>
        <usearg name="content" type="String"/>
      </useargs>
   </use>
@@ -3269,9 +3269,9 @@
      <useargs>
        <usearg name="doc" type="NullablePointer[XmlDoc]"/>
        <usearg name="name" type="String"/>
-       <usearg name="type" type="I32"/>
-       <usearg name="ExternalID" type="String"/>
-       <usearg name="SystemID" type="String"/>
+       <usearg name="xmltype" type="I32"/>
+       <usearg name="externalID" type="String"/>
+       <usearg name="systemID" type="String"/>
        <usearg name="content" type="String"/>
      </useargs>
   </use>
@@ -3283,9 +3283,9 @@
      <useargs>
        <usearg name="doc" type="NullablePointer[XmlDoc]"/>
        <usearg name="name" type="String"/>
-       <usearg name="type" type="I32"/>
-       <usearg name="ExternalID" type="String"/>
-       <usearg name="SystemID" type="String"/>
+       <usearg name="xmltype" type="I32"/>
+       <usearg name="externalID" type="String"/>
+       <usearg name="systemID" type="String"/>
        <usearg name="content" type="String"/>
      </useargs>
   </use>
@@ -4874,8 +4874,8 @@
        <usearg name="ctxt" type="NullablePointer[XmlValidCtxt]"/>
        <usearg name="dtd" type="NullablePointer[XmlDtd]"/>
        <usearg name="name" type="String"/>
-       <usearg name="PublicID" type="String"/>
-       <usearg name="SystemID" type="String"/>
+       <usearg name="publicID" type="String"/>
+       <usearg name="systemID" type="String"/>
      </useargs>
   </use>
   <use id="_676" name="xmlCopyNotationTable"
@@ -4923,7 +4923,7 @@
      rv="NullablePointer[XmlElementContent]">
      <useargs>
        <usearg name="name" type="String"/>
-       <usearg name="type" type="I32"/>
+       <usearg name="xmltype" type="I32"/>
      </useargs>
   </use>
   <use id="_681" name="xmlCopyElementContent"
@@ -4952,7 +4952,7 @@
      <useargs>
        <usearg name="doc" type="NullablePointer[XmlDoc]"/>
        <usearg name="name" type="String"/>
-       <usearg name="type" type="I32"/>
+       <usearg name="xmltype" type="I32"/>
      </useargs>
   </use>
   <use id="_684" name="xmlCopyDocElementContent"
@@ -5007,7 +5007,7 @@
        <usearg name="ctxt" type="NullablePointer[XmlValidCtxt]"/>
        <usearg name="dtd" type="NullablePointer[XmlDtd]"/>
        <usearg name="name" type="String"/>
-       <usearg name="type" type="I32"/>
+       <usearg name="xmltype" type="I32"/>
        <usearg name="content" type="NullablePointer[XmlElementContent]"/>
      </useargs>
   </use>
@@ -5087,7 +5087,7 @@
        <usearg name="elem" type="String"/>
        <usearg name="name" type="String"/>
        <usearg name="ns" type="String"/>
-       <usearg name="type" type="I32"/>
+       <usearg name="xmltype" type="I32"/>
        <usearg name="def" type="I32"/>
        <usearg name="defaultValue" type="String"/>
        <usearg name="tree" type="NullablePointer[XmlEnumeration]"/>
@@ -5159,7 +5159,7 @@
      rv="NullablePointer[XmlAttr]">
      <useargs>
        <usearg name="doc" type="NullablePointer[XmlDoc]"/>
-       <usearg name="ID" type="String"/>
+       <usearg name="iD" type="String"/>
      </useargs>
   </use>
   <use id="_704" name="xmlIsID"
@@ -5232,7 +5232,7 @@
      rv="NullablePointer[XmlList]">
      <useargs>
        <usearg name="doc" type="NullablePointer[XmlDoc]"/>
-       <usearg name="ID" type="String"/>
+       <usearg name="iD" type="String"/>
      </useargs>
   </use>
   <use id="_711" name="xmlNewValidCtxt"
@@ -5314,7 +5314,7 @@
      lineno="337"
      rv="I32">
      <useargs>
-       <usearg name="type" type="I32"/>
+       <usearg name="xmltype" type="I32"/>
        <usearg name="value" type="String"/>
      </useargs>
   </use>
@@ -5710,7 +5710,7 @@
      lineno="207"
      rv="I32">
      <useargs>
-       <usearg name="in" type="String"/>
+       <usearg name="xmlin" type="String"/>
        <usearg name="len" type="I32"/>
      </useargs>
   </use>
@@ -5722,7 +5722,7 @@
      <useargs>
        <usearg name="handler" type="NullablePointer[XmlCharEncodingHandler]"/>
        <usearg name="out" type="NullablePointer[XmlBuffer]"/>
-       <usearg name="in" type="NullablePointer[XmlBuffer]"/>
+       <usearg name="xmlin" type="NullablePointer[XmlBuffer]"/>
      </useargs>
   </use>
   <use id="_981" name="xmlCharEncInFunc"
@@ -5733,7 +5733,7 @@
      <useargs>
        <usearg name="handler" type="NullablePointer[XmlCharEncodingHandler]"/>
        <usearg name="out" type="NullablePointer[XmlBuffer]"/>
-       <usearg name="in" type="NullablePointer[XmlBuffer]"/>
+       <usearg name="xmlin" type="NullablePointer[XmlBuffer]"/>
      </useargs>
   </use>
   <use id="_982" name="xmlCharEncFirstLine"
@@ -5744,7 +5744,7 @@
      <useargs>
        <usearg name="handler" type="NullablePointer[XmlCharEncodingHandler]"/>
        <usearg name="out" type="NullablePointer[XmlBuffer]"/>
-       <usearg name="in" type="NullablePointer[XmlBuffer]"/>
+       <usearg name="xmlin" type="NullablePointer[XmlBuffer]"/>
      </useargs>
   </use>
   <use id="_983" name="xmlCharEncCloseFunc"
@@ -5757,14 +5757,14 @@
      </useargs>
   </use>
   <use id="_984" name="UTF8Toisolat1"
-     ponyname="UTF8Toisolat1"
+     ponyname="utf8Toisolat1"
      fid="f42"
      lineno="231"
      rv="I32">
      <useargs>
        <usearg name="out" type="String"/>
        <usearg name="outlen" type="Pointer[I32]"/>
-       <usearg name="in" type="String"/>
+       <usearg name="xmlin" type="String"/>
        <usearg name="inlen" type="Pointer[I32]"/>
      </useargs>
   </use>
@@ -5776,7 +5776,7 @@
      <useargs>
        <usearg name="out" type="String"/>
        <usearg name="outlen" type="Pointer[I32]"/>
-       <usearg name="in" type="String"/>
+       <usearg name="xmlin" type="String"/>
        <usearg name="inlen" type="Pointer[I32]"/>
      </useargs>
   </use>
@@ -5903,8 +5903,8 @@
      <useargs>
        <usearg name="ctx" type="Pointer[None]"/>
        <usearg name="name" type="String"/>
-       <usearg name="ExternalID" type="String"/>
-       <usearg name="SystemID" type="String"/>
+       <usearg name="externalID" type="String"/>
+       <usearg name="systemID" type="String"/>
      </useargs>
   </use>
   <use id="_1349" name="xmlSAX2ExternalSubset"
@@ -5915,8 +5915,8 @@
      <useargs>
        <usearg name="ctx" type="Pointer[None]"/>
        <usearg name="name" type="String"/>
-       <usearg name="ExternalID" type="String"/>
-       <usearg name="SystemID" type="String"/>
+       <usearg name="externalID" type="String"/>
+       <usearg name="systemID" type="String"/>
      </useargs>
   </use>
   <use id="_1350" name="xmlSAX2GetEntity"
@@ -5958,7 +5958,7 @@
      <useargs>
        <usearg name="ctx" type="Pointer[None]"/>
        <usearg name="name" type="String"/>
-       <usearg name="type" type="I32"/>
+       <usearg name="xmltype" type="I32"/>
        <usearg name="publicId" type="String"/>
        <usearg name="systemId" type="String"/>
        <usearg name="content" type="String"/>
@@ -5973,7 +5973,7 @@
        <usearg name="ctx" type="Pointer[None]"/>
        <usearg name="elem" type="String"/>
        <usearg name="fullname" type="String"/>
-       <usearg name="type" type="I32"/>
+       <usearg name="xmltype" type="I32"/>
        <usearg name="def" type="I32"/>
        <usearg name="defaultValue" type="String"/>
        <usearg name="tree" type="NullablePointer[XmlEnumeration]"/>
@@ -5987,7 +5987,7 @@
      <useargs>
        <usearg name="ctx" type="Pointer[None]"/>
        <usearg name="name" type="String"/>
-       <usearg name="type" type="I32"/>
+       <usearg name="xmltype" type="I32"/>
        <usearg name="content" type="NullablePointer[XmlElementContent]"/>
      </useargs>
   </use>
@@ -6064,7 +6064,7 @@
        <usearg name="ctx" type="Pointer[None]"/>
        <usearg name="localname" type="String"/>
        <usearg name="prefix" type="String"/>
-       <usearg name="URI" type="String"/>
+       <usearg name="uRI" type="String"/>
        <usearg name="nbnamespaces" type="I32"/>
        <usearg name="namespaces" type="Array[String]"/>
        <usearg name="nbattributes" type="I32"/>
@@ -6081,7 +6081,7 @@
        <usearg name="ctx" type="Pointer[None]"/>
        <usearg name="localname" type="String"/>
        <usearg name="prefix" type="String"/>
-       <usearg name="URI" type="String"/>
+       <usearg name="uRI" type="String"/>
      </useargs>
   </use>
   <use id="_1364" name="xmlSAX2Reference"
@@ -6659,7 +6659,7 @@
      lineno="450"
      rv="NullablePointer[XmlNodeSet]">
      <useargs>
-       <usearg name="val" type="NullablePointer[XmlNode]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlNode]"/>
      </useargs>
   </use>
   <use id="_1501" name="xmlXPathFreeNodeSetList"
@@ -6686,7 +6686,7 @@
      lineno="456"
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
-       <usearg name="val" type="NullablePointer[XmlXPathObject]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlXPathObject]"/>
      </useargs>
   </use>
   <use id="_1504" name="xmlXPathCmpNodes"
@@ -6705,7 +6705,7 @@
      lineno="464"
      rv="I32">
      <useargs>
-       <usearg name="val" type="F64"/>
+       <usearg name="xmlval" type="F64"/>
      </useargs>
   </use>
   <use id="_1506" name="xmlXPathCastStringToBoolean"
@@ -6714,7 +6714,7 @@
      lineno="466"
      rv="I32">
      <useargs>
-       <usearg name="val" type="String"/>
+       <usearg name="xmlval" type="String"/>
      </useargs>
   </use>
   <use id="_1507" name="xmlXPathCastNodeSetToBoolean"
@@ -6732,7 +6732,7 @@
      lineno="470"
      rv="I32">
      <useargs>
-       <usearg name="val" type="NullablePointer[XmlXPathObject]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlXPathObject]"/>
      </useargs>
   </use>
   <use id="_1509" name="xmlXPathCastBooleanToNumber"
@@ -6741,7 +6741,7 @@
      lineno="473"
      rv="F64">
      <useargs>
-       <usearg name="val" type="I32"/>
+       <usearg name="xmlval" type="I32"/>
      </useargs>
   </use>
   <use id="_1510" name="xmlXPathCastStringToNumber"
@@ -6750,7 +6750,7 @@
      lineno="475"
      rv="F64">
      <useargs>
-       <usearg name="val" type="String"/>
+       <usearg name="xmlval" type="String"/>
      </useargs>
   </use>
   <use id="_1511" name="xmlXPathCastNodeToNumber"
@@ -6777,7 +6777,7 @@
      lineno="481"
      rv="F64">
      <useargs>
-       <usearg name="val" type="NullablePointer[XmlXPathObject]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlXPathObject]"/>
      </useargs>
   </use>
   <use id="_1514" name="xmlXPathCastBooleanToString"
@@ -6786,7 +6786,7 @@
      lineno="484"
      rv="String">
      <useargs>
-       <usearg name="val" type="I32"/>
+       <usearg name="xmlval" type="I32"/>
      </useargs>
   </use>
   <use id="_1515" name="xmlXPathCastNumberToString"
@@ -6795,7 +6795,7 @@
      lineno="486"
      rv="String">
      <useargs>
-       <usearg name="val" type="F64"/>
+       <usearg name="xmlval" type="F64"/>
      </useargs>
   </use>
   <use id="_1516" name="xmlXPathCastNodeToString"
@@ -6822,7 +6822,7 @@
      lineno="492"
      rv="String">
      <useargs>
-       <usearg name="val" type="NullablePointer[XmlXPathObject]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlXPathObject]"/>
      </useargs>
   </use>
   <use id="_1519" name="xmlXPathConvertBoolean"
@@ -6831,7 +6831,7 @@
      lineno="495"
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
-       <usearg name="val" type="NullablePointer[XmlXPathObject]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlXPathObject]"/>
      </useargs>
   </use>
   <use id="_1520" name="xmlXPathConvertNumber"
@@ -6840,7 +6840,7 @@
      lineno="497"
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
-       <usearg name="val" type="NullablePointer[XmlXPathObject]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlXPathObject]"/>
      </useargs>
   </use>
   <use id="_1521" name="xmlXPathConvertString"
@@ -6849,7 +6849,7 @@
      lineno="499"
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
-       <usearg name="val" type="NullablePointer[XmlXPathObject]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlXPathObject]"/>
      </useargs>
   </use>
   <use id="_1522" name="xmlXPathNewContext"
@@ -7003,7 +7003,7 @@
      lineno="555"
      rv="I32">
      <useargs>
-       <usearg name="val" type="F64"/>
+       <usearg name="xmlval" type="F64"/>
      </useargs>
   </use>
   <use id="_1538" name="xmlXPathIsInf"
@@ -7012,7 +7012,7 @@
      lineno="557"
      rv="I32">
      <useargs>
-       <usearg name="val" type="F64"/>
+       <usearg name="xmlval" type="F64"/>
      </useargs>
   </use>
   <use id="_1541" name="xmlC14NDocSaveTo"
@@ -7116,7 +7116,7 @@
      rv="I32">
      <useargs>
        <usearg name="catal" type="NullablePointer[XmlCatalog]"/>
-       <usearg name="type" type="String"/>
+       <usearg name="xmltype" type="String"/>
        <usearg name="orig" type="String"/>
        <usearg name="replace" type="String"/>
      </useargs>
@@ -7169,7 +7169,7 @@
      rv="String">
      <useargs>
        <usearg name="catal" type="NullablePointer[XmlCatalog]"/>
-       <usearg name="URI" type="String"/>
+       <usearg name="uRI" type="String"/>
      </useargs>
   </use>
   <use id="_1563" name="xmlACatalogDump"
@@ -7275,7 +7275,7 @@
      lineno="131"
      rv="String">
      <useargs>
-       <usearg name="URI" type="String"/>
+       <usearg name="uRI" type="String"/>
      </useargs>
   </use>
   <use id="_1575" name="xmlCatalogAdd"
@@ -7284,7 +7284,7 @@
      lineno="133"
      rv="I32">
      <useargs>
-       <usearg name="type" type="String"/>
+       <usearg name="xmltype" type="String"/>
        <usearg name="orig" type="String"/>
        <usearg name="replace" type="String"/>
      </useargs>
@@ -7330,7 +7330,7 @@
      rv="Pointer[None]">
      <useargs>
        <usearg name="catalogs" type="Pointer[None]"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
      </useargs>
   </use>
   <use id="_1581" name="xmlCatalogLocalResolve"
@@ -7351,7 +7351,7 @@
      rv="String">
      <useargs>
        <usearg name="catalogs" type="Pointer[None]"/>
-       <usearg name="URI" type="String"/>
+       <usearg name="uRI" type="String"/>
      </useargs>
   </use>
   <use id="_1583" name="xmlCatalogSetDebug"
@@ -7412,7 +7412,7 @@
      lineno="55"
      rv="I32">
      <useargs>
-       <usearg name="val" type="U32"/>
+       <usearg name="xmlval" type="U32"/>
        <usearg name="group" type="NullablePointer[XmlChRangeGroup]"/>
      </useargs>
   </use>
@@ -7797,7 +7797,7 @@
      lineno="87"
      rv="NullablePointer[HtmlElemDesc]">
      <useargs>
-       <usearg name="tag" type="String"/>
+       <usearg name="xmltag" type="String"/>
      </useargs>
   </use>
   <use id="_1663" name="htmlEntityLookup"
@@ -7938,14 +7938,14 @@
      </useargs>
   </use>
   <use id="_1677" name="UTF8ToHtml"
-     ponyname="UTF8ToHtml"
+     ponyname="utf8ToHtml"
      fid="f70"
      lineno="134"
      rv="I32">
      <useargs>
        <usearg name="out" type="String"/>
        <usearg name="outlen" type="Pointer[I32]"/>
-       <usearg name="in" type="String"/>
+       <usearg name="xmlin" type="String"/>
        <usearg name="inlen" type="Pointer[I32]"/>
      </useargs>
   </use>
@@ -7957,7 +7957,7 @@
      <useargs>
        <usearg name="out" type="String"/>
        <usearg name="outlen" type="Pointer[I32]"/>
-       <usearg name="in" type="String"/>
+       <usearg name="xmlin" type="String"/>
        <usearg name="inlen" type="Pointer[I32]"/>
        <usearg name="quoteChar" type="I32"/>
      </useargs>
@@ -7977,7 +7977,7 @@
      lineno="146"
      rv="I32">
      <useargs>
-       <usearg name="val" type="I32"/>
+       <usearg name="xmlval" type="I32"/>
      </useargs>
   </use>
   <use id="_1681" name="htmlCreatePushParserCtxt"
@@ -8041,7 +8041,7 @@
      rv="NullablePointer[XmlDoc]">
      <useargs>
        <usearg name="cur" type="String"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -8052,7 +8052,7 @@
      lineno="202"
      rv="NullablePointer[XmlDoc]">
      <useargs>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -8065,7 +8065,7 @@
      <useargs>
        <usearg name="buffer" type="String"/>
        <usearg name="size" type="I32"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -8077,7 +8077,7 @@
      rv="NullablePointer[XmlDoc]">
      <useargs>
        <usearg name="fd" type="I32"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -8091,7 +8091,7 @@
        <usearg name="ioread" type="Pointer[None]"/>
        <usearg name="ioclose" type="Pointer[None]"/>
        <usearg name="ioctx" type="Pointer[None]"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -8104,7 +8104,7 @@
      <useargs>
        <usearg name="ctxt" type="NullablePointer[XmlParserCtxt]"/>
        <usearg name="cur" type="String"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -8130,7 +8130,7 @@
        <usearg name="ctxt" type="NullablePointer[XmlParserCtxt]"/>
        <usearg name="buffer" type="String"/>
        <usearg name="size" type="I32"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -8143,7 +8143,7 @@
      <useargs>
        <usearg name="ctxt" type="NullablePointer[XmlParserCtxt]"/>
        <usearg name="fd" type="I32"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -8158,7 +8158,7 @@
        <usearg name="ioread" type="Pointer[None]"/>
        <usearg name="ioclose" type="Pointer[None]"/>
        <usearg name="ioctx" type="Pointer[None]"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -8210,8 +8210,8 @@
      lineno="63"
      rv="NullablePointer[XmlDoc]">
      <useargs>
-       <usearg name="URI" type="String"/>
-       <usearg name="ExternalID" type="String"/>
+       <usearg name="uRI" type="String"/>
+       <usearg name="externalID" type="String"/>
      </useargs>
   </use>
   <use id="_1705" name="htmlNewDocNoDtD"
@@ -8220,8 +8220,8 @@
      lineno="66"
      rv="NullablePointer[XmlDoc]">
      <useargs>
-       <usearg name="URI" type="String"/>
-       <usearg name="ExternalID" type="String"/>
+       <usearg name="uRI" type="String"/>
+       <usearg name="externalID" type="String"/>
      </useargs>
   </use>
   <use id="_1706" name="htmlGetMetaEncoding"
@@ -8421,7 +8421,7 @@
      lineno="90"
      rv="Pointer[None]">
      <useargs>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
      </useargs>
   </use>
   <use id="_1727" name="xmlNanoFTPFreeCtxt"
@@ -8449,7 +8449,7 @@
      lineno="100"
      rv="Pointer[None]">
      <useargs>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
      </useargs>
   </use>
   <use id="_1730" name="xmlNanoFTPConnect"
@@ -8485,7 +8485,7 @@
      lineno="108"
      rv="None">
      <useargs>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
      </useargs>
   </use>
   <use id="_1734" name="xmlNanoFTPProxy"
@@ -8498,7 +8498,7 @@
        <usearg name="port" type="I32"/>
        <usearg name="user" type="String"/>
        <usearg name="passwd" type="String"/>
-       <usearg name="type" type="I32"/>
+       <usearg name="xmltype" type="I32"/>
      </useargs>
   </use>
   <use id="_1735" name="xmlNanoFTPUpdateURL"
@@ -8508,7 +8508,7 @@
      rv="I32">
      <useargs>
        <usearg name="ctx" type="Pointer[None]"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
      </useargs>
   </use>
   <use id="_1736" name="xmlNanoFTPGetResponse"
@@ -8632,7 +8632,7 @@
      lineno="26"
      rv="None">
      <useargs>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
      </useargs>
   </use>
   <use id="_1749" name="xmlNanoHTTPFetch"
@@ -8641,7 +8641,7 @@
      lineno="28"
      rv="I32">
      <useargs>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="filename" type="String"/>
        <usearg name="contentType" type="Array[String]"/>
      </useargs>
@@ -8652,7 +8652,7 @@
      lineno="32"
      rv="Pointer[None]">
      <useargs>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="method" type="String"/>
        <usearg name="input" type="String"/>
        <usearg name="contentType" type="Array[String]"/>
@@ -8666,7 +8666,7 @@
      lineno="39"
      rv="Pointer[None]">
      <useargs>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="method" type="String"/>
        <usearg name="input" type="String"/>
        <usearg name="contentType" type="Array[String]"/>
@@ -8681,7 +8681,7 @@
      lineno="47"
      rv="Pointer[None]">
      <useargs>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="contentType" type="Array[String]"/>
      </useargs>
   </use>
@@ -8691,7 +8691,7 @@
      lineno="50"
      rv="Pointer[None]">
      <useargs>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="contentType" type="Array[String]"/>
        <usearg name="redir" type="Array[String]"/>
      </useargs>
@@ -8824,8 +8824,8 @@
      lineno="333"
      rv="NullablePointer[XmlParserCtxt]">
      <useargs>
-       <usearg name="URL" type="String"/>
-       <usearg name="ID" type="String"/>
+       <usearg name="uRL" type="String"/>
+       <usearg name="iD" type="String"/>
        <usearg name="base" type="String"/>
      </useargs>
   </use>
@@ -9344,8 +9344,8 @@
      rv="None">
      <useargs>
        <usearg name="ctxt" type="NullablePointer[XmlParserCtxt]"/>
-       <usearg name="ExternalID" type="String"/>
-       <usearg name="SystemID" type="String"/>
+       <usearg name="externalID" type="String"/>
+       <usearg name="systemID" type="String"/>
      </useargs>
   </use>
   <use id="_1827" name="xmlStringDecodeEntities"
@@ -9357,7 +9357,7 @@
        <usearg name="ctxt" type="NullablePointer[XmlParserCtxt]"/>
        <usearg name="str" type="String"/>
        <usearg name="what" type="I32"/>
-       <usearg name="end" type="U8"/>
+       <usearg name="xmlend" type="U8"/>
        <usearg name="end2" type="U8"/>
        <usearg name="end3" type="U8"/>
      </useargs>
@@ -9372,7 +9372,7 @@
        <usearg name="str" type="String"/>
        <usearg name="len" type="I32"/>
        <usearg name="what" type="I32"/>
-       <usearg name="end" type="U8"/>
+       <usearg name="xmlend" type="U8"/>
        <usearg name="end2" type="U8"/>
        <usearg name="end3" type="U8"/>
      </useargs>
@@ -9489,7 +9489,7 @@
      rv="I32">
      <useargs>
        <usearg name="out" type="String"/>
-       <usearg name="val" type="I32"/>
+       <usearg name="xmlval" type="I32"/>
      </useargs>
   </use>
   <use id="_1841" name="xmlCopyChar"
@@ -9500,7 +9500,7 @@
      <useargs>
        <usearg name="len" type="I32"/>
        <usearg name="out" type="String"/>
-       <usearg name="val" type="I32"/>
+       <usearg name="xmlval" type="I32"/>
      </useargs>
   </use>
   <use id="_1842" name="xmlNextChar"
@@ -9518,7 +9518,7 @@
      lineno="571"
      rv="None">
      <useargs>
-       <usearg name="in" type="NullablePointer[XmlParserInput]"/>
+       <usearg name="xmlin" type="NullablePointer[XmlParserInput]"/>
      </useargs>
   </use>
   <use id="_1844" name="htmlInitAutoClose"
@@ -9620,7 +9620,7 @@
        <usearg name="ctxt" type="NullablePointer[XmlParserCtxt]"/>
        <usearg name="len" type="I32"/>
        <usearg name="what" type="I32"/>
-       <usearg name="end" type="U8"/>
+       <usearg name="xmlend" type="U8"/>
        <usearg name="end2" type="U8"/>
        <usearg name="end3" type="U8"/>
      </useargs>
@@ -9801,7 +9801,7 @@
      lineno="128"
      rv="NullablePointer[XmlRelaxNGParserCtxt]">
      <useargs>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
      </useargs>
   </use>
   <use id="_1898" name="xmlRelaxNGNewMemParserCtxt"
@@ -10028,7 +10028,7 @@
      lineno="950"
      rv="None">
      <useargs>
-       <usearg name="type" type="NullablePointer[XmlSchemaType]"/>
+       <usearg name="xmltype" type="NullablePointer[XmlSchemaType]"/>
      </useargs>
   </use>
   <use id="_1966" name="xmlSchemaFreeWildcard"
@@ -10046,7 +10046,7 @@
      lineno="73"
      rv="NullablePointer[XmlSchematronParserCtxt]">
      <useargs>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
      </useargs>
   </use>
   <use id="_1981" name="xmlSchematronNewMemParserCtxt"
@@ -10148,7 +10148,7 @@
      lineno="55"
      rv="String">
      <useargs>
-       <usearg name="URI" type="String"/>
+       <usearg name="uRI" type="String"/>
        <usearg name="base" type="String"/>
      </useargs>
   </use>
@@ -10158,7 +10158,7 @@
      lineno="58"
      rv="String">
      <useargs>
-       <usearg name="URI" type="String"/>
+       <usearg name="uRI" type="String"/>
        <usearg name="base" type="String"/>
      </useargs>
   </use>
@@ -10419,7 +10419,7 @@
      lineno="138"
      rv="NullablePointer[XmlSchemaParserCtxt]">
      <useargs>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
      </useargs>
   </use>
   <use id="_2046" name="xmlSchemaNewMemParserCtxt"
@@ -10695,7 +10695,7 @@
      rv="NullablePointer[XmlTextReader]">
      <useargs>
        <usearg name="input" type="NullablePointer[XmlParserInputBuffer]"/>
-       <usearg name="URI" type="String"/>
+       <usearg name="uRI" type="String"/>
      </useargs>
   </use>
   <use id="_2087" name="xmlNewTextReaderFilename"
@@ -10704,7 +10704,7 @@
      lineno="115"
      rv="NullablePointer[XmlTextReader]">
      <useargs>
-       <usearg name="URI" type="String"/>
+       <usearg name="uRI" type="String"/>
      </useargs>
   </use>
   <use id="_2088" name="xmlFreeTextReader"
@@ -10724,7 +10724,7 @@
      <useargs>
        <usearg name="reader" type="NullablePointer[XmlTextReader]"/>
        <usearg name="input" type="NullablePointer[XmlParserInputBuffer]"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -11353,7 +11353,7 @@
      rv="NullablePointer[XmlTextReader]">
      <useargs>
        <usearg name="cur" type="String"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -11377,7 +11377,7 @@
      <useargs>
        <usearg name="buffer" type="String"/>
        <usearg name="size" type="I32"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -11389,7 +11389,7 @@
      rv="NullablePointer[XmlTextReader]">
      <useargs>
        <usearg name="fd" type="I32"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -11403,7 +11403,7 @@
        <usearg name="ioread" type="Pointer[None]"/>
        <usearg name="ioclose" type="Pointer[None]"/>
        <usearg name="ioctx" type="Pointer[None]"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -11426,7 +11426,7 @@
      <useargs>
        <usearg name="reader" type="NullablePointer[XmlTextReader]"/>
        <usearg name="cur" type="String"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -11452,7 +11452,7 @@
        <usearg name="reader" type="NullablePointer[XmlTextReader]"/>
        <usearg name="buffer" type="String"/>
        <usearg name="size" type="I32"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -11465,7 +11465,7 @@
      <useargs>
        <usearg name="reader" type="NullablePointer[XmlTextReader]"/>
        <usearg name="fd" type="I32"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -11480,7 +11480,7 @@
        <usearg name="ioread" type="Pointer[None]"/>
        <usearg name="ioclose" type="Pointer[None]"/>
        <usearg name="ioctx" type="Pointer[None]"/>
-       <usearg name="URL" type="String"/>
+       <usearg name="uRL" type="String"/>
        <usearg name="encoding" type="String"/>
        <usearg name="options" type="I32"/>
      </useargs>
@@ -11670,9 +11670,9 @@
      lineno="41"
      rv="I32">
      <useargs>
-       <usearg name="type" type="NullablePointer[XmlSchemaType]"/>
+       <usearg name="xmltype" type="NullablePointer[XmlSchemaType]"/>
        <usearg name="value" type="String"/>
-       <usearg name="val" type="Pointer[NullablePointer[XmlSchemaVal]]"/>
+       <usearg name="xmlval" type="Pointer[NullablePointer[XmlSchemaVal]]"/>
      </useargs>
   </use>
   <use id="_2195" name="xmlSchemaValPredefTypeNode"
@@ -11681,9 +11681,9 @@
      lineno="45"
      rv="I32">
      <useargs>
-       <usearg name="type" type="NullablePointer[XmlSchemaType]"/>
+       <usearg name="xmltype" type="NullablePointer[XmlSchemaType]"/>
        <usearg name="value" type="String"/>
-       <usearg name="val" type="Pointer[NullablePointer[XmlSchemaVal]]"/>
+       <usearg name="xmlval" type="Pointer[NullablePointer[XmlSchemaVal]]"/>
        <usearg name="node" type="NullablePointer[XmlNode]"/>
      </useargs>
   </use>
@@ -11696,7 +11696,7 @@
        <usearg name="base" type="NullablePointer[XmlSchemaType]"/>
        <usearg name="facet" type="NullablePointer[XmlSchemaFacet]"/>
        <usearg name="value" type="String"/>
-       <usearg name="val" type="NullablePointer[XmlSchemaVal]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlSchemaVal]"/>
      </useargs>
   </use>
   <use id="_2197" name="xmlSchemaValidateFacetWhtsp"
@@ -11709,7 +11709,7 @@
        <usearg name="fws" type="I32"/>
        <usearg name="valType" type="I32"/>
        <usearg name="value" type="String"/>
-       <usearg name="val" type="NullablePointer[XmlSchemaVal]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlSchemaVal]"/>
        <usearg name="ws" type="I32"/>
      </useargs>
   </use>
@@ -11719,7 +11719,7 @@
      lineno="62"
      rv="None">
      <useargs>
-       <usearg name="val" type="NullablePointer[XmlSchemaVal]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlSchemaVal]"/>
      </useargs>
   </use>
   <use id="_2199" name="xmlSchemaNewFacet"
@@ -11766,7 +11766,7 @@
      lineno="76"
      rv="NullablePointer[XmlSchemaType]">
      <useargs>
-       <usearg name="type" type="NullablePointer[XmlSchemaType]"/>
+       <usearg name="xmltype" type="NullablePointer[XmlSchemaType]"/>
      </useargs>
   </use>
   <use id="_2204" name="xmlSchemaValidateListSimpleTypeFacet"
@@ -11787,7 +11787,7 @@
      lineno="83"
      rv="NullablePointer[XmlSchemaType]">
      <useargs>
-       <usearg name="type" type="I32"/>
+       <usearg name="xmltype" type="I32"/>
      </useargs>
   </use>
   <use id="_2206" name="xmlSchemaIsBuiltInTypeFacet"
@@ -11796,7 +11796,7 @@
      lineno="85"
      rv="I32">
      <useargs>
-       <usearg name="type" type="NullablePointer[XmlSchemaType]"/>
+       <usearg name="xmltype" type="NullablePointer[XmlSchemaType]"/>
        <usearg name="facetType" type="I32"/>
      </useargs>
   </use>
@@ -11833,10 +11833,10 @@
      lineno="94"
      rv="I32">
      <useargs>
-       <usearg name="type" type="NullablePointer[XmlSchemaType]"/>
+       <usearg name="xmltype" type="NullablePointer[XmlSchemaType]"/>
        <usearg name="facet" type="NullablePointer[XmlSchemaFacet]"/>
        <usearg name="value" type="String"/>
-       <usearg name="val" type="NullablePointer[XmlSchemaVal]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlSchemaVal]"/>
        <usearg name="length" type="Pointer[U64]"/>
      </useargs>
   </use>
@@ -11849,7 +11849,7 @@
        <usearg name="facet" type="NullablePointer[XmlSchemaFacet]"/>
        <usearg name="valType" type="I32"/>
        <usearg name="value" type="String"/>
-       <usearg name="val" type="NullablePointer[XmlSchemaVal]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlSchemaVal]"/>
        <usearg name="length" type="Pointer[U64]"/>
        <usearg name="ws" type="I32"/>
      </useargs>
@@ -11860,9 +11860,9 @@
      lineno="107"
      rv="I32">
      <useargs>
-       <usearg name="type" type="NullablePointer[XmlSchemaType]"/>
+       <usearg name="xmltype" type="NullablePointer[XmlSchemaType]"/>
        <usearg name="value" type="String"/>
-       <usearg name="val" type="Pointer[NullablePointer[XmlSchemaVal]]"/>
+       <usearg name="xmlval" type="Pointer[NullablePointer[XmlSchemaVal]]"/>
        <usearg name="node" type="NullablePointer[XmlNode]"/>
      </useargs>
   </use>
@@ -11872,7 +11872,7 @@
      lineno="112"
      rv="I32">
      <useargs>
-       <usearg name="val" type="NullablePointer[XmlSchemaVal]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlSchemaVal]"/>
        <usearg name="retValue" type="Array[String]"/>
      </useargs>
   </use>
@@ -11882,7 +11882,7 @@
      lineno="115"
      rv="I32">
      <useargs>
-       <usearg name="val" type="NullablePointer[XmlSchemaVal]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlSchemaVal]"/>
        <usearg name="retValue" type="Array[String]"/>
        <usearg name="ws" type="I32"/>
      </useargs>
@@ -11912,7 +11912,7 @@
      lineno="124"
      rv="String">
      <useargs>
-       <usearg name="val" type="NullablePointer[XmlSchemaVal]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlSchemaVal]"/>
      </useargs>
   </use>
   <use id="_2218" name="xmlSchemaValueGetAsBoolean"
@@ -11921,7 +11921,7 @@
      lineno="126"
      rv="I32">
      <useargs>
-       <usearg name="val" type="NullablePointer[XmlSchemaVal]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlSchemaVal]"/>
      </useargs>
   </use>
   <use id="_2219" name="xmlSchemaNewStringValue"
@@ -11930,7 +11930,7 @@
      lineno="128"
      rv="NullablePointer[XmlSchemaVal]">
      <useargs>
-       <usearg name="type" type="I32"/>
+       <usearg name="xmltype" type="I32"/>
        <usearg name="value" type="String"/>
      </useargs>
   </use>
@@ -11972,7 +11972,7 @@
      lineno="142"
      rv="NullablePointer[XmlSchemaVal]">
      <useargs>
-       <usearg name="val" type="NullablePointer[XmlSchemaVal]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlSchemaVal]"/>
      </useargs>
   </use>
   <use id="_2224" name="xmlSchemaGetValType"
@@ -11981,7 +11981,7 @@
      lineno="144"
      rv="I32">
      <useargs>
-       <usearg name="val" type="NullablePointer[XmlSchemaVal]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlSchemaVal]"/>
      </useargs>
   </use>
   <use id="_2225" name="xmlUCSIsAegeanNumbers"
@@ -14452,7 +14452,7 @@
      rv="None">
      <useargs>
        <usearg name="ctxt" type="NullablePointer[XmlXPathParserContext]"/>
-       <usearg name="error" type="I32"/>
+       <usearg name="xmlerror" type="I32"/>
      </useargs>
   </use>
   <use id="_2483" name="xmlXPathDebugDumpObject"
@@ -14484,7 +14484,7 @@
      rv="I32">
      <useargs>
        <usearg name="cur" type="NullablePointer[XmlNodeSet]"/>
-       <usearg name="val" type="NullablePointer[XmlNode]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlNode]"/>
      </useargs>
   </use>
   <use id="_2486" name="xmlXPathDifference"
@@ -14795,7 +14795,7 @@
      lineno="488"
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
-       <usearg name="val" type="String"/>
+       <usearg name="xmlval" type="String"/>
      </useargs>
   </use>
   <use id="_2517" name="xmlXPathNewCString"
@@ -14804,7 +14804,7 @@
      lineno="490"
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
-       <usearg name="val" type="String"/>
+       <usearg name="xmlval" type="String"/>
      </useargs>
   </use>
   <use id="_2518" name="xmlXPathWrapString"
@@ -14813,7 +14813,7 @@
      lineno="492"
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
-       <usearg name="val" type="String"/>
+       <usearg name="xmlval" type="String"/>
      </useargs>
   </use>
   <use id="_2519" name="xmlXPathWrapCString"
@@ -14822,7 +14822,7 @@
      lineno="494"
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
-       <usearg name="val" type="String"/>
+       <usearg name="xmlval" type="String"/>
      </useargs>
   </use>
   <use id="_2520" name="xmlXPathNewFloat"
@@ -14831,7 +14831,7 @@
      lineno="496"
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
-       <usearg name="val" type="F64"/>
+       <usearg name="xmlval" type="F64"/>
      </useargs>
   </use>
   <use id="_2521" name="xmlXPathNewBoolean"
@@ -14840,7 +14840,7 @@
      lineno="498"
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
-       <usearg name="val" type="I32"/>
+       <usearg name="xmlval" type="I32"/>
      </useargs>
   </use>
   <use id="_2522" name="xmlXPathNewNodeSet"
@@ -14849,7 +14849,7 @@
      lineno="500"
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
-       <usearg name="val" type="NullablePointer[XmlNode]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlNode]"/>
      </useargs>
   </use>
   <use id="_2523" name="xmlXPathNewValueTree"
@@ -14858,7 +14858,7 @@
      lineno="502"
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
-       <usearg name="val" type="NullablePointer[XmlNode]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlNode]"/>
      </useargs>
   </use>
   <use id="_2524" name="xmlXPathNodeSetAdd"
@@ -14868,7 +14868,7 @@
      rv="I32">
      <useargs>
        <usearg name="cur" type="NullablePointer[XmlNodeSet]"/>
-       <usearg name="val" type="NullablePointer[XmlNode]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlNode]"/>
      </useargs>
   </use>
   <use id="_2525" name="xmlXPathNodeSetAddUnique"
@@ -14878,7 +14878,7 @@
      rv="I32">
      <useargs>
        <usearg name="cur" type="NullablePointer[XmlNodeSet]"/>
-       <usearg name="val" type="NullablePointer[XmlNode]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlNode]"/>
      </useargs>
   </use>
   <use id="_2526" name="xmlXPathNodeSetAddNs"
@@ -14982,7 +14982,7 @@
      rv="None">
      <useargs>
        <usearg name="cur" type="NullablePointer[XmlNodeSet]"/>
-       <usearg name="val" type="NullablePointer[XmlNode]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlNode]"/>
      </useargs>
   </use>
   <use id="_2537" name="xmlXPathNodeSetRemove"
@@ -14992,7 +14992,7 @@
      rv="None">
      <useargs>
        <usearg name="cur" type="NullablePointer[XmlNodeSet]"/>
-       <usearg name="val" type="I32"/>
+       <usearg name="xmlval" type="I32"/>
      </useargs>
   </use>
   <use id="_2538" name="xmlXPathNewNodeSetList"
@@ -15001,7 +15001,7 @@
      lineno="545"
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
-       <usearg name="val" type="NullablePointer[XmlNodeSet]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlNodeSet]"/>
      </useargs>
   </use>
   <use id="_2539" name="xmlXPathWrapNodeSet"
@@ -15010,7 +15010,7 @@
      lineno="547"
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
-       <usearg name="val" type="NullablePointer[XmlNodeSet]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlNodeSet]"/>
      </useargs>
   </use>
   <use id="_2540" name="xmlXPathWrapExternal"
@@ -15019,7 +15019,7 @@
      lineno="549"
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
-       <usearg name="val" type="Pointer[None]"/>
+       <usearg name="xmlval" type="Pointer[None]"/>
      </useargs>
   </use>
   <use id="_2541" name="xmlXPathEqualValues"
@@ -15519,7 +15519,7 @@
      lineno="47"
      rv="NullablePointer[XmlLocationSet]">
      <useargs>
-       <usearg name="val" type="NullablePointer[XmlXPathObject]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlXPathObject]"/>
      </useargs>
   </use>
   <use id="_2595" name="xmlXPtrFreeLocationSet"
@@ -15549,7 +15549,7 @@
      <useargs>
        <usearg name="start" type="NullablePointer[XmlNode]"/>
        <usearg name="startindex" type="I32"/>
-       <usearg name="end" type="NullablePointer[XmlNode]"/>
+       <usearg name="xmlend" type="NullablePointer[XmlNode]"/>
        <usearg name="endindex" type="I32"/>
      </useargs>
   </use>
@@ -15560,7 +15560,7 @@
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
        <usearg name="start" type="NullablePointer[XmlXPathObject]"/>
-       <usearg name="end" type="NullablePointer[XmlXPathObject]"/>
+       <usearg name="xmlend" type="NullablePointer[XmlXPathObject]"/>
      </useargs>
   </use>
   <use id="_2599" name="xmlXPtrNewRangeNodePoint"
@@ -15570,7 +15570,7 @@
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
        <usearg name="start" type="NullablePointer[XmlNode]"/>
-       <usearg name="end" type="NullablePointer[XmlXPathObject]"/>
+       <usearg name="xmlend" type="NullablePointer[XmlXPathObject]"/>
      </useargs>
   </use>
   <use id="_2600" name="xmlXPtrNewRangePointNode"
@@ -15580,7 +15580,7 @@
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
        <usearg name="start" type="NullablePointer[XmlXPathObject]"/>
-       <usearg name="end" type="NullablePointer[XmlNode]"/>
+       <usearg name="xmlend" type="NullablePointer[XmlNode]"/>
      </useargs>
   </use>
   <use id="_2601" name="xmlXPtrNewRangeNodes"
@@ -15590,7 +15590,7 @@
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
        <usearg name="start" type="NullablePointer[XmlNode]"/>
-       <usearg name="end" type="NullablePointer[XmlNode]"/>
+       <usearg name="xmlend" type="NullablePointer[XmlNode]"/>
      </useargs>
   </use>
   <use id="_2602" name="xmlXPtrNewLocationSetNodes"
@@ -15600,7 +15600,7 @@
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
        <usearg name="start" type="NullablePointer[XmlNode]"/>
-       <usearg name="end" type="NullablePointer[XmlNode]"/>
+       <usearg name="xmlend" type="NullablePointer[XmlNode]"/>
      </useargs>
   </use>
   <use id="_2603" name="xmlXPtrNewLocationSetNodeSet"
@@ -15619,7 +15619,7 @@
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
        <usearg name="start" type="NullablePointer[XmlNode]"/>
-       <usearg name="end" type="NullablePointer[XmlXPathObject]"/>
+       <usearg name="xmlend" type="NullablePointer[XmlXPathObject]"/>
      </useargs>
   </use>
   <use id="_2605" name="xmlXPtrNewCollapsedRange"
@@ -15638,7 +15638,7 @@
      rv="None">
      <useargs>
        <usearg name="cur" type="NullablePointer[XmlLocationSet]"/>
-       <usearg name="val" type="NullablePointer[XmlXPathObject]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlXPathObject]"/>
      </useargs>
   </use>
   <use id="_2607" name="xmlXPtrWrapLocationSet"
@@ -15647,7 +15647,7 @@
      lineno="84"
      rv="NullablePointer[XmlXPathObject]">
      <useargs>
-       <usearg name="val" type="NullablePointer[XmlLocationSet]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlLocationSet]"/>
      </useargs>
   </use>
   <use id="_2608" name="xmlXPtrLocationSetDel"
@@ -15657,7 +15657,7 @@
      rv="None">
      <useargs>
        <usearg name="cur" type="NullablePointer[XmlLocationSet]"/>
-       <usearg name="val" type="NullablePointer[XmlXPathObject]"/>
+       <usearg name="xmlval" type="NullablePointer[XmlXPathObject]"/>
      </useargs>
   </use>
   <use id="_2609" name="xmlXPtrLocationSetRemove"
@@ -15667,7 +15667,7 @@
      rv="None">
      <useargs>
        <usearg name="cur" type="NullablePointer[XmlLocationSet]"/>
-       <usearg name="val" type="I32"/>
+       <usearg name="xmlval" type="I32"/>
      </useargs>
   </use>
   <use id="_2610" name="xmlXPtrNewContext"

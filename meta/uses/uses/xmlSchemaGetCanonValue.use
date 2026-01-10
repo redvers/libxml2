@@ -8,5 +8,5 @@
     [PointerType size=64]->[Struct size=,fid: f77]
     [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @xmlSchemaGetCanonValue[I32](val: NullablePointer[XmlSchemaVal] tag, retValue: Pointer[Pointer[U8]] tag)
+use @xmlSchemaGetCanonValue[I32](xmlval: NullablePointer[XmlSchemaVal] tag, retValue: Pointer[Pointer[U8]] tag)
 

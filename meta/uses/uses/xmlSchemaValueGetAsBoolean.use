@@ -7,5 +7,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=,fid: f77]
 */
-use @xmlSchemaValueGetAsBoolean[I32](val: NullablePointer[XmlSchemaVal] tag)
+use @xmlSchemaValueGetAsBoolean[I32](xmlval: NullablePointer[XmlSchemaVal] tag)
 

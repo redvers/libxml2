@@ -11,5 +11,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f77]
 */
-  fun xmlSchemaValidatePredefinedType(type: NullablePointer[XmlSchemaType] tag, value: String, val: Pointer[NullablePointer[XmlSchemaVal]] tag): I32 =>
-    @xmlSchemaValidatePredefinedType(type, value.cstring(), val)
+  fun xmlSchemaValidatePredefinedType(xmltype: NullablePointer[XmlSchemaType] tag, value: String, xmlval: Pointer[NullablePointer[XmlSchemaVal]] tag): I32 =>
+    @xmlSchemaValidatePredefinedType(xmltype, value.cstring(), xmlval)

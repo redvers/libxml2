@@ -7,5 +7,5 @@
   Arguments:
     [FundamentalType(double) size=64]
 */
-use @xmlXPathIsInf[I32](val: F64)
+use @xmlXPathIsInf[I32](xmlval: F64)
 

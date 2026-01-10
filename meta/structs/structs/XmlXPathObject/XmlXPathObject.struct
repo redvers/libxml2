@@ -18,12 +18,12 @@
      000512: [FundamentalType(int) size=32]: index2  
 */
 struct XmlXPathObject
-    var _type: I32 = I32(0)
-    var _nodesetval: NullablePointer[XmlNodeSet] = NullablePointer[XmlNodeSet].none()
-    var _boolval: I32 = I32(0)
-    var _floatval: F64 = F64(0)
-  _stringval: Pointer[U8] = Pointer[U8]
-    var _user: Pointer[None] = Pointer[None]
-    var _index: I32 = I32(0)
-    var _user2: Pointer[None] = Pointer[None]
-    var _index2: I32 = I32(0)
+  var xmltype: I32 = I32(0)
+  var nodesetval: NullablePointer[XmlNodeSet] = NullablePointer[XmlNodeSet].none()
+  var boolval: I32 = I32(0)
+  var floatval: F64 = F64(0)
+  var stringval: Pointer[U8] = Pointer[U8]
+  var user: Pointer[None] = Pointer[None]
+  var index: I32 = I32(0)
+  var user2: Pointer[None] = Pointer[None]
+  var index2: I32 = I32(0)

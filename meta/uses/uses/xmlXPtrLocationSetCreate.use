@@ -7,5 +7,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=576,fid: f65]
 */
-use @xmlXPtrLocationSetCreate[NullablePointer[XmlLocationSet]](val: NullablePointer[XmlXPathObject] tag)
+use @xmlXPtrLocationSetCreate[NullablePointer[XmlLocationSet]](xmlval: NullablePointer[XmlXPathObject] tag)
 

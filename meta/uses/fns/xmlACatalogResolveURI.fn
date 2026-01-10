@@ -10,7 +10,7 @@
     [PointerType size=64]->[Struct size=,fid: f67]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlACatalogResolveURI(catal: NullablePointer[XmlCatalog] tag, URI: String): String =>
-    var pcstring: Pointer[U8] =  @xmlACatalogResolveURI(catal, URI.cstring())
+  fun xmlACatalogResolveURI(catal: NullablePointer[XmlCatalog] tag, uRI: String): String =>
+    var pcstring: Pointer[U8] =  @xmlACatalogResolveURI(catal, uRI.cstring())
     let p: String iso = String.from_cstring(pcstring).clone()
     consume p

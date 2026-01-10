@@ -15,5 +15,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[Struct size=128,fid: f16]
 */
-  fun xmlSAX2AttributeDecl(ctx: Pointer[None] tag, elem: String, fullname: String, type: I32, def: I32, defaultValue: String, tree: NullablePointer[XmlEnumeration] tag): None =>
-    @xmlSAX2AttributeDecl(ctx, elem.cstring(), fullname.cstring(), type, def, defaultValue.cstring(), tree)
+  fun xmlSAX2AttributeDecl(ctx: Pointer[None] tag, elem: String, fullname: String, xmltype: I32, def: I32, defaultValue: String, tree: NullablePointer[XmlEnumeration] tag): None =>
+    @xmlSAX2AttributeDecl(ctx, elem.cstring(), fullname.cstring(), xmltype, def, defaultValue.cstring(), tree)

@@ -10,5 +10,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [FundamentalType(int) size=32]
 */
-  fun xmlDetectCharEncoding(in: String, len: I32): I32 =>
-    @xmlDetectCharEncoding(in.cstring(), len)
+  fun xmlDetectCharEncoding(xmlin: String, len: I32): I32 =>
+    @xmlDetectCharEncoding(xmlin.cstring(), len)

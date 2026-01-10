@@ -16,10 +16,10 @@
      000384: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: input  
 */
 struct XmlShellCtxt
-  _filename: Pointer[U8] = Pointer[U8]
-    var _doc: NullablePointer[XmlDoc] = NullablePointer[XmlDoc].none()
-    var _node: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _pctxt: NullablePointer[XmlXPathContext] = NullablePointer[XmlXPathContext].none()
-    var _loaded: I32 = I32(0)
-    var _output: NullablePointer[IOFILE] = NullablePointer[IOFILE].none()
-    var _input: Pointer[None] = Pointer[None]
+  var filename: Pointer[U8] = Pointer[U8]
+  var doc: NullablePointer[XmlDoc] = NullablePointer[XmlDoc].none()
+  var node: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var pctxt: NullablePointer[XmlXPathContext] = NullablePointer[XmlXPathContext].none()
+  var loaded: I32 = I32(0)
+  var output: NullablePointer[IOFILE] = NullablePointer[IOFILE].none()
+  var input: Pointer[None] = Pointer[None]

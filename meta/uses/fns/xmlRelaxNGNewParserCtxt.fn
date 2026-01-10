@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-  fun xmlRelaxNGNewParserCtxt(URL: String): NullablePointer[XmlRelaxNGParserCtxt] =>
-    @xmlRelaxNGNewParserCtxt(URL.cstring())
+  fun xmlRelaxNGNewParserCtxt(uRL: String): NullablePointer[XmlRelaxNGParserCtxt] =>
+    @xmlRelaxNGNewParserCtxt(uRL.cstring())

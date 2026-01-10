@@ -24,18 +24,18 @@
      000896: [PointerType size=64]->[FundamentalType(void) size=0]: attrUses  
 */
 struct XmlSchemaAttributeGroup
-    var _type: I32 = I32(0)
-    var _next: NullablePointer[XmlSchemaAttribute] = NullablePointer[XmlSchemaAttribute].none()
-  _name: Pointer[U8] = Pointer[U8]
-  _id: Pointer[U8] = Pointer[U8]
-  _ref: Pointer[U8] = Pointer[U8]
-  _refNs: Pointer[U8] = Pointer[U8]
-    var _annot: NullablePointer[XmlSchemaAnnot] = NullablePointer[XmlSchemaAnnot].none()
-    var _attributes: NullablePointer[XmlSchemaAttribute] = NullablePointer[XmlSchemaAttribute].none()
-    var _node: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _flags: I32 = I32(0)
-    var _attributeWildcard: NullablePointer[XmlSchemaWildcard] = NullablePointer[XmlSchemaWildcard].none()
-  _refPrefix: Pointer[U8] = Pointer[U8]
-    var _refItem: NullablePointer[XmlSchemaAttributeGroup] = NullablePointer[XmlSchemaAttributeGroup].none()
-  _targetNamespace: Pointer[U8] = Pointer[U8]
-    var _attrUses: Pointer[None] = Pointer[None]
+  var xmltype: I32 = I32(0)
+  var next: NullablePointer[XmlSchemaAttribute] = NullablePointer[XmlSchemaAttribute].none()
+  var name: Pointer[U8] = Pointer[U8]
+  var id: Pointer[U8] = Pointer[U8]
+  var xmlref: Pointer[U8] = Pointer[U8]
+  var refNs: Pointer[U8] = Pointer[U8]
+  var annot: NullablePointer[XmlSchemaAnnot] = NullablePointer[XmlSchemaAnnot].none()
+  var attributes: NullablePointer[XmlSchemaAttribute] = NullablePointer[XmlSchemaAttribute].none()
+  var node: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var flags: I32 = I32(0)
+  var attributeWildcard: NullablePointer[XmlSchemaWildcard] = NullablePointer[XmlSchemaWildcard].none()
+  var refPrefix: Pointer[U8] = Pointer[U8]
+  var refItem: NullablePointer[XmlSchemaAttributeGroup] = NullablePointer[XmlSchemaAttributeGroup].none()
+  var targetNamespace: Pointer[U8] = Pointer[U8]
+  var attrUses: Pointer[None] = Pointer[None]

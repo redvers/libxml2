@@ -8,5 +8,5 @@
     [PointerType size=64]->[Struct size=704,fid: f65]
     [FundamentalType(int) size=32]
 */
-use @xmlXPathErr[None](ctxt: NullablePointer[XmlXPathParserContext] tag, error: I32)
+use @xmlXPathErr[None](ctxt: NullablePointer[XmlXPathParserContext] tag, xmlerror: I32)
 

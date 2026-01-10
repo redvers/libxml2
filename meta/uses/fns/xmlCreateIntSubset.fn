@@ -12,5 +12,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlCreateIntSubset(doc: NullablePointer[XmlDoc] tag, name: String, ExternalID: String, SystemID: String): NullablePointer[XmlDtd] =>
-    @xmlCreateIntSubset(doc, name.cstring(), ExternalID.cstring(), SystemID.cstring())
+  fun xmlCreateIntSubset(doc: NullablePointer[XmlDoc] tag, name: String, externalID: String, systemID: String): NullablePointer[XmlDtd] =>
+    @xmlCreateIntSubset(doc, name.cstring(), externalID.cstring(), systemID.cstring())

@@ -10,7 +10,7 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlBuildURI(URI: String, base: String): String =>
-    var pcstring: Pointer[U8] =  @xmlBuildURI(URI.cstring(), base.cstring())
+  fun xmlBuildURI(uRI: String, base: String): String =>
+    var pcstring: Pointer[U8] =  @xmlBuildURI(uRI.cstring(), base.cstring())
     let p: String iso = String.from_cstring(pcstring).clone()
     consume p

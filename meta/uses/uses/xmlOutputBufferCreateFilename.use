@@ -9,5 +9,5 @@
     [PointerType size=64]->[Struct size=448,fid: f42]
     [FundamentalType(int) size=32]
 */
-use @xmlOutputBufferCreateFilename[NullablePointer[XmlOutputBuffer]](URI: Pointer[U8] tag, encoder: NullablePointer[XmlCharEncodingHandler] tag, compression: I32)
+use @xmlOutputBufferCreateFilename[NullablePointer[XmlOutputBuffer]](uRI: Pointer[U8] tag, encoder: NullablePointer[XmlCharEncodingHandler] tag, compression: I32)
 

@@ -9,5 +9,5 @@
     [PointerType size=64]->[FundamentalType(char) size=8]
     [FundamentalType(int) size=32]
 */
-use @htmlReadFile[NullablePointer[XmlDoc]](URL: Pointer[U8] tag, encoding: Pointer[U8] tag, options: I32)
+use @htmlReadFile[NullablePointer[XmlDoc]](uRL: Pointer[U8] tag, encoding: Pointer[U8] tag, options: I32)
 

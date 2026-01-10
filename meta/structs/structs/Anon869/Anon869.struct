@@ -1,0 +1,27 @@
+
+
+/*
+  Source: /usr/include/unicode/ucnv_err.h:210
+  Original Name: 
+  Struct Size (bits):  448
+  Struct Align (bits): 64
+
+  Fields (Offset in bits):
+     000000: [FundamentalType(short unsigned int) size=16]: size  
+     000016: [FundamentalType(signed char) size=8]: flush  
+     000064: [PointerType size=64]->[Struct size=,fid: f39]: converter  
+     000128: [PointerType size=64]->[FundamentalType(char) size=8]: source  
+     000192: [PointerType size=64]->[FundamentalType(char) size=8]: sourceLimit  
+     000256: [PointerType size=64]->[FundamentalType(short unsigned int) size=16]: target  
+     000320: [PointerType size=64]->[FundamentalType(short unsigned int) size=16]: targetLimit  
+     000384: [PointerType size=64]->[FundamentalType(int) size=32]: offsets  
+*/
+struct Anon869
+  var size: U16 = U16(0)
+  var flush: I8 = I8(0)
+  var converter: NullablePointer[UConverter] = NullablePointer[UConverter].none()
+  var source: Pointer[U8] = Pointer[U8]
+  var sourceLimit: Pointer[U8] = Pointer[U8]
+  var target: Pointer[U16] = Pointer[U16]
+  var targetLimit: Pointer[U16] = Pointer[U16]
+  var offsets: Pointer[I32] = Pointer[I32]

@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=,fid: f77]
 */
-  fun xmlSchemaFreeValue(val: NullablePointer[XmlSchemaVal] tag): None =>
-    @xmlSchemaFreeValue(val)
+  fun xmlSchemaFreeValue(xmlval: NullablePointer[XmlSchemaVal] tag): None =>
+    @xmlSchemaFreeValue(xmlval)

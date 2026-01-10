@@ -11,5 +11,5 @@
      000064: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: value  
 */
 struct XmlSchemaWildcardNs
-    var _next: NullablePointer[XmlSchemaWildcardNs] = NullablePointer[XmlSchemaWildcardNs].none()
-  _value: Pointer[U8] = Pointer[U8]
+  var next: NullablePointer[XmlSchemaWildcardNs] = NullablePointer[XmlSchemaWildcardNs].none()
+  var value: Pointer[U8] = Pointer[U8]

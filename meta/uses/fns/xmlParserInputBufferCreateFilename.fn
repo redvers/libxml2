@@ -10,5 +10,5 @@
     [PointerType size=64]->[FundamentalType(char) size=8]
     [Enumeration size=32,fid: f42]
 */
-  fun xmlParserInputBufferCreateFilename(URI: String, enc: I32): NullablePointer[XmlParserInputBuffer] =>
-    @xmlParserInputBufferCreateFilename(URI.cstring(), enc)
+  fun xmlParserInputBufferCreateFilename(uRI: String, enc: I32): NullablePointer[XmlParserInputBuffer] =>
+    @xmlParserInputBufferCreateFilename(uRI.cstring(), enc)

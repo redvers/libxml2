@@ -7,5 +7,5 @@
   Arguments:
     [Enumeration size=32,fid: f77]
 */
-use @xmlSchemaGetBuiltInType[NullablePointer[XmlSchemaType]](type: I32)
+use @xmlSchemaGetBuiltInType[NullablePointer[XmlSchemaType]](xmltype: I32)
 

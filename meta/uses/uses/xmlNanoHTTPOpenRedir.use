@@ -9,5 +9,5 @@
     [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
     [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
 */
-use @xmlNanoHTTPOpenRedir[Pointer[None]](URL: Pointer[U8] tag, contentType: Pointer[Pointer[U8]] tag, redir: Pointer[Pointer[U8]] tag)
+use @xmlNanoHTTPOpenRedir[Pointer[None]](uRL: Pointer[U8] tag, contentType: Pointer[Pointer[U8]] tag, redir: Pointer[Pointer[U8]] tag)
 

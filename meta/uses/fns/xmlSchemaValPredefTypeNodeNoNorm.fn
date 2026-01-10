@@ -12,5 +12,5 @@
     [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f77]
     [PointerType size=64]->[Struct size=960,fid: f16]
 */
-  fun xmlSchemaValPredefTypeNodeNoNorm(type: NullablePointer[XmlSchemaType] tag, value: String, val: Pointer[NullablePointer[XmlSchemaVal]] tag, node: NullablePointer[XmlNode] tag): I32 =>
-    @xmlSchemaValPredefTypeNodeNoNorm(type, value.cstring(), val, node)
+  fun xmlSchemaValPredefTypeNodeNoNorm(xmltype: NullablePointer[XmlSchemaType] tag, value: String, xmlval: Pointer[NullablePointer[XmlSchemaVal]] tag, node: NullablePointer[XmlNode] tag): I32 =>
+    @xmlSchemaValPredefTypeNodeNoNorm(xmltype, value.cstring(), xmlval, node)

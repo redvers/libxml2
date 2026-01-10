@@ -8,5 +8,5 @@
     [PointerType size=64]->[FundamentalType(void) size=0]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @xmlCatalogLocalResolveURI[Pointer[U8]](catalogs: Pointer[None] tag, URI: Pointer[U8] tag)
+use @xmlCatalogLocalResolveURI[Pointer[U8]](catalogs: Pointer[None] tag, uRI: Pointer[U8] tag)
 

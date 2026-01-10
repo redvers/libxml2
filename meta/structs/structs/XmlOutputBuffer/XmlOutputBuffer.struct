@@ -17,11 +17,11 @@
      000416: [FundamentalType(int) size=32]: error  
 */
 struct XmlOutputBuffer
-    var _context: Pointer[None] = Pointer[None]
-    var _writecallback: Pointer[None] = Pointer[None]
-    var _closecallback: Pointer[None] = Pointer[None]
-    var _encoder: NullablePointer[XmlCharEncodingHandler] = NullablePointer[XmlCharEncodingHandler].none()
-    var _buffer: NullablePointer[XmlBuf] = NullablePointer[XmlBuf].none()
-    var _conv: NullablePointer[XmlBuf] = NullablePointer[XmlBuf].none()
-    var _written: I32 = I32(0)
-    var _error: I32 = I32(0)
+  var context: Pointer[None] = Pointer[None]
+  var writecallback: Pointer[None] = Pointer[None]
+  var closecallback: Pointer[None] = Pointer[None]
+  var encoder: NullablePointer[XmlCharEncodingHandler] = NullablePointer[XmlCharEncodingHandler].none()
+  var buffer: NullablePointer[XmlBuf] = NullablePointer[XmlBuf].none()
+  var conv: NullablePointer[XmlBuf] = NullablePointer[XmlBuf].none()
+  var written: I32 = I32(0)
+  var xmlerror: I32 = I32(0)

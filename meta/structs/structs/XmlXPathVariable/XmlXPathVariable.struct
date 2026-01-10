@@ -11,5 +11,5 @@
      000064: [PointerType size=64]->[Struct size=576,fid: f65]: value  
 */
 struct XmlXPathVariable
-  _name: Pointer[U8] = Pointer[U8]
-    var _value: NullablePointer[XmlXPathObject] = NullablePointer[XmlXPathObject].none()
+  var name: Pointer[U8] = Pointer[U8]
+  var value: NullablePointer[XmlXPathObject] = NullablePointer[XmlXPathObject].none()

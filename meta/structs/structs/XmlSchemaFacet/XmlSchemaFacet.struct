@@ -19,13 +19,13 @@
      000512: [PointerType size=64]->[Struct size=,fid: f19]: regexp  
 */
 struct XmlSchemaFacet
-    var _type: I32 = I32(0)
-    var _next: NullablePointer[XmlSchemaFacet] = NullablePointer[XmlSchemaFacet].none()
-  _value: Pointer[U8] = Pointer[U8]
-  _id: Pointer[U8] = Pointer[U8]
-    var _annot: NullablePointer[XmlSchemaAnnot] = NullablePointer[XmlSchemaAnnot].none()
-    var _node: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _fixed: I32 = I32(0)
-    var _whitespace: I32 = I32(0)
-    var _val: NullablePointer[XmlSchemaVal] = NullablePointer[XmlSchemaVal].none()
-    var _regexp: NullablePointer[XmlRegexp] = NullablePointer[XmlRegexp].none()
+  var xmltype: I32 = I32(0)
+  var next: NullablePointer[XmlSchemaFacet] = NullablePointer[XmlSchemaFacet].none()
+  var value: Pointer[U8] = Pointer[U8]
+  var id: Pointer[U8] = Pointer[U8]
+  var annot: NullablePointer[XmlSchemaAnnot] = NullablePointer[XmlSchemaAnnot].none()
+  var node: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var fixed: I32 = I32(0)
+  var whitespace: I32 = I32(0)
+  var xmlval: NullablePointer[XmlSchemaVal] = NullablePointer[XmlSchemaVal].none()
+  var regexp: NullablePointer[XmlRegexp] = NullablePointer[XmlRegexp].none()

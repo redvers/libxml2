@@ -15,5 +15,5 @@
     [FundamentalType(int) size=32]
     [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @xmlSAX2StartElementNs[None](ctx: Pointer[None] tag, localname: Pointer[U8] tag, prefix: Pointer[U8] tag, URI: Pointer[U8] tag, nbnamespaces: I32, namespaces: Pointer[Pointer[U8]] tag, nbattributes: I32, nbdefaulted: I32, attributes: Pointer[Pointer[U8]] tag)
+use @xmlSAX2StartElementNs[None](ctx: Pointer[None] tag, localname: Pointer[U8] tag, prefix: Pointer[U8] tag, uRI: Pointer[U8] tag, nbnamespaces: I32, namespaces: Pointer[Pointer[U8]] tag, nbattributes: I32, nbdefaulted: I32, attributes: Pointer[Pointer[U8]] tag)
 

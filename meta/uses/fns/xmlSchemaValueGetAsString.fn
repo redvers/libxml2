@@ -9,7 +9,7 @@
   Arguments:
     [PointerType size=64]->[Struct size=,fid: f77]
 */
-  fun xmlSchemaValueGetAsString(val: NullablePointer[XmlSchemaVal] tag): String =>
-    var pcstring: Pointer[U8] =  @xmlSchemaValueGetAsString(val)
+  fun xmlSchemaValueGetAsString(xmlval: NullablePointer[XmlSchemaVal] tag): String =>
+    var pcstring: Pointer[U8] =  @xmlSchemaValueGetAsString(xmlval)
     let p: String iso = String.from_cstring(pcstring).clone()
     consume p

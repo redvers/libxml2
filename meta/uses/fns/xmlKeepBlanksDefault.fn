@@ -9,5 +9,5 @@
   Arguments:
     [FundamentalType(int) size=32]
 */
-  fun xmlKeepBlanksDefault(val: I32): I32 =>
-    @xmlKeepBlanksDefault(val)
+  fun xmlKeepBlanksDefault(xmlval: I32): I32 =>
+    @xmlKeepBlanksDefault(xmlval)

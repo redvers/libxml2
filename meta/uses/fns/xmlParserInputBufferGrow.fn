@@ -10,5 +10,5 @@
     [PointerType size=64]->[Struct size=512,fid: f15]
     [FundamentalType(int) size=32]
 */
-  fun xmlParserInputBufferGrow(in: NullablePointer[XmlParserInputBuffer] tag, len: I32): I32 =>
-    @xmlParserInputBufferGrow(in, len)
+  fun xmlParserInputBufferGrow(xmlin: NullablePointer[XmlParserInputBuffer] tag, len: I32): I32 =>
+    @xmlParserInputBufferGrow(xmlin, len)

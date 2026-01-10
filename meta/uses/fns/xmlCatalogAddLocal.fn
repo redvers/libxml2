@@ -10,5 +10,5 @@
     [PointerType size=64]->[FundamentalType(void) size=0]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlCatalogAddLocal(catalogs: Pointer[None] tag, URL: String): Pointer[None] =>
-    @xmlCatalogAddLocal(catalogs, URL.cstring())
+  fun xmlCatalogAddLocal(catalogs: Pointer[None] tag, uRL: String): Pointer[None] =>
+    @xmlCatalogAddLocal(catalogs, uRL.cstring())

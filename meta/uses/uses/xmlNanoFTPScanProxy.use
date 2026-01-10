@@ -7,5 +7,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-use @xmlNanoFTPScanProxy[None](URL: Pointer[U8] tag)
+use @xmlNanoFTPScanProxy[None](uRL: Pointer[U8] tag)
 

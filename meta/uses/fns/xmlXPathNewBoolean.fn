@@ -9,5 +9,5 @@
   Arguments:
     [FundamentalType(int) size=32]
 */
-  fun xmlXPathNewBoolean(val: I32): NullablePointer[XmlXPathObject] =>
-    @xmlXPathNewBoolean(val)
+  fun xmlXPathNewBoolean(xmlval: I32): NullablePointer[XmlXPathObject] =>
+    @xmlXPathNewBoolean(xmlval)

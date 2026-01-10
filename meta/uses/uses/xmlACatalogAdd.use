@@ -10,5 +10,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @xmlACatalogAdd[I32](catal: NullablePointer[XmlCatalog] tag, type: Pointer[U8] tag, orig: Pointer[U8] tag, replace: Pointer[U8] tag)
+use @xmlACatalogAdd[I32](catal: NullablePointer[XmlCatalog] tag, xmltype: Pointer[U8] tag, orig: Pointer[U8] tag, replace: Pointer[U8] tag)
 

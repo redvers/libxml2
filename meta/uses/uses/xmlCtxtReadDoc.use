@@ -11,5 +11,5 @@
     [PointerType size=64]->[FundamentalType(char) size=8]
     [FundamentalType(int) size=32]
 */
-use @xmlCtxtReadDoc[NullablePointer[XmlDoc]](ctxt: NullablePointer[XmlParserCtxt] tag, cur: Pointer[U8] tag, URL: Pointer[U8] tag, encoding: Pointer[U8] tag, options: I32)
+use @xmlCtxtReadDoc[NullablePointer[XmlDoc]](ctxt: NullablePointer[XmlParserCtxt] tag, cur: Pointer[U8] tag, uRL: Pointer[U8] tag, encoding: Pointer[U8] tag, options: I32)
 

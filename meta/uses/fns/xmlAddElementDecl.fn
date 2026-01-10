@@ -13,5 +13,5 @@
     [Enumeration size=32,fid: f16]
     [PointerType size=64]->[Struct size=384,fid: f16]
 */
-  fun xmlAddElementDecl(ctxt: NullablePointer[XmlValidCtxt] tag, dtd: NullablePointer[XmlDtd] tag, name: String, type: I32, content: NullablePointer[XmlElementContent] tag): NullablePointer[XmlElement] =>
-    @xmlAddElementDecl(ctxt, dtd, name.cstring(), type, content)
+  fun xmlAddElementDecl(ctxt: NullablePointer[XmlValidCtxt] tag, dtd: NullablePointer[XmlDtd] tag, name: String, xmltype: I32, content: NullablePointer[XmlElementContent] tag): NullablePointer[XmlElement] =>
+    @xmlAddElementDecl(ctxt, dtd, name.cstring(), xmltype, content)

@@ -8,5 +8,5 @@
     [PointerType size=64]->[Struct size=960,fid: f16]
     [PointerType size=64]->[Struct size=576,fid: f65]
 */
-use @xmlXPtrNewRangeNodeObject[NullablePointer[XmlXPathObject]](start: NullablePointer[XmlNode] tag, end: NullablePointer[XmlXPathObject] tag)
+use @xmlXPtrNewRangeNodeObject[NullablePointer[XmlXPathObject]](start: NullablePointer[XmlNode] tag, xmlend: NullablePointer[XmlXPathObject] tag)
 

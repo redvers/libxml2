@@ -7,5 +7,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=1792,fid: f77]
 */
-use @xmlSchemaGetBuiltInListSimpleTypeItemType[NullablePointer[XmlSchemaType]](type: NullablePointer[XmlSchemaType] tag)
+use @xmlSchemaGetBuiltInListSimpleTypeItemType[NullablePointer[XmlSchemaType]](xmltype: NullablePointer[XmlSchemaType] tag)
 

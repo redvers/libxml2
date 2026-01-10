@@ -9,5 +9,5 @@
   Arguments:
     [FundamentalType(int) size=32]
 */
-  fun xmlPedanticParserDefault(val: I32): I32 =>
-    @xmlPedanticParserDefault(val)
+  fun xmlPedanticParserDefault(xmlval: I32): I32 =>
+    @xmlPedanticParserDefault(xmlval)

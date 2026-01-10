@@ -7,5 +7,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=1792,fid: f77]
 */
-use @xmlSchemaFreeType[None](type: NullablePointer[XmlSchemaType] tag)
+use @xmlSchemaFreeType[None](xmltype: NullablePointer[XmlSchemaType] tag)
 

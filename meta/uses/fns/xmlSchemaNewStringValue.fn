@@ -10,5 +10,5 @@
     [Enumeration size=32,fid: f77]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlSchemaNewStringValue(type: I32, value: String): NullablePointer[XmlSchemaVal] =>
-    @xmlSchemaNewStringValue(type, value.cstring())
+  fun xmlSchemaNewStringValue(xmltype: I32, value: String): NullablePointer[XmlSchemaVal] =>
+    @xmlSchemaNewStringValue(xmltype, value.cstring())

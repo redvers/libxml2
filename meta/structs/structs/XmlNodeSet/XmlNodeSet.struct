@@ -12,6 +12,6 @@
      000064: [PointerType size=64]->[PointerType size=64]->[Struct size=960,fid: f16]: nodeTab  
 */
 struct XmlNodeSet
-    var _nodeNr: I32 = I32(0)
-    var _nodeMax: I32 = I32(0)
-    var _nodeTab: Pointer[NullablePointer[XmlNode]] = Pointer[NullablePointer[XmlNode]]
+  var nodeNr: I32 = I32(0)
+  var nodeMax: I32 = I32(0)
+  var nodeTab: Pointer[NullablePointer[XmlNode]] = Pointer[NullablePointer[XmlNode]]

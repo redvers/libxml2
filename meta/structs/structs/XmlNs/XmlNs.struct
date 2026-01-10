@@ -15,9 +15,9 @@
      000320: [PointerType size=64]->[Struct size=1408,fid: f16]: context  
 */
 struct XmlNs
-    var _next: NullablePointer[XmlNs] = NullablePointer[XmlNs].none()
-    var _type: I32 = I32(0)
-  _href: Pointer[U8] = Pointer[U8]
-  _prefix: Pointer[U8] = Pointer[U8]
-    var __private: Pointer[None] = Pointer[None]
-    var _context: NullablePointer[XmlDoc] = NullablePointer[XmlDoc].none()
+  var next: NullablePointer[XmlNs] = NullablePointer[XmlNs].none()
+  var xmltype: I32 = I32(0)
+  var href: Pointer[U8] = Pointer[U8]
+  var prefix: Pointer[U8] = Pointer[U8]
+  var private: Pointer[None] = Pointer[None]
+  var context: NullablePointer[XmlDoc] = NullablePointer[XmlDoc].none()

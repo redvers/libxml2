@@ -16,10 +16,10 @@
      000320: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: prefix  
 */
 struct XmlElementContent
-    var _type: I32 = I32(0)
-    var _ocur: I32 = I32(0)
-  _name: Pointer[U8] = Pointer[U8]
-    var _c1: NullablePointer[XmlElementContent] = NullablePointer[XmlElementContent].none()
-    var _c2: NullablePointer[XmlElementContent] = NullablePointer[XmlElementContent].none()
-    var _parent: NullablePointer[XmlElementContent] = NullablePointer[XmlElementContent].none()
-  _prefix: Pointer[U8] = Pointer[U8]
+  var xmltype: I32 = I32(0)
+  var ocur: I32 = I32(0)
+  var name: Pointer[U8] = Pointer[U8]
+  var c1: NullablePointer[XmlElementContent] = NullablePointer[XmlElementContent].none()
+  var c2: NullablePointer[XmlElementContent] = NullablePointer[XmlElementContent].none()
+  var parent: NullablePointer[XmlElementContent] = NullablePointer[XmlElementContent].none()
+  var prefix: Pointer[U8] = Pointer[U8]

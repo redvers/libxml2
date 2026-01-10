@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=576,fid: f65]
 */
-  fun xmlXPathCastToNumber(val: NullablePointer[XmlXPathObject] tag): F64 =>
-    @xmlXPathCastToNumber(val)
+  fun xmlXPathCastToNumber(xmlval: NullablePointer[XmlXPathObject] tag): F64 =>
+    @xmlXPathCastToNumber(xmlval)

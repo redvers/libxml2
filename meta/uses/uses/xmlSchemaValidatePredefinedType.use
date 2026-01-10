@@ -9,5 +9,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f77]
 */
-use @xmlSchemaValidatePredefinedType[I32](type: NullablePointer[XmlSchemaType] tag, value: Pointer[U8] tag, val: Pointer[NullablePointer[XmlSchemaVal]] tag)
+use @xmlSchemaValidatePredefinedType[I32](xmltype: NullablePointer[XmlSchemaType] tag, value: Pointer[U8] tag, xmlval: Pointer[NullablePointer[XmlSchemaVal]] tag)
 

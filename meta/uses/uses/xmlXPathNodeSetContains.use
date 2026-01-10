@@ -8,5 +8,5 @@
     [PointerType size=64]->[Struct size=128,fid: f65]
     [PointerType size=64]->[Struct size=960,fid: f16]
 */
-use @xmlXPathNodeSetContains[I32](cur: NullablePointer[XmlNodeSet] tag, val: NullablePointer[XmlNode] tag)
+use @xmlXPathNodeSetContains[I32](cur: NullablePointer[XmlNodeSet] tag, xmlval: NullablePointer[XmlNode] tag)
 

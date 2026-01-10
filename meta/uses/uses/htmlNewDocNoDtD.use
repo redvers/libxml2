@@ -8,5 +8,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @htmlNewDocNoDtD[NullablePointer[XmlDoc]](URI: Pointer[U8] tag, ExternalID: Pointer[U8] tag)
+use @htmlNewDocNoDtD[NullablePointer[XmlDoc]](uRI: Pointer[U8] tag, externalID: Pointer[U8] tag)
 

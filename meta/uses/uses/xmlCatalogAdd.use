@@ -9,5 +9,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @xmlCatalogAdd[I32](type: Pointer[U8] tag, orig: Pointer[U8] tag, replace: Pointer[U8] tag)
+use @xmlCatalogAdd[I32](xmltype: Pointer[U8] tag, orig: Pointer[U8] tag, replace: Pointer[U8] tag)
 

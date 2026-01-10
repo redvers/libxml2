@@ -8,5 +8,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [Enumeration size=32,fid: f16]
 */
-use @xmlNewElementContent[NullablePointer[XmlElementContent]](name: Pointer[U8] tag, type: I32)
+use @xmlNewElementContent[NullablePointer[XmlElementContent]](name: Pointer[U8] tag, xmltype: I32)
 

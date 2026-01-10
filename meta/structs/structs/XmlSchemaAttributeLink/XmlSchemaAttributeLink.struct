@@ -11,5 +11,5 @@
      000064: [PointerType size=64]->[Struct size=1216,fid: f77]: attr  
 */
 struct XmlSchemaAttributeLink
-    var _next: NullablePointer[XmlSchemaAttributeLink] = NullablePointer[XmlSchemaAttributeLink].none()
-    var _attr: NullablePointer[XmlSchemaAttribute] = NullablePointer[XmlSchemaAttribute].none()
+  var next: NullablePointer[XmlSchemaAttributeLink] = NullablePointer[XmlSchemaAttributeLink].none()
+  var attr: NullablePointer[XmlSchemaAttribute] = NullablePointer[XmlSchemaAttribute].none()

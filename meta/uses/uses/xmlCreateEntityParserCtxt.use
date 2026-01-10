@@ -9,5 +9,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @xmlCreateEntityParserCtxt[NullablePointer[XmlParserCtxt]](URL: Pointer[U8] tag, ID: Pointer[U8] tag, base: Pointer[U8] tag)
+use @xmlCreateEntityParserCtxt[NullablePointer[XmlParserCtxt]](uRL: Pointer[U8] tag, iD: Pointer[U8] tag, base: Pointer[U8] tag)
 

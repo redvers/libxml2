@@ -10,5 +10,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @xmlSAX2InternalSubset[None](ctx: Pointer[None] tag, name: Pointer[U8] tag, ExternalID: Pointer[U8] tag, SystemID: Pointer[U8] tag)
+use @xmlSAX2InternalSubset[None](ctx: Pointer[None] tag, name: Pointer[U8] tag, externalID: Pointer[U8] tag, systemID: Pointer[U8] tag)
 

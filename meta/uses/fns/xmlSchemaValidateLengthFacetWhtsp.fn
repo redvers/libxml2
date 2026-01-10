@@ -14,5 +14,5 @@
     [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
     [Enumeration size=32,fid: f85]
 */
-  fun xmlSchemaValidateLengthFacetWhtsp(facet: NullablePointer[XmlSchemaFacet] tag, valType: I32, value: String, val: NullablePointer[XmlSchemaVal] tag, length: Pointer[U64] tag, ws: I32): I32 =>
-    @xmlSchemaValidateLengthFacetWhtsp(facet, valType, value.cstring(), val, length, ws)
+  fun xmlSchemaValidateLengthFacetWhtsp(facet: NullablePointer[XmlSchemaFacet] tag, valType: I32, value: String, xmlval: NullablePointer[XmlSchemaVal] tag, length: Pointer[U64] tag, ws: I32): I32 =>
+    @xmlSchemaValidateLengthFacetWhtsp(facet, valType, value.cstring(), xmlval, length, ws)

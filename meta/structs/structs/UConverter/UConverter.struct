@@ -1,0 +1,11 @@
+
+
+/*
+  Source: /usr/include/unicode/ucnv_err.h:93
+  Original Name: UConverter
+  Struct Size (bits):  
+  Struct Align (bits): 
+
+  Fields (Offset in bits):
+*/
+struct UConverter

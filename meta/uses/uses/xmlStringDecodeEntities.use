@@ -12,5 +12,5 @@
     [FundamentalType(unsigned char) size=8]
     [FundamentalType(unsigned char) size=8]
 */
-use @xmlStringDecodeEntities[Pointer[U8]](ctxt: NullablePointer[XmlParserCtxt] tag, str: Pointer[U8] tag, what: I32, end: U8, end2: U8, end3: U8)
+use @xmlStringDecodeEntities[Pointer[U8]](ctxt: NullablePointer[XmlParserCtxt] tag, str: Pointer[U8] tag, what: I32, xmlend: U8, end2: U8, end3: U8)
 

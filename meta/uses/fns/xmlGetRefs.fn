@@ -10,5 +10,5 @@
     [PointerType size=64]->[Struct size=1408,fid: f16]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlGetRefs(doc: NullablePointer[XmlDoc] tag, ID: String): NullablePointer[XmlList] =>
-    @xmlGetRefs(doc, ID.cstring())
+  fun xmlGetRefs(doc: NullablePointer[XmlDoc] tag, iD: String): NullablePointer[XmlList] =>
+    @xmlGetRefs(doc, iD.cstring())

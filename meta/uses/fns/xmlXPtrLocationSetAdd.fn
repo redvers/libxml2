@@ -10,5 +10,5 @@
     [PointerType size=64]->[Struct size=128,fid: f89]
     [PointerType size=64]->[Struct size=576,fid: f65]
 */
-  fun xmlXPtrLocationSetAdd(cur: NullablePointer[XmlLocationSet] tag, val: NullablePointer[XmlXPathObject] tag): None =>
-    @xmlXPtrLocationSetAdd(cur, val)
+  fun xmlXPtrLocationSetAdd(cur: NullablePointer[XmlLocationSet] tag, xmlval: NullablePointer[XmlXPathObject] tag): None =>
+    @xmlXPtrLocationSetAdd(cur, xmlval)

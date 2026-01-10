@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=128,fid: f89]
 */
-  fun xmlXPtrWrapLocationSet(val: NullablePointer[XmlLocationSet] tag): NullablePointer[XmlXPathObject] =>
-    @xmlXPtrWrapLocationSet(val)
+  fun xmlXPtrWrapLocationSet(xmlval: NullablePointer[XmlLocationSet] tag): NullablePointer[XmlXPathObject] =>
+    @xmlXPtrWrapLocationSet(xmlval)

@@ -12,6 +12,6 @@
      000128: [PointerType size=64]->[FundamentalType(char) size=8]: desc  
 */
 struct HtmlEntityDesc
-    var _value: U32 = U32(0)
-  _name: Pointer[U8] = Pointer[U8]
-  _desc: Pointer[U8] = Pointer[U8]
+  var value: U32 = U32(0)
+  var name: Pointer[U8] = Pointer[U8]
+  var desc: Pointer[U8] = Pointer[U8]

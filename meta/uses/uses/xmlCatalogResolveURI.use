@@ -7,5 +7,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @xmlCatalogResolveURI[Pointer[U8]](URI: Pointer[U8] tag)
+use @xmlCatalogResolveURI[Pointer[U8]](uRI: Pointer[U8] tag)
 

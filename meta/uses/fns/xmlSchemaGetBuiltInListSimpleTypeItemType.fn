@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=1792,fid: f77]
 */
-  fun xmlSchemaGetBuiltInListSimpleTypeItemType(type: NullablePointer[XmlSchemaType] tag): NullablePointer[XmlSchemaType] =>
-    @xmlSchemaGetBuiltInListSimpleTypeItemType(type)
+  fun xmlSchemaGetBuiltInListSimpleTypeItemType(xmltype: NullablePointer[XmlSchemaType] tag): NullablePointer[XmlSchemaType] =>
+    @xmlSchemaGetBuiltInListSimpleTypeItemType(xmltype)

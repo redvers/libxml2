@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=512,fid: f15]
 */
-  fun xmlFreeParserInputBuffer(in: NullablePointer[XmlParserInputBuffer] tag): None =>
-    @xmlFreeParserInputBuffer(in)
+  fun xmlFreeParserInputBuffer(xmlin: NullablePointer[XmlParserInputBuffer] tag): None =>
+    @xmlFreeParserInputBuffer(xmlin)

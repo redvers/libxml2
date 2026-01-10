@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-  fun xmlXPathWrapCString(val: String): NullablePointer[XmlXPathObject] =>
-    @xmlXPathWrapCString(val.cstring())
+  fun xmlXPathWrapCString(xmlval: String): NullablePointer[XmlXPathObject] =>
+    @xmlXPathWrapCString(xmlval.cstring())

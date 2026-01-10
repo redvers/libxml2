@@ -7,5 +7,5 @@
   Arguments:
     [FundamentalType(int) size=32]
 */
-use @xmlPedanticParserDefault[I32](val: I32)
+use @xmlPedanticParserDefault[I32](xmlval: I32)
 

@@ -14,5 +14,5 @@
     [PointerType size=64]->[FundamentalType(char) size=8]
     [FundamentalType(int) size=32]
 */
-  fun htmlCtxtReadMemory(ctxt: NullablePointer[XmlParserCtxt] tag, buffer: String, size: I32, URL: String, encoding: String, options: I32): NullablePointer[XmlDoc] =>
-    @htmlCtxtReadMemory(ctxt, buffer.cstring(), size, URL.cstring(), encoding.cstring(), options)
+  fun htmlCtxtReadMemory(ctxt: NullablePointer[XmlParserCtxt] tag, buffer: String, size: I32, uRL: String, encoding: String, options: I32): NullablePointer[XmlDoc] =>
+    @htmlCtxtReadMemory(ctxt, buffer.cstring(), size, uRL.cstring(), encoding.cstring(), options)

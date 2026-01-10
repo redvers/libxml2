@@ -8,5 +8,5 @@
     [PointerType size=64]->[Struct size=128,fid: f65]
     [FundamentalType(int) size=32]
 */
-use @xmlXPathNodeSetRemove[None](cur: NullablePointer[XmlNodeSet] tag, val: I32)
+use @xmlXPathNodeSetRemove[None](cur: NullablePointer[XmlNodeSet] tag, xmlval: I32)
 

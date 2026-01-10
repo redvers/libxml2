@@ -13,7 +13,7 @@
      000192: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: getNsForNodeFunc  
 */
 struct XmlDOMWrapCtxt
-    var __private: Pointer[None] = Pointer[None]
-    var _type: I32 = I32(0)
-    var _namespaceMap: Pointer[None] = Pointer[None]
-    var _getNsForNodeFunc: Pointer[None] = Pointer[None]
+  var private: Pointer[None] = Pointer[None]
+  var xmltype: I32 = I32(0)
+  var namespaceMap: Pointer[None] = Pointer[None]
+  var getNsForNodeFunc: Pointer[None] = Pointer[None]

@@ -16,10 +16,10 @@
      000384: [PointerType size=64]->[Struct size=16640,fid: f42]: uconv_out  
 */
 struct XmlCharEncodingHandler
-  _name: Pointer[U8] = Pointer[U8]
-    var _input: Pointer[None] = Pointer[None]
-    var _output: Pointer[None] = Pointer[None]
-    var _iconv_in: Pointer[None] = Pointer[None]
-    var _iconv_out: Pointer[None] = Pointer[None]
-    var _uconv_in: NullablePointer[Uconvt] = NullablePointer[Uconvt].none()
-    var _uconv_out: NullablePointer[Uconvt] = NullablePointer[Uconvt].none()
+  var name: Pointer[U8] = Pointer[U8]
+  var input: Pointer[None] = Pointer[None]
+  var output: Pointer[None] = Pointer[None]
+  var iconv_in: Pointer[None] = Pointer[None]
+  var iconv_out: Pointer[None] = Pointer[None]
+  var uconv_in: NullablePointer[Uconvt] = NullablePointer[Uconvt].none()
+  var uconv_out: NullablePointer[Uconvt] = NullablePointer[Uconvt].none()

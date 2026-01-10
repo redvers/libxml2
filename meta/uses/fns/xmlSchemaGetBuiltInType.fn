@@ -9,5 +9,5 @@
   Arguments:
     [Enumeration size=32,fid: f77]
 */
-  fun xmlSchemaGetBuiltInType(type: I32): NullablePointer[XmlSchemaType] =>
-    @xmlSchemaGetBuiltInType(type)
+  fun xmlSchemaGetBuiltInType(xmltype: I32): NullablePointer[XmlSchemaType] =>
+    @xmlSchemaGetBuiltInType(xmltype)

@@ -10,5 +10,5 @@
     [PointerType size=64]->[Struct size=1792,fid: f77]
     [FundamentalType(int) size=32]
 */
-  fun xmlSchemaIsBuiltInTypeFacet(type: NullablePointer[XmlSchemaType] tag, facetType: I32): I32 =>
-    @xmlSchemaIsBuiltInTypeFacet(type, facetType)
+  fun xmlSchemaIsBuiltInTypeFacet(xmltype: NullablePointer[XmlSchemaType] tag, facetType: I32): I32 =>
+    @xmlSchemaIsBuiltInTypeFacet(xmltype, facetType)

@@ -12,5 +12,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlNewDtd(doc: NullablePointer[XmlDoc] tag, name: String, ExternalID: String, SystemID: String): NullablePointer[XmlDtd] =>
-    @xmlNewDtd(doc, name.cstring(), ExternalID.cstring(), SystemID.cstring())
+  fun xmlNewDtd(doc: NullablePointer[XmlDoc] tag, name: String, externalID: String, systemID: String): NullablePointer[XmlDtd] =>
+    @xmlNewDtd(doc, name.cstring(), externalID.cstring(), systemID.cstring())

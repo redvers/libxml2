@@ -7,5 +7,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=,fid: f77]
 */
-use @xmlSchemaValueGetAsString[Pointer[U8]](val: NullablePointer[XmlSchemaVal] tag)
+use @xmlSchemaValueGetAsString[Pointer[U8]](xmlval: NullablePointer[XmlSchemaVal] tag)
 

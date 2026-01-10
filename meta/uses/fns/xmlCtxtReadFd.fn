@@ -13,5 +13,5 @@
     [PointerType size=64]->[FundamentalType(char) size=8]
     [FundamentalType(int) size=32]
 */
-  fun xmlCtxtReadFd(ctxt: NullablePointer[XmlParserCtxt] tag, fd: I32, URL: String, encoding: String, options: I32): NullablePointer[XmlDoc] =>
-    @xmlCtxtReadFd(ctxt, fd, URL.cstring(), encoding.cstring(), options)
+  fun xmlCtxtReadFd(ctxt: NullablePointer[XmlParserCtxt] tag, fd: I32, uRL: String, encoding: String, options: I32): NullablePointer[XmlDoc] =>
+    @xmlCtxtReadFd(ctxt, fd, uRL.cstring(), encoding.cstring(), options)

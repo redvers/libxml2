@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-  fun xmlNanoHTTPScanProxy(URL: String): None =>
-    @xmlNanoHTTPScanProxy(URL.cstring())
+  fun xmlNanoHTTPScanProxy(uRL: String): None =>
+    @xmlNanoHTTPScanProxy(uRL.cstring())

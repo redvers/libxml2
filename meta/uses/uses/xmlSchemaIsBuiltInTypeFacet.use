@@ -8,5 +8,5 @@
     [PointerType size=64]->[Struct size=1792,fid: f77]
     [FundamentalType(int) size=32]
 */
-use @xmlSchemaIsBuiltInTypeFacet[I32](type: NullablePointer[XmlSchemaType] tag, facetType: I32)
+use @xmlSchemaIsBuiltInTypeFacet[I32](xmltype: NullablePointer[XmlSchemaType] tag, facetType: I32)
 

@@ -7,5 +7,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-use @xmlNewTextReaderFilename[NullablePointer[XmlTextReader]](URI: Pointer[U8] tag)
+use @xmlNewTextReaderFilename[NullablePointer[XmlTextReader]](uRI: Pointer[U8] tag)
 

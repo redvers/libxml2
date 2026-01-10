@@ -10,5 +10,5 @@
     [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f77]
     [PointerType size=64]->[Struct size=960,fid: f16]
 */
-use @xmlSchemaValPredefTypeNode[I32](type: NullablePointer[XmlSchemaType] tag, value: Pointer[U8] tag, val: Pointer[NullablePointer[XmlSchemaVal]] tag, node: NullablePointer[XmlNode] tag)
+use @xmlSchemaValPredefTypeNode[I32](xmltype: NullablePointer[XmlSchemaType] tag, value: Pointer[U8] tag, xmlval: Pointer[NullablePointer[XmlSchemaVal]] tag, node: NullablePointer[XmlNode] tag)
 

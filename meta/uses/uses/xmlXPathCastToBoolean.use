@@ -7,5 +7,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=576,fid: f65]
 */
-use @xmlXPathCastToBoolean[I32](val: NullablePointer[XmlXPathObject] tag)
+use @xmlXPathCastToBoolean[I32](xmlval: NullablePointer[XmlXPathObject] tag)
 

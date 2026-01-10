@@ -7,5 +7,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-use @xmlNanoFTPNewCtxt[Pointer[None]](URL: Pointer[U8] tag)
+use @xmlNanoFTPNewCtxt[Pointer[None]](uRL: Pointer[U8] tag)
 

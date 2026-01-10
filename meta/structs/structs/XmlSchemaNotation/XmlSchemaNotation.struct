@@ -14,8 +14,8 @@
      000256: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: targetNamespace  
 */
 struct XmlSchemaNotation
-    var _type: I32 = I32(0)
-  _name: Pointer[U8] = Pointer[U8]
-    var _annot: NullablePointer[XmlSchemaAnnot] = NullablePointer[XmlSchemaAnnot].none()
-  _identifier: Pointer[U8] = Pointer[U8]
-  _targetNamespace: Pointer[U8] = Pointer[U8]
+  var xmltype: I32 = I32(0)
+  var name: Pointer[U8] = Pointer[U8]
+  var annot: NullablePointer[XmlSchemaAnnot] = NullablePointer[XmlSchemaAnnot].none()
+  var identifier: Pointer[U8] = Pointer[U8]
+  var targetNamespace: Pointer[U8] = Pointer[U8]

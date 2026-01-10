@@ -9,5 +9,5 @@
   Arguments:
     [FundamentalType(int) size=32]
 */
-  fun htmlHandleOmittedElem(val: I32): I32 =>
-    @htmlHandleOmittedElem(val)
+  fun htmlHandleOmittedElem(xmlval: I32): I32 =>
+    @htmlHandleOmittedElem(xmlval)

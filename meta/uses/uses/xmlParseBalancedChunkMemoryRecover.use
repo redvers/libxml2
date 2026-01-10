@@ -13,5 +13,5 @@
     [PointerType size=64]->[PointerType size=64]->[Struct size=960,fid: f16]
     [FundamentalType(int) size=32]
 */
-use @xmlParseBalancedChunkMemoryRecover[I32](doc: NullablePointer[XmlDoc] tag, sax: NullablePointer[XmlSAXHandler] tag, userdata: Pointer[None] tag, depth: I32, string: Pointer[U8] tag, lst: Pointer[NullablePointer[XmlNode]] tag, recover: I32)
+use @xmlParseBalancedChunkMemoryRecover[I32](doc: NullablePointer[XmlDoc] tag, sax: NullablePointer[XmlSAXHandler] tag, userdata: Pointer[None] tag, depth: I32, string: Pointer[U8] tag, lst: Pointer[NullablePointer[XmlNode]] tag, xmlrecover: I32)
 

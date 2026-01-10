@@ -9,5 +9,5 @@
   Arguments:
     [FundamentalType(int) size=32]
 */
-  fun xmlLineNumbersDefault(val: I32): I32 =>
-    @xmlLineNumbersDefault(val)
+  fun xmlLineNumbersDefault(xmlval: I32): I32 =>
+    @xmlLineNumbersDefault(xmlval)

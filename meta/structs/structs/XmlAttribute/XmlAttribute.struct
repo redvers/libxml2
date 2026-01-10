@@ -25,19 +25,19 @@
      000896: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: elem  
 */
 struct XmlAttribute
-    var __private: Pointer[None] = Pointer[None]
-    var _type: I32 = I32(0)
-  _name: Pointer[U8] = Pointer[U8]
-    var _children: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _last: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _parent: NullablePointer[XmlDtd] = NullablePointer[XmlDtd].none()
-    var _next: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _prev: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _doc: NullablePointer[XmlDoc] = NullablePointer[XmlDoc].none()
-    var _nexth: NullablePointer[XmlAttribute] = NullablePointer[XmlAttribute].none()
-    var _atype: I32 = I32(0)
-    var _def: I32 = I32(0)
-  _defaultValue: Pointer[U8] = Pointer[U8]
-    var _tree: NullablePointer[XmlEnumeration] = NullablePointer[XmlEnumeration].none()
-  _prefix: Pointer[U8] = Pointer[U8]
-  _elem: Pointer[U8] = Pointer[U8]
+  var private: Pointer[None] = Pointer[None]
+  var xmltype: I32 = I32(0)
+  var name: Pointer[U8] = Pointer[U8]
+  var children: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var last: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var parent: NullablePointer[XmlDtd] = NullablePointer[XmlDtd].none()
+  var next: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var prev: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var doc: NullablePointer[XmlDoc] = NullablePointer[XmlDoc].none()
+  var nexth: NullablePointer[XmlAttribute] = NullablePointer[XmlAttribute].none()
+  var atype: I32 = I32(0)
+  var def: I32 = I32(0)
+  var defaultValue: Pointer[U8] = Pointer[U8]
+  var tree: NullablePointer[XmlEnumeration] = NullablePointer[XmlEnumeration].none()
+  var prefix: Pointer[U8] = Pointer[U8]
+  var elem: Pointer[U8] = Pointer[U8]

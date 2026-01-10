@@ -10,5 +10,5 @@
     [FundamentalType(int) size=32]
     [PointerType size=64]->[Struct size=384,fid: f16]
 */
-use @xmlSAX2ElementDecl[None](ctx: Pointer[None] tag, name: Pointer[U8] tag, type: I32, content: NullablePointer[XmlElementContent] tag)
+use @xmlSAX2ElementDecl[None](ctx: Pointer[None] tag, name: Pointer[U8] tag, xmltype: I32, content: NullablePointer[XmlElementContent] tag)
 

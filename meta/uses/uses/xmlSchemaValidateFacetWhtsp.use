@@ -12,5 +12,5 @@
     [PointerType size=64]->[Struct size=,fid: f77]
     [Enumeration size=32,fid: f85]
 */
-use @xmlSchemaValidateFacetWhtsp[I32](facet: NullablePointer[XmlSchemaFacet] tag, fws: I32, valType: I32, value: Pointer[U8] tag, val: NullablePointer[XmlSchemaVal] tag, ws: I32)
+use @xmlSchemaValidateFacetWhtsp[I32](facet: NullablePointer[XmlSchemaFacet] tag, fws: I32, valType: I32, value: Pointer[U8] tag, xmlval: NullablePointer[XmlSchemaVal] tag, ws: I32)
 

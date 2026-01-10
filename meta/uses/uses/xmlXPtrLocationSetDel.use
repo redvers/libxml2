@@ -8,5 +8,5 @@
     [PointerType size=64]->[Struct size=128,fid: f89]
     [PointerType size=64]->[Struct size=576,fid: f65]
 */
-use @xmlXPtrLocationSetDel[None](cur: NullablePointer[XmlLocationSet] tag, val: NullablePointer[XmlXPathObject] tag)
+use @xmlXPtrLocationSetDel[None](cur: NullablePointer[XmlLocationSet] tag, xmlval: NullablePointer[XmlXPathObject] tag)
 

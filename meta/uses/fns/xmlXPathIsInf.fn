@@ -9,5 +9,5 @@
   Arguments:
     [FundamentalType(double) size=64]
 */
-  fun xmlXPathIsInf(val: F64): I32 =>
-    @xmlXPathIsInf(val)
+  fun xmlXPathIsInf(xmlval: F64): I32 =>
+    @xmlXPathIsInf(xmlval)

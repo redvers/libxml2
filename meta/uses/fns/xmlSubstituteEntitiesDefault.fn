@@ -9,5 +9,5 @@
   Arguments:
     [FundamentalType(int) size=32]
 */
-  fun xmlSubstituteEntitiesDefault(val: I32): I32 =>
-    @xmlSubstituteEntitiesDefault(val)
+  fun xmlSubstituteEntitiesDefault(xmlval: I32): I32 =>
+    @xmlSubstituteEntitiesDefault(xmlval)

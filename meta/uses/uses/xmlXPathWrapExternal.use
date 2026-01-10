@@ -7,5 +7,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(void) size=0]
 */
-use @xmlXPathWrapExternal[NullablePointer[XmlXPathObject]](val: Pointer[None] tag)
+use @xmlXPathWrapExternal[NullablePointer[XmlXPathObject]](xmlval: Pointer[None] tag)
 

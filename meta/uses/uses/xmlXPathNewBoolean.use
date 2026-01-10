@@ -7,5 +7,5 @@
   Arguments:
     [FundamentalType(int) size=32]
 */
-use @xmlXPathNewBoolean[NullablePointer[XmlXPathObject]](val: I32)
+use @xmlXPathNewBoolean[NullablePointer[XmlXPathObject]](xmlval: I32)
 

@@ -12,5 +12,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @xmlSAX2EntityDecl[None](ctx: Pointer[None] tag, name: Pointer[U8] tag, type: I32, publicId: Pointer[U8] tag, systemId: Pointer[U8] tag, content: Pointer[U8] tag)
+use @xmlSAX2EntityDecl[None](ctx: Pointer[None] tag, name: Pointer[U8] tag, xmltype: I32, publicId: Pointer[U8] tag, systemId: Pointer[U8] tag, content: Pointer[U8] tag)
 

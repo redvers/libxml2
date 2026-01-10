@@ -11,5 +11,5 @@
     [PointerType size=64]->[Struct size=448,fid: f42]
     [FundamentalType(int) size=32]
 */
-  fun xmlOutputBufferCreateFilename(URI: String, encoder: NullablePointer[XmlCharEncodingHandler] tag, compression: I32): NullablePointer[XmlOutputBuffer] =>
-    @xmlOutputBufferCreateFilename(URI.cstring(), encoder, compression)
+  fun xmlOutputBufferCreateFilename(uRI: String, encoder: NullablePointer[XmlCharEncodingHandler] tag, compression: I32): NullablePointer[XmlOutputBuffer] =>
+    @xmlOutputBufferCreateFilename(uRI.cstring(), encoder, compression)

@@ -10,5 +10,5 @@
     [PointerType size=64]->[Struct size=256,fid: f16]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlBufferWriteCHAR(buf: NullablePointer[XmlBuffer] tag, string: String): None =>
+  fun xmlBufferWriteXmlChar(buf: NullablePointer[XmlBuffer] tag, string: String): None =>
     @xmlBufferWriteCHAR(buf, string.cstring())

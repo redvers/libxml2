@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun htmlTagLookup(tag: String): NullablePointer[HtmlElemDesc] =>
-    @htmlTagLookup(tag.cstring())
+  fun htmlTagLookup(xmltag: String): NullablePointer[HtmlElemDesc] =>
+    @htmlTagLookup(xmltag.cstring())

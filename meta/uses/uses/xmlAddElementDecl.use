@@ -11,5 +11,5 @@
     [Enumeration size=32,fid: f16]
     [PointerType size=64]->[Struct size=384,fid: f16]
 */
-use @xmlAddElementDecl[NullablePointer[XmlElement]](ctxt: NullablePointer[XmlValidCtxt] tag, dtd: NullablePointer[XmlDtd] tag, name: Pointer[U8] tag, type: I32, content: NullablePointer[XmlElementContent] tag)
+use @xmlAddElementDecl[NullablePointer[XmlElement]](ctxt: NullablePointer[XmlValidCtxt] tag, dtd: NullablePointer[XmlDtd] tag, name: Pointer[U8] tag, xmltype: I32, content: NullablePointer[XmlElementContent] tag)
 

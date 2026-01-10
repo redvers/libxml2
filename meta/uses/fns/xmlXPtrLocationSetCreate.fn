@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=576,fid: f65]
 */
-  fun xmlXPtrLocationSetCreate(val: NullablePointer[XmlXPathObject] tag): NullablePointer[XmlLocationSet] =>
-    @xmlXPtrLocationSetCreate(val)
+  fun xmlXPtrLocationSetCreate(xmlval: NullablePointer[XmlXPathObject] tag): NullablePointer[XmlLocationSet] =>
+    @xmlXPtrLocationSetCreate(xmlval)

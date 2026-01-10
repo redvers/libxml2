@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=576,fid: f65]
 */
-  fun xmlXPathConvertBoolean(val: NullablePointer[XmlXPathObject] tag): NullablePointer[XmlXPathObject] =>
-    @xmlXPathConvertBoolean(val)
+  fun xmlXPathConvertBoolean(xmlval: NullablePointer[XmlXPathObject] tag): NullablePointer[XmlXPathObject] =>
+    @xmlXPathConvertBoolean(xmlval)

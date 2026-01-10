@@ -7,5 +7,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @xmlXPathCastStringToNumber[F64](val: Pointer[U8] tag)
+use @xmlXPathCastStringToNumber[F64](xmlval: Pointer[U8] tag)
 

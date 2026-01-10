@@ -10,5 +10,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(int) size=32]
 */
-use @UTF8Toisolat1[I32](out: Pointer[U8] tag, outlen: Pointer[I32] tag, in: Pointer[U8] tag, inlen: Pointer[I32] tag)
+use @UTF8Toisolat1[I32](out: Pointer[U8] tag, outlen: Pointer[I32] tag, xmlin: Pointer[U8] tag, inlen: Pointer[I32] tag)
 

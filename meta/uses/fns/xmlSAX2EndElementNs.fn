@@ -12,5 +12,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlSAX2EndElementNs(ctx: Pointer[None] tag, localname: String, prefix: String, URI: String): None =>
-    @xmlSAX2EndElementNs(ctx, localname.cstring(), prefix.cstring(), URI.cstring())
+  fun xmlSAX2EndElementNs(ctx: Pointer[None] tag, localname: String, prefix: String, uRI: String): None =>
+    @xmlSAX2EndElementNs(ctx, localname.cstring(), prefix.cstring(), uRI.cstring())

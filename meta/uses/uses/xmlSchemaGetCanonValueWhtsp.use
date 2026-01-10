@@ -9,5 +9,5 @@
     [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [Enumeration size=32,fid: f85]
 */
-use @xmlSchemaGetCanonValueWhtsp[I32](val: NullablePointer[XmlSchemaVal] tag, retValue: Pointer[Pointer[U8]] tag, ws: I32)
+use @xmlSchemaGetCanonValueWhtsp[I32](xmlval: NullablePointer[XmlSchemaVal] tag, retValue: Pointer[Pointer[U8]] tag, ws: I32)
 

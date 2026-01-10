@@ -10,5 +10,5 @@
     [PointerType size=64]->[Struct size=128,fid: f65]
     [FundamentalType(int) size=32]
 */
-  fun xmlXPathNodeSetRemove(cur: NullablePointer[XmlNodeSet] tag, val: I32): None =>
-    @xmlXPathNodeSetRemove(cur, val)
+  fun xmlXPathNodeSetRemove(cur: NullablePointer[XmlNodeSet] tag, xmlval: I32): None =>
+    @xmlXPathNodeSetRemove(cur, xmlval)

@@ -1,4 +1,7 @@
 <renderstructs>
+  <renderstruct id="_863" render="UConverter"/><!-- UConverter f39 -->
+  <renderstruct id="_867" render="Anon867"/><!-- Anon867 f39 -->
+  <renderstruct id="_869" render="Anon869"/><!-- Anon869 f39 -->
   <renderstruct id="_223" render="XmlParserInputBuffer"/><!-- XmlParserInputBuffer f15 -->
   <renderstruct id="_226" render="XmlOutputBuffer"/><!-- XmlOutputBuffer f15 -->
   <renderstruct id="_246" render="XmlBuffer"/><!-- XmlBuffer f16 -->

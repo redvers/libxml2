@@ -12,5 +12,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[Struct size=,fid: f77]
 */
-  fun xmlSchemaValidateFacet(base: NullablePointer[XmlSchemaType] tag, facet: NullablePointer[XmlSchemaFacet] tag, value: String, val: NullablePointer[XmlSchemaVal] tag): I32 =>
-    @xmlSchemaValidateFacet(base, facet, value.cstring(), val)
+  fun xmlSchemaValidateFacet(base: NullablePointer[XmlSchemaType] tag, facet: NullablePointer[XmlSchemaFacet] tag, value: String, xmlval: NullablePointer[XmlSchemaVal] tag): I32 =>
+    @xmlSchemaValidateFacet(base, facet, value.cstring(), xmlval)

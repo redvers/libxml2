@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-  fun xmlNanoFTPNewCtxt(URL: String): Pointer[None] =>
-    @xmlNanoFTPNewCtxt(URL.cstring())
+  fun xmlNanoFTPNewCtxt(uRL: String): Pointer[None] =>
+    @xmlNanoFTPNewCtxt(uRL.cstring())

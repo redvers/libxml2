@@ -14,8 +14,8 @@
      000256: [FundamentalType(int) size=32]: lineno  
 */
 struct XmlRef
-    var _next: NullablePointer[XmlRef] = NullablePointer[XmlRef].none()
-  _value: Pointer[U8] = Pointer[U8]
-    var _attr: NullablePointer[XmlAttr] = NullablePointer[XmlAttr].none()
-  _name: Pointer[U8] = Pointer[U8]
-    var _lineno: I32 = I32(0)
+  var next: NullablePointer[XmlRef] = NullablePointer[XmlRef].none()
+  var value: Pointer[U8] = Pointer[U8]
+  var attr: NullablePointer[XmlAttr] = NullablePointer[XmlAttr].none()
+  var name: Pointer[U8] = Pointer[U8]
+  var lineno: I32 = I32(0)

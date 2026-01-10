@@ -21,15 +21,15 @@
      000704: [PointerType size=64]->[FundamentalType(void) size=0]: psvi  
 */
 struct XmlAttr
-    var __private: Pointer[None] = Pointer[None]
-    var _type: I32 = I32(0)
-  _name: Pointer[U8] = Pointer[U8]
-    var _children: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _last: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _parent: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _next: NullablePointer[XmlAttr] = NullablePointer[XmlAttr].none()
-    var _prev: NullablePointer[XmlAttr] = NullablePointer[XmlAttr].none()
-    var _doc: NullablePointer[XmlDoc] = NullablePointer[XmlDoc].none()
-    var _ns: NullablePointer[XmlNs] = NullablePointer[XmlNs].none()
-    var _atype: I32 = I32(0)
-    var _psvi: Pointer[None] = Pointer[None]
+  var private: Pointer[None] = Pointer[None]
+  var xmltype: I32 = I32(0)
+  var name: Pointer[U8] = Pointer[U8]
+  var children: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var last: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var parent: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var next: NullablePointer[XmlAttr] = NullablePointer[XmlAttr].none()
+  var prev: NullablePointer[XmlAttr] = NullablePointer[XmlAttr].none()
+  var doc: NullablePointer[XmlDoc] = NullablePointer[XmlDoc].none()
+  var ns: NullablePointer[XmlNs] = NullablePointer[XmlNs].none()
+  var atype: I32 = I32(0)
+  var psvi: Pointer[None] = Pointer[None]

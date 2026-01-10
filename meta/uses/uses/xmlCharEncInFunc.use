@@ -9,5 +9,5 @@
     [PointerType size=64]->[Struct size=256,fid: f16]
     [PointerType size=64]->[Struct size=256,fid: f16]
 */
-use @xmlCharEncInFunc[I32](handler: NullablePointer[XmlCharEncodingHandler] tag, out: NullablePointer[XmlBuffer] tag, in: NullablePointer[XmlBuffer] tag)
+use @xmlCharEncInFunc[I32](handler: NullablePointer[XmlCharEncodingHandler] tag, out: NullablePointer[XmlBuffer] tag, xmlin: NullablePointer[XmlBuffer] tag)
 

@@ -7,5 +7,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=960,fid: f16]
 */
-use @xmlXPathNewValueTree[NullablePointer[XmlXPathObject]](val: NullablePointer[XmlNode] tag)
+use @xmlXPathNewValueTree[NullablePointer[XmlXPathObject]](xmlval: NullablePointer[XmlNode] tag)
 

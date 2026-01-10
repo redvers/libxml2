@@ -15,5 +15,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[Struct size=128,fid: f16]
 */
-use @xmlAddAttributeDecl[NullablePointer[XmlAttribute]](ctxt: NullablePointer[XmlValidCtxt] tag, dtd: NullablePointer[XmlDtd] tag, elem: Pointer[U8] tag, name: Pointer[U8] tag, ns: Pointer[U8] tag, type: I32, def: I32, defaultValue: Pointer[U8] tag, tree: NullablePointer[XmlEnumeration] tag)
+use @xmlAddAttributeDecl[NullablePointer[XmlAttribute]](ctxt: NullablePointer[XmlValidCtxt] tag, dtd: NullablePointer[XmlDtd] tag, elem: Pointer[U8] tag, name: Pointer[U8] tag, ns: Pointer[U8] tag, xmltype: I32, def: I32, defaultValue: Pointer[U8] tag, tree: NullablePointer[XmlEnumeration] tag)
 

@@ -11,5 +11,5 @@
      000064: [PointerType size=64]->[Struct size=960,fid: f16]: content  
 */
 struct XmlSchemaAnnot
-    var _next: NullablePointer[XmlSchemaAnnot] = NullablePointer[XmlSchemaAnnot].none()
-    var _content: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var next: NullablePointer[XmlSchemaAnnot] = NullablePointer[XmlSchemaAnnot].none()
+  var content: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()

@@ -8,5 +8,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [FundamentalType(unsigned char) size=8]
 */
-use @xmlStrchr[Pointer[U8]](str: Pointer[U8] tag, val: U8)
+use @xmlStrchr[Pointer[U8]](str: Pointer[U8] tag, xmlval: U8)
 

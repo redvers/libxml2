@@ -12,5 +12,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[PointerType size=64]->[Struct size=960,fid: f16]
 */
-  fun xmlParseCtxtExternalEntity(ctx: NullablePointer[XmlParserCtxt] tag, URL: String, ID: String, lst: Pointer[NullablePointer[XmlNode]] tag): I32 =>
-    @xmlParseCtxtExternalEntity(ctx, URL.cstring(), ID.cstring(), lst)
+  fun xmlParseCtxtExternalEntity(ctx: NullablePointer[XmlParserCtxt] tag, uRL: String, iD: String, lst: Pointer[NullablePointer[XmlNode]] tag): I32 =>
+    @xmlParseCtxtExternalEntity(ctx, uRL.cstring(), iD.cstring(), lst)

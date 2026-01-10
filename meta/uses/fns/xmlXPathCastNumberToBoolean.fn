@@ -9,5 +9,5 @@
   Arguments:
     [FundamentalType(double) size=64]
 */
-  fun xmlXPathCastNumberToBoolean(val: F64): I32 =>
-    @xmlXPathCastNumberToBoolean(val)
+  fun xmlXPathCastNumberToBoolean(xmlval: F64): I32 =>
+    @xmlXPathCastNumberToBoolean(xmlval)

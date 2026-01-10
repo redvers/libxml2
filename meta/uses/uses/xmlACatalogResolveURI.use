@@ -8,5 +8,5 @@
     [PointerType size=64]->[Struct size=,fid: f67]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @xmlACatalogResolveURI[Pointer[U8]](catal: NullablePointer[XmlCatalog] tag, URI: Pointer[U8] tag)
+use @xmlACatalogResolveURI[Pointer[U8]](catal: NullablePointer[XmlCatalog] tag, uRI: Pointer[U8] tag)
 

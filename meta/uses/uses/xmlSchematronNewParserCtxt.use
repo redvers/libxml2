@@ -7,5 +7,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-use @xmlSchematronNewParserCtxt[NullablePointer[XmlSchematronParserCtxt]](URL: Pointer[U8] tag)
+use @xmlSchematronNewParserCtxt[NullablePointer[XmlSchematronParserCtxt]](uRL: Pointer[U8] tag)
 

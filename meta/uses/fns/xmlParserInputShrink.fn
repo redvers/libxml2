@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=832,fid: f17]
 */
-  fun xmlParserInputShrink(in: NullablePointer[XmlParserInput] tag): None =>
-    @xmlParserInputShrink(in)
+  fun xmlParserInputShrink(xmlin: NullablePointer[XmlParserInput] tag): None =>
+    @xmlParserInputShrink(xmlin)

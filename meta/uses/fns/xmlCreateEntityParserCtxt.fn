@@ -11,5 +11,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlCreateEntityParserCtxt(URL: String, ID: String, base: String): NullablePointer[XmlParserCtxt] =>
-    @xmlCreateEntityParserCtxt(URL.cstring(), ID.cstring(), base.cstring())
+  fun xmlCreateEntityParserCtxt(uRL: String, iD: String, base: String): NullablePointer[XmlParserCtxt] =>
+    @xmlCreateEntityParserCtxt(uRL.cstring(), iD.cstring(), base.cstring())

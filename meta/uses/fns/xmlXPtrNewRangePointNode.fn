@@ -10,5 +10,5 @@
     [PointerType size=64]->[Struct size=576,fid: f65]
     [PointerType size=64]->[Struct size=960,fid: f16]
 */
-  fun xmlXPtrNewRangePointNode(start: NullablePointer[XmlXPathObject] tag, end: NullablePointer[XmlNode] tag): NullablePointer[XmlXPathObject] =>
-    @xmlXPtrNewRangePointNode(start, end)
+  fun xmlXPtrNewRangePointNode(start: NullablePointer[XmlXPathObject] tag, xmlend: NullablePointer[XmlNode] tag): NullablePointer[XmlXPathObject] =>
+    @xmlXPtrNewRangePointNode(start, xmlend)

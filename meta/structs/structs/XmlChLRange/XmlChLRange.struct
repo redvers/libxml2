@@ -11,5 +11,5 @@
      000032: [FundamentalType(unsigned int) size=32]: high  
 */
 struct XmlChLRange
-    var _low: U32 = U32(0)
-    var _high: U32 = U32(0)
+  var low: U32 = U32(0)
+  var high: U32 = U32(0)

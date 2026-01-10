@@ -7,5 +7,5 @@
   Arguments:
     [FundamentalType(double) size=64]
 */
-use @xmlXPathCastNumberToString[Pointer[U8]](val: F64)
+use @xmlXPathCastNumberToString[Pointer[U8]](xmlval: F64)
 

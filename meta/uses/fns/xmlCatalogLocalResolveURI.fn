@@ -10,7 +10,7 @@
     [PointerType size=64]->[FundamentalType(void) size=0]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlCatalogLocalResolveURI(catalogs: Pointer[None] tag, URI: String): String =>
-    var pcstring: Pointer[U8] =  @xmlCatalogLocalResolveURI(catalogs, URI.cstring())
+  fun xmlCatalogLocalResolveURI(catalogs: Pointer[None] tag, uRI: String): String =>
+    var pcstring: Pointer[U8] =  @xmlCatalogLocalResolveURI(catalogs, uRI.cstring())
     let p: String iso = String.from_cstring(pcstring).clone()
     consume p

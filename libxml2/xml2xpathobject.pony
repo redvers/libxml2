@@ -1,0 +1,42 @@
+use "raw/"
+use "debug"
+
+use @pony_triggergc[None](ptr: Pointer[None])
+use @pony_ctx[Pointer[None]]()
+
+type Xml2XPathResult is (None | Array[Xml2Node] | Bool | String val | F64)
+
+primitive Xml2XPathObject
+  fun apply(ptrx: NullablePointer[XmlXPathObject]): Xml2XPathResult =>
+    try
+      let ptr: XmlXPathObject = ptrx.apply()?
+      match ptr.xmltype
+      | XPathTypeUndefined()   => return None
+      | XPathTypeNodeset()     =>
+        if (ptr.nodesetval.is_none()) then
+          return None
+        else
+          let nodearray: Array[Xml2Node] = Array[Xml2Node]
+          let nodeset': NullablePointer[XmlNodeSet] = ptr.nodesetval
+          let nodeset: XmlNodeSet = nodeset'.apply()?
+          let nodearray': Array[NullablePointer[XmlNode]] = Array[NullablePointer[XmlNode]].from_cpointer(nodeset.nodeTab, nodeset.nodeNr.usize())
+  
+          for f in nodearray'.values() do
+            nodearray.push(Xml2Node.fromPTR(f)?)
+          end
+          return nodearray
+        end
+      | XPathTypeBoolean()     => XPathTypeBoolean ; return (ptr.boolval == 1)
+      | XPathTypeNumber()      => XPathTypeNumber  ; return ptr.floatval
+      | XPathTypeString()      => XPathTypeString  ; return String.from_cstring(ptr.stringval).clone()
+      | XPathTypePoint()       => return None // As yet unsupported
+      | XPathTypeRange()       => return None // As yet unsupported
+      | XPathTypeLocationSet() => return None // As yet unsupported
+      | XPathTypeUsers()       => return None // As yet unsupported
+      | XPathTypeXsltTree()    => return None // As yet unsupported
+      else
+        return None
+      end
+    else 
+      return None
+    end

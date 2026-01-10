@@ -9,5 +9,5 @@
     [PointerType size=64]->[FundamentalType(char) size=8]
     [PointerType size=64]->[Struct size=6016,fid: f17]
 */
-use @xmlNoNetExternalEntityLoader[NullablePointer[XmlParserInput]](URL: Pointer[U8] tag, ID: Pointer[U8] tag, ctxt: NullablePointer[XmlParserCtxt] tag)
+use @xmlNoNetExternalEntityLoader[NullablePointer[XmlParserInput]](uRL: Pointer[U8] tag, iD: Pointer[U8] tag, ctxt: NullablePointer[XmlParserCtxt] tag)
 

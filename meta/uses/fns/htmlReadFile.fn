@@ -11,5 +11,5 @@
     [PointerType size=64]->[FundamentalType(char) size=8]
     [FundamentalType(int) size=32]
 */
-  fun htmlReadFile(URL: String, encoding: String, options: I32): NullablePointer[XmlDoc] =>
-    @htmlReadFile(URL.cstring(), encoding.cstring(), options)
+  fun htmlReadFile(uRL: String, encoding: String, options: I32): NullablePointer[XmlDoc] =>
+    @htmlReadFile(uRL.cstring(), encoding.cstring(), options)

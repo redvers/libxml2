@@ -8,5 +8,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [FundamentalType(int) size=32]
 */
-use @xmlCopyCharMultiByte[I32](out: Pointer[U8] tag, val: I32)
+use @xmlCopyCharMultiByte[I32](out: Pointer[U8] tag, xmlval: I32)
 

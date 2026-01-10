@@ -12,6 +12,6 @@
      000128: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: set  
 */
 struct XlinkHandler
-    var _simple: Pointer[None] = Pointer[None]
-    var _extended: Pointer[None] = Pointer[None]
-    var _set: Pointer[None] = Pointer[None]
+  var simple: Pointer[None] = Pointer[None]
+  var extended: Pointer[None] = Pointer[None]
+  var set: Pointer[None] = Pointer[None]

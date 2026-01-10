@@ -7,5 +7,5 @@
   Arguments:
     [PointerType size=64]->[Struct size=576,fid: f65]
 */
-use @xmlXPathConvertBoolean[NullablePointer[XmlXPathObject]](val: NullablePointer[XmlXPathObject] tag)
+use @xmlXPathConvertBoolean[NullablePointer[XmlXPathObject]](xmlval: NullablePointer[XmlXPathObject] tag)
 

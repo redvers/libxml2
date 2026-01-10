@@ -21,15 +21,15 @@
      000640: [FundamentalType(int) size=32]: valueFrame  
 */
 struct XmlXPathParserContext
-  _cur: Pointer[U8] = Pointer[U8]
-  _base: Pointer[U8] = Pointer[U8]
-    var _error: I32 = I32(0)
-    var _context: NullablePointer[XmlXPathContext] = NullablePointer[XmlXPathContext].none()
-    var _value: NullablePointer[XmlXPathObject] = NullablePointer[XmlXPathObject].none()
-    var _valueNr: I32 = I32(0)
-    var _valueMax: I32 = I32(0)
-    var _valueTab: Pointer[NullablePointer[XmlXPathObject]] = Pointer[NullablePointer[XmlXPathObject]]
-    var _comp: NullablePointer[XmlXPathCompExpr] = NullablePointer[XmlXPathCompExpr].none()
-    var _xptr: I32 = I32(0)
-    var _ancestor: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _valueFrame: I32 = I32(0)
+  var cur: Pointer[U8] = Pointer[U8]
+  var base: Pointer[U8] = Pointer[U8]
+  var xmlerror: I32 = I32(0)
+  var context: NullablePointer[XmlXPathContext] = NullablePointer[XmlXPathContext].none()
+  var value: NullablePointer[XmlXPathObject] = NullablePointer[XmlXPathObject].none()
+  var valueNr: I32 = I32(0)
+  var valueMax: I32 = I32(0)
+  var valueTab: Pointer[NullablePointer[XmlXPathObject]] = Pointer[NullablePointer[XmlXPathObject]]
+  var comp: NullablePointer[XmlXPathCompExpr] = NullablePointer[XmlXPathCompExpr].none()
+  var xptr: I32 = I32(0)
+  var ancestor: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var valueFrame: I32 = I32(0)

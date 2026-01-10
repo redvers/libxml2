@@ -10,5 +10,5 @@
     [PointerType size=64]->[FundamentalType(void) size=0]
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-  fun xmlNanoFTPUpdateURL(ctx: Pointer[None] tag, URL: String): I32 =>
-    @xmlNanoFTPUpdateURL(ctx, URL.cstring())
+  fun xmlNanoFTPUpdateURL(ctx: Pointer[None] tag, uRL: String): I32 =>
+    @xmlNanoFTPUpdateURL(ctx, uRL.cstring())

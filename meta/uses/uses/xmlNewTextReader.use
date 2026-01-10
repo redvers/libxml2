@@ -8,5 +8,5 @@
     [PointerType size=64]->[Struct size=512,fid: f15]
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-use @xmlNewTextReader[NullablePointer[XmlTextReader]](input: NullablePointer[XmlParserInputBuffer] tag, URI: Pointer[U8] tag)
+use @xmlNewTextReader[NullablePointer[XmlTextReader]](input: NullablePointer[XmlParserInputBuffer] tag, uRI: Pointer[U8] tag)
 

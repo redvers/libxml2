@@ -12,6 +12,6 @@
      000064: [PointerType size=64]->[PointerType size=64]->[Struct size=576,fid: f65]: locTab  
 */
 struct XmlLocationSet
-    var _locNr: I32 = I32(0)
-    var _locMax: I32 = I32(0)
-    var _locTab: Pointer[NullablePointer[XmlXPathObject]] = Pointer[NullablePointer[XmlXPathObject]]
+  var locNr: I32 = I32(0)
+  var locMax: I32 = I32(0)
+  var locTab: Pointer[NullablePointer[XmlXPathObject]] = Pointer[NullablePointer[XmlXPathObject]]

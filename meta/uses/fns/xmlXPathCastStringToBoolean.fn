@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlXPathCastStringToBoolean(val: String): I32 =>
-    @xmlXPathCastStringToBoolean(val.cstring())
+  fun xmlXPathCastStringToBoolean(xmlval: String): I32 =>
+    @xmlXPathCastStringToBoolean(xmlval.cstring())

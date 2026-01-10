@@ -13,5 +13,5 @@
     [PointerType size=64]->[FundamentalType(char) size=8]
     [FundamentalType(int) size=32]
 */
-  fun xmlReadMemory(buffer: String, size: I32, URL: String, encoding: String, options: I32): NullablePointer[XmlDoc] =>
-    @xmlReadMemory(buffer.cstring(), size, URL.cstring(), encoding.cstring(), options)
+  fun xmlReadMemory(buffer: String, size: I32, uRL: String, encoding: String, options: I32): NullablePointer[XmlDoc] =>
+    @xmlReadMemory(buffer.cstring(), size, uRL.cstring(), encoding.cstring(), options)

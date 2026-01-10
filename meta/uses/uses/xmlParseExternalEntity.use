@@ -13,5 +13,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[PointerType size=64]->[Struct size=960,fid: f16]
 */
-use @xmlParseExternalEntity[I32](doc: NullablePointer[XmlDoc] tag, sax: NullablePointer[XmlSAXHandler] tag, userdata: Pointer[None] tag, depth: I32, URL: Pointer[U8] tag, ID: Pointer[U8] tag, lst: Pointer[NullablePointer[XmlNode]] tag)
+use @xmlParseExternalEntity[I32](doc: NullablePointer[XmlDoc] tag, sax: NullablePointer[XmlSAXHandler] tag, userdata: Pointer[None] tag, depth: I32, uRL: Pointer[U8] tag, iD: Pointer[U8] tag, lst: Pointer[NullablePointer[XmlNode]] tag)
 

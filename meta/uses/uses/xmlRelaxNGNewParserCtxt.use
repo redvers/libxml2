@@ -7,5 +7,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-use @xmlRelaxNGNewParserCtxt[NullablePointer[XmlRelaxNGParserCtxt]](URL: Pointer[U8] tag)
+use @xmlRelaxNGNewParserCtxt[NullablePointer[XmlRelaxNGParserCtxt]](uRL: Pointer[U8] tag)
 

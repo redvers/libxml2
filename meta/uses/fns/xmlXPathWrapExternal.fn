@@ -9,5 +9,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(void) size=0]
 */
-  fun xmlXPathWrapExternal(val: Pointer[None] tag): NullablePointer[XmlXPathObject] =>
-    @xmlXPathWrapExternal(val)
+  fun xmlXPathWrapExternal(xmlval: Pointer[None] tag): NullablePointer[XmlXPathObject] =>
+    @xmlXPathWrapExternal(xmlval)

@@ -14,5 +14,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlNewEntity(doc: NullablePointer[XmlDoc] tag, name: String, type: I32, ExternalID: String, SystemID: String, content: String): NullablePointer[XmlEntity] =>
-    @xmlNewEntity(doc, name.cstring(), type, ExternalID.cstring(), SystemID.cstring(), content.cstring())
+  fun xmlNewEntity(doc: NullablePointer[XmlDoc] tag, name: String, xmltype: I32, externalID: String, systemID: String, content: String): NullablePointer[XmlEntity] =>
+    @xmlNewEntity(doc, name.cstring(), xmltype, externalID.cstring(), systemID.cstring(), content.cstring())

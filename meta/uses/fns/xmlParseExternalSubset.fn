@@ -11,5 +11,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-  fun xmlParseExternalSubset(ctxt: NullablePointer[XmlParserCtxt] tag, ExternalID: String, SystemID: String): None =>
-    @xmlParseExternalSubset(ctxt, ExternalID.cstring(), SystemID.cstring())
+  fun xmlParseExternalSubset(ctxt: NullablePointer[XmlParserCtxt] tag, externalID: String, systemID: String): None =>
+    @xmlParseExternalSubset(ctxt, externalID.cstring(), systemID.cstring())

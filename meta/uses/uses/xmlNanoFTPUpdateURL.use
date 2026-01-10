@@ -8,5 +8,5 @@
     [PointerType size=64]->[FundamentalType(void) size=0]
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-use @xmlNanoFTPUpdateURL[I32](ctx: Pointer[None] tag, URL: Pointer[U8] tag)
+use @xmlNanoFTPUpdateURL[I32](ctx: Pointer[None] tag, uRL: Pointer[U8] tag)
 

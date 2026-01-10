@@ -9,5 +9,5 @@
     [FundamentalType(int) size=32]
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-use @xmlParserInputBufferPush[I32](in: NullablePointer[XmlParserInputBuffer] tag, len: I32, buf: Pointer[U8] tag)
+use @xmlParserInputBufferPush[I32](xmlin: NullablePointer[XmlParserInputBuffer] tag, len: I32, buf: Pointer[U8] tag)
 

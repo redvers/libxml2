@@ -9,5 +9,5 @@
   Arguments:
     [FundamentalType(double) size=64]
 */
-  fun xmlXPathNewFloat(val: F64): NullablePointer[XmlXPathObject] =>
-    @xmlXPathNewFloat(val)
+  fun xmlXPathNewFloat(xmlval: F64): NullablePointer[XmlXPathObject] =>
+    @xmlXPathNewFloat(xmlval)

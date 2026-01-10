@@ -8,5 +8,5 @@
     [PointerType size=64]->[Struct size=832,fid: f17]
     [FundamentalType(int) size=32]
 */
-use @xmlParserInputGrow[I32](in: NullablePointer[XmlParserInput] tag, len: I32)
+use @xmlParserInputGrow[I32](xmlin: NullablePointer[XmlParserInput] tag, len: I32)
 

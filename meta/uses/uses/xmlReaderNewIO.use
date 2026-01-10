@@ -13,5 +13,5 @@
     [PointerType size=64]->[FundamentalType(char) size=8]
     [FundamentalType(int) size=32]
 */
-use @xmlReaderNewIO[I32](reader: NullablePointer[XmlTextReader] tag, ioread: Pointer[None] tag, ioclose: Pointer[None] tag, ioctx: Pointer[None] tag, URL: Pointer[U8] tag, encoding: Pointer[U8] tag, options: I32)
+use @xmlReaderNewIO[I32](reader: NullablePointer[XmlTextReader] tag, ioread: Pointer[None] tag, ioclose: Pointer[None] tag, ioctx: Pointer[None] tag, uRL: Pointer[U8] tag, encoding: Pointer[U8] tag, options: I32)
 

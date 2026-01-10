@@ -25,19 +25,19 @@
      000960: [PointerType size=64]->[FundamentalType(void) size=0]: pentities  
 */
 struct XmlDtd
-    var __private: Pointer[None] = Pointer[None]
-    var _type: I32 = I32(0)
-  _name: Pointer[U8] = Pointer[U8]
-    var _children: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _last: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _parent: NullablePointer[XmlDoc] = NullablePointer[XmlDoc].none()
-    var _next: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _prev: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _doc: NullablePointer[XmlDoc] = NullablePointer[XmlDoc].none()
-    var _notations: Pointer[None] = Pointer[None]
-    var _elements: Pointer[None] = Pointer[None]
-    var _attributes: Pointer[None] = Pointer[None]
-    var _entities: Pointer[None] = Pointer[None]
-  _ExternalID: Pointer[U8] = Pointer[U8]
-  _SystemID: Pointer[U8] = Pointer[U8]
-    var _pentities: Pointer[None] = Pointer[None]
+  var private: Pointer[None] = Pointer[None]
+  var xmltype: I32 = I32(0)
+  var name: Pointer[U8] = Pointer[U8]
+  var children: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var last: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var parent: NullablePointer[XmlDoc] = NullablePointer[XmlDoc].none()
+  var next: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var prev: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var doc: NullablePointer[XmlDoc] = NullablePointer[XmlDoc].none()
+  var notations: Pointer[None] = Pointer[None]
+  var elements: Pointer[None] = Pointer[None]
+  var attributes: Pointer[None] = Pointer[None]
+  var entities: Pointer[None] = Pointer[None]
+  var externalID: Pointer[U8] = Pointer[U8]
+  var systemID: Pointer[U8] = Pointer[U8]
+  var pentities: Pointer[None] = Pointer[None]

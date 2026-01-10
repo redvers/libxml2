@@ -11,5 +11,5 @@
      000064: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: name  
 */
 struct XmlEnumeration
-    var _next: NullablePointer[XmlEnumeration] = NullablePointer[XmlEnumeration].none()
-  _name: Pointer[U8] = Pointer[U8]
+  var next: NullablePointer[XmlEnumeration] = NullablePointer[XmlEnumeration].none()
+  var name: Pointer[U8] = Pointer[U8]

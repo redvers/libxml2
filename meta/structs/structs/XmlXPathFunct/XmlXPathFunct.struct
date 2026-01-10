@@ -11,5 +11,5 @@
      000064: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: func  
 */
 struct XmlXPathFunct
-  _name: Pointer[U8] = Pointer[U8]
-    var _func: Pointer[None] = Pointer[None]
+  var name: Pointer[U8] = Pointer[U8]
+  var func: Pointer[None] = Pointer[None]

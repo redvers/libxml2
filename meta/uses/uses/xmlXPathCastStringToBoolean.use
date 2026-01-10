@@ -7,5 +7,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @xmlXPathCastStringToBoolean[I32](val: Pointer[U8] tag)
+use @xmlXPathCastStringToBoolean[I32](xmlval: Pointer[U8] tag)
 

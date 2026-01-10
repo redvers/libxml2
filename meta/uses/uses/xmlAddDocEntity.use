@@ -12,5 +12,5 @@
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @xmlAddDocEntity[NullablePointer[XmlEntity]](doc: NullablePointer[XmlDoc] tag, name: Pointer[U8] tag, type: I32, ExternalID: Pointer[U8] tag, SystemID: Pointer[U8] tag, content: Pointer[U8] tag)
+use @xmlAddDocEntity[NullablePointer[XmlEntity]](doc: NullablePointer[XmlDoc] tag, name: Pointer[U8] tag, xmltype: I32, externalID: Pointer[U8] tag, systemID: Pointer[U8] tag, content: Pointer[U8] tag)
 

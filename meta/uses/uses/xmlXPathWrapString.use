@@ -7,5 +7,5 @@
   Arguments:
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @xmlXPathWrapString[NullablePointer[XmlXPathObject]](val: Pointer[U8] tag)
+use @xmlXPathWrapString[NullablePointer[XmlXPathObject]](xmlval: Pointer[U8] tag)
 

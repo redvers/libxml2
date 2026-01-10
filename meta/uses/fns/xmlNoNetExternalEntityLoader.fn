@@ -11,5 +11,5 @@
     [PointerType size=64]->[FundamentalType(char) size=8]
     [PointerType size=64]->[Struct size=6016,fid: f17]
 */
-  fun xmlNoNetExternalEntityLoader(URL: String, ID: String, ctxt: NullablePointer[XmlParserCtxt] tag): NullablePointer[XmlParserInput] =>
-    @xmlNoNetExternalEntityLoader(URL.cstring(), ID.cstring(), ctxt)
+  fun xmlNoNetExternalEntityLoader(uRL: String, iD: String, ctxt: NullablePointer[XmlParserCtxt] tag): NullablePointer[XmlParserInput] =>
+    @xmlNoNetExternalEntityLoader(uRL.cstring(), iD.cstring(), ctxt)

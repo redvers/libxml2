@@ -18,12 +18,12 @@
      000448: [FundamentalType(long unsigned int) size=64]: rawconsumed  
 */
 struct XmlParserInputBuffer
-    var _context: Pointer[None] = Pointer[None]
-    var _readcallback: Pointer[None] = Pointer[None]
-    var _closecallback: Pointer[None] = Pointer[None]
-    var _encoder: NullablePointer[XmlCharEncodingHandler] = NullablePointer[XmlCharEncodingHandler].none()
-    var _buffer: NullablePointer[XmlBuf] = NullablePointer[XmlBuf].none()
-    var _raw: NullablePointer[XmlBuf] = NullablePointer[XmlBuf].none()
-    var _compressed: I32 = I32(0)
-    var _error: I32 = I32(0)
-    var _rawconsumed: U64 = U64(0)
+  var context: Pointer[None] = Pointer[None]
+  var readcallback: Pointer[None] = Pointer[None]
+  var closecallback: Pointer[None] = Pointer[None]
+  var encoder: NullablePointer[XmlCharEncodingHandler] = NullablePointer[XmlCharEncodingHandler].none()
+  var buffer: NullablePointer[XmlBuf] = NullablePointer[XmlBuf].none()
+  var raw: NullablePointer[XmlBuf] = NullablePointer[XmlBuf].none()
+  var compressed: I32 = I32(0)
+  var xmlerror: I32 = I32(0)
+  var rawconsumed: U64 = U64(0)

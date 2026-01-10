@@ -11,5 +11,5 @@
     [FundamentalType(int) size=32]
     [PointerType size=64]->[FundamentalType(char) size=8]
 */
-  fun xmlParserInputBufferPush(in: NullablePointer[XmlParserInputBuffer] tag, len: I32, buf: String): I32 =>
-    @xmlParserInputBufferPush(in, len, buf.cstring())
+  fun xmlParserInputBufferPush(xmlin: NullablePointer[XmlParserInputBuffer] tag, len: I32, buf: String): I32 =>
+    @xmlParserInputBufferPush(xmlin, len, buf.cstring())

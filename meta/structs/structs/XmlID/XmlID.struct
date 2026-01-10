@@ -15,9 +15,9 @@
      000320: [PointerType size=64]->[Struct size=1408,fid: f16]: doc  
 */
 struct XmlID
-    var _next: NullablePointer[XmlID] = NullablePointer[XmlID].none()
-  _value: Pointer[U8] = Pointer[U8]
-    var _attr: NullablePointer[XmlAttr] = NullablePointer[XmlAttr].none()
-  _name: Pointer[U8] = Pointer[U8]
-    var _lineno: I32 = I32(0)
-    var _doc: NullablePointer[XmlDoc] = NullablePointer[XmlDoc].none()
+  var next: NullablePointer[XmlID] = NullablePointer[XmlID].none()
+  var value: Pointer[U8] = Pointer[U8]
+  var attr: NullablePointer[XmlAttr] = NullablePointer[XmlAttr].none()
+  var name: Pointer[U8] = Pointer[U8]
+  var lineno: I32 = I32(0)
+  var doc: NullablePointer[XmlDoc] = NullablePointer[XmlDoc].none()

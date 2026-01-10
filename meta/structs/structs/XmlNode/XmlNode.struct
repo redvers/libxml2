@@ -25,19 +25,19 @@
      000912: [FundamentalType(short unsigned int) size=16]: extra  
 */
 struct XmlNode
-    var __private: Pointer[None] = Pointer[None]
-    var _type: I32 = I32(0)
-  _name: Pointer[U8] = Pointer[U8]
-    var _children: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _last: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _parent: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _next: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _prev: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _doc: NullablePointer[XmlDoc] = NullablePointer[XmlDoc].none()
-    var _ns: NullablePointer[XmlNs] = NullablePointer[XmlNs].none()
-  _content: Pointer[U8] = Pointer[U8]
-    var _properties: NullablePointer[XmlAttr] = NullablePointer[XmlAttr].none()
-    var _nsDef: NullablePointer[XmlNs] = NullablePointer[XmlNs].none()
-    var _psvi: Pointer[None] = Pointer[None]
-    var _line: U16 = U16(0)
-    var _extra: U16 = U16(0)
+  var private: Pointer[None] = Pointer[None]
+  var xmltype: I32 = I32(0)
+  var name: Pointer[U8] = Pointer[U8]
+  var children: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var last: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var parent: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var next: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var prev: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var doc: NullablePointer[XmlDoc] = NullablePointer[XmlDoc].none()
+  var ns: NullablePointer[XmlNs] = NullablePointer[XmlNs].none()
+  var content: Pointer[U8] = Pointer[U8]
+  var properties: NullablePointer[XmlAttr] = NullablePointer[XmlAttr].none()
+  var nsDef: NullablePointer[XmlNs] = NullablePointer[XmlNs].none()
+  var psvi: Pointer[None] = Pointer[None]
+  var line: U16 = U16(0)
+  var extra: U16 = U16(0)

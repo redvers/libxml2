@@ -23,17 +23,17 @@
      000832: [PointerType size=64]->[Struct size=,fid: f19]: contModel  
 */
 struct XmlElement
-    var __private: Pointer[None] = Pointer[None]
-    var _type: I32 = I32(0)
-  _name: Pointer[U8] = Pointer[U8]
-    var _children: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _last: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _parent: NullablePointer[XmlDtd] = NullablePointer[XmlDtd].none()
-    var _next: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _prev: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _doc: NullablePointer[XmlDoc] = NullablePointer[XmlDoc].none()
-    var _etype: I32 = I32(0)
-    var _content: NullablePointer[XmlElementContent] = NullablePointer[XmlElementContent].none()
-    var _attributes: NullablePointer[XmlAttribute] = NullablePointer[XmlAttribute].none()
-  _prefix: Pointer[U8] = Pointer[U8]
-    var _contModel: NullablePointer[XmlRegexp] = NullablePointer[XmlRegexp].none()
+  var private: Pointer[None] = Pointer[None]
+  var xmltype: I32 = I32(0)
+  var name: Pointer[U8] = Pointer[U8]
+  var children: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var last: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var parent: NullablePointer[XmlDtd] = NullablePointer[XmlDtd].none()
+  var next: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var prev: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var doc: NullablePointer[XmlDoc] = NullablePointer[XmlDoc].none()
+  var etype: I32 = I32(0)
+  var content: NullablePointer[XmlElementContent] = NullablePointer[XmlElementContent].none()
+  var attributes: NullablePointer[XmlAttribute] = NullablePointer[XmlAttribute].none()
+  var prefix: Pointer[U8] = Pointer[U8]
+  var contModel: NullablePointer[XmlRegexp] = NullablePointer[XmlRegexp].none()

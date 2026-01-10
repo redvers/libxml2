@@ -13,5 +13,5 @@
     [PointerType size=64]->[FundamentalType(char) size=8]
     [FundamentalType(int) size=32]
 */
-  fun xmlTextReaderSetup(reader: NullablePointer[XmlTextReader] tag, input: NullablePointer[XmlParserInputBuffer] tag, URL: String, encoding: String, options: I32): I32 =>
-    @xmlTextReaderSetup(reader, input, URL.cstring(), encoding.cstring(), options)
+  fun xmlTextReaderSetup(reader: NullablePointer[XmlTextReader] tag, input: NullablePointer[XmlParserInputBuffer] tag, uRL: String, encoding: String, options: I32): I32 =>
+    @xmlTextReaderSetup(reader, input, uRL.cstring(), encoding.cstring(), options)

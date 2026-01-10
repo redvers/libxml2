@@ -8,5 +8,5 @@
     [Enumeration size=32,fid: f77]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @xmlSchemaNewStringValue[NullablePointer[XmlSchemaVal]](type: I32, value: Pointer[U8] tag)
+use @xmlSchemaNewStringValue[NullablePointer[XmlSchemaVal]](xmltype: I32, value: Pointer[U8] tag)
 

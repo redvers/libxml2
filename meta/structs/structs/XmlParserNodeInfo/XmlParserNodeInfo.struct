@@ -14,8 +14,8 @@
      000256: [FundamentalType(long unsigned int) size=64]: end_line  
 */
 struct XmlParserNodeInfo
-    var _node: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
-    var _begin_pos: U64 = U64(0)
-    var _begin_line: U64 = U64(0)
-    var _end_pos: U64 = U64(0)
-    var _end_line: U64 = U64(0)
+  var node: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+  var begin_pos: U64 = U64(0)
+  var begin_line: U64 = U64(0)
+  var end_pos: U64 = U64(0)
+  var end_line: U64 = U64(0)

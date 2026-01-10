@@ -8,5 +8,5 @@
     [PointerType size=64]->[Struct size=1408,fid: f16]
     [PointerType size=64]->[FundamentalType(unsigned char) size=8]
 */
-use @xmlGetID[NullablePointer[XmlAttr]](doc: NullablePointer[XmlDoc] tag, ID: Pointer[U8] tag)
+use @xmlGetID[NullablePointer[XmlAttr]](doc: NullablePointer[XmlDoc] tag, iD: Pointer[U8] tag)
 
