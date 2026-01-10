@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:961
+  Original Name: xmlParseExternalEntity/usr/include/libxml2/libxml/parser.h:961
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[Struct size=2048,fid: f17]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=960,fid: f16]
+*/
+  fun xmlParseExternalEntity(doc: NullablePointer[XmlDoc] tag, sax: NullablePointer[XmlSAXHandler] tag, userdata: Pointer[None] tag, depth: I32, URL: String, ID: String, lst: Pointer[NullablePointer[XmlNode]] tag): I32 =>
+    @xmlParseExternalEntity(doc, sax, userdata, depth, URL.cstring(), ID.cstring(), lst)

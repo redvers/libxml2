@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemas.h:203
+  Original Name: xmlSchemaValidateDoc/usr/include/libxml2/libxml/xmlschemas.h:203
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f82]
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+*/
+  fun xmlSchemaValidateDoc(ctxt: NullablePointer[XmlSchemaValidCtxt] tag, instance: NullablePointer[XmlDoc] tag): I32 =>
+    @xmlSchemaValidateDoc(ctxt, instance)

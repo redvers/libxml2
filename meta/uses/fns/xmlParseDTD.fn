@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:929
+  Original Name: xmlParseDTD/usr/include/libxml2/libxml/parser.h:929
+
+  Return Value: [PointerType size=64]->[Struct size=1024,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlParseDTD(ExternalID: String, SystemID: String): NullablePointer[XmlDtd] =>
+    @xmlParseDTD(ExternalID.cstring(), SystemID.cstring())

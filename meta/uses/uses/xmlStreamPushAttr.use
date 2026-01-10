@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/pattern.h:87
+  Original Name: xmlStreamPushAttr/usr/include/libxml2/libxml/pattern.h:87
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f75]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlStreamPushAttr[I32](stream: NullablePointer[XmlStreamCtxt] tag, name: Pointer[U8] tag, ns: Pointer[U8] tag)
+

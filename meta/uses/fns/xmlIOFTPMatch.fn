@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:353
+  Original Name: xmlIOFTPMatch/usr/include/libxml2/libxml/xmlIO.h:353
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlIOFTPMatch(filename: String): I32 =>
+    @xmlIOFTPMatch(filename.cstring())

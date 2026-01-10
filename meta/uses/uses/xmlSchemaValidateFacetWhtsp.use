@@ -1,0 +1,16 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemastypes.h:55
+  Original Name: xmlSchemaValidateFacetWhtsp/usr/include/libxml2/libxml/xmlschemastypes.h:55
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=576,fid: f77]
+    [Enumeration size=32,fid: f85]
+    [Enumeration size=32,fid: f77]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f77]
+    [Enumeration size=32,fid: f85]
+*/
+use @xmlSchemaValidateFacetWhtsp[I32](facet: NullablePointer[XmlSchemaFacet] tag, fws: I32, valType: I32, value: Pointer[U8] tag, val: NullablePointer[XmlSchemaVal] tag, ws: I32)
+

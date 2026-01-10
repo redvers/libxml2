@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlmemory.h:149
+  Original Name: xmlMemShow/usr/include/libxml2/libxml/xmlmemory.h:149
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1728,fid: f8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlMemShow[None](fp: NullablePointer[IOFILE] tag, nr: I32)
+

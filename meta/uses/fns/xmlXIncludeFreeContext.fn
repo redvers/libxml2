@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xinclude.h:119
+  Original Name: xmlXIncludeFreeContext/usr/include/libxml2/libxml/xinclude.h:119
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f80]
+*/
+  fun xmlXIncludeFreeContext(ctxt: NullablePointer[XmlXIncludeCtxt] tag): None =>
+    @xmlXIncludeFreeContext(ctxt)

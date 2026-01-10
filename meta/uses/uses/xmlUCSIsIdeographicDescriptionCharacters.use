@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:86
+  Original Name: xmlUCSIsIdeographicDescriptionCharacters/usr/include/libxml2/libxml/xmlunicode.h:86
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsIdeographicDescriptionCharacters[I32](code: I32)
+

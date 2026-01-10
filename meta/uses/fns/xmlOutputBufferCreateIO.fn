@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:245
+  Original Name: xmlOutputBufferCreateIO/usr/include/libxml2/libxml/xmlIO.h:245
+
+  Return Value: [PointerType size=64]->[Struct size=448,fid: f15]
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[Struct size=448,fid: f42]
+*/
+  fun xmlOutputBufferCreateIO(iowrite: Pointer[None] tag, ioclose: Pointer[None] tag, ioctx: Pointer[None] tag, encoder: NullablePointer[XmlCharEncodingHandler] tag): NullablePointer[XmlOutputBuffer] =>
+    @xmlOutputBufferCreateIO(iowrite, ioclose, ioctx, encoder)

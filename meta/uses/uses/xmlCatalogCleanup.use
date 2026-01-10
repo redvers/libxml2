@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:118
+  Original Name: xmlCatalogCleanup/usr/include/libxml2/libxml/catalog.h:118
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+use @xmlCatalogCleanup[None]()
+

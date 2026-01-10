@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:131
+  Original Name: xmlCatalogResolveURI/usr/include/libxml2/libxml/catalog.h:131
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlCatalogResolveURI[Pointer[U8]](URI: Pointer[U8] tag)
+

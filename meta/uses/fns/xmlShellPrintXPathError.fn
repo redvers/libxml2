@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/debugXML.h:140
+  Original Name: xmlShellPrintXPathError/usr/include/libxml2/libxml/debugXML.h:140
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlShellPrintXPathError(errorType: I32, arg: String): None =>
+    @xmlShellPrintXPathError(errorType, arg.cstring())

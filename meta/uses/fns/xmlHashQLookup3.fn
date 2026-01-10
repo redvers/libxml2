@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/hash.h:195
+  Original Name: xmlHashQLookup3/usr/include/libxml2/libxml/hash.h:195
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f24]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlHashQLookup3(table: NullablePointer[XmlHashTable] tag, name: String, prefix: String, name2: String, prefix2: String, name3: String, prefix3: String): Pointer[None] =>
+    @xmlHashQLookup3(table, name.cstring(), prefix.cstring(), name2.cstring(), prefix2.cstring(), name3.cstring(), prefix3.cstring())

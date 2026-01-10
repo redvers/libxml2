@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:802
+  Original Name: xmlNewProp/usr/include/libxml2/libxml/tree.h:802
+
+  Return Value: [PointerType size=64]->[Struct size=768,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlNewProp[NullablePointer[XmlAttr]](node: NullablePointer[XmlNode] tag, name: Pointer[U8] tag, value: Pointer[U8] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:357
+  Original Name: xmlIOFTPRead/usr/include/libxml2/libxml/xmlIO.h:357
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlIOFTPRead(context: Pointer[None] tag, buffer: String, len: I32): I32 =>
+    @xmlIOFTPRead(context, buffer.cstring(), len)

@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:828
+  Original Name: xmlCopyDtd/usr/include/libxml2/libxml/tree.h:828
+
+  Return Value: [PointerType size=64]->[Struct size=1024,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1024,fid: f16]
+*/
+use @xmlCopyDtd[NullablePointer[XmlDtd]](dtd: NullablePointer[XmlDtd] tag)
+

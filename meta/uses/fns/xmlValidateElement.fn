@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:354
+  Original Name: xmlValidateElement/usr/include/libxml2/libxml/valid.h:354
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f28]
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+  fun xmlValidateElement(ctxt: NullablePointer[XmlValidCtxt] tag, doc: NullablePointer[XmlDoc] tag, elem: NullablePointer[XmlNode] tag): I32 =>
+    @xmlValidateElement(ctxt, doc, elem)

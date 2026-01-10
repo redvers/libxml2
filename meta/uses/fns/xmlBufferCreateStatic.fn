@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:718
+  Original Name: xmlBufferCreateStatic/usr/include/libxml2/libxml/tree.h:718
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(long unsigned int) size=64]
+*/
+  fun xmlBufferCreateStatic(mem: Pointer[None] tag, size: U64): NullablePointer[XmlBuffer] =>
+    @xmlBufferCreateStatic(mem, size)

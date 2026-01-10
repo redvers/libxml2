@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemas.h:164
+  Original Name: xmlSchemaParse/usr/include/libxml2/libxml/xmlschemas.h:164
+
+  Return Value: [PointerType size=64]->[Struct size=1280,fid: f77]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f82]
+*/
+use @xmlSchemaParse[NullablePointer[XmlSchema]](ctxt: NullablePointer[XmlSchemaParserCtxt] tag)
+

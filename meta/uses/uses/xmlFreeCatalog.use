@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:104
+  Original Name: xmlFreeCatalog/usr/include/libxml2/libxml/catalog.h:104
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f67]
+*/
+use @xmlFreeCatalog[None](catal: NullablePointer[XmlCatalog] tag)
+

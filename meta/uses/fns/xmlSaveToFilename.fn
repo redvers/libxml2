@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlsave.h:49
+  Original Name: xmlSaveToFilename/usr/include/libxml2/libxml/xmlsave.h:49
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f84]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlSaveToFilename(filename: String, encoding: String, options: I32): NullablePointer[XmlSaveCtxt] =>
+    @xmlSaveToFilename(filename.cstring(), encoding.cstring(), options)

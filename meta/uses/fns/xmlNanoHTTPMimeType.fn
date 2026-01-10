@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/nanohttp.h:64
+  Original Name: xmlNanoHTTPMimeType/usr/include/libxml2/libxml/nanohttp.h:64
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlNanoHTTPMimeType(ctx: Pointer[None] tag): String =>
+    var pcstring: Pointer[U8] =  @xmlNanoHTTPMimeType(ctx)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

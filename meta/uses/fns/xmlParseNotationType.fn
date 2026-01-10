@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:424
+  Original Name: xmlParseNotationType/usr/include/libxml2/libxml/parserInternals.h:424
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+  fun xmlParseNotationType(ctxt: NullablePointer[XmlParserCtxt] tag): NullablePointer[XmlEnumeration] =>
+    @xmlParseNotationType(ctxt)

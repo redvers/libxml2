@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlregexp.h:81
+  Original Name: xmlRegNewExecCtxt/usr/include/libxml2/libxml/xmlregexp.h:81
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f19]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @xmlRegNewExecCtxt[NullablePointer[XmlRegExecCtxt]](comp: NullablePointer[XmlRegexp] tag, callback: Pointer[None] tag, data: Pointer[None] tag)
+

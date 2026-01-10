@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:303
+  Original Name: xmlTextReaderSetSchema/usr/include/libxml2/libxml/xmlreader.h:303
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+    [PointerType size=64]->[Struct size=1280,fid: f77]
+*/
+use @xmlTextReaderSetSchema[I32](reader: NullablePointer[XmlTextReader] tag, schema: NullablePointer[XmlSchema] tag)
+

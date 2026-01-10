@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/entities.h:132
+  Original Name: xmlFreeEntitiesTable/usr/include/libxml2/libxml/entities.h:132
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f24]
+*/
+use @xmlFreeEntitiesTable[None](table: NullablePointer[XmlHashTable] tag)
+

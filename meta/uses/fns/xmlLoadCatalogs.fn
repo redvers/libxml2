@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:116
+  Original Name: xmlLoadCatalogs/usr/include/libxml2/libxml/catalog.h:116
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlLoadCatalogs(paths: String): None =>
+    @xmlLoadCatalogs(paths.cstring())

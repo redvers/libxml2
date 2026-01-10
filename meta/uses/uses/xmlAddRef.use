@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:287
+  Original Name: xmlAddRef/usr/include/libxml2/libxml/valid.h:287
+
+  Return Value: [PointerType size=64]->[Struct size=320,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f28]
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[Struct size=768,fid: f16]
+*/
+use @xmlAddRef[NullablePointer[XmlRef]](ctxt: NullablePointer[XmlValidCtxt] tag, doc: NullablePointer[XmlDoc] tag, value: Pointer[U8] tag, attr: NullablePointer[XmlAttr] tag)
+

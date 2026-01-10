@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1110
+  Original Name: xmlNodeGetBase/usr/include/libxml2/libxml/tree.h:1110
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+  fun xmlNodeGetBase(doc: NullablePointer[XmlDoc] tag, cur: NullablePointer[XmlNode] tag): String =>
+    var pcstring: Pointer[U8] =  @xmlNodeGetBase(doc, cur)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

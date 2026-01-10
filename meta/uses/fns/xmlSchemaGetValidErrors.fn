@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemas.h:185
+  Original Name: xmlSchemaGetValidErrors/usr/include/libxml2/libxml/xmlschemas.h:185
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f82]
+    [PointerType size=64]->[PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlSchemaGetValidErrors(ctxt: NullablePointer[XmlSchemaValidCtxt] tag, err: NullablePointer[Pointer[None]] tag, warn: NullablePointer[Pointer[None]] tag, ctx: NullablePointer[Pointer[None]] tag): I32 =>
+    @xmlSchemaGetValidErrors(ctxt, err, warn, ctx)

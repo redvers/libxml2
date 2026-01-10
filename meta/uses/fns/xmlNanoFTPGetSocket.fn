@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/nanoftp.h:147
+  Original Name: xmlNanoFTPGetSocket/usr/include/libxml2/libxml/nanoftp.h:147
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlNanoFTPGetSocket(ctx: Pointer[None] tag, filename: String): I32 =>
+    @xmlNanoFTPGetSocket(ctx, filename.cstring())

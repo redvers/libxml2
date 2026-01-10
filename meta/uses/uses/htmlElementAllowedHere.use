@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/HTMLparser.h:270
+  Original Name: htmlElementAllowedHere/usr/include/libxml2/libxml/HTMLparser.h:270
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=512,fid: f70]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @htmlElementAllowedHere[I32](parg0: NullablePointer[HtmlElemDesc] tag, parg1: Pointer[U8] tag)
+

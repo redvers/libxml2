@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:547
+  Original Name: xmlXPathWrapNodeSet/usr/include/libxml2/libxml/xpathInternals.h:547
+
+  Return Value: [PointerType size=64]->[Struct size=576,fid: f65]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f65]
+*/
+use @xmlXPathWrapNodeSet[NullablePointer[XmlXPathObject]](val: NullablePointer[XmlNodeSet] tag)
+

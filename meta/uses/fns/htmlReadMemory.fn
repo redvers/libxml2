@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/HTMLparser.h:206
+  Original Name: htmlReadMemory/usr/include/libxml2/libxml/HTMLparser.h:206
+
+  Return Value: [PointerType size=64]->[Struct size=1408,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun htmlReadMemory(buffer: String, size: I32, URL: String, encoding: String, options: I32): NullablePointer[XmlDoc] =>
+    @htmlReadMemory(buffer.cstring(), size, URL.cstring(), encoding.cstring(), options)

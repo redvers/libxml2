@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:332
+  Original Name: xmlIOHTTPMatch/usr/include/libxml2/libxml/xmlIO.h:332
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlIOHTTPMatch[I32](filename: Pointer[U8] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:184
+  Original Name: xmlTextReaderConstValue/usr/include/libxml2/libxml/xmlreader.h:184
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+*/
+  fun xmlTextReaderConstValue(reader: NullablePointer[XmlTextReader] tag): String =>
+    var pcstring: Pointer[U8] =  @xmlTextReaderConstValue(reader)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

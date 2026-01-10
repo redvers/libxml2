@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/xlink.h:172
+  Original Name: xlinkGetDefaultHandler/usr/include/libxml2/libxml/xlink.h:172
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f62]
+
+  Arguments:
+*/
+use @xlinkGetDefaultHandler[NullablePointer[XlinkHandler]]()
+

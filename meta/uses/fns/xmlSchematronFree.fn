@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/schematron.h:98
+  Original Name: xmlSchematronFree/usr/include/libxml2/libxml/schematron.h:98
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f78]
+*/
+  fun xmlSchematronFree(schema: NullablePointer[XmlSchematron] tag): None =>
+    @xmlSchematronFree(schema)

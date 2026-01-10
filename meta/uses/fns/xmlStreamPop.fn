@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/pattern.h:91
+  Original Name: xmlStreamPop/usr/include/libxml2/libxml/pattern.h:91
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f75]
+*/
+  fun xmlStreamPop(stream: NullablePointer[XmlStreamCtxt] tag): I32 =>
+    @xmlStreamPop(stream)

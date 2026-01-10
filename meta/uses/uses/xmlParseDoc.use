@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:844
+  Original Name: xmlParseDoc/usr/include/libxml2/libxml/parser.h:844
+
+  Return Value: [PointerType size=64]->[Struct size=1408,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlParseDoc[NullablePointer[XmlDoc]](cur: Pointer[U8] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:716
+  Original Name: xmlBufferCreateSize/usr/include/libxml2/libxml/tree.h:716
+
+  Return Value: [PointerType size=64]->[Struct size=256,fid: f16]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+*/
+  fun xmlBufferCreateSize(size: U64): NullablePointer[XmlBuffer] =>
+    @xmlBufferCreateSize(size)

@@ -1,0 +1,19 @@
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:242
+  Original Name: xmlAddAttributeDecl/usr/include/libxml2/libxml/valid.h:242
+
+  Return Value: [PointerType size=64]->[Struct size=960,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f28]
+    [PointerType size=64]->[Struct size=1024,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [Enumeration size=32,fid: f16]
+    [Enumeration size=32,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[Struct size=128,fid: f16]
+*/
+use @xmlAddAttributeDecl[NullablePointer[XmlAttribute]](ctxt: NullablePointer[XmlValidCtxt] tag, dtd: NullablePointer[XmlDtd] tag, elem: Pointer[U8] tag, name: Pointer[U8] tag, ns: Pointer[U8] tag, type: I32, def: I32, defaultValue: Pointer[U8] tag, tree: NullablePointer[XmlEnumeration] tag)
+

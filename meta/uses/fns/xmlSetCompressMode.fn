@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1264
+  Original Name: xmlSetCompressMode/usr/include/libxml2/libxml/tree.h:1264
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlSetCompressMode(mode: I32): None =>
+    @xmlSetCompressMode(mode)

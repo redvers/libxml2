@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/nanoftp.h:108
+  Original Name: xmlNanoFTPScanProxy/usr/include/libxml2/libxml/nanoftp.h:108
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlNanoFTPScanProxy[None](URL: Pointer[U8] tag)
+

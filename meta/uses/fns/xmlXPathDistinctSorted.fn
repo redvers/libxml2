@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:385
+  Original Name: xmlXPathDistinctSorted/usr/include/libxml2/libxml/xpathInternals.h:385
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f65]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f65]
+*/
+  fun xmlXPathDistinctSorted(nodes: NullablePointer[XmlNodeSet] tag): NullablePointer[XmlNodeSet] =>
+    @xmlXPathDistinctSorted(nodes)

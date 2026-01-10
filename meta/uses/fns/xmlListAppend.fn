@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/list.h:72
+  Original Name: xmlListAppend/usr/include/libxml2/libxml/list.h:72
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f26]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlListAppend(l: NullablePointer[XmlList] tag, data: Pointer[None] tag): I32 =>
+    @xmlListAppend(l, data)

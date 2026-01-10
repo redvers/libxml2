@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemas.h:138
+  Original Name: xmlSchemaNewParserCtxt/usr/include/libxml2/libxml/xmlschemas.h:138
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f82]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlSchemaNewParserCtxt[NullablePointer[XmlSchemaParserCtxt]](URL: Pointer[U8] tag)
+

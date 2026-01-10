@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:985
+  Original Name: xmlFreeParserCtxt/usr/include/libxml2/libxml/parser.h:985
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+use @xmlFreeParserCtxt[None](ctxt: NullablePointer[XmlParserCtxt] tag)
+

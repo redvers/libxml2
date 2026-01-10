@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/HTMLparser.h:116
+  Original Name: htmlParseDocument/usr/include/libxml2/libxml/HTMLparser.h:116
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+  fun htmlParseDocument(ctxt: NullablePointer[XmlParserCtxt] tag): I32 =>
+    @htmlParseDocument(ctxt)

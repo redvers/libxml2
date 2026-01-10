@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:137
+  Original Name: xmlUCSIsTagalog/usr/include/libxml2/libxml/xmlunicode.h:137
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsTagalog[I32](code: I32)
+

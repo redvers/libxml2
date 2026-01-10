@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/uri.h:81
+  Original Name: xmlNormalizeURIPath/usr/include/libxml2/libxml/uri.h:81
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlNormalizeURIPath(path: String): I32 =>
+    @xmlNormalizeURIPath(path.cstring())

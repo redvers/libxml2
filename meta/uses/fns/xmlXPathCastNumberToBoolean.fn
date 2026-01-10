@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:464
+  Original Name: xmlXPathCastNumberToBoolean/usr/include/libxml2/libxml/xpath.h:464
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(double) size=64]
+*/
+  fun xmlXPathCastNumberToBoolean(val: F64): I32 =>
+    @xmlXPathCastNumberToBoolean(val)

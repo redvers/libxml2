@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:450
+  Original Name: xmlXPathNodeSetCreate/usr/include/libxml2/libxml/xpath.h:450
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f65]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+use @xmlXPathNodeSetCreate[NullablePointer[XmlNodeSet]](val: NullablePointer[XmlNode] tag)
+

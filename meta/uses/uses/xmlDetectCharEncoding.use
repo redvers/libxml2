@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/encoding.h:207
+  Original Name: xmlDetectCharEncoding/usr/include/libxml2/libxml/encoding.h:207
+
+  Return Value: [Enumeration size=32,fid: f42]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlDetectCharEncoding[I32](in: Pointer[U8] tag, len: I32)
+

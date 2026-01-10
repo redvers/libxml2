@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:28
+  Original Name: xmlUCSIsArabic/usr/include/libxml2/libxml/xmlunicode.h:28
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsArabic[I32](code: I32)
+

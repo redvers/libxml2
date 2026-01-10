@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:982
+  Original Name: xmlTextConcat/usr/include/libxml2/libxml/tree.h:982
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlTextConcat(node: NullablePointer[XmlNode] tag, content: String, len: I32): I32 =>
+    @xmlTextConcat(node, content.cstring(), len)

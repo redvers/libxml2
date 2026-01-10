@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/nanohttp.h:71
+  Original Name: xmlNanoHTTPSave/usr/include/libxml2/libxml/nanohttp.h:71
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlNanoHTTPSave[I32](ctxt: Pointer[None] tag, filename: Pointer[U8] tag)
+

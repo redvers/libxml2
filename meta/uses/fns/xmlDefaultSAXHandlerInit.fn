@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:174
+  Original Name: xmlDefaultSAXHandlerInit/usr/include/libxml2/libxml/SAX2.h:174
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+  fun xmlDefaultSAXHandlerInit(): None =>
+    @xmlDefaultSAXHandlerInit()

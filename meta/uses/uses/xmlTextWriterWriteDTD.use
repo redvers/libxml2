@@ -1,0 +1,15 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:326
+  Original Name: xmlTextWriterWriteDTD/usr/include/libxml2/libxml/xmlwriter.h:326
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f87]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlTextWriterWriteDTD[I32](writer: NullablePointer[XmlTextWriter] tag, name: Pointer[U8] tag, pubid: Pointer[U8] tag, sysid: Pointer[U8] tag, subset: Pointer[U8] tag)
+

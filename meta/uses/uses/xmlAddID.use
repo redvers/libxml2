@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:268
+  Original Name: xmlAddID/usr/include/libxml2/libxml/valid.h:268
+
+  Return Value: [PointerType size=64]->[Struct size=384,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f28]
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[Struct size=768,fid: f16]
+*/
+use @xmlAddID[NullablePointer[XmlID]](ctxt: NullablePointer[XmlValidCtxt] tag, doc: NullablePointer[XmlDoc] tag, value: Pointer[U8] tag, attr: NullablePointer[XmlAttr] tag)
+

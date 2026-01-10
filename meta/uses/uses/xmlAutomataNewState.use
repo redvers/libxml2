@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlautomata.h:54
+  Original Name: xmlAutomataNewState/usr/include/libxml2/libxml/xmlautomata.h:54
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f27]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f27]
+*/
+use @xmlAutomataNewState[NullablePointer[XmlAutomataState]](am: NullablePointer[XmlAutomata] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:202
+  Original Name: xmlParserGetDirectory/usr/include/libxml2/libxml/xmlIO.h:202
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlParserGetDirectory(filename: String): String =>
+    var pcstring: Pointer[U8] =  @xmlParserGetDirectory(filename.cstring())
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

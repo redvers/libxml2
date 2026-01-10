@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlautomata.h:130
+  Original Name: xmlAutomataNewCounter/usr/include/libxml2/libxml/xmlautomata.h:130
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f27]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @xmlAutomataNewCounter[I32](am: NullablePointer[XmlAutomata] tag, min: I32, max: I32)
+

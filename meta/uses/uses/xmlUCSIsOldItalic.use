@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:117
+  Original Name: xmlUCSIsOldItalic/usr/include/libxml2/libxml/xmlunicode.h:117
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsOldItalic[I32](code: I32)
+

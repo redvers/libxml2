@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1187
+  Original Name: xmlDocFormatDump/usr/include/libxml2/libxml/tree.h:1187
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1728,fid: f8]
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [FundamentalType(int) size=32]
+*/
+use @xmlDocFormatDump[I32](f: NullablePointer[IOFILE] tag, cur: NullablePointer[XmlDoc] tag, format: I32)
+

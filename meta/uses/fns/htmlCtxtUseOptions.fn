@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/HTMLparser.h:194
+  Original Name: htmlCtxtUseOptions/usr/include/libxml2/libxml/HTMLparser.h:194
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [FundamentalType(int) size=32]
+*/
+  fun htmlCtxtUseOptions(ctxt: NullablePointer[XmlParserCtxt] tag, options: I32): I32 =>
+    @htmlCtxtUseOptions(ctxt, options)

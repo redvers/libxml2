@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:90
+  Original Name: xmlUCSIsKatakana/usr/include/libxml2/libxml/xmlunicode.h:90
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsKatakana[I32](code: I32)
+

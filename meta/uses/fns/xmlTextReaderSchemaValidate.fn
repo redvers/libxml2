@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:296
+  Original Name: xmlTextReaderSchemaValidate/usr/include/libxml2/libxml/xmlreader.h:296
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlTextReaderSchemaValidate(reader: NullablePointer[XmlTextReader] tag, xsd: String): I32 =>
+    @xmlTextReaderSchemaValidate(reader, xsd.cstring())

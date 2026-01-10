@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:1042
+  Original Name: xmlNewIOInputStream/usr/include/libxml2/libxml/parser.h:1042
+
+  Return Value: [PointerType size=64]->[Struct size=832,fid: f17]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [PointerType size=64]->[Struct size=512,fid: f15]
+    [Enumeration size=32,fid: f42]
+*/
+use @xmlNewIOInputStream[NullablePointer[XmlParserInput]](ctxt: NullablePointer[XmlParserCtxt] tag, input: NullablePointer[XmlParserInputBuffer] tag, enc: I32)
+

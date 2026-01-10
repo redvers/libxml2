@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:31
+  Original Name: xmlUCSIsArmenian/usr/include/libxml2/libxml/xmlunicode.h:31
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsArmenian[I32](code: I32)
+

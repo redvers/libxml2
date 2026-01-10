@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:784
+  Original Name: xmlNewNs/usr/include/libxml2/libxml/tree.h:784
+
+  Return Value: [PointerType size=64]->[Struct size=384,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlNewNs[NullablePointer[XmlNs]](node: NullablePointer[XmlNode] tag, href: Pointer[U8] tag, prefix: Pointer[U8] tag)
+

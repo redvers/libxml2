@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:159
+  Original Name: xmlUCSIsCatCf/usr/include/libxml2/libxml/xmlunicode.h:159
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsCatCf(code: I32): I32 =>
+    @xmlUCSIsCatCf(code)

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:116
+  Original Name: xmlUCSIsOgham/usr/include/libxml2/libxml/xmlunicode.h:116
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsOgham(code: I32): I32 =>
+    @xmlUCSIsOgham(code)

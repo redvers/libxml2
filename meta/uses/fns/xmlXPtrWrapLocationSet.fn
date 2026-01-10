@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpointer.h:84
+  Original Name: xmlXPtrWrapLocationSet/usr/include/libxml2/libxml/xpointer.h:84
+
+  Return Value: [PointerType size=64]->[Struct size=576,fid: f65]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f89]
+*/
+  fun xmlXPtrWrapLocationSet(val: NullablePointer[XmlLocationSet] tag): NullablePointer[XmlXPathObject] =>
+    @xmlXPtrWrapLocationSet(val)

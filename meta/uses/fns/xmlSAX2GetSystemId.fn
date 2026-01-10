@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:27
+  Original Name: xmlSAX2GetSystemId/usr/include/libxml2/libxml/SAX2.h:27
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlSAX2GetSystemId(ctx: Pointer[None] tag): String =>
+    var pcstring: Pointer[U8] =  @xmlSAX2GetSystemId(ctx)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

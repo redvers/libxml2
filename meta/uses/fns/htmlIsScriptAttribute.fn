@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/HTMLparser.h:144
+  Original Name: htmlIsScriptAttribute/usr/include/libxml2/libxml/HTMLparser.h:144
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun htmlIsScriptAttribute(name: String): I32 =>
+    @htmlIsScriptAttribute(name.cstring())

@@ -1,0 +1,11 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:26
+  Original Name: _xmlTextWriter
+  Struct Size (bits):  
+  Struct Align (bits): 
+
+  Fields (Offset in bits):
+*/
+struct XmlTextWriter

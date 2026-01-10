@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlregexp.h:55
+  Original Name: xmlRegexpExec/usr/include/libxml2/libxml/xmlregexp.h:55
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f19]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlRegexpExec[I32](comp: NullablePointer[XmlRegexp] tag, value: Pointer[U8] tag)
+

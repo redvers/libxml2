@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/nanohttp.h:64
+  Original Name: xmlNanoHTTPMimeType/usr/include/libxml2/libxml/nanohttp.h:64
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @xmlNanoHTTPMimeType[Pointer[U8]](ctx: Pointer[None] tag)
+

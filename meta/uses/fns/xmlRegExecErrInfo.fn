@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlregexp.h:103
+  Original Name: xmlRegExecErrInfo/usr/include/libxml2/libxml/xmlregexp.h:103
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f19]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+  fun xmlRegExecErrInfo(exec: NullablePointer[XmlRegExecCtxt] tag, string: Array[String], nbval: Pointer[I32] tag, nbneg: Pointer[I32] tag, values: Array[String], terminal: Pointer[I32] tag): I32 =>
+    @xmlRegExecErrInfo(exec, string, nbval, nbneg, values, terminal)

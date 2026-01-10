@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:180
+  Original Name: xmlCopyElementContent/usr/include/libxml2/libxml/valid.h:180
+
+  Return Value: [PointerType size=64]->[Struct size=384,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f16]
+*/
+  fun xmlCopyElementContent(content: NullablePointer[XmlElementContent] tag): NullablePointer[XmlElementContent] =>
+    @xmlCopyElementContent(content)

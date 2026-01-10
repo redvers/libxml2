@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/c14n.h:86
+  Original Name: xmlC14NDocSave/usr/include/libxml2/libxml/c14n.h:86
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[Struct size=128,fid: f65]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlC14NDocSave(doc: NullablePointer[XmlDoc] tag, nodes: NullablePointer[XmlNodeSet] tag, mode: I32, inclusivensprefixes: Array[String], withcomments: I32, filename: String, compression: I32): I32 =>
+    @xmlC14NDocSave(doc, nodes, mode, inclusivensprefixes, withcomments, filename.cstring(), compression)

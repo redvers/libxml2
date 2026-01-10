@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/schemasInternals.h:951
+  Original Name: xmlSchemaFreeWildcard/usr/include/libxml2/libxml/schemasInternals.h:951
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=576,fid: f77]
+*/
+use @xmlSchemaFreeWildcard[None](wildcard: NullablePointer[XmlSchemaWildcard] tag)
+

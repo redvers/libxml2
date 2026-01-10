@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1027
+  Original Name: xmlSetProp/usr/include/libxml2/libxml/tree.h:1027
+
+  Return Value: [PointerType size=64]->[Struct size=768,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlSetProp(node: NullablePointer[XmlNode] tag, name: String, value: String): NullablePointer[XmlAttr] =>
+    @xmlSetProp(node, name.cstring(), value.cstring())

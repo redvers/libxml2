@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:970
+  Original Name: xmlParseCtxtExternalEntity/usr/include/libxml2/libxml/parser.h:970
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=960,fid: f16]
+*/
+use @xmlParseCtxtExternalEntity[I32](ctx: NullablePointer[XmlParserCtxt] tag, URL: Pointer[U8] tag, ID: Pointer[U8] tag, lst: Pointer[NullablePointer[XmlNode]] tag)
+

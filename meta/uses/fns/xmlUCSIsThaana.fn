@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:144
+  Original Name: xmlUCSIsThaana/usr/include/libxml2/libxml/xmlunicode.h:144
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsThaana(code: I32): I32 =>
+    @xmlUCSIsThaana(code)

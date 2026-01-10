@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:319
+  Original Name: xmlIsLetter/usr/include/libxml2/libxml/parserInternals.h:319
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlIsLetter[I32](c: I32)
+

@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:392
+  Original Name: xmlTextWriterWriteDTDAttlist/usr/include/libxml2/libxml/xmlwriter.h:392
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f87]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlTextWriterWriteDTDAttlist[I32](writer: NullablePointer[XmlTextWriter] tag, name: Pointer[U8] tag, content: Pointer[U8] tag)
+

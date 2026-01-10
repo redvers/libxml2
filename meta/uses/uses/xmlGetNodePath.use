@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:929
+  Original Name: xmlGetNodePath/usr/include/libxml2/libxml/tree.h:929
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+use @xmlGetNodePath[Pointer[U8]](node: NullablePointer[XmlNode] tag)
+

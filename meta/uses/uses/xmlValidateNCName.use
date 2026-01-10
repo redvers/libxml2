@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:676
+  Original Name: xmlValidateNCName/usr/include/libxml2/libxml/tree.h:676
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlValidateNCName[I32](value: Pointer[U8] tag, space: I32)
+

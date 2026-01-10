@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:776
+  Original Name: xmlFreeDtd/usr/include/libxml2/libxml/tree.h:776
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1024,fid: f16]
+*/
+use @xmlFreeDtd[None](cur: NullablePointer[XmlDtd] tag)
+

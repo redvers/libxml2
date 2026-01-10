@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/dict.h:68
+  Original Name: xmlDictSize/usr/include/libxml2/libxml/dict.h:68
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f21]
+*/
+use @xmlDictSize[I32](dict: NullablePointer[XmlDict] tag)
+

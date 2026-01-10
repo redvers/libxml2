@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:128
+  Original Name: xmlSAX2Reference/usr/include/libxml2/libxml/SAX2.h:128
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlSAX2Reference(ctx: Pointer[None] tag, name: String): None =>
+    @xmlSAX2Reference(ctx, name.cstring())

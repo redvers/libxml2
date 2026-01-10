@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:273
+  Original Name: xmlFreeIDTable/usr/include/libxml2/libxml/valid.h:273
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f24]
+*/
+use @xmlFreeIDTable[None](table: NullablePointer[XmlHashTable] tag)
+

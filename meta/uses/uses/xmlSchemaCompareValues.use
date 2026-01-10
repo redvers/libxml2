@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemastypes.h:73
+  Original Name: xmlSchemaCompareValues/usr/include/libxml2/libxml/xmlschemastypes.h:73
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f77]
+    [PointerType size=64]->[Struct size=,fid: f77]
+*/
+use @xmlSchemaCompareValues[I32](x: NullablePointer[XmlSchemaVal] tag, y: NullablePointer[XmlSchemaVal] tag)
+

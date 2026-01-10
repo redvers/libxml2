@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:726
+  Original Name: xmlBufferDump/usr/include/libxml2/libxml/tree.h:726
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1728,fid: f8]
+    [PointerType size=64]->[Struct size=256,fid: f16]
+*/
+  fun xmlBufferDump(file: NullablePointer[IOFILE] tag, buf: NullablePointer[XmlBuffer] tag): I32 =>
+    @xmlBufferDump(file, buf)

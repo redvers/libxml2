@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/threads.h:63
+  Original Name: xmlLockLibrary/usr/include/libxml2/libxml/threads.h:63
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+  fun xmlLockLibrary(): None =>
+    @xmlLockLibrary()

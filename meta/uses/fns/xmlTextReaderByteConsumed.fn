@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:316
+  Original Name: xmlTextReaderByteConsumed/usr/include/libxml2/libxml/xmlreader.h:316
+
+  Return Value: [FundamentalType(long int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+*/
+  fun xmlTextReaderByteConsumed(reader: NullablePointer[XmlTextReader] tag): I64 =>
+    @xmlTextReaderByteConsumed(reader)

@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:287
+  Original Name: xmlRegisterHTTPPostCallbacks/usr/include/libxml2/libxml/xmlIO.h:287
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+use @xmlRegisterHTTPPostCallbacks[None]()
+

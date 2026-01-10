@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:821
+  Original Name: xmlCopyProp/usr/include/libxml2/libxml/tree.h:821
+
+  Return Value: [PointerType size=64]->[Struct size=768,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[Struct size=768,fid: f16]
+*/
+  fun xmlCopyProp(target: NullablePointer[XmlNode] tag, cur: NullablePointer[XmlAttr] tag): NullablePointer[XmlAttr] =>
+    @xmlCopyProp(target, cur)

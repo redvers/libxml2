@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/encoding.h:231
+  Original Name: UTF8Toisolat1/usr/include/libxml2/libxml/encoding.h:231
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @UTF8Toisolat1[I32](out: Pointer[U8] tag, outlen: Pointer[I32] tag, in: Pointer[U8] tag, inlen: Pointer[I32] tag)
+

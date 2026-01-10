@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/hash.h:115
+  Original Name: xmlHashDefaultDeallocator/usr/include/libxml2/libxml/hash.h:115
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlHashDefaultDeallocator(entry: Pointer[None] tag, name: String): None =>
+    @xmlHashDefaultDeallocator(entry, name.cstring())

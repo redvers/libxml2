@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemastypes.h:45
+  Original Name: xmlSchemaValPredefTypeNode/usr/include/libxml2/libxml/xmlschemastypes.h:45
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1792,fid: f77]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f77]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+  fun xmlSchemaValPredefTypeNode(type: NullablePointer[XmlSchemaType] tag, value: String, val: Pointer[NullablePointer[XmlSchemaVal]] tag, node: NullablePointer[XmlNode] tag): I32 =>
+    @xmlSchemaValPredefTypeNode(type, value.cstring(), val, node)

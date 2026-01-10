@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlmemory.h:143
+  Original Name: xmlMemBlocks/usr/include/libxml2/libxml/xmlmemory.h:143
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+*/
+  fun xmlMemBlocks(): I32 =>
+    @xmlMemBlocks()

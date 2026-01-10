@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:167
+  Original Name: xmlDumpNotationDecl/usr/include/libxml2/libxml/valid.h:167
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f16]
+    [PointerType size=64]->[Struct size=192,fid: f16]
+*/
+use @xmlDumpNotationDecl[None](buf: NullablePointer[XmlBuffer] tag, nota: NullablePointer[XmlNotation] tag)
+

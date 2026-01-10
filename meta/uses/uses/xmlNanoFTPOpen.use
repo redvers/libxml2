@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/nanoftp.h:100
+  Original Name: xmlNanoFTPOpen/usr/include/libxml2/libxml/nanoftp.h:100
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlNanoFTPOpen[Pointer[None]](URL: Pointer[U8] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:685
+  Original Name: xmlValidateName/usr/include/libxml2/libxml/tree.h:685
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlValidateName(value: String, space: I32): I32 =>
+    @xmlValidateName(value.cstring(), space)

@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlautomata.h:111
+  Original Name: xmlAutomataNewAllTrans/usr/include/libxml2/libxml/xmlautomata.h:111
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f27]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f27]
+    [PointerType size=64]->[Struct size=,fid: f27]
+    [PointerType size=64]->[Struct size=,fid: f27]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlAutomataNewAllTrans(am: NullablePointer[XmlAutomata] tag, from: NullablePointer[XmlAutomataState] tag, to: NullablePointer[XmlAutomataState] tag, lax: I32): NullablePointer[XmlAutomataState] =>
+    @xmlAutomataNewAllTrans(am, from, to, lax)

@@ -1,0 +1,15 @@
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:362
+  Original Name: xmlValidateOneAttribute/usr/include/libxml2/libxml/valid.h:362
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f28]
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[Struct size=768,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlValidateOneAttribute[I32](ctxt: NullablePointer[XmlValidCtxt] tag, doc: NullablePointer[XmlDoc] tag, elem: NullablePointer[XmlNode] tag, attr: NullablePointer[XmlAttr] tag, value: Pointer[U8] tag)
+

@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlmemory.h:163
+  Original Name: xmlReallocLoc/usr/include/libxml2/libxml/xmlmemory.h:163
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlReallocLoc(ptr: Pointer[None] tag, size: U64, file: String, line: I32): Pointer[None] =>
+    @xmlReallocLoc(ptr, size, file.cstring(), line)

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:68
+  Original Name: xmlUCSIsGeometricShapes/usr/include/libxml2/libxml/xmlunicode.h:68
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsGeometricShapes(code: I32): I32 =>
+    @xmlUCSIsGeometricShapes(code)

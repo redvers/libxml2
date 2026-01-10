@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlstring.h:43
+  Original Name: xmlStrndup/usr/include/libxml2/libxml/xmlstring.h:43
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlStrndup(cur: String, len: I32): String =>
+    var pcstring: Pointer[U8] =  @xmlStrndup(cur.cstring(), len)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

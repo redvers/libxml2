@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:758
+  Original Name: xmlBufferLength/usr/include/libxml2/libxml/tree.h:758
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f16]
+*/
+use @xmlBufferLength[I32](buf: NullablePointer[XmlBuffer] tag)
+

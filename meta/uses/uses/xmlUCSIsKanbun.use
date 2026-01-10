@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:87
+  Original Name: xmlUCSIsKanbun/usr/include/libxml2/libxml/xmlunicode.h:87
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsKanbun[I32](code: I32)
+

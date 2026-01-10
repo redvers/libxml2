@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:60
+  Original Name: xmlUCSIsCyrillicSupplement/usr/include/libxml2/libxml/xmlunicode.h:60
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsCyrillicSupplement[I32](code: I32)
+

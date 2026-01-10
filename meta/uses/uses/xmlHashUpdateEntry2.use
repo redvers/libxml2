@@ -1,0 +1,15 @@
+/*
+  Source: /usr/include/libxml2/libxml/hash.h:136
+  Original Name: xmlHashUpdateEntry2/usr/include/libxml2/libxml/hash.h:136
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f24]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @xmlHashUpdateEntry2[I32](table: NullablePointer[XmlHashTable] tag, name: Pointer[U8] tag, name2: Pointer[U8] tag, userdata: Pointer[None] tag, f: Pointer[None] tag)
+

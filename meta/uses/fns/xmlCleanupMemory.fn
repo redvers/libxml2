@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlmemory.h:136
+  Original Name: xmlCleanupMemory/usr/include/libxml2/libxml/xmlmemory.h:136
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+  fun xmlCleanupMemory(): None =>
+    @xmlCleanupMemory()

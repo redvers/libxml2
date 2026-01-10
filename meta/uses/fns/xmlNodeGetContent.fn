@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1088
+  Original Name: xmlNodeGetContent/usr/include/libxml2/libxml/tree.h:1088
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+  fun xmlNodeGetContent(cur: NullablePointer[XmlNode] tag): String =>
+    var pcstring: Pointer[U8] =  @xmlNodeGetContent(cur)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

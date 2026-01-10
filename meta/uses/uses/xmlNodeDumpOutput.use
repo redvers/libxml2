@@ -1,0 +1,16 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1227
+  Original Name: xmlNodeDumpOutput/usr/include/libxml2/libxml/tree.h:1227
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f15]
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlNodeDumpOutput[None](buf: NullablePointer[XmlOutputBuffer] tag, doc: NullablePointer[XmlDoc] tag, cur: NullablePointer[XmlNode] tag, level: I32, format: I32, encoding: Pointer[U8] tag)
+

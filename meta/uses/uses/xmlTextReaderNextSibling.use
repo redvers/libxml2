@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:280
+  Original Name: xmlTextReaderNextSibling/usr/include/libxml2/libxml/xmlreader.h:280
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+*/
+use @xmlTextReaderNextSibling[I32](reader: NullablePointer[XmlTextReader] tag)
+

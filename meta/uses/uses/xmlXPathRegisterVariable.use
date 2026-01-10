@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:444
+  Original Name: xmlXPathRegisterVariable/usr/include/libxml2/libxml/xpathInternals.h:444
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=3008,fid: f65]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[Struct size=576,fid: f65]
+*/
+use @xmlXPathRegisterVariable[I32](ctxt: NullablePointer[XmlXPathContext] tag, name: Pointer[U8] tag, value: NullablePointer[XmlXPathObject] tag)
+

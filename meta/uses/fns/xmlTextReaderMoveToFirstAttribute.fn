@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:236
+  Original Name: xmlTextReaderMoveToFirstAttribute/usr/include/libxml2/libxml/xmlreader.h:236
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+*/
+  fun xmlTextReaderMoveToFirstAttribute(reader: NullablePointer[XmlTextReader] tag): I32 =>
+    @xmlTextReaderMoveToFirstAttribute(reader)

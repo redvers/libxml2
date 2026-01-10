@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:879
+  Original Name: xmlParseDocument/usr/include/libxml2/libxml/parser.h:879
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+  fun xmlParseDocument(ctxt: NullablePointer[XmlParserCtxt] tag): I32 =>
+    @xmlParseDocument(ctxt)

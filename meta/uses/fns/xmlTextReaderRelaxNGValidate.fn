@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:285
+  Original Name: xmlTextReaderRelaxNGValidate/usr/include/libxml2/libxml/xmlreader.h:285
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlTextReaderRelaxNGValidate(reader: NullablePointer[XmlTextReader] tag, rng: String): I32 =>
+    @xmlTextReaderRelaxNGValidate(reader, rng.cstring())

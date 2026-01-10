@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:74
+  Original Name: xmlLoadSGMLSuperCatalog/usr/include/libxml2/libxml/catalog.h:74
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f67]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlLoadSGMLSuperCatalog(filename: String): NullablePointer[XmlCatalog] =>
+    @xmlLoadSGMLSuperCatalog(filename.cstring())

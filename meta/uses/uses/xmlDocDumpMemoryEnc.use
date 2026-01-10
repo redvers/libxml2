@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1176
+  Original Name: xmlDocDumpMemoryEnc/usr/include/libxml2/libxml/tree.h:1176
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlDocDumpMemoryEnc[None](outdoc: NullablePointer[XmlDoc] tag, doctxtptr: Pointer[Pointer[U8]] tag, doctxtlen: Pointer[I32] tag, txtencoding: Pointer[U8] tag)
+

@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1072
+  Original Name: xmlNodeSetContent/usr/include/libxml2/libxml/tree.h:1072
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlNodeSetContent[None](cur: NullablePointer[XmlNode] tag, content: Pointer[U8] tag)
+

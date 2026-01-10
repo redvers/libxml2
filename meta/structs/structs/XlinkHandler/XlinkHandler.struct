@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xlink.h:152
+  Original Name: _xlinkHandler
+  Struct Size (bits):  192
+  Struct Align (bits): 64
+
+  Fields (Offset in bits):
+     000000: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: simple  
+     000064: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: extended  
+     000128: [PointerType size=64]->[FunctionType] -- WRITE MANUALLY: set  
+*/
+struct XlinkHandler
+    var _simple: Pointer[None] = Pointer[None]
+    var _extended: Pointer[None] = Pointer[None]
+    var _set: Pointer[None] = Pointer[None]

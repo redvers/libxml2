@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:254
+  Original Name: xmlOutputBufferGetSize/usr/include/libxml2/libxml/xmlIO.h:254
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f15]
+*/
+  fun xmlOutputBufferGetSize(out: NullablePointer[XmlOutputBuffer] tag): U64 =>
+    @xmlOutputBufferGetSize(out)

@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemas.h:156
+  Original Name: xmlSchemaGetParserErrors/usr/include/libxml2/libxml/xmlschemas.h:156
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f82]
+    [PointerType size=64]->[PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @xmlSchemaGetParserErrors[I32](ctxt: NullablePointer[XmlSchemaParserCtxt] tag, err: NullablePointer[Pointer[None]] tag, warn: NullablePointer[Pointer[None]] tag, ctx: NullablePointer[Pointer[None]] tag)
+

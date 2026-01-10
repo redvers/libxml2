@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/dict.h:47
+  Original Name: xmlDictFree/usr/include/libxml2/libxml/dict.h:47
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f21]
+*/
+use @xmlDictFree[None](dict: NullablePointer[XmlDict] tag)
+

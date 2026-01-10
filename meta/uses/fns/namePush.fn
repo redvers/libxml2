@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:547
+  Original Name: namePush/usr/include/libxml2/libxml/parserInternals.h:547
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun namePush(ctxt: NullablePointer[XmlParserCtxt] tag, value: String): I32 =>
+    @namePush(ctxt, value.cstring())

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:852
+  Original Name: xmlSubstituteEntitiesDefault/usr/include/libxml2/libxml/parser.h:852
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlSubstituteEntitiesDefault(val: I32): I32 =>
+    @xmlSubstituteEntitiesDefault(val)

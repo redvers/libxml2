@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:223
+  Original Name: xmlRegisterDefaultOutputCallbacks/usr/include/libxml2/libxml/xmlIO.h:223
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+use @xmlRegisterDefaultOutputCallbacks[None]()
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:108
+  Original Name: xmlUCSIsMiscellaneousMathematicalSymbolsB/usr/include/libxml2/libxml/xmlunicode.h:108
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsMiscellaneousMathematicalSymbolsB(code: I32): I32 =>
+    @xmlUCSIsMiscellaneousMathematicalSymbolsB(code)

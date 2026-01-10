@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlerror.h:880
+  Original Name: xmlParserWarning/usr/include/libxml2/libxml/xmlerror.h:880
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+/*  fun xmlParserWarning(ctx: Pointer[None] tag, msg: String, ...): None =>
+    @xmlParserWarning(ctx, msg.cstring(), ...)
+*/

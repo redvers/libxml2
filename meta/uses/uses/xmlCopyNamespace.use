@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1017
+  Original Name: xmlCopyNamespace/usr/include/libxml2/libxml/tree.h:1017
+
+  Return Value: [PointerType size=64]->[Struct size=384,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f16]
+*/
+use @xmlCopyNamespace[NullablePointer[XmlNs]](cur: NullablePointer[XmlNs] tag)
+

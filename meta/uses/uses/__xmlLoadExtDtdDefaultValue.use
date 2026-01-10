@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:418
+  Original Name: __xmlLoadExtDtdDefaultValue/usr/include/libxml2/libxml/globals.h:418
+
+  Return Value: [PointerType size=64]->[FundamentalType(int) size=32]
+
+  Arguments:
+*/
+use @__xmlLoadExtDtdDefaultValue[Pointer[I32]]()
+

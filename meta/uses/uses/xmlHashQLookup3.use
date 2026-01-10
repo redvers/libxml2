@@ -1,0 +1,17 @@
+/*
+  Source: /usr/include/libxml2/libxml/hash.h:195
+  Original Name: xmlHashQLookup3/usr/include/libxml2/libxml/hash.h:195
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f24]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlHashQLookup3[Pointer[None]](table: NullablePointer[XmlHashTable] tag, name: Pointer[U8] tag, prefix: Pointer[U8] tag, name2: Pointer[U8] tag, prefix2: Pointer[U8] tag, name3: Pointer[U8] tag, prefix3: Pointer[U8] tag)
+

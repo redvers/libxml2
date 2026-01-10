@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/threads.h:49
+  Original Name: xmlNewRMutex/usr/include/libxml2/libxml/threads.h:49
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f23]
+
+  Arguments:
+*/
+  fun xmlNewRMutex(): NullablePointer[XmlRMutex] =>
+    @xmlNewRMutex()

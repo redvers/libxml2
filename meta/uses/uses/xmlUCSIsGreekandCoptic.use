@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:73
+  Original Name: xmlUCSIsGreekandCoptic/usr/include/libxml2/libxml/xmlunicode.h:73
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsGreekandCoptic[I32](code: I32)
+

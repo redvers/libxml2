@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/relaxng.h:159
+  Original Name: xmlRelaxNGFree/usr/include/libxml2/libxml/relaxng.h:159
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f76]
+*/
+use @xmlRelaxNGFree[None](schema: NullablePointer[XmlRelaxNG] tag)
+

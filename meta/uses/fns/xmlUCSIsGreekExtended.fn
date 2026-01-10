@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:72
+  Original Name: xmlUCSIsGreekExtended/usr/include/libxml2/libxml/xmlunicode.h:72
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsGreekExtended(code: I32): I32 =>
+    @xmlUCSIsGreekExtended(code)

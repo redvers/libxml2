@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:156
+  Original Name: xmlSAXVersion/usr/include/libxml2/libxml/SAX2.h:156
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=2048,fid: f17]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlSAXVersion(hdlr: NullablePointer[XmlSAXHandler] tag, version: I32): I32 =>
+    @xmlSAXVersion(hdlr, version)

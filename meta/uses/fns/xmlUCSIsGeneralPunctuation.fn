@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:67
+  Original Name: xmlUCSIsGeneralPunctuation/usr/include/libxml2/libxml/xmlunicode.h:67
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsGeneralPunctuation(code: I32): I32 =>
+    @xmlUCSIsGeneralPunctuation(code)

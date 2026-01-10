@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlsave.h:77
+  Original Name: xmlSaveSetEscape/usr/include/libxml2/libxml/xmlsave.h:77
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f84]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @xmlSaveSetEscape[I32](ctxt: NullablePointer[XmlSaveCtxt] tag, escape: Pointer[None] tag)
+

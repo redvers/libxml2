@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:740
+  Original Name: xmlBufferCCat/usr/include/libxml2/libxml/tree.h:740
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f16]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlBufferCCat(buf: NullablePointer[XmlBuffer] tag, str: String): I32 =>
+    @xmlBufferCCat(buf, str.cstring())

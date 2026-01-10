@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/dict.h:41
+  Original Name: xmlDictGetUsage/usr/include/libxml2/libxml/dict.h:41
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f21]
+*/
+use @xmlDictGetUsage[U64](dict: NullablePointer[XmlDict] tag)
+

@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:416
+  Original Name: xmlThrDefLineNumbersDefaultValue/usr/include/libxml2/libxml/globals.h:416
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlThrDefLineNumbersDefaultValue[I32](v: I32)
+

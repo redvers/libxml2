@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:345
+  Original Name: xmlIOHTTPClose/usr/include/libxml2/libxml/xmlIO.h:345
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlIOHTTPClose(context: Pointer[None] tag): I32 =>
+    @xmlIOHTTPClose(context)

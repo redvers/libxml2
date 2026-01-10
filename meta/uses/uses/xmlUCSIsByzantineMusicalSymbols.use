@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:41
+  Original Name: xmlUCSIsByzantineMusicalSymbols/usr/include/libxml2/libxml/xmlunicode.h:41
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsByzantineMusicalSymbols[I32](code: I32)
+

@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:514
+  Original Name: xmlXPathNodeSetSort/usr/include/libxml2/libxml/xpathInternals.h:514
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f65]
+*/
+use @xmlXPathNodeSetSort[None](set: NullablePointer[XmlNodeSet] tag)
+

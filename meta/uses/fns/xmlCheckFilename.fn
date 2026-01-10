@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:312
+  Original Name: xmlCheckFilename/usr/include/libxml2/libxml/xmlIO.h:312
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlCheckFilename(path: String): I32 =>
+    @xmlCheckFilename(path.cstring())

@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:391
+  Original Name: xmlParseName/usr/include/libxml2/libxml/parserInternals.h:391
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+use @xmlParseName[Pointer[U8]](ctxt: NullablePointer[XmlParserCtxt] tag)
+

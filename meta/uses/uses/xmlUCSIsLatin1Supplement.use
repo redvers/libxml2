@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:95
+  Original Name: xmlUCSIsLatin1Supplement/usr/include/libxml2/libxml/xmlunicode.h:95
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsLatin1Supplement[I32](code: I32)
+

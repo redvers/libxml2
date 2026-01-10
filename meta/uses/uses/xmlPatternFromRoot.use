@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/pattern.h:72
+  Original Name: xmlPatternFromRoot/usr/include/libxml2/libxml/pattern.h:72
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f75]
+*/
+use @xmlPatternFromRoot[I32](comp: NullablePointer[XmlPattern] tag)
+

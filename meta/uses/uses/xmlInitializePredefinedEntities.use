@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/entities.h:79
+  Original Name: xmlInitializePredefinedEntities/usr/include/libxml2/libxml/entities.h:79
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+use @xmlInitializePredefinedEntities[None]()
+

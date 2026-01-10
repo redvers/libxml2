@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:540
+  Original Name: xmlXPathCtxtCompile/usr/include/libxml2/libxml/xpath.h:540
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f65]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=3008,fid: f65]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlXPathCtxtCompile(ctxt: NullablePointer[XmlXPathContext] tag, str: String): NullablePointer[XmlXPathCompExpr] =>
+    @xmlXPathCtxtCompile(ctxt, str.cstring())

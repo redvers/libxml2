@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlmemory.h:165
+  Original Name: xmlMallocAtomicLoc/usr/include/libxml2/libxml/xmlmemory.h:165
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlMallocAtomicLoc[Pointer[None]](size: U64, file: Pointer[U8] tag, line: I32)
+

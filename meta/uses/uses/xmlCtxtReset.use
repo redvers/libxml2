@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:1120
+  Original Name: xmlCtxtReset/usr/include/libxml2/libxml/parser.h:1120
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+use @xmlCtxtReset[None](ctxt: NullablePointer[XmlParserCtxt] tag)
+

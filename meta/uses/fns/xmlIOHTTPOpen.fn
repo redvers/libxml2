@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:334
+  Original Name: xmlIOHTTPOpen/usr/include/libxml2/libxml/xmlIO.h:334
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlIOHTTPOpen(filename: String): Pointer[None] =>
+    @xmlIOHTTPOpen(filename.cstring())

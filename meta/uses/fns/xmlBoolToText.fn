@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/debugXML.h:86
+  Original Name: xmlBoolToText/usr/include/libxml2/libxml/debugXML.h:86
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlBoolToText(boolval: I32): String =>
+    var pcstring: Pointer[U8] =  @xmlBoolToText(boolval)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

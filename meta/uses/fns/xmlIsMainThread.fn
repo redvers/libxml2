@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/threads.h:69
+  Original Name: xmlIsMainThread/usr/include/libxml2/libxml/threads.h:69
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+*/
+  fun xmlIsMainThread(): I32 =>
+    @xmlIsMainThread()

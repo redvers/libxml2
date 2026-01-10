@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:495
+  Original Name: xmlXPathConvertBoolean/usr/include/libxml2/libxml/xpath.h:495
+
+  Return Value: [PointerType size=64]->[Struct size=576,fid: f65]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=576,fid: f65]
+*/
+  fun xmlXPathConvertBoolean(val: NullablePointer[XmlXPathObject] tag): NullablePointer[XmlXPathObject] =>
+    @xmlXPathConvertBoolean(val)

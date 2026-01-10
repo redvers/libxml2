@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:29
+  Original Name: xmlUCSIsArabicPresentationFormsA/usr/include/libxml2/libxml/xmlunicode.h:29
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsArabicPresentationFormsA[I32](code: I32)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/relaxng.h:185
+  Original Name: xmlRelaxNGNewValidCtxt/usr/include/libxml2/libxml/relaxng.h:185
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f76]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f76]
+*/
+  fun xmlRelaxNGNewValidCtxt(schema: NullablePointer[XmlRelaxNG] tag): NullablePointer[XmlRelaxNGValidCtxt] =>
+    @xmlRelaxNGNewValidCtxt(schema)

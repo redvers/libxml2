@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1084
+  Original Name: xmlNodeAddContentLen/usr/include/libxml2/libxml/tree.h:1084
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlNodeAddContentLen(cur: NullablePointer[XmlNode] tag, content: String, len: I32): None =>
+    @xmlNodeAddContentLen(cur, content.cstring(), len)

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:988
+  Original Name: xmlFreeNode/usr/include/libxml2/libxml/tree.h:988
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+  fun xmlFreeNode(cur: NullablePointer[XmlNode] tag): None =>
+    @xmlFreeNode(cur)

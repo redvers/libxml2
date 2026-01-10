@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/uri.h:53
+  Original Name: xmlCreateURI/usr/include/libxml2/libxml/uri.h:53
+
+  Return Value: [PointerType size=64]->[Struct size=704,fid: f79]
+
+  Arguments:
+*/
+use @xmlCreateURI[NullablePointer[XmlURI]]()
+

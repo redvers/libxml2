@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:352
+  Original Name: xmlTextWriterWriteFormatDTDElement/usr/include/libxml2/libxml/xmlwriter.h:352
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f87]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlTextWriterWriteFormatDTDElement[I32](writer: NullablePointer[XmlTextWriter] tag, name: Pointer[U8] tag, format: Pointer[U8] tag, ...)
+

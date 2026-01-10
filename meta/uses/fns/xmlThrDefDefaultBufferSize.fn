@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:314
+  Original Name: xmlThrDefDefaultBufferSize/usr/include/libxml2/libxml/globals.h:314
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlThrDefDefaultBufferSize(v: I32): I32 =>
+    @xmlThrDefDefaultBufferSize(v)

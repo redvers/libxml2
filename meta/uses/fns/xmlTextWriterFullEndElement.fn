@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:97
+  Original Name: xmlTextWriterFullEndElement/usr/include/libxml2/libxml/xmlwriter.h:97
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f87]
+*/
+  fun xmlTextWriterFullEndElement(writer: NullablePointer[XmlTextWriter] tag): I32 =>
+    @xmlTextWriterFullEndElement(writer)

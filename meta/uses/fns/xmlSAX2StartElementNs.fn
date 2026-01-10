@@ -1,0 +1,21 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:113
+  Original Name: xmlSAX2StartElementNs/usr/include/libxml2/libxml/SAX2.h:113
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlSAX2StartElementNs(ctx: Pointer[None] tag, localname: String, prefix: String, URI: String, nbnamespaces: I32, namespaces: Array[String], nbattributes: I32, nbdefaulted: I32, attributes: Array[String]): None =>
+    @xmlSAX2StartElementNs(ctx, localname.cstring(), prefix.cstring(), URI.cstring(), nbnamespaces, namespaces, nbattributes, nbdefaulted, attributes)

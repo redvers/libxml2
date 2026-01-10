@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:358
+  Original Name: xmlXPathErr/usr/include/libxml2/libxml/xpathInternals.h:358
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=704,fid: f65]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlXPathErr(ctxt: NullablePointer[XmlXPathParserContext] tag, error: I32): None =>
+    @xmlXPathErr(ctxt, error)

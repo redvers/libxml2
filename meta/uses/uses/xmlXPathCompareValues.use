@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:553
+  Original Name: xmlXPathCompareValues/usr/include/libxml2/libxml/xpathInternals.h:553
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=704,fid: f65]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @xmlXPathCompareValues[I32](ctxt: NullablePointer[XmlXPathParserContext] tag, inf: I32, strict: I32)
+

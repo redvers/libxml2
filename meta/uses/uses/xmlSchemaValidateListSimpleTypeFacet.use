@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemastypes.h:78
+  Original Name: xmlSchemaValidateListSimpleTypeFacet/usr/include/libxml2/libxml/xmlschemastypes.h:78
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=576,fid: f77]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+*/
+use @xmlSchemaValidateListSimpleTypeFacet[I32](facet: NullablePointer[XmlSchemaFacet] tag, value: Pointer[U8] tag, actualLen: U64, expectedLen: Pointer[U64] tag)
+

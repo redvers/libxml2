@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:1238
+  Original Name: xmlHasFeature/usr/include/libxml2/libxml/parser.h:1238
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [Enumeration size=32,fid: f17]
+*/
+  fun xmlHasFeature(feature: I32): I32 =>
+    @xmlHasFeature(feature)

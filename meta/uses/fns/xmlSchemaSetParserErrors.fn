@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemas.h:147
+  Original Name: xmlSchemaSetParserErrors/usr/include/libxml2/libxml/xmlschemas.h:147
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f82]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlSchemaSetParserErrors(ctxt: NullablePointer[XmlSchemaParserCtxt] tag, err: Pointer[None] tag, warn: Pointer[None] tag, ctx: Pointer[None] tag): None =>
+    @xmlSchemaSetParserErrors(ctxt, err, warn, ctx)

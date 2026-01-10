@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:854
+  Original Name: xmlKeepBlanksDefault/usr/include/libxml2/libxml/parser.h:854
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlKeepBlanksDefault[I32](val: I32)
+

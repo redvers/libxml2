@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:1057
+  Original Name: xmlParserFindNodeInfoIndex/usr/include/libxml2/libxml/parser.h:1057
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f17]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+use @xmlParserFindNodeInfoIndex[U64](seq: NullablePointer[XmlParserNodeInfoSeq] tag, node: NullablePointer[XmlNode] tag)
+

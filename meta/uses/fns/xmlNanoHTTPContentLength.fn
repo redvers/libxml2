@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/nanohttp.h:60
+  Original Name: xmlNanoHTTPContentLength/usr/include/libxml2/libxml/nanohttp.h:60
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlNanoHTTPContentLength(ctx: Pointer[None] tag): I32 =>
+    @xmlNanoHTTPContentLength(ctx)

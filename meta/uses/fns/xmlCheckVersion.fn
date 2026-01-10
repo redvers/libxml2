@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlversion.h:24
+  Original Name: xmlCheckVersion/usr/include/libxml2/libxml/xmlversion.h:24
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlCheckVersion(version: I32): None =>
+    @xmlCheckVersion(version)

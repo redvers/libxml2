@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/threads.h:73
+  Original Name: xmlGetGlobalState/usr/include/libxml2/libxml/threads.h:73
+
+  Return Value: [PointerType size=64]->[Struct size=7744,fid: f64]
+
+  Arguments:
+*/
+use @xmlGetGlobalState[NullablePointer[XmlGlobalState]]()
+

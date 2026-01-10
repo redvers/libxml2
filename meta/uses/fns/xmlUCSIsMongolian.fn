@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:112
+  Original Name: xmlUCSIsMongolian/usr/include/libxml2/libxml/xmlunicode.h:112
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsMongolian(code: I32): I32 =>
+    @xmlUCSIsMongolian(code)

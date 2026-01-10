@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/encoding.h:224
+  Original Name: xmlCharEncCloseFunc/usr/include/libxml2/libxml/encoding.h:224
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f42]
+*/
+use @xmlCharEncCloseFunc[I32](handler: NullablePointer[XmlCharEncodingHandler] tag)
+

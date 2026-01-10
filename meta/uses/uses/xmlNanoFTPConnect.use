@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/nanoftp.h:102
+  Original Name: xmlNanoFTPConnect/usr/include/libxml2/libxml/nanoftp.h:102
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @xmlNanoFTPConnect[I32](ctx: Pointer[None] tag)
+

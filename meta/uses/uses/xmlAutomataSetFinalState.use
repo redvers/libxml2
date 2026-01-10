@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlautomata.h:51
+  Original Name: xmlAutomataSetFinalState/usr/include/libxml2/libxml/xmlautomata.h:51
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f27]
+    [PointerType size=64]->[Struct size=,fid: f27]
+*/
+use @xmlAutomataSetFinalState[I32](am: NullablePointer[XmlAutomata] tag, state: NullablePointer[XmlAutomataState] tag)
+

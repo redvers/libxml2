@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/encoding.h:174
+  Original Name: xmlCleanupCharEncodingHandlers/usr/include/libxml2/libxml/encoding.h:174
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+use @xmlCleanupCharEncodingHandlers[None]()
+

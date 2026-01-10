@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1158
+  Original Name: xmlReconciliateNs/usr/include/libxml2/libxml/tree.h:1158
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+  fun xmlReconciliateNs(doc: NullablePointer[XmlDoc] tag, tree: NullablePointer[XmlNode] tag): I32 =>
+    @xmlReconciliateNs(doc, tree)

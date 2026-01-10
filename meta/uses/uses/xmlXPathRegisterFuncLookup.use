@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:344
+  Original Name: xmlXPathRegisterFuncLookup/usr/include/libxml2/libxml/xpathInternals.h:344
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=3008,fid: f65]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @xmlXPathRegisterFuncLookup[None](ctxt: NullablePointer[XmlXPathContext] tag, f: Pointer[None] tag, funcCtxt: Pointer[None] tag)
+

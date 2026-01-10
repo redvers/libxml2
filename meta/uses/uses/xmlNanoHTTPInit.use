@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/nanohttp.h:22
+  Original Name: xmlNanoHTTPInit/usr/include/libxml2/libxml/nanohttp.h:22
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+use @xmlNanoHTTPInit[None]()
+

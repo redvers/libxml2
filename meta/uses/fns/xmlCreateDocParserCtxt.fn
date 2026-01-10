@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:993
+  Original Name: xmlCreateDocParserCtxt/usr/include/libxml2/libxml/parser.h:993
+
+  Return Value: [PointerType size=64]->[Struct size=6016,fid: f17]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlCreateDocParserCtxt(cur: String): NullablePointer[XmlParserCtxt] =>
+    @xmlCreateDocParserCtxt(cur.cstring())

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:432
+  Original Name: xmlXPathRegisteredNsCleanup/usr/include/libxml2/libxml/xpathInternals.h:432
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=3008,fid: f65]
+*/
+  fun xmlXPathRegisteredNsCleanup(ctxt: NullablePointer[XmlXPathContext] tag): None =>
+    @xmlXPathRegisteredNsCleanup(ctxt)

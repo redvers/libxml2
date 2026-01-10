@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:390
+  Original Name: xmlXPathHasSameNodes/usr/include/libxml2/libxml/xpathInternals.h:390
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f65]
+    [PointerType size=64]->[Struct size=128,fid: f65]
+*/
+use @xmlXPathHasSameNodes[I32](nodes1: NullablePointer[XmlNodeSet] tag, nodes2: NullablePointer[XmlNodeSet] tag)
+

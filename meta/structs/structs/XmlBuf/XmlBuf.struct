@@ -1,0 +1,11 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:105
+  Original Name: _xmlBuf
+  Struct Size (bits):  
+  Struct Align (bits): 
+
+  Fields (Offset in bits):
+*/
+struct XmlBuf

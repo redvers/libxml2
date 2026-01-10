@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:141
+  Original Name: xmlCatalogConvert/usr/include/libxml2/libxml/catalog.h:141
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+*/
+  fun xmlCatalogConvert(): I32 =>
+    @xmlCatalogConvert()

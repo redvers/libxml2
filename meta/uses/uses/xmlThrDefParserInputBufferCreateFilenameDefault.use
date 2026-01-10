@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:191
+  Original Name: xmlThrDefParserInputBufferCreateFilenameDefault/usr/include/libxml2/libxml/globals.h:191
+
+  Return Value: [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @xmlThrDefParserInputBufferCreateFilenameDefault[Pointer[None]](func: Pointer[None] tag)
+

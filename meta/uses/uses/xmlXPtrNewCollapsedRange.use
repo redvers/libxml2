@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpointer.h:79
+  Original Name: xmlXPtrNewCollapsedRange/usr/include/libxml2/libxml/xpointer.h:79
+
+  Return Value: [PointerType size=64]->[Struct size=576,fid: f65]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+use @xmlXPtrNewCollapsedRange[NullablePointer[XmlXPathObject]](start: NullablePointer[XmlNode] tag)
+

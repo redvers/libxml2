@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:517
+  Original Name: xmlXPathOrderDocElems/usr/include/libxml2/libxml/xpath.h:517
+
+  Return Value: [FundamentalType(long int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+*/
+  fun xmlXPathOrderDocElems(doc: NullablePointer[XmlDoc] tag): I64 =>
+    @xmlXPathOrderDocElems(doc)

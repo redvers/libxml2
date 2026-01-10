@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1259
+  Original Name: xmlSetDocCompressMode/usr/include/libxml2/libxml/tree.h:1259
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlSetDocCompressMode(doc: NullablePointer[XmlDoc] tag, mode: I32): None =>
+    @xmlSetDocCompressMode(doc, mode)

@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/encoding.h:182
+  Original Name: xmlNewCharEncodingHandler/usr/include/libxml2/libxml/encoding.h:182
+
+  Return Value: [PointerType size=64]->[Struct size=448,fid: f42]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @xmlNewCharEncodingHandler[NullablePointer[XmlCharEncodingHandler]](name: Pointer[U8] tag, input: Pointer[None] tag, output: Pointer[None] tag)
+

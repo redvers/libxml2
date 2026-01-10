@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/threads.h:46
+  Original Name: xmlFreeMutex/usr/include/libxml2/libxml/threads.h:46
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f23]
+*/
+  fun xmlFreeMutex(tok: NullablePointer[XmlMutex] tag): None =>
+    @xmlFreeMutex(tok)

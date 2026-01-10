@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:50
+  Original Name: xmlSAX2ExternalSubset/usr/include/libxml2/libxml/SAX2.h:50
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlSAX2ExternalSubset(ctx: Pointer[None] tag, name: String, ExternalID: String, SystemID: String): None =>
+    @xmlSAX2ExternalSubset(ctx, name.cstring(), ExternalID.cstring(), SystemID.cstring())

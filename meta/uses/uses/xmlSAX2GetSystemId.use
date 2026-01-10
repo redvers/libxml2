@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:27
+  Original Name: xmlSAX2GetSystemId/usr/include/libxml2/libxml/SAX2.h:27
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @xmlSAX2GetSystemId[Pointer[U8]](ctx: Pointer[None] tag)
+

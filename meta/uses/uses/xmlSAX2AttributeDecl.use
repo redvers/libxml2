@@ -1,0 +1,17 @@
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:73
+  Original Name: xmlSAX2AttributeDecl/usr/include/libxml2/libxml/SAX2.h:73
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[Struct size=128,fid: f16]
+*/
+use @xmlSAX2AttributeDecl[None](ctx: Pointer[None] tag, elem: Pointer[U8] tag, fullname: Pointer[U8] tag, type: I32, def: I32, defaultValue: Pointer[U8] tag, tree: NullablePointer[XmlEnumeration] tag)
+

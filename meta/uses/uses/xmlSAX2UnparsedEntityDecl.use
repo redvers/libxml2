@@ -1,0 +1,15 @@
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:91
+  Original Name: xmlSAX2UnparsedEntityDecl/usr/include/libxml2/libxml/SAX2.h:91
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlSAX2UnparsedEntityDecl[None](ctx: Pointer[None] tag, name: Pointer[U8] tag, publicId: Pointer[U8] tag, systemId: Pointer[U8] tag, notationName: Pointer[U8] tag)
+

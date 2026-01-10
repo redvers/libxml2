@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:221
+  Original Name: xmlTextReaderGetRemainder/usr/include/libxml2/libxml/xmlreader.h:221
+
+  Return Value: [PointerType size=64]->[Struct size=512,fid: f15]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+*/
+  fun xmlTextReaderGetRemainder(reader: NullablePointer[XmlTextReader] tag): NullablePointer[XmlParserInputBuffer] =>
+    @xmlTextReaderGetRemainder(reader)

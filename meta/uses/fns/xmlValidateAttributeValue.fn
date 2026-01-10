@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:337
+  Original Name: xmlValidateAttributeValue/usr/include/libxml2/libxml/valid.h:337
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [Enumeration size=32,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlValidateAttributeValue(type: I32, value: String): I32 =>
+    @xmlValidateAttributeValue(type, value.cstring())

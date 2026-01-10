@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:917
+  Original Name: xmlSAXParseEntity/usr/include/libxml2/libxml/parser.h:917
+
+  Return Value: [PointerType size=64]->[Struct size=1408,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=2048,fid: f17]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlSAXParseEntity(sax: NullablePointer[XmlSAXHandler] tag, filename: String): NullablePointer[XmlDoc] =>
+    @xmlSAXParseEntity(sax, filename.cstring())

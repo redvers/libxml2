@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlmemory.h:151
+  Original Name: xmlMemoryDump/usr/include/libxml2/libxml/xmlmemory.h:151
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+  fun xmlMemoryDump(): None =>
+    @xmlMemoryDump()

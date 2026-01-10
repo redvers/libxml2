@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:609
+  Original Name: xmlScanName/usr/include/libxml2/libxml/parserInternals.h:609
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+use @xmlScanName[Pointer[U8]](ctxt: NullablePointer[XmlParserCtxt] tag)
+

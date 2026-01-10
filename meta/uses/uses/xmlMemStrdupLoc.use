@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlmemory.h:167
+  Original Name: xmlMemStrdupLoc/usr/include/libxml2/libxml/xmlmemory.h:167
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlMemStrdupLoc[Pointer[U8]](str: Pointer[U8] tag, file: Pointer[U8] tag, line: I32)
+

@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/relaxng.h:122
+  Original Name: xmlRelaxNGCleanupTypes/usr/include/libxml2/libxml/relaxng.h:122
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+use @xmlRelaxNGCleanupTypes[None]()
+

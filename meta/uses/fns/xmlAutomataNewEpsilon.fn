@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlautomata.h:116
+  Original Name: xmlAutomataNewEpsilon/usr/include/libxml2/libxml/xmlautomata.h:116
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f27]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f27]
+    [PointerType size=64]->[Struct size=,fid: f27]
+    [PointerType size=64]->[Struct size=,fid: f27]
+*/
+  fun xmlAutomataNewEpsilon(am: NullablePointer[XmlAutomata] tag, from: NullablePointer[XmlAutomataState] tag, to: NullablePointer[XmlAutomataState] tag): NullablePointer[XmlAutomataState] =>
+    @xmlAutomataNewEpsilon(am, from, to)

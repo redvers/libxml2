@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:105
+  Original Name: xmlSAX2StartElement/usr/include/libxml2/libxml/SAX2.h:105
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlSAX2StartElement(ctx: Pointer[None] tag, fullname: String, atts: Array[String]): None =>
+    @xmlSAX2StartElement(ctx, fullname.cstring(), atts)

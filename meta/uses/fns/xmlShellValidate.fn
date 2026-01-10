@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/debugXML.h:185
+  Original Name: xmlShellValidate/usr/include/libxml2/libxml/debugXML.h:185
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f69]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+  fun xmlShellValidate(ctxt: NullablePointer[XmlShellCtxt] tag, dtd: String, node: NullablePointer[XmlNode] tag, node2: NullablePointer[XmlNode] tag): I32 =>
+    @xmlShellValidate(ctxt, dtd.cstring(), node, node2)

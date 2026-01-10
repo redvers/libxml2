@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:925
+  Original Name: xmlSAXParseDTD/usr/include/libxml2/libxml/parser.h:925
+
+  Return Value: [PointerType size=64]->[Struct size=1024,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=2048,fid: f17]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlSAXParseDTD[NullablePointer[XmlDtd]](sax: NullablePointer[XmlSAXHandler] tag, ExternalID: Pointer[U8] tag, SystemID: Pointer[U8] tag)
+

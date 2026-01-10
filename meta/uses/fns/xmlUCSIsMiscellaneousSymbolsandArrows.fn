@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:110
+  Original Name: xmlUCSIsMiscellaneousSymbolsandArrows/usr/include/libxml2/libxml/xmlunicode.h:110
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsMiscellaneousSymbolsandArrows(code: I32): I32 =>
+    @xmlUCSIsMiscellaneousSymbolsandArrows(code)

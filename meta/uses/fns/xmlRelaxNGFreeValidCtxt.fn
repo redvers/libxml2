@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/relaxng.h:187
+  Original Name: xmlRelaxNGFreeValidCtxt/usr/include/libxml2/libxml/relaxng.h:187
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f76]
+*/
+  fun xmlRelaxNGFreeValidCtxt(ctxt: NullablePointer[XmlRelaxNGValidCtxt] tag): None =>
+    @xmlRelaxNGFreeValidCtxt(ctxt)

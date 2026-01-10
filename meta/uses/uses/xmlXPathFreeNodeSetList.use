@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:452
+  Original Name: xmlXPathFreeNodeSetList/usr/include/libxml2/libxml/xpath.h:452
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=576,fid: f65]
+*/
+use @xmlXPathFreeNodeSetList[None](obj: NullablePointer[XmlXPathObject] tag)
+

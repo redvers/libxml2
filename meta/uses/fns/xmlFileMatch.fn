@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:317
+  Original Name: xmlFileMatch/usr/include/libxml2/libxml/xmlIO.h:317
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlFileMatch(filename: String): I32 =>
+    @xmlFileMatch(filename.cstring())

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:232
+  Original Name: xmlCreateEnumeration/usr/include/libxml2/libxml/valid.h:232
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlCreateEnumeration(name: String): NullablePointer[XmlEnumeration] =>
+    @xmlCreateEnumeration(name.cstring())

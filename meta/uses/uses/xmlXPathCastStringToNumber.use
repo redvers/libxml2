@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:475
+  Original Name: xmlXPathCastStringToNumber/usr/include/libxml2/libxml/xpath.h:475
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlXPathCastStringToNumber[F64](val: Pointer[U8] tag)
+

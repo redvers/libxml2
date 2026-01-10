@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlregexp.h:53
+  Original Name: xmlRegFreeRegexp/usr/include/libxml2/libxml/xmlregexp.h:53
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f19]
+*/
+use @xmlRegFreeRegexp[None](regexp: NullablePointer[XmlRegexp] tag)
+

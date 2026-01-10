@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/hash.h:112
+  Original Name: xmlHashFree/usr/include/libxml2/libxml/hash.h:112
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f24]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+  fun xmlHashFree(table: NullablePointer[XmlHashTable] tag, f: Pointer[None] tag): None =>
+    @xmlHashFree(table, f)

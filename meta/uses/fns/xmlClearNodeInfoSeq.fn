@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:1055
+  Original Name: xmlClearNodeInfoSeq/usr/include/libxml2/libxml/parser.h:1055
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f17]
+*/
+  fun xmlClearNodeInfoSeq(seq: NullablePointer[XmlParserNodeInfoSeq] tag): None =>
+    @xmlClearNodeInfoSeq(seq)

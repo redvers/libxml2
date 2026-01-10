@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlmemory.h:153
+  Original Name: xmlMemMalloc/usr/include/libxml2/libxml/xmlmemory.h:153
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+*/
+  fun xmlMemMalloc(size: U64): Pointer[None] =>
+    @xmlMemMalloc(size)

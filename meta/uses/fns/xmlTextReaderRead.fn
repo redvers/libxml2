@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:129
+  Original Name: xmlTextReaderRead/usr/include/libxml2/libxml/xmlreader.h:129
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+*/
+  fun xmlTextReaderRead(reader: NullablePointer[XmlTextReader] tag): I32 =>
+    @xmlTextReaderRead(reader)

@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1222
+  Original Name: xmlSaveFormatFileTo/usr/include/libxml2/libxml/tree.h:1222
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f15]
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlSaveFormatFileTo(buf: NullablePointer[XmlOutputBuffer] tag, cur: NullablePointer[XmlDoc] tag, encoding: String, format: I32): I32 =>
+    @xmlSaveFormatFileTo(buf, cur, encoding.cstring(), format)

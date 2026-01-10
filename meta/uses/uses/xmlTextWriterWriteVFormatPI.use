@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:261
+  Original Name: xmlTextWriterWriteVFormatPI/usr/include/libxml2/libxml/xmlwriter.h:261
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f87]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=192,fid: f0]
+*/
+use @xmlTextWriterWriteVFormatPI[I32](writer: NullablePointer[XmlTextWriter] tag, target: Pointer[U8] tag, format: Pointer[U8] tag, argptr: NullablePointer[Valisttag] tag)
+

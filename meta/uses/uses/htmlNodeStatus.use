@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/HTMLparser.h:272
+  Original Name: htmlNodeStatus/usr/include/libxml2/libxml/HTMLparser.h:272
+
+  Return Value: [Enumeration size=32,fid: f70]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [FundamentalType(int) size=32]
+*/
+use @htmlNodeStatus[I32](parg0: NullablePointer[XmlNode] tag, parg1: I32)
+

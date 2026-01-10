@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/schematron.h:96
+  Original Name: xmlSchematronParse/usr/include/libxml2/libxml/schematron.h:96
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f78]
+*/
+  fun xmlSchematronParse(ctxt: NullablePointer[XmlSchematronParserCtxt] tag): NullablePointer[XmlSchematron] =>
+    @xmlSchematronParse(ctxt)

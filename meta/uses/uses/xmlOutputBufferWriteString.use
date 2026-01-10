@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:261
+  Original Name: xmlOutputBufferWriteString/usr/include/libxml2/libxml/xmlIO.h:261
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f15]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlOutputBufferWriteString[I32](out: NullablePointer[XmlOutputBuffer] tag, str: Pointer[U8] tag)
+

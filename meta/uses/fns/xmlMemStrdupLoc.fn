@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlmemory.h:167
+  Original Name: xmlMemStrdupLoc/usr/include/libxml2/libxml/xmlmemory.h:167
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlMemStrdupLoc(str: String, file: String, line: I32): String =>
+    var pcstring: Pointer[U8] =  @xmlMemStrdupLoc(str.cstring(), file.cstring(), line)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

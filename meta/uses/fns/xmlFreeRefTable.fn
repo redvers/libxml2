@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:292
+  Original Name: xmlFreeRefTable/usr/include/libxml2/libxml/valid.h:292
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f24]
+*/
+  fun xmlFreeRefTable(table: NullablePointer[XmlHashTable] tag): None =>
+    @xmlFreeRefTable(table)

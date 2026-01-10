@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1122
+  Original Name: xmlRemoveProp/usr/include/libxml2/libxml/tree.h:1122
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=768,fid: f16]
+*/
+use @xmlRemoveProp[I32](cur: NullablePointer[XmlAttr] tag)
+

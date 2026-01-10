@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:252
+  Original Name: xmlOutputBufferGetContent/usr/include/libxml2/libxml/xmlIO.h:252
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f15]
+*/
+use @xmlOutputBufferGetContent[Pointer[U8]](out: NullablePointer[XmlOutputBuffer] tag)
+

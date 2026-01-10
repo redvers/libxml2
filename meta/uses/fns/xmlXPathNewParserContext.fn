@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:475
+  Original Name: xmlXPathNewParserContext/usr/include/libxml2/libxml/xpathInternals.h:475
+
+  Return Value: [PointerType size=64]->[Struct size=704,fid: f65]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[Struct size=3008,fid: f65]
+*/
+  fun xmlXPathNewParserContext(str: String, ctxt: NullablePointer[XmlXPathContext] tag): NullablePointer[XmlXPathParserContext] =>
+    @xmlXPathNewParserContext(str.cstring(), ctxt)

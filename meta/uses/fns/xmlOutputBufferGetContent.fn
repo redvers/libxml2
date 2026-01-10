@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:252
+  Original Name: xmlOutputBufferGetContent/usr/include/libxml2/libxml/xmlIO.h:252
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f15]
+*/
+  fun xmlOutputBufferGetContent(out: NullablePointer[XmlOutputBuffer] tag): String =>
+    var pcstring: Pointer[U8] =  @xmlOutputBufferGetContent(out)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

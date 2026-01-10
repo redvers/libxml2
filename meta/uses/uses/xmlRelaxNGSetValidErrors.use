@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/relaxng.h:172
+  Original Name: xmlRelaxNGSetValidErrors/usr/include/libxml2/libxml/relaxng.h:172
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f76]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @xmlRelaxNGSetValidErrors[None](ctxt: NullablePointer[XmlRelaxNGValidCtxt] tag, err: Pointer[None] tag, warn: Pointer[None] tag, ctx: Pointer[None] tag)
+

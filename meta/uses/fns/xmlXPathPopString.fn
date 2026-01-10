@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:108
+  Original Name: xmlXPathPopString/usr/include/libxml2/libxml/xpathInternals.h:108
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=704,fid: f65]
+*/
+  fun xmlXPathPopString(ctxt: NullablePointer[XmlXPathParserContext] tag): String =>
+    var pcstring: Pointer[U8] =  @xmlXPathPopString(ctxt)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

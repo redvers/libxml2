@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:426
+  Original Name: xmlParseEnumerationType/usr/include/libxml2/libxml/parserInternals.h:426
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+use @xmlParseEnumerationType[NullablePointer[XmlEnumeration]](ctxt: NullablePointer[XmlParserCtxt] tag)
+

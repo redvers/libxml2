@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemas.h:140
+  Original Name: xmlSchemaNewMemParserCtxt/usr/include/libxml2/libxml/xmlschemas.h:140
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f82]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlSchemaNewMemParserCtxt(buffer: String, size: I32): NullablePointer[XmlSchemaParserCtxt] =>
+    @xmlSchemaNewMemParserCtxt(buffer.cstring(), size)

@@ -1,0 +1,16 @@
+/*
+  Source: /usr/include/libxml2/libxml/nanohttp.h:32
+  Original Name: xmlNanoHTTPMethod/usr/include/libxml2/libxml/nanohttp.h:32
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlNanoHTTPMethod[Pointer[None]](URL: Pointer[U8] tag, method: Pointer[U8] tag, input: Pointer[U8] tag, contentType: Pointer[Pointer[U8]] tag, headers: Pointer[U8] tag, ilen: I32)
+

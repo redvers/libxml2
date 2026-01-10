@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/schemasInternals.h:950
+  Original Name: xmlSchemaFreeType/usr/include/libxml2/libxml/schemasInternals.h:950
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1792,fid: f77]
+*/
+use @xmlSchemaFreeType[None](type: NullablePointer[XmlSchemaType] tag)
+

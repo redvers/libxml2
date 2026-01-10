@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:565
+  Original Name: xmlCopyCharMultiByte/usr/include/libxml2/libxml/parserInternals.h:565
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlCopyCharMultiByte(out: String, val: I32): I32 =>
+    @xmlCopyCharMultiByte(out.cstring(), val)

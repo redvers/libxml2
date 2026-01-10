@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlautomata.h:125
+  Original Name: xmlAutomataNewCounterTrans/usr/include/libxml2/libxml/xmlautomata.h:125
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f27]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f27]
+    [PointerType size=64]->[Struct size=,fid: f27]
+    [PointerType size=64]->[Struct size=,fid: f27]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlAutomataNewCounterTrans(am: NullablePointer[XmlAutomata] tag, from: NullablePointer[XmlAutomataState] tag, to: NullablePointer[XmlAutomataState] tag, counter: I32): NullablePointer[XmlAutomataState] =>
+    @xmlAutomataNewCounterTrans(am, from, to, counter)

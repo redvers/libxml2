@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:872
+  Original Name: xmlRecoverFile/usr/include/libxml2/libxml/parser.h:872
+
+  Return Value: [PointerType size=64]->[Struct size=1408,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlRecoverFile[NullablePointer[XmlDoc]](filename: Pointer[U8] tag)
+

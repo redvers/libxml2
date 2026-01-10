@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/dict.h:43
+  Original Name: xmlDictCreateSub/usr/include/libxml2/libxml/dict.h:43
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f21]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f21]
+*/
+  fun xmlDictCreateSub(sub: NullablePointer[XmlDict] tag): NullablePointer[XmlDict] =>
+    @xmlDictCreateSub(sub)

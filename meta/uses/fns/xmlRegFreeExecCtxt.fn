@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlregexp.h:85
+  Original Name: xmlRegFreeExecCtxt/usr/include/libxml2/libxml/xmlregexp.h:85
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f19]
+*/
+  fun xmlRegFreeExecCtxt(exec: NullablePointer[XmlRegExecCtxt] tag): None =>
+    @xmlRegFreeExecCtxt(exec)

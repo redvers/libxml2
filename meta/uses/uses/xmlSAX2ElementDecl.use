@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:81
+  Original Name: xmlSAX2ElementDecl/usr/include/libxml2/libxml/SAX2.h:81
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Struct size=384,fid: f16]
+*/
+use @xmlSAX2ElementDecl[None](ctx: Pointer[None] tag, name: Pointer[U8] tag, type: I32, content: NullablePointer[XmlElementContent] tag)
+

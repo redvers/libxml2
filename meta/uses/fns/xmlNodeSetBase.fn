@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1114
+  Original Name: xmlNodeSetBase/usr/include/libxml2/libxml/tree.h:1114
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlNodeSetBase(cur: NullablePointer[XmlNode] tag, uri: String): None =>
+    @xmlNodeSetBase(cur, uri.cstring())

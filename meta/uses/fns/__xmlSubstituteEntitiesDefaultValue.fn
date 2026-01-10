@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:462
+  Original Name: __xmlSubstituteEntitiesDefaultValue/usr/include/libxml2/libxml/globals.h:462
+
+  Return Value: [PointerType size=64]->[FundamentalType(int) size=32]
+
+  Arguments:
+*/
+  fun __xmlSubstituteEntitiesDefaultValue(): Pointer[I32] =>
+    @__xmlSubstituteEntitiesDefaultValue()

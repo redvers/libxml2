@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:411
+  Original Name: xmlParseComment/usr/include/libxml2/libxml/parserInternals.h:411
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+  fun xmlParseComment(ctxt: NullablePointer[XmlParserCtxt] tag): None =>
+    @xmlParseComment(ctxt)

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:367
+  Original Name: xmlXPathDebugDumpCompExpr/usr/include/libxml2/libxml/xpathInternals.h:367
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1728,fid: f8]
+    [PointerType size=64]->[Struct size=,fid: f65]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlXPathDebugDumpCompExpr(output: NullablePointer[IOFILE] tag, comp: NullablePointer[XmlXPathCompExpr] tag, depth: I32): None =>
+    @xmlXPathDebugDumpCompExpr(output, comp, depth)

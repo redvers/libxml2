@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1103
+  Original Name: xmlNodeSetLang/usr/include/libxml2/libxml/tree.h:1103
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlNodeSetLang[None](cur: NullablePointer[XmlNode] tag, lang: Pointer[U8] tag)
+

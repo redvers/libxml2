@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlmemory.h:155
+  Original Name: xmlMemRealloc/usr/include/libxml2/libxml/xmlmemory.h:155
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(long unsigned int) size=64]
+*/
+  fun xmlMemRealloc(ptr: Pointer[None] tag, size: U64): Pointer[None] =>
+    @xmlMemRealloc(ptr, size)

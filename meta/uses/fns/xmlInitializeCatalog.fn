@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:112
+  Original Name: xmlInitializeCatalog/usr/include/libxml2/libxml/catalog.h:112
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+  fun xmlInitializeCatalog(): None =>
+    @xmlInitializeCatalog()

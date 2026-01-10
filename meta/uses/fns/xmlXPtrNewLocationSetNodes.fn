@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpointer.h:71
+  Original Name: xmlXPtrNewLocationSetNodes/usr/include/libxml2/libxml/xpointer.h:71
+
+  Return Value: [PointerType size=64]->[Struct size=576,fid: f65]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+  fun xmlXPtrNewLocationSetNodes(start: NullablePointer[XmlNode] tag, end: NullablePointer[XmlNode] tag): NullablePointer[XmlXPathObject] =>
+    @xmlXPtrNewLocationSetNodes(start, end)

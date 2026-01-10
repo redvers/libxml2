@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:557
+  Original Name: xmlXPathIsInf/usr/include/libxml2/libxml/xpath.h:557
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(double) size=64]
+*/
+  fun xmlXPathIsInf(val: F64): I32 =>
+    @xmlXPathIsInf(val)

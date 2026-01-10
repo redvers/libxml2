@@ -1,0 +1,15 @@
+/*
+  Source: /usr/include/libxml2/libxml/nanoftp.h:110
+  Original Name: xmlNanoFTPProxy/usr/include/libxml2/libxml/nanoftp.h:110
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlNanoFTPProxy[None](host: Pointer[U8] tag, port: I32, user: Pointer[U8] tag, passwd: Pointer[U8] tag, type: I32)
+

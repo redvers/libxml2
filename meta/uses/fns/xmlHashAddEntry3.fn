@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/hash.h:142
+  Original Name: xmlHashAddEntry3/usr/include/libxml2/libxml/hash.h:142
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f24]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlHashAddEntry3(table: NullablePointer[XmlHashTable] tag, name: String, name2: String, name3: String, userdata: Pointer[None] tag): I32 =>
+    @xmlHashAddEntry3(table, name.cstring(), name2.cstring(), name3.cstring(), userdata)

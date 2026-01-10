@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlerror.h:863
+  Original Name: xmlSetGenericErrorFunc/usr/include/libxml2/libxml/xmlerror.h:863
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+  fun xmlSetGenericErrorFunc(ctx: Pointer[None] tag, handler: Pointer[None] tag): None =>
+    @xmlSetGenericErrorFunc(ctx, handler)

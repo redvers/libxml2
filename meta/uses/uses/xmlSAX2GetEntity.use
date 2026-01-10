@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:55
+  Original Name: xmlSAX2GetEntity/usr/include/libxml2/libxml/SAX2.h:55
+
+  Return Value: [PointerType size=64]->[Struct size=1088,fid: f18]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlSAX2GetEntity[NullablePointer[XmlEntity]](ctx: Pointer[None] tag, name: Pointer[U8] tag)
+

@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/uri.h:87
+  Original Name: xmlCanonicPath/usr/include/libxml2/libxml/uri.h:87
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlCanonicPath[Pointer[U8]](path: Pointer[U8] tag)
+

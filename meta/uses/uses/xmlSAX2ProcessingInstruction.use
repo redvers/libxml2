@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:139
+  Original Name: xmlSAX2ProcessingInstruction/usr/include/libxml2/libxml/SAX2.h:139
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlSAX2ProcessingInstruction[None](ctx: Pointer[None] tag, target: Pointer[U8] tag, data: Pointer[U8] tag)
+

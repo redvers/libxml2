@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:363
+  Original Name: xmlXPathDebugDumpObject/usr/include/libxml2/libxml/xpathInternals.h:363
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1728,fid: f8]
+    [PointerType size=64]->[Struct size=576,fid: f65]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlXPathDebugDumpObject(output: NullablePointer[IOFILE] tag, cur: NullablePointer[XmlXPathObject] tag, depth: I32): None =>
+    @xmlXPathDebugDumpObject(output, cur, depth)

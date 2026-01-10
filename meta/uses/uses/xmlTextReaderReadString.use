@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:140
+  Original Name: xmlTextReaderReadString/usr/include/libxml2/libxml/xmlreader.h:140
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+*/
+use @xmlTextReaderReadString[Pointer[U8]](reader: NullablePointer[XmlTextReader] tag)
+

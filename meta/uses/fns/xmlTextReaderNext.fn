@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:278
+  Original Name: xmlTextReaderNext/usr/include/libxml2/libxml/xmlreader.h:278
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+*/
+  fun xmlTextReaderNext(reader: NullablePointer[XmlTextReader] tag): I32 =>
+    @xmlTextReaderNext(reader)

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:971
+  Original Name: xmlAddSibling/usr/include/libxml2/libxml/tree.h:971
+
+  Return Value: [PointerType size=64]->[Struct size=960,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+  fun xmlAddSibling(cur: NullablePointer[XmlNode] tag, elem: NullablePointer[XmlNode] tag): NullablePointer[XmlNode] =>
+    @xmlAddSibling(cur, elem)

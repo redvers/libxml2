@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlstring.h:71
+  Original Name: xmlStrcasecmp/usr/include/libxml2/libxml/xmlstring.h:71
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlStrcasecmp(str1: String, str2: String): I32 =>
+    @xmlStrcasecmp(str1.cstring(), str2.cstring())

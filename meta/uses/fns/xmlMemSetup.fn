@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlmemory.h:104
+  Original Name: xmlMemSetup/usr/include/libxml2/libxml/xmlmemory.h:104
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+  fun xmlMemSetup(freeFunc: Pointer[None] tag, mallocFunc: Pointer[None] tag, reallocFunc: Pointer[None] tag, strdupFunc: Pointer[None] tag): I32 =>
+    @xmlMemSetup(freeFunc, mallocFunc, reallocFunc, strdupFunc)

@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:412
+  Original Name: xmlValidGetPotentialChildren/usr/include/libxml2/libxml/valid.h:412
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f16]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @xmlValidGetPotentialChildren[I32](ctree: NullablePointer[XmlElementContent] tag, names: Pointer[Pointer[U8]] tag, len: Pointer[I32] tag, max: I32)
+

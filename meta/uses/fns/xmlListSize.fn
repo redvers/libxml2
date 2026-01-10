@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/list.h:92
+  Original Name: xmlListSize/usr/include/libxml2/libxml/list.h:92
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f26]
+*/
+  fun xmlListSize(l: NullablePointer[XmlList] tag): I32 =>
+    @xmlListSize(l)

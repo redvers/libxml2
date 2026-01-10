@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlerror.h:904
+  Original Name: xmlCtxtGetLastError/usr/include/libxml2/libxml/xmlerror.h:904
+
+  Return Value: [PointerType size=64]->[Struct size=704,fid: f25]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @xmlCtxtGetLastError[NullablePointer[XmlError]](ctx: Pointer[None] tag)
+

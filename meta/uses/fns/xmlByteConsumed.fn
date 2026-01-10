@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:1080
+  Original Name: xmlByteConsumed/usr/include/libxml2/libxml/parser.h:1080
+
+  Return Value: [FundamentalType(long int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+  fun xmlByteConsumed(ctxt: NullablePointer[XmlParserCtxt] tag): I64 =>
+    @xmlByteConsumed(ctxt)

@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1094
+  Original Name: xmlBufGetNodeContent/usr/include/libxml2/libxml/tree.h:1094
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+use @xmlBufGetNodeContent[I32](buf: NullablePointer[XmlBuf] tag, cur: NullablePointer[XmlNode] tag)
+

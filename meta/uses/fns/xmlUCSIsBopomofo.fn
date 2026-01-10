@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:36
+  Original Name: xmlUCSIsBopomofo/usr/include/libxml2/libxml/xmlunicode.h:36
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsBopomofo(code: I32): I32 =>
+    @xmlUCSIsBopomofo(code)

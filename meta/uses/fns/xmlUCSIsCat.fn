@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:194
+  Original Name: xmlUCSIsCat/usr/include/libxml2/libxml/xmlunicode.h:194
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlUCSIsCat(code: I32, cat: String): I32 =>
+    @xmlUCSIsCat(code, cat.cstring())

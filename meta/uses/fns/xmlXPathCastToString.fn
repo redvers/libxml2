@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:492
+  Original Name: xmlXPathCastToString/usr/include/libxml2/libxml/xpath.h:492
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=576,fid: f65]
+*/
+  fun xmlXPathCastToString(val: NullablePointer[XmlXPathObject] tag): String =>
+    var pcstring: Pointer[U8] =  @xmlXPathCastToString(val)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

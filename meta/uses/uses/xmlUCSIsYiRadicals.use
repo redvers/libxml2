@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:151
+  Original Name: xmlUCSIsYiRadicals/usr/include/libxml2/libxml/xmlunicode.h:151
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsYiRadicals[I32](code: I32)
+

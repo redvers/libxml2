@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/hash.h:162
+  Original Name: xmlHashRemoveEntry2/usr/include/libxml2/libxml/hash.h:162
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f24]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+  fun xmlHashRemoveEntry2(table: NullablePointer[XmlHashTable] tag, name: String, name2: String, f: Pointer[None] tag): I32 =>
+    @xmlHashRemoveEntry2(table, name.cstring(), name2.cstring(), f)

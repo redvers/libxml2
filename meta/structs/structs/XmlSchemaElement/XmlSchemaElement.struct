@@ -1,0 +1,63 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/schemasInternals.h:765
+  Original Name: _xmlSchemaElement
+  Struct Size (bits):  1600
+  Struct Align (bits): 64
+
+  Fields (Offset in bits):
+     000000: [Enumeration size=32,fid: f77]: type  
+     000064: [PointerType size=64]->[Struct size=1792,fid: f77]: next  
+     000128: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: name  
+     000192: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: id  
+     000256: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: ref  
+     000320: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: refNs  
+     000384: [PointerType size=64]->[Struct size=128,fid: f77]: annot  
+     000448: [PointerType size=64]->[Struct size=1792,fid: f77]: subtypes  
+     000512: [PointerType size=64]->[Struct size=1216,fid: f77]: attributes  
+     000576: [PointerType size=64]->[Struct size=960,fid: f16]: node  
+     000640: [FundamentalType(int) size=32]: minOccurs  
+     000672: [FundamentalType(int) size=32]: maxOccurs  
+     000704: [FundamentalType(int) size=32]: flags  
+     000768: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: targetNamespace  
+     000832: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: namedType  
+     000896: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: namedTypeNs  
+     000960: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: substGroup  
+     001024: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: substGroupNs  
+     001088: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: scope  
+     001152: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: value  
+     001216: [PointerType size=64]->[Struct size=1600,fid: f77]: refDecl  
+     001280: [PointerType size=64]->[Struct size=,fid: f19]: contModel  
+     001344: [Enumeration size=32,fid: f77]: contentType  
+     001408: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: refPrefix  
+     001472: [PointerType size=64]->[Struct size=,fid: f77]: defVal  
+     001536: [PointerType size=64]->[FundamentalType(void) size=0]: idcs  
+*/
+struct XmlSchemaElement
+    var _type: I32 = I32(0)
+    var _next: NullablePointer[XmlSchemaType] = NullablePointer[XmlSchemaType].none()
+  _name: Pointer[U8] = Pointer[U8]
+  _id: Pointer[U8] = Pointer[U8]
+  _ref: Pointer[U8] = Pointer[U8]
+  _refNs: Pointer[U8] = Pointer[U8]
+    var _annot: NullablePointer[XmlSchemaAnnot] = NullablePointer[XmlSchemaAnnot].none()
+    var _subtypes: NullablePointer[XmlSchemaType] = NullablePointer[XmlSchemaType].none()
+    var _attributes: NullablePointer[XmlSchemaAttribute] = NullablePointer[XmlSchemaAttribute].none()
+    var _node: NullablePointer[XmlNode] = NullablePointer[XmlNode].none()
+    var _minOccurs: I32 = I32(0)
+    var _maxOccurs: I32 = I32(0)
+    var _flags: I32 = I32(0)
+  _targetNamespace: Pointer[U8] = Pointer[U8]
+  _namedType: Pointer[U8] = Pointer[U8]
+  _namedTypeNs: Pointer[U8] = Pointer[U8]
+  _substGroup: Pointer[U8] = Pointer[U8]
+  _substGroupNs: Pointer[U8] = Pointer[U8]
+  _scope: Pointer[U8] = Pointer[U8]
+  _value: Pointer[U8] = Pointer[U8]
+    var _refDecl: NullablePointer[XmlSchemaElement] = NullablePointer[XmlSchemaElement].none()
+    var _contModel: NullablePointer[XmlRegexp] = NullablePointer[XmlRegexp].none()
+    var _contentType: I32 = I32(0)
+  _refPrefix: Pointer[U8] = Pointer[U8]
+    var _defVal: NullablePointer[XmlSchemaVal] = NullablePointer[XmlSchemaVal].none()
+    var _idcs: Pointer[None] = Pointer[None]

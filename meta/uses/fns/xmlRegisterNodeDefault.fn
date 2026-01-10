@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:183
+  Original Name: xmlRegisterNodeDefault/usr/include/libxml2/libxml/globals.h:183
+
+  Return Value: [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+  fun xmlRegisterNodeDefault(func: Pointer[None] tag): Pointer[None] =>
+    @xmlRegisterNodeDefault(func)

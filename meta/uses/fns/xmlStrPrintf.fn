@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlstring.h:98
+  Original Name: xmlStrPrintf/usr/include/libxml2/libxml/xmlstring.h:98
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+/*  fun xmlStrPrintf(buf: String, len: I32, msg: String, ...): I32 =>
+    @xmlStrPrintf(buf.cstring(), len, msg.cstring(), ...)
+*/

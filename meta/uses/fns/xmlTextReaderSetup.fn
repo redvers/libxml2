@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:121
+  Original Name: xmlTextReaderSetup/usr/include/libxml2/libxml/xmlreader.h:121
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+    [PointerType size=64]->[Struct size=512,fid: f15]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlTextReaderSetup(reader: NullablePointer[XmlTextReader] tag, input: NullablePointer[XmlParserInputBuffer] tag, URL: String, encoding: String, options: I32): I32 =>
+    @xmlTextReaderSetup(reader, input, URL.cstring(), encoding.cstring(), options)

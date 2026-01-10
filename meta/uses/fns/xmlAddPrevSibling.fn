@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:967
+  Original Name: xmlAddPrevSibling/usr/include/libxml2/libxml/tree.h:967
+
+  Return Value: [PointerType size=64]->[Struct size=960,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+  fun xmlAddPrevSibling(cur: NullablePointer[XmlNode] tag, elem: NullablePointer[XmlNode] tag): NullablePointer[XmlNode] =>
+    @xmlAddPrevSibling(cur, elem)

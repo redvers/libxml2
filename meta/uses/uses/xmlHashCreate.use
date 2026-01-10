@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/hash.h:107
+  Original Name: xmlHashCreate/usr/include/libxml2/libxml/hash.h:107
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f24]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlHashCreate[NullablePointer[XmlHashTable]](size: I32)
+

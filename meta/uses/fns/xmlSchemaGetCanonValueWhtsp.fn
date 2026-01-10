@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemastypes.h:115
+  Original Name: xmlSchemaGetCanonValueWhtsp/usr/include/libxml2/libxml/xmlschemastypes.h:115
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f77]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [Enumeration size=32,fid: f85]
+*/
+  fun xmlSchemaGetCanonValueWhtsp(val: NullablePointer[XmlSchemaVal] tag, retValue: Array[String], ws: I32): I32 =>
+    @xmlSchemaGetCanonValueWhtsp(val, retValue, ws)

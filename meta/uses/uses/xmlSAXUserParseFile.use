@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:884
+  Original Name: xmlSAXUserParseFile/usr/include/libxml2/libxml/parser.h:884
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=2048,fid: f17]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlSAXUserParseFile[I32](sax: NullablePointer[XmlSAXHandler] tag, userdata: Pointer[None] tag, filename: Pointer[U8] tag)
+

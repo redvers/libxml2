@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:561
+  Original Name: xmlXPathIsNodeType/usr/include/libxml2/libxml/xpathInternals.h:561
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlXPathIsNodeType[I32](name: Pointer[U8] tag)
+

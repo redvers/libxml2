@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/list.h:128
+  Original Name: xmlLinkGetData/usr/include/libxml2/libxml/list.h:128
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f26]
+*/
+  fun xmlLinkGetData(lk: NullablePointer[XmlLink] tag): Pointer[None] =>
+    @xmlLinkGetData(lk)

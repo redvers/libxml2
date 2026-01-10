@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:300
+  Original Name: xmlNoNetExternalEntityLoader/usr/include/libxml2/libxml/xmlIO.h:300
+
+  Return Value: [PointerType size=64]->[Struct size=832,fid: f17]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+use @xmlNoNetExternalEntityLoader[NullablePointer[XmlParserInput]](URL: Pointer[U8] tag, ID: Pointer[U8] tag, ctxt: NullablePointer[XmlParserCtxt] tag)
+

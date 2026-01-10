@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:138
+  Original Name: xmlUCSIsTagbanwa/usr/include/libxml2/libxml/xmlunicode.h:138
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsTagbanwa[I32](code: I32)
+

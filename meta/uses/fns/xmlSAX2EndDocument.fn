@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:100
+  Original Name: xmlSAX2EndDocument/usr/include/libxml2/libxml/SAX2.h:100
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlSAX2EndDocument(ctx: Pointer[None] tag): None =>
+    @xmlSAX2EndDocument(ctx)

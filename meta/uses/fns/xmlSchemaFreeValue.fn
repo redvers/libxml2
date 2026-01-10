@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemastypes.h:62
+  Original Name: xmlSchemaFreeValue/usr/include/libxml2/libxml/xmlschemastypes.h:62
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f77]
+*/
+  fun xmlSchemaFreeValue(val: NullablePointer[XmlSchemaVal] tag): None =>
+    @xmlSchemaFreeValue(val)

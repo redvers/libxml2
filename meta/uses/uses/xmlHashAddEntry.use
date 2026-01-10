@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/hash.h:122
+  Original Name: xmlHashAddEntry/usr/include/libxml2/libxml/hash.h:122
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f24]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @xmlHashAddEntry[I32](table: NullablePointer[XmlHashTable] tag, name: Pointer[U8] tag, userdata: Pointer[None] tag)
+

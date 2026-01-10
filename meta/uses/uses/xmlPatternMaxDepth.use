@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/pattern.h:68
+  Original Name: xmlPatternMaxDepth/usr/include/libxml2/libxml/pattern.h:68
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f75]
+*/
+use @xmlPatternMaxDepth[I32](comp: NullablePointer[XmlPattern] tag)
+

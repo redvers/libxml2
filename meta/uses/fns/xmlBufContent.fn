@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:120
+  Original Name: xmlBufContent/usr/include/libxml2/libxml/tree.h:120
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f16]
+*/
+  fun xmlBufContent(buf: NullablePointer[XmlBuf] tag): String =>
+    var pcstring: Pointer[U8] =  @xmlBufContent(buf)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/threads.h:53
+  Original Name: xmlRMutexUnlock/usr/include/libxml2/libxml/threads.h:53
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f23]
+*/
+  fun xmlRMutexUnlock(tok: NullablePointer[XmlRMutex] tag): None =>
+    @xmlRMutexUnlock(tok)

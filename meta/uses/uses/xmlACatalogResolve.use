@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:86
+  Original Name: xmlACatalogResolve/usr/include/libxml2/libxml/catalog.h:86
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f67]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlACatalogResolve[Pointer[U8]](catal: NullablePointer[XmlCatalog] tag, pubID: Pointer[U8] tag, sysID: Pointer[U8] tag)
+

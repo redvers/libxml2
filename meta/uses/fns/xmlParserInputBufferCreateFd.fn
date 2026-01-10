@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:176
+  Original Name: xmlParserInputBufferCreateFd/usr/include/libxml2/libxml/xmlIO.h:176
+
+  Return Value: [PointerType size=64]->[Struct size=512,fid: f15]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+    [Enumeration size=32,fid: f42]
+*/
+  fun xmlParserInputBufferCreateFd(fd: I32, enc: I32): NullablePointer[XmlParserInputBuffer] =>
+    @xmlParserInputBufferCreateFd(fd, enc)

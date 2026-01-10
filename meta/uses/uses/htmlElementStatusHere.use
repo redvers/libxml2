@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/HTMLparser.h:271
+  Original Name: htmlElementStatusHere/usr/include/libxml2/libxml/HTMLparser.h:271
+
+  Return Value: [Enumeration size=32,fid: f70]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=512,fid: f70]
+    [PointerType size=64]->[Struct size=512,fid: f70]
+*/
+use @htmlElementStatusHere[I32](parg0: NullablePointer[HtmlElemDesc] tag, parg1: NullablePointer[HtmlElemDesc] tag)
+

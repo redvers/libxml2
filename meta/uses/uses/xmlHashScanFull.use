@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/hash.h:223
+  Original Name: xmlHashScanFull/usr/include/libxml2/libxml/hash.h:223
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f24]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @xmlHashScanFull[None](table: NullablePointer[XmlHashTable] tag, f: Pointer[None] tag, data: Pointer[None] tag)
+

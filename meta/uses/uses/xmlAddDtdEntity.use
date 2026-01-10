@@ -1,0 +1,16 @@
+/*
+  Source: /usr/include/libxml2/libxml/entities.h:97
+  Original Name: xmlAddDtdEntity/usr/include/libxml2/libxml/entities.h:97
+
+  Return Value: [PointerType size=64]->[Struct size=1088,fid: f18]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlAddDtdEntity[NullablePointer[XmlEntity]](doc: NullablePointer[XmlDoc] tag, name: Pointer[U8] tag, type: I32, ExternalID: Pointer[U8] tag, SystemID: Pointer[U8] tag, content: Pointer[U8] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:529
+  Original Name: xmlXPathStringEvalNumber/usr/include/libxml2/libxml/xpathInternals.h:529
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlXPathStringEvalNumber(str: String): F64 =>
+    @xmlXPathStringEvalNumber(str.cstring())

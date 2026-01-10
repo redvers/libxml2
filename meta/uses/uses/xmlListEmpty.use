@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/list.h:86
+  Original Name: xmlListEmpty/usr/include/libxml2/libxml/list.h:86
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f26]
+*/
+use @xmlListEmpty[I32](l: NullablePointer[XmlList] tag)
+

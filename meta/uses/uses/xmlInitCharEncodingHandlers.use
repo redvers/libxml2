@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/encoding.h:172
+  Original Name: xmlInitCharEncodingHandlers/usr/include/libxml2/libxml/encoding.h:172
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+use @xmlInitCharEncodingHandlers[None]()
+

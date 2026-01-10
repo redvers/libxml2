@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlerror.h:906
+  Original Name: xmlCtxtResetLastError/usr/include/libxml2/libxml/xmlerror.h:906
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlCtxtResetLastError(ctx: Pointer[None] tag): None =>
+    @xmlCtxtResetLastError(ctx)

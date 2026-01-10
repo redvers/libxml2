@@ -1,0 +1,15 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:1158
+  Original Name: xmlCtxtReadDoc/usr/include/libxml2/libxml/parser.h:1158
+
+  Return Value: [PointerType size=64]->[Struct size=1408,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlCtxtReadDoc[NullablePointer[XmlDoc]](ctxt: NullablePointer[XmlParserCtxt] tag, cur: Pointer[U8] tag, URL: Pointer[U8] tag, encoding: Pointer[U8] tag, options: I32)
+

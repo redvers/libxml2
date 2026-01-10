@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:200
+  Original Name: xmlFreeParserInputBuffer/usr/include/libxml2/libxml/xmlIO.h:200
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=512,fid: f15]
+*/
+  fun xmlFreeParserInputBuffer(in: NullablePointer[XmlParserInputBuffer] tag): None =>
+    @xmlFreeParserInputBuffer(in)

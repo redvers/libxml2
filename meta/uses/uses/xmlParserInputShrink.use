@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:571
+  Original Name: xmlParserInputShrink/usr/include/libxml2/libxml/parserInternals.h:571
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=832,fid: f17]
+*/
+use @xmlParserInputShrink[None](in: NullablePointer[XmlParserInput] tag)
+

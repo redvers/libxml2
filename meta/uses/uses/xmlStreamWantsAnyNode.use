@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/pattern.h:93
+  Original Name: xmlStreamWantsAnyNode/usr/include/libxml2/libxml/pattern.h:93
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f75]
+*/
+use @xmlStreamWantsAnyNode[I32](stream: NullablePointer[XmlStreamCtxt] tag)
+

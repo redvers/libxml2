@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:142
+  Original Name: xmlUCSIsTamil/usr/include/libxml2/libxml/xmlunicode.h:142
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsTamil[I32](code: I32)
+

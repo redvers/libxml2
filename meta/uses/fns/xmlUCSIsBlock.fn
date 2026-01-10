@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:155
+  Original Name: xmlUCSIsBlock/usr/include/libxml2/libxml/xmlunicode.h:155
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlUCSIsBlock(code: I32, block: String): I32 =>
+    @xmlUCSIsBlock(code, block.cstring())

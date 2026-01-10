@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:229
+  Original Name: xmlTextReaderMoveToAttribute/usr/include/libxml2/libxml/xmlreader.h:229
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlTextReaderMoveToAttribute(reader: NullablePointer[XmlTextReader] tag, name: String): I32 =>
+    @xmlTextReaderMoveToAttribute(reader, name.cstring())

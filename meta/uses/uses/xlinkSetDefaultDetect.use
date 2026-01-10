@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xlink.h:166
+  Original Name: xlinkSetDefaultDetect/usr/include/libxml2/libxml/xlink.h:166
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @xlinkSetDefaultDetect[None](func: Pointer[None] tag)
+

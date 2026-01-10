@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/dict.h:53
+  Original Name: xmlDictLookup/usr/include/libxml2/libxml/dict.h:53
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f21]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlDictLookup(dict: NullablePointer[XmlDict] tag, name: String, len: I32): String =>
+    var pcstring: Pointer[U8] =  @xmlDictLookup(dict, name.cstring(), len)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

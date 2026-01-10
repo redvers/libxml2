@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:76
+  Original Name: xmlConvertSGMLCatalog/usr/include/libxml2/libxml/catalog.h:76
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f67]
+*/
+use @xmlConvertSGMLCatalog[I32](catal: NullablePointer[XmlCatalog] tag)
+

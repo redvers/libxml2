@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:469
+  Original Name: xmlXPathRegisteredVariablesCleanup/usr/include/libxml2/libxml/xpathInternals.h:469
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=3008,fid: f65]
+*/
+use @xmlXPathRegisteredVariablesCleanup[None](ctxt: NullablePointer[XmlXPathContext] tag)
+

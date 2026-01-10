@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:373
+  Original Name: xmlReaderNewFd/usr/include/libxml2/libxml/xmlreader.h:373
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlReaderNewFd(reader: NullablePointer[XmlTextReader] tag, fd: I32, URL: String, encoding: String, options: I32): I32 =>
+    @xmlReaderNewFd(reader, fd, URL.cstring(), encoding.cstring(), options)

@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:274
+  Original Name: xmlRegisterOutputCallbacks/usr/include/libxml2/libxml/xmlIO.h:274
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+  fun xmlRegisterOutputCallbacks(matchFunc: Pointer[None] tag, openFunc: Pointer[None] tag, writeFunc: Pointer[None] tag, closeFunc: Pointer[None] tag): I32 =>
+    @xmlRegisterOutputCallbacks(matchFunc, openFunc, writeFunc, closeFunc)

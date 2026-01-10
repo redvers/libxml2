@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/HTMLparser.h:269
+  Original Name: htmlAttrAllowed/usr/include/libxml2/libxml/HTMLparser.h:269
+
+  Return Value: [Enumeration size=32,fid: f70]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=512,fid: f70]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @htmlAttrAllowed[I32](parg0: NullablePointer[HtmlElemDesc] tag, parg1: Pointer[U8] tag, parg2: I32)
+

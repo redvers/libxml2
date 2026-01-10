@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:55
+  Original Name: xmlUCSIsCombiningMarksforSymbols/usr/include/libxml2/libxml/xmlunicode.h:55
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsCombiningMarksforSymbols(code: I32): I32 =>
+    @xmlUCSIsCombiningMarksforSymbols(code)

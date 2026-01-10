@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlstring.h:130
+  Original Name: xmlUTF8Strlen/usr/include/libxml2/libxml/xmlstring.h:130
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlUTF8Strlen[I32](utf: Pointer[U8] tag)
+

@@ -1,0 +1,18 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1290
+  Original Name: xmlDOMWrapCloneNode/usr/include/libxml2/libxml/tree.h:1290
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f16]
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @xmlDOMWrapCloneNode[I32](ctxt: NullablePointer[XmlDOMWrapCtxt] tag, sourceDoc: NullablePointer[XmlDoc] tag, node: NullablePointer[XmlNode] tag, clonedNode: Pointer[NullablePointer[XmlNode]] tag, destDoc: NullablePointer[XmlDoc] tag, destParent: NullablePointer[XmlNode] tag, deep: I32, options: I32)
+

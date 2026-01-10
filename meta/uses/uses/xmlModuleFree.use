@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlmodule.h:49
+  Original Name: xmlModuleFree/usr/include/libxml2/libxml/xmlmodule.h:49
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f81]
+*/
+use @xmlModuleFree[I32](module: NullablePointer[XmlModule] tag)
+

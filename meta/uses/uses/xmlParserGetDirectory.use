@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:202
+  Original Name: xmlParserGetDirectory/usr/include/libxml2/libxml/xmlIO.h:202
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlParserGetDirectory[Pointer[U8]](filename: Pointer[U8] tag)
+

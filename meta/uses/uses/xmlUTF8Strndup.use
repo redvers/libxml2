@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlstring.h:117
+  Original Name: xmlUTF8Strndup/usr/include/libxml2/libxml/xmlstring.h:117
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlUTF8Strndup[Pointer[U8]](utf: Pointer[U8] tag, len: I32)
+

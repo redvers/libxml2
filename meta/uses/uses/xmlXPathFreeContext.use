@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:507
+  Original Name: xmlXPathFreeContext/usr/include/libxml2/libxml/xpath.h:507
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=3008,fid: f65]
+*/
+use @xmlXPathFreeContext[None](ctxt: NullablePointer[XmlXPathContext] tag)
+

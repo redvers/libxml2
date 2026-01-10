@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:451
+  Original Name: xmlThrDefPedanticParserDefaultValue/usr/include/libxml2/libxml/globals.h:451
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlThrDefPedanticParserDefaultValue(v: I32): I32 =>
+    @xmlThrDefPedanticParserDefaultValue(v)

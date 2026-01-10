@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:453
+  Original Name: xmlXPathFunctionLookup/usr/include/libxml2/libxml/xpathInternals.h:453
+
+  Return Value: [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+
+  Arguments:
+    [PointerType size=64]->[Struct size=3008,fid: f65]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlXPathFunctionLookup(ctxt: NullablePointer[XmlXPathContext] tag, name: String): Pointer[None] =>
+    @xmlXPathFunctionLookup(ctxt, name.cstring())

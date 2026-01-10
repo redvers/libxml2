@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/entities.h:138
+  Original Name: xmlDumpEntityDecl/usr/include/libxml2/libxml/entities.h:138
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f16]
+    [PointerType size=64]->[Struct size=1088,fid: f18]
+*/
+  fun xmlDumpEntityDecl(buf: NullablePointer[XmlBuffer] tag, ent: NullablePointer[XmlEntity] tag): None =>
+    @xmlDumpEntityDecl(buf, ent)

@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemastypes.h:88
+  Original Name: xmlSchemaCollapseString/usr/include/libxml2/libxml/xmlschemastypes.h:88
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlSchemaCollapseString[Pointer[U8]](value: Pointer[U8] tag)
+

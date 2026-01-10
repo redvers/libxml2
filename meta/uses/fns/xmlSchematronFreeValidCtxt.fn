@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/schematron.h:132
+  Original Name: xmlSchematronFreeValidCtxt/usr/include/libxml2/libxml/schematron.h:132
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f78]
+*/
+  fun xmlSchematronFreeValidCtxt(ctxt: NullablePointer[XmlSchematronValidCtxt] tag): None =>
+    @xmlSchematronFreeValidCtxt(ctxt)

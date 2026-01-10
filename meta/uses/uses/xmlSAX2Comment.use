@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:143
+  Original Name: xmlSAX2Comment/usr/include/libxml2/libxml/SAX2.h:143
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlSAX2Comment[None](ctx: Pointer[None] tag, value: Pointer[U8] tag)
+

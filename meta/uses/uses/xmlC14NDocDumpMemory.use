@@ -1,0 +1,16 @@
+/*
+  Source: /usr/include/libxml2/libxml/c14n.h:78
+  Original Name: xmlC14NDocDumpMemory/usr/include/libxml2/libxml/c14n.h:78
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[Struct size=128,fid: f65]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlC14NDocDumpMemory[I32](doc: NullablePointer[XmlDoc] tag, nodes: NullablePointer[XmlNodeSet] tag, mode: I32, inclusivensprefixes: Pointer[Pointer[U8]] tag, withcomments: I32, doctxtptr: Pointer[Pointer[U8]] tag)
+

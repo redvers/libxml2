@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:421
+  Original Name: xmlParseDefaultDecl/usr/include/libxml2/libxml/parserInternals.h:421
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlParseDefaultDecl[I32](ctxt: NullablePointer[XmlParserCtxt] tag, value: Pointer[Pointer[U8]] tag)
+

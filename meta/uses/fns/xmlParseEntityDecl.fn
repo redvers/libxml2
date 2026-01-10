@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:419
+  Original Name: xmlParseEntityDecl/usr/include/libxml2/libxml/parserInternals.h:419
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+  fun xmlParseEntityDecl(ctxt: NullablePointer[XmlParserCtxt] tag): None =>
+    @xmlParseEntityDecl(ctxt)

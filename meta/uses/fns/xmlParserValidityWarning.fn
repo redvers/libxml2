@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlerror.h:888
+  Original Name: xmlParserValidityWarning/usr/include/libxml2/libxml/xmlerror.h:888
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+/*  fun xmlParserValidityWarning(ctx: Pointer[None] tag, msg: String, ...): None =>
+    @xmlParserValidityWarning(ctx, msg.cstring(), ...)
+*/

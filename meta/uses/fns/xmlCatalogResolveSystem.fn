@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:127
+  Original Name: xmlCatalogResolveSystem/usr/include/libxml2/libxml/catalog.h:127
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlCatalogResolveSystem(sysID: String): String =>
+    var pcstring: Pointer[U8] =  @xmlCatalogResolveSystem(sysID.cstring())
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

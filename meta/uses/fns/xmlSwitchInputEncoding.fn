@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:343
+  Original Name: xmlSwitchInputEncoding/usr/include/libxml2/libxml/parserInternals.h:343
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [PointerType size=64]->[Struct size=832,fid: f17]
+    [PointerType size=64]->[Struct size=448,fid: f42]
+*/
+  fun xmlSwitchInputEncoding(ctxt: NullablePointer[XmlParserCtxt] tag, input: NullablePointer[XmlParserInput] tag, handler: NullablePointer[XmlCharEncodingHandler] tag): I32 =>
+    @xmlSwitchInputEncoding(ctxt, input, handler)

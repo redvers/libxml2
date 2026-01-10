@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/entities.h:123
+  Original Name: xmlEncodeSpecialChars/usr/include/libxml2/libxml/entities.h:123
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlEncodeSpecialChars(doc: NullablePointer[XmlDoc] tag, input: String): String =>
+    var pcstring: Pointer[U8] =  @xmlEncodeSpecialChars(doc, input.cstring())
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

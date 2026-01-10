@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:869
+  Original Name: xmlRecoverMemory/usr/include/libxml2/libxml/parser.h:869
+
+  Return Value: [PointerType size=64]->[Struct size=1408,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlRecoverMemory(buffer: String, size: I32): NullablePointer[XmlDoc] =>
+    @xmlRecoverMemory(buffer.cstring(), size)

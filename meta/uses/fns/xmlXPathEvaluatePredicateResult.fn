@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:531
+  Original Name: xmlXPathEvaluatePredicateResult/usr/include/libxml2/libxml/xpathInternals.h:531
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=704,fid: f65]
+    [PointerType size=64]->[Struct size=576,fid: f65]
+*/
+  fun xmlXPathEvaluatePredicateResult(ctxt: NullablePointer[XmlXPathParserContext] tag, res: NullablePointer[XmlXPathObject] tag): I32 =>
+    @xmlXPathEvaluatePredicateResult(ctxt, res)

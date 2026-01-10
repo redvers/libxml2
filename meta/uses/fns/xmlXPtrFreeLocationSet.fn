@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpointer.h:49
+  Original Name: xmlXPtrFreeLocationSet/usr/include/libxml2/libxml/xpointer.h:49
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f89]
+*/
+  fun xmlXPtrFreeLocationSet(obj: NullablePointer[XmlLocationSet] tag): None =>
+    @xmlXPtrFreeLocationSet(obj)

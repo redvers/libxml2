@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/uri.h:61
+  Original Name: xmlParseURI/usr/include/libxml2/libxml/uri.h:61
+
+  Return Value: [PointerType size=64]->[Struct size=704,fid: f79]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlParseURI[NullablePointer[XmlURI]](str: Pointer[U8] tag)
+

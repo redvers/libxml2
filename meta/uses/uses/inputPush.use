@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:543
+  Original Name: inputPush/usr/include/libxml2/libxml/parserInternals.h:543
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [PointerType size=64]->[Struct size=832,fid: f17]
+*/
+use @inputPush[I32](ctxt: NullablePointer[XmlParserCtxt] tag, value: NullablePointer[XmlParserInput] tag)
+

@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:932
+  Original Name: xmlIOParseDTD/usr/include/libxml2/libxml/parser.h:932
+
+  Return Value: [PointerType size=64]->[Struct size=1024,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=2048,fid: f17]
+    [PointerType size=64]->[Struct size=512,fid: f15]
+    [Enumeration size=32,fid: f42]
+*/
+use @xmlIOParseDTD[NullablePointer[XmlDtd]](sax: NullablePointer[XmlSAXHandler] tag, input: NullablePointer[XmlParserInputBuffer] tag, enc: I32)
+

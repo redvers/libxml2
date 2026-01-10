@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/pattern.h:74
+  Original Name: xmlPatternGetStreamCtxt/usr/include/libxml2/libxml/pattern.h:74
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f75]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f75]
+*/
+  fun xmlPatternGetStreamCtxt(comp: NullablePointer[XmlPattern] tag): NullablePointer[XmlStreamCtxt] =>
+    @xmlPatternGetStreamCtxt(comp)

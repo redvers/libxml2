@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:827
+  Original Name: xmlCleanupParser/usr/include/libxml2/libxml/parser.h:827
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+use @xmlCleanupParser[None]()
+

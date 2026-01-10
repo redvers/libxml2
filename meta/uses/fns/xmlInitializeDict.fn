@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/dict.h:30
+  Original Name: xmlInitializeDict/usr/include/libxml2/libxml/dict.h:30
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+*/
+  fun xmlInitializeDict(): I32 =>
+    @xmlInitializeDict()

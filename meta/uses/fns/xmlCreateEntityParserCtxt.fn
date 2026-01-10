@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:333
+  Original Name: xmlCreateEntityParserCtxt/usr/include/libxml2/libxml/parserInternals.h:333
+
+  Return Value: [PointerType size=64]->[Struct size=6016,fid: f17]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlCreateEntityParserCtxt(URL: String, ID: String, base: String): NullablePointer[XmlParserCtxt] =>
+    @xmlCreateEntityParserCtxt(URL.cstring(), ID.cstring(), base.cstring())

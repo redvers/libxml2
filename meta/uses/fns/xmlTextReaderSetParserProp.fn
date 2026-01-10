@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:250
+  Original Name: xmlTextReaderSetParserProp/usr/include/libxml2/libxml/xmlreader.h:250
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlTextReaderSetParserProp(reader: NullablePointer[XmlTextReader] tag, prop: I32, value: I32): I32 =>
+    @xmlTextReaderSetParserProp(reader, prop, value)

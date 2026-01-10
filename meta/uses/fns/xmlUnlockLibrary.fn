@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/threads.h:65
+  Original Name: xmlUnlockLibrary/usr/include/libxml2/libxml/threads.h:65
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+  fun xmlUnlockLibrary(): None =>
+    @xmlUnlockLibrary()

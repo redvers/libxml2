@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/uri.h:87
+  Original Name: xmlCanonicPath/usr/include/libxml2/libxml/uri.h:87
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlCanonicPath(path: String): String =>
+    var pcstring: Pointer[U8] =  @xmlCanonicPath(path.cstring())
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

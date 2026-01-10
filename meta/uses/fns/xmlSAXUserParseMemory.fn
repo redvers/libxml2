@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:888
+  Original Name: xmlSAXUserParseMemory/usr/include/libxml2/libxml/parser.h:888
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=2048,fid: f17]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlSAXUserParseMemory(sax: NullablePointer[XmlSAXHandler] tag, userdata: Pointer[None] tag, buffer: String, size: I32): I32 =>
+    @xmlSAXUserParseMemory(sax, userdata, buffer.cstring(), size)

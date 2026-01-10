@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlregexp.h:52
+  Original Name: xmlRegexpCompile/usr/include/libxml2/libxml/xmlregexp.h:52
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlRegexpCompile(regexp: String): NullablePointer[XmlRegexp] =>
+    @xmlRegexpCompile(regexp.cstring())

@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:833
+  Original Name: xmlParserInputRead/usr/include/libxml2/libxml/parser.h:833
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=832,fid: f17]
+    [FundamentalType(int) size=32]
+*/
+use @xmlParserInputRead[I32](in: NullablePointer[XmlParserInput] tag, len: I32)
+

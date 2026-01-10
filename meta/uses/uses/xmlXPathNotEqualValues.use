@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:552
+  Original Name: xmlXPathNotEqualValues/usr/include/libxml2/libxml/xpathInternals.h:552
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=704,fid: f65]
+*/
+use @xmlXPathNotEqualValues[I32](ctxt: NullablePointer[XmlXPathParserContext] tag)
+

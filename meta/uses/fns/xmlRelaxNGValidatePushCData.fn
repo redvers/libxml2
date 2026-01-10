@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/relaxng.h:199
+  Original Name: xmlRelaxNGValidatePushCData/usr/include/libxml2/libxml/relaxng.h:199
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f76]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlRelaxNGValidatePushCData(ctxt: NullablePointer[XmlRelaxNGValidCtxt] tag, data: String, len: I32): I32 =>
+    @xmlRelaxNGValidatePushCData(ctxt, data.cstring(), len)

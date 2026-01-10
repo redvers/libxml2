@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlstring.h:67
+  Original Name: xmlStrncmp/usr/include/libxml2/libxml/xmlstring.h:67
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlStrncmp(str1: String, str2: String, len: I32): I32 =>
+    @xmlStrncmp(str1.cstring(), str2.cstring(), len)

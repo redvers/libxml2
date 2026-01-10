@@ -1,0 +1,15 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlmemory.h:114
+  Original Name: xmlGcMemSetup/usr/include/libxml2/libxml/xmlmemory.h:114
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @xmlGcMemSetup[I32](freeFunc: Pointer[None] tag, mallocFunc: Pointer[None] tag, mallocAtomicFunc: Pointer[None] tag, reallocFunc: Pointer[None] tag, strdupFunc: Pointer[None] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1009
+  Original Name: xmlGetNsList/usr/include/libxml2/libxml/tree.h:1009
+
+  Return Value: [PointerType size=64]->[PointerType size=64]->[Struct size=384,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+  fun xmlGetNsList(doc: NullablePointer[XmlDoc] tag, node: NullablePointer[XmlNode] tag): Pointer[NullablePointer[XmlNs]] =>
+    @xmlGetNsList(doc, node)

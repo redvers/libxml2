@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:167
+  Original Name: xmlCatalogSetDefaults/usr/include/libxml2/libxml/catalog.h:167
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [Enumeration size=32,fid: f67]
+*/
+use @xmlCatalogSetDefaults[None](allow: I32)
+

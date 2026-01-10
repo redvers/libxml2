@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:269
+  Original Name: xmlOutputBufferFlush/usr/include/libxml2/libxml/xmlIO.h:269
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f15]
+*/
+use @xmlOutputBufferFlush[I32](out: NullablePointer[XmlOutputBuffer] tag)
+

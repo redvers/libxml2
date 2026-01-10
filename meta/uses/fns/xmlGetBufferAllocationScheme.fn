@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:711
+  Original Name: xmlGetBufferAllocationScheme/usr/include/libxml2/libxml/tree.h:711
+
+  Return Value: [Enumeration size=32,fid: f16]
+
+  Arguments:
+*/
+  fun xmlGetBufferAllocationScheme(): I32 =>
+    @xmlGetBufferAllocationScheme()

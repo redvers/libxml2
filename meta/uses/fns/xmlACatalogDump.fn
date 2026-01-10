@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:100
+  Original Name: xmlACatalogDump/usr/include/libxml2/libxml/catalog.h:100
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f67]
+    [PointerType size=64]->[Struct size=1728,fid: f8]
+*/
+  fun xmlACatalogDump(catal: NullablePointer[XmlCatalog] tag, out: NullablePointer[IOFILE] tag): None =>
+    @xmlACatalogDump(catal, out)

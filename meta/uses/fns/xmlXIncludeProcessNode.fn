@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xinclude.h:121
+  Original Name: xmlXIncludeProcessNode/usr/include/libxml2/libxml/xinclude.h:121
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f80]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+  fun xmlXIncludeProcessNode(ctxt: NullablePointer[XmlXIncludeCtxt] tag, tree: NullablePointer[XmlNode] tag): I32 =>
+    @xmlXIncludeProcessNode(ctxt, tree)

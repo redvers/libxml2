@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:69
+  Original Name: xmlUCSIsGeorgian/usr/include/libxml2/libxml/xmlunicode.h:69
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsGeorgian(code: I32): I32 =>
+    @xmlUCSIsGeorgian(code)

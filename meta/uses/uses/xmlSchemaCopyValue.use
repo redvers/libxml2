@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemastypes.h:142
+  Original Name: xmlSchemaCopyValue/usr/include/libxml2/libxml/xmlschemastypes.h:142
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f77]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f77]
+*/
+use @xmlSchemaCopyValue[NullablePointer[XmlSchemaVal]](val: NullablePointer[XmlSchemaVal] tag)
+

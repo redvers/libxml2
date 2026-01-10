@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:306
+  Original Name: xmlTextWriterEndDTD/usr/include/libxml2/libxml/xmlwriter.h:306
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f87]
+*/
+  fun xmlTextWriterEndDTD(writer: NullablePointer[XmlTextWriter] tag): I32 =>
+    @xmlTextWriterEndDTD(writer)

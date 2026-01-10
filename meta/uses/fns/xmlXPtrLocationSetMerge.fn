@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpointer.h:51
+  Original Name: xmlXPtrLocationSetMerge/usr/include/libxml2/libxml/xpointer.h:51
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f89]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f89]
+    [PointerType size=64]->[Struct size=128,fid: f89]
+*/
+  fun xmlXPtrLocationSetMerge(val1: NullablePointer[XmlLocationSet] tag, val2: NullablePointer[XmlLocationSet] tag): NullablePointer[XmlLocationSet] =>
+    @xmlXPtrLocationSetMerge(val1, val2)

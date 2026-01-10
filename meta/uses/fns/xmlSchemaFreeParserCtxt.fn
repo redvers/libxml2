@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemas.h:145
+  Original Name: xmlSchemaFreeParserCtxt/usr/include/libxml2/libxml/xmlschemas.h:145
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f82]
+*/
+  fun xmlSchemaFreeParserCtxt(ctxt: NullablePointer[XmlSchemaParserCtxt] tag): None =>
+    @xmlSchemaFreeParserCtxt(ctxt)

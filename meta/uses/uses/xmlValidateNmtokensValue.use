@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:429
+  Original Name: xmlValidateNmtokensValue/usr/include/libxml2/libxml/valid.h:429
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlValidateNmtokensValue[I32](value: Pointer[U8] tag)
+

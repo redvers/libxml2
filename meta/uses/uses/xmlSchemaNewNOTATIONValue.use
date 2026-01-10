@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemastypes.h:131
+  Original Name: xmlSchemaNewNOTATIONValue/usr/include/libxml2/libxml/xmlschemastypes.h:131
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f77]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlSchemaNewNOTATIONValue[NullablePointer[XmlSchemaVal]](name: Pointer[U8] tag, ns: Pointer[U8] tag)
+

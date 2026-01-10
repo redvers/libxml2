@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:488
+  Original Name: __xmlParserInputBufferCreateFilenameValue/usr/include/libxml2/libxml/globals.h:488
+
+  Return Value: [PointerType size=64]->[PointerType size=64]->[FunctionType]  WRITE MANUALLY
+
+  Arguments:
+*/
+use @__xmlParserInputBufferCreateFilenameValue[NullablePointer[Pointer[None]]]()
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:136
+  Original Name: xmlTextReaderReadOuterXml/usr/include/libxml2/libxml/xmlreader.h:136
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+*/
+  fun xmlTextReaderReadOuterXml(reader: NullablePointer[XmlTextReader] tag): String =>
+    var pcstring: Pointer[U8] =  @xmlTextReaderReadOuterXml(reader)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

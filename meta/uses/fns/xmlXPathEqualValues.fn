@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:551
+  Original Name: xmlXPathEqualValues/usr/include/libxml2/libxml/xpathInternals.h:551
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=704,fid: f65]
+*/
+  fun xmlXPathEqualValues(ctxt: NullablePointer[XmlXPathParserContext] tag): I32 =>
+    @xmlXPathEqualValues(ctxt)

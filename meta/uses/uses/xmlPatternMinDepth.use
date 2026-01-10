@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/pattern.h:70
+  Original Name: xmlPatternMinDepth/usr/include/libxml2/libxml/pattern.h:70
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f75]
+*/
+use @xmlPatternMinDepth[I32](comp: NullablePointer[XmlPattern] tag)
+

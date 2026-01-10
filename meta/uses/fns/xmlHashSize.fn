@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/hash.h:210
+  Original Name: xmlHashSize/usr/include/libxml2/libxml/hash.h:210
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f24]
+*/
+  fun xmlHashSize(table: NullablePointer[XmlHashTable] tag): I32 =>
+    @xmlHashSize(table)

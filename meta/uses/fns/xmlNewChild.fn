@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:856
+  Original Name: xmlNewChild/usr/include/libxml2/libxml/tree.h:856
+
+  Return Value: [PointerType size=64]->[Struct size=960,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[Struct size=384,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlNewChild(parent: NullablePointer[XmlNode] tag, ns: NullablePointer[XmlNs] tag, name: String, content: String): NullablePointer[XmlNode] =>
+    @xmlNewChild(parent, ns, name.cstring(), content.cstring())

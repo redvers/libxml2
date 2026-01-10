@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:70
+  Original Name: xmlNewCatalog/usr/include/libxml2/libxml/catalog.h:70
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f67]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlNewCatalog[NullablePointer[XmlCatalog]](sgml: I32)
+

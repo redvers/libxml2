@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1125
+  Original Name: xmlUnsetNsProp/usr/include/libxml2/libxml/tree.h:1125
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[Struct size=384,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlUnsetNsProp(node: NullablePointer[XmlNode] tag, ns: NullablePointer[XmlNs] tag, name: String): I32 =>
+    @xmlUnsetNsProp(node, ns, name.cstring())

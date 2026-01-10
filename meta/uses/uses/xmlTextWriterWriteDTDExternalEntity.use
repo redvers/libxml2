@@ -1,0 +1,16 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:430
+  Original Name: xmlTextWriterWriteDTDExternalEntity/usr/include/libxml2/libxml/xmlwriter.h:430
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f87]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlTextWriterWriteDTDExternalEntity[I32](writer: NullablePointer[XmlTextWriter] tag, pe: I32, name: Pointer[U8] tag, pubid: Pointer[U8] tag, sysid: Pointer[U8] tag, ndataid: Pointer[U8] tag)
+

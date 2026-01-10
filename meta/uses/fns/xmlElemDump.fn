@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1194
+  Original Name: xmlElemDump/usr/include/libxml2/libxml/tree.h:1194
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1728,fid: f8]
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+  fun xmlElemDump(f: NullablePointer[IOFILE] tag, doc: NullablePointer[XmlDoc] tag, cur: NullablePointer[XmlNode] tag): None =>
+    @xmlElemDump(f, doc, cur)

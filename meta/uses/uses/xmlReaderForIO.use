@@ -1,0 +1,16 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:344
+  Original Name: xmlReaderForIO/usr/include/libxml2/libxml/xmlreader.h:344
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f83]
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlReaderForIO[NullablePointer[XmlTextReader]](ioread: Pointer[None] tag, ioclose: Pointer[None] tag, ioctx: Pointer[None] tag, URL: Pointer[U8] tag, encoding: Pointer[U8] tag, options: I32)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:29
+  Original Name: xmlSAX2SetDocumentLocator/usr/include/libxml2/libxml/SAX2.h:29
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[Struct size=256,fid: f17]
+*/
+  fun xmlSAX2SetDocumentLocator(ctx: Pointer[None] tag, loc: NullablePointer[XmlSAXLocator] tag): None =>
+    @xmlSAX2SetDocumentLocator(ctx, loc)

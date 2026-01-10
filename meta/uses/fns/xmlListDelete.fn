@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/list.h:59
+  Original Name: xmlListDelete/usr/include/libxml2/libxml/list.h:59
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f26]
+*/
+  fun xmlListDelete(l: NullablePointer[XmlList] tag): None =>
+    @xmlListDelete(l)

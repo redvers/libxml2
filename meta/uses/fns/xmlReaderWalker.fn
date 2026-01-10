@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:322
+  Original Name: xmlReaderWalker/usr/include/libxml2/libxml/xmlreader.h:322
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f83]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+*/
+  fun xmlReaderWalker(doc: NullablePointer[XmlDoc] tag): NullablePointer[XmlTextReader] =>
+    @xmlReaderWalker(doc)

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemastypes.h:144
+  Original Name: xmlSchemaGetValType/usr/include/libxml2/libxml/xmlschemastypes.h:144
+
+  Return Value: [Enumeration size=32,fid: f77]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f77]
+*/
+  fun xmlSchemaGetValType(val: NullablePointer[XmlSchemaVal] tag): I32 =>
+    @xmlSchemaGetValType(val)

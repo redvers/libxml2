@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemastypes.h:107
+  Original Name: xmlSchemaValPredefTypeNodeNoNorm/usr/include/libxml2/libxml/xmlschemastypes.h:107
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1792,fid: f77]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f77]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+use @xmlSchemaValPredefTypeNodeNoNorm[I32](type: NullablePointer[XmlSchemaType] tag, value: Pointer[U8] tag, val: Pointer[NullablePointer[XmlSchemaVal]] tag, node: NullablePointer[XmlNode] tag)
+

@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:140
+  Original Name: xmlUCSIsTaiLe/usr/include/libxml2/libxml/xmlunicode.h:140
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsTaiLe[I32](code: I32)
+

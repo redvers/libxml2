@@ -1,0 +1,11 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/threads.h:23
+  Original Name: _xmlMutex
+  Struct Size (bits):  
+  Struct Align (bits): 
+
+  Fields (Offset in bits):
+*/
+struct XmlMutex

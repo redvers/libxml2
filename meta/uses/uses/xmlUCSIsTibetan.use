@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:146
+  Original Name: xmlUCSIsTibetan/usr/include/libxml2/libxml/xmlunicode.h:146
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsTibetan[I32](code: I32)
+

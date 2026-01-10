@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:195
+  Original Name: xmlSnprintfElementContent/usr/include/libxml2/libxml/valid.h:195
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Struct size=384,fid: f16]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlSnprintfElementContent(buf: String, size: I32, content: NullablePointer[XmlElementContent] tag, englob: I32): None =>
+    @xmlSnprintfElementContent(buf.cstring(), size, content, englob)

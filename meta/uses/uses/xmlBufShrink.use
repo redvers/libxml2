@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:123
+  Original Name: xmlBufShrink/usr/include/libxml2/libxml/tree.h:123
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f16]
+    [FundamentalType(long unsigned int) size=64]
+*/
+use @xmlBufShrink[U64](buf: NullablePointer[XmlBuf] tag, len: U64)
+

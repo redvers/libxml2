@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:312
+  Original Name: xmlFreeValidCtxt/usr/include/libxml2/libxml/valid.h:312
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f28]
+*/
+  fun xmlFreeValidCtxt(parg0: NullablePointer[XmlValidCtxt] tag): None =>
+    @xmlFreeValidCtxt(parg0)

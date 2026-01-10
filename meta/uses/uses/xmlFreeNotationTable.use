@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:164
+  Original Name: xmlFreeNotationTable/usr/include/libxml2/libxml/valid.h:164
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f24]
+*/
+use @xmlFreeNotationTable[None](table: NullablePointer[XmlHashTable] tag)
+

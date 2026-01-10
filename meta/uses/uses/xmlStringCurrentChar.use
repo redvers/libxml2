@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:554
+  Original Name: xmlStringCurrentChar/usr/include/libxml2/libxml/parserInternals.h:554
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @xmlStringCurrentChar[I32](ctxt: NullablePointer[XmlParserCtxt] tag, cur: Pointer[U8] tag, len: Pointer[I32] tag)
+

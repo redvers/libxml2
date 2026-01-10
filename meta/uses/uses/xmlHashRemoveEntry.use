@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/hash.h:159
+  Original Name: xmlHashRemoveEntry/usr/include/libxml2/libxml/hash.h:159
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f24]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @xmlHashRemoveEntry[I32](table: NullablePointer[XmlHashTable] tag, name: Pointer[U8] tag, f: Pointer[None] tag)
+

@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlstring.h:109
+  Original Name: xmlGetUTF8Char/usr/include/libxml2/libxml/xmlstring.h:109
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+use @xmlGetUTF8Char[I32](utf: Pointer[U8] tag, len: Pointer[I32] tag)
+

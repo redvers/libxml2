@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:934
+  Original Name: xmlGetLastChild/usr/include/libxml2/libxml/tree.h:934
+
+  Return Value: [PointerType size=64]->[Struct size=960,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+  fun xmlGetLastChild(parent: NullablePointer[XmlNode] tag): NullablePointer[XmlNode] =>
+    @xmlGetLastChild(parent)

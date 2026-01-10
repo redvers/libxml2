@@ -1,0 +1,11 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:28
+  Original Name: _xmlValidState
+  Struct Size (bits):  
+  Struct Align (bits): 
+
+  Fields (Offset in bits):
+*/
+struct XmlValidState

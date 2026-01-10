@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:557
+  Original Name: xmlParserHandlePEReference/usr/include/libxml2/libxml/parserInternals.h:557
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+use @xmlParserHandlePEReference[None](ctxt: NullablePointer[XmlParserCtxt] tag)
+

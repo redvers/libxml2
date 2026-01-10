@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:557
+  Original Name: xmlXPathMultValues/usr/include/libxml2/libxml/xpathInternals.h:557
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=704,fid: f65]
+*/
+use @xmlXPathMultValues[None](ctxt: NullablePointer[XmlXPathParserContext] tag)
+

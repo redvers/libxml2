@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:407
+  Original Name: xmlTextReaderLocatorBaseURI/usr/include/libxml2/libxml/xmlreader.h:407
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlTextReaderLocatorBaseURI(locator: Pointer[None] tag): String =>
+    var pcstring: Pointer[U8] =  @xmlTextReaderLocatorBaseURI(locator)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:104
+  Original Name: xmlXPathPopBoolean/usr/include/libxml2/libxml/xpathInternals.h:104
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=704,fid: f65]
+*/
+  fun xmlXPathPopBoolean(ctxt: NullablePointer[XmlXPathParserContext] tag): I32 =>
+    @xmlXPathPopBoolean(ctxt)

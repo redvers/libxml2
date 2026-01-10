@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlmodule.h:43
+  Original Name: xmlModuleSymbol/usr/include/libxml2/libxml/xmlmodule.h:43
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f81]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @xmlModuleSymbol[I32](module: NullablePointer[XmlModule] tag, name: Pointer[U8] tag, result: NullablePointer[Pointer[None]] tag)
+

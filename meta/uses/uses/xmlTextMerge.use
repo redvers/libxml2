@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:979
+  Original Name: xmlTextMerge/usr/include/libxml2/libxml/tree.h:979
+
+  Return Value: [PointerType size=64]->[Struct size=960,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+use @xmlTextMerge[NullablePointer[XmlNode]](first: NullablePointer[XmlNode] tag, second: NullablePointer[XmlNode] tag)
+

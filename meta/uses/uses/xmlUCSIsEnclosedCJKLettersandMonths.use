@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:65
+  Original Name: xmlUCSIsEnclosedCJKLettersandMonths/usr/include/libxml2/libxml/xmlunicode.h:65
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsEnclosedCJKLettersandMonths[I32](code: I32)
+

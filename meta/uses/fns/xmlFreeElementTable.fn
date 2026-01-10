@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:220
+  Original Name: xmlFreeElementTable/usr/include/libxml2/libxml/valid.h:220
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f24]
+*/
+  fun xmlFreeElementTable(table: NullablePointer[XmlHashTable] tag): None =>
+    @xmlFreeElementTable(table)

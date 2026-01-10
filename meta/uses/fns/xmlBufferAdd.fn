@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:729
+  Original Name: xmlBufferAdd/usr/include/libxml2/libxml/tree.h:729
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlBufferAdd(buf: NullablePointer[XmlBuffer] tag, str: String, len: I32): I32 =>
+    @xmlBufferAdd(buf, str.cstring(), len)

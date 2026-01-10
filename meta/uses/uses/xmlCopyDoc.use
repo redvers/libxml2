@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:832
+  Original Name: xmlCopyDoc/usr/include/libxml2/libxml/tree.h:832
+
+  Return Value: [PointerType size=64]->[Struct size=1408,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [FundamentalType(int) size=32]
+*/
+use @xmlCopyDoc[NullablePointer[XmlDoc]](doc: NullablePointer[XmlDoc] tag, recursive: I32)
+

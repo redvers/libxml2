@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:479
+  Original Name: xmlXPathCastNodeSetToNumber/usr/include/libxml2/libxml/xpath.h:479
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f65]
+*/
+use @xmlXPathCastNodeSetToNumber[F64](ns: NullablePointer[XmlNodeSet] tag)
+

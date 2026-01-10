@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/dict.h:65
+  Original Name: xmlDictOwns/usr/include/libxml2/libxml/dict.h:65
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f21]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlDictOwns[I32](dict: NullablePointer[XmlDict] tag, str: Pointer[U8] tag)
+

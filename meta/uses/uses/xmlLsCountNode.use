@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/debugXML.h:83
+  Original Name: xmlLsCountNode/usr/include/libxml2/libxml/debugXML.h:83
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+use @xmlLsCountNode[I32](node: NullablePointer[XmlNode] tag)
+

@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:416
+  Original Name: xmlXPathTrailing/usr/include/libxml2/libxml/xpathInternals.h:416
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f65]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f65]
+    [PointerType size=64]->[Struct size=128,fid: f65]
+*/
+use @xmlXPathTrailing[NullablePointer[XmlNodeSet]](nodes1: NullablePointer[XmlNodeSet] tag, nodes2: NullablePointer[XmlNodeSet] tag)
+

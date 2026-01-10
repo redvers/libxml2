@@ -1,0 +1,17 @@
+/*
+  Source: /usr/include/libxml2/libxml/c14n.h:86
+  Original Name: xmlC14NDocSave/usr/include/libxml2/libxml/c14n.h:86
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[Struct size=128,fid: f65]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlC14NDocSave[I32](doc: NullablePointer[XmlDoc] tag, nodes: NullablePointer[XmlNodeSet] tag, mode: I32, inclusivensprefixes: Pointer[Pointer[U8]] tag, withcomments: I32, filename: Pointer[U8] tag, compression: I32)
+

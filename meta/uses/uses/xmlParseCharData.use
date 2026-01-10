@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:404
+  Original Name: xmlParseCharData/usr/include/libxml2/libxml/parserInternals.h:404
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [FundamentalType(int) size=32]
+*/
+use @xmlParseCharData[None](ctxt: NullablePointer[XmlParserCtxt] tag, cdata: I32)
+

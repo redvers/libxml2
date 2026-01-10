@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:217
+  Original Name: xmlCopyElementTable/usr/include/libxml2/libxml/valid.h:217
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f24]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f24]
+*/
+use @xmlCopyElementTable[NullablePointer[XmlHashTable]](table: NullablePointer[XmlHashTable] tag)
+

@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:612
+  Original Name: xmlXPathTrueFunction/usr/include/libxml2/libxml/xpathInternals.h:612
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=704,fid: f65]
+    [FundamentalType(int) size=32]
+*/
+use @xmlXPathTrueFunction[None](ctxt: NullablePointer[XmlXPathParserContext] tag, nargs: I32)
+

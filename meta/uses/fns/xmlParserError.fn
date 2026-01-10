@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlerror.h:876
+  Original Name: xmlParserError/usr/include/libxml2/libxml/xmlerror.h:876
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+/*  fun xmlParserError(ctx: Pointer[None] tag, msg: String, ...): None =>
+    @xmlParserError(ctx, msg.cstring(), ...)
+*/

@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/debugXML.h:196
+  Original Name: xmlShellPwd/usr/include/libxml2/libxml/debugXML.h:196
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f69]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+  fun xmlShellPwd(ctxt: NullablePointer[XmlShellCtxt] tag, buffer: String, node: NullablePointer[XmlNode] tag, node2: NullablePointer[XmlNode] tag): I32 =>
+    @xmlShellPwd(ctxt, buffer.cstring(), node, node2)

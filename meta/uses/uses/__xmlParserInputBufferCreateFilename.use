@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:211
+  Original Name: __xmlParserInputBufferCreateFilename/usr/include/libxml2/libxml/xmlIO.h:211
+
+  Return Value: [PointerType size=64]->[Struct size=512,fid: f15]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [Enumeration size=32,fid: f42]
+*/
+use @__xmlParserInputBufferCreateFilename[NullablePointer[XmlParserInputBuffer]](URI: Pointer[U8] tag, enc: I32)
+

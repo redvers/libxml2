@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:532
+  Original Name: xmlXPathEvalPredicate/usr/include/libxml2/libxml/xpath.h:532
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=3008,fid: f65]
+    [PointerType size=64]->[Struct size=576,fid: f65]
+*/
+  fun xmlXPathEvalPredicate(ctxt: NullablePointer[XmlXPathContext] tag, res: NullablePointer[XmlXPathObject] tag): I32 =>
+    @xmlXPathEvalPredicate(ctxt, res)

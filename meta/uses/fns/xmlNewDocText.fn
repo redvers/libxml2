@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:862
+  Original Name: xmlNewDocText/usr/include/libxml2/libxml/tree.h:862
+
+  Return Value: [PointerType size=64]->[Struct size=960,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlNewDocText(doc: NullablePointer[XmlDoc] tag, content: String): NullablePointer[XmlNode] =>
+    @xmlNewDocText(doc, content.cstring())

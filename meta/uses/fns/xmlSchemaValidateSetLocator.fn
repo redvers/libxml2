@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemas.h:237
+  Original Name: xmlSchemaValidateSetLocator/usr/include/libxml2/libxml/xmlschemas.h:237
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f82]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlSchemaValidateSetLocator(vctxt: NullablePointer[XmlSchemaValidCtxt] tag, f: Pointer[None] tag, ctxt: Pointer[None] tag): None =>
+    @xmlSchemaValidateSetLocator(vctxt, f, ctxt)

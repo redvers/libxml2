@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/encoding.h:176
+  Original Name: xmlRegisterCharEncodingHandler/usr/include/libxml2/libxml/encoding.h:176
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f42]
+*/
+  fun xmlRegisterCharEncodingHandler(handler: NullablePointer[XmlCharEncodingHandler] tag): None =>
+    @xmlRegisterCharEncodingHandler(handler)

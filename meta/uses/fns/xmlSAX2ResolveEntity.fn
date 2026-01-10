@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:61
+  Original Name: xmlSAX2ResolveEntity/usr/include/libxml2/libxml/SAX2.h:61
+
+  Return Value: [PointerType size=64]->[Struct size=832,fid: f17]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlSAX2ResolveEntity(ctx: Pointer[None] tag, publicId: String, systemId: String): NullablePointer[XmlParserInput] =>
+    @xmlSAX2ResolveEntity(ctx, publicId.cstring(), systemId.cstring())

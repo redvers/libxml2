@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/relaxng.h:128
+  Original Name: xmlRelaxNGNewParserCtxt/usr/include/libxml2/libxml/relaxng.h:128
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f76]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlRelaxNGNewParserCtxt[NullablePointer[XmlRelaxNGParserCtxt]](URL: Pointer[U8] tag)
+

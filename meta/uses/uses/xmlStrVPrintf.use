@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlstring.h:103
+  Original Name: xmlStrVPrintf/usr/include/libxml2/libxml/xmlstring.h:103
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=192,fid: f0]
+*/
+use @xmlStrVPrintf[I32](buf: Pointer[U8] tag, len: I32, msg: Pointer[U8] tag, ap: NullablePointer[Valisttag] tag)
+

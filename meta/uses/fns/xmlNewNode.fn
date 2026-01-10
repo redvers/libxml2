@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:849
+  Original Name: xmlNewNode/usr/include/libxml2/libxml/tree.h:849
+
+  Return Value: [PointerType size=64]->[Struct size=960,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlNewNode(ns: NullablePointer[XmlNs] tag, name: String): NullablePointer[XmlNode] =>
+    @xmlNewNode(ns, name.cstring())

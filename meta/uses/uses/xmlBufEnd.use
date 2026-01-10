@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:121
+  Original Name: xmlBufEnd/usr/include/libxml2/libxml/tree.h:121
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f16]
+*/
+use @xmlBufEnd[Pointer[U8]](buf: NullablePointer[XmlBuf] tag)
+

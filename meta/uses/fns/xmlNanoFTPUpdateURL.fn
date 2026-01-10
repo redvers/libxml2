@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/nanoftp.h:116
+  Original Name: xmlNanoFTPUpdateURL/usr/include/libxml2/libxml/nanoftp.h:116
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlNanoFTPUpdateURL(ctx: Pointer[None] tag, URL: String): I32 =>
+    @xmlNanoFTPUpdateURL(ctx, URL.cstring())

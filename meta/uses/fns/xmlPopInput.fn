@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:370
+  Original Name: xmlPopInput/usr/include/libxml2/libxml/parserInternals.h:370
+
+  Return Value: [FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+  fun xmlPopInput(ctxt: NullablePointer[XmlParserCtxt] tag): U8 =>
+    @xmlPopInput(ctxt)

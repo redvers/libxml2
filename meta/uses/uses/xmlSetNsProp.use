@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1031
+  Original Name: xmlSetNsProp/usr/include/libxml2/libxml/tree.h:1031
+
+  Return Value: [PointerType size=64]->[Struct size=768,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[Struct size=384,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlSetNsProp[NullablePointer[XmlAttr]](node: NullablePointer[XmlNode] tag, ns: NullablePointer[XmlNs] tag, name: Pointer[U8] tag, value: Pointer[U8] tag)
+

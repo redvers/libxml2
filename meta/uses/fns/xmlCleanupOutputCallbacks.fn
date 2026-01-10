@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:219
+  Original Name: xmlCleanupOutputCallbacks/usr/include/libxml2/libxml/xmlIO.h:219
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+  fun xmlCleanupOutputCallbacks(): None =>
+    @xmlCleanupOutputCallbacks()

@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:38
+  Original Name: xmlSAX2IsStandalone/usr/include/libxml2/libxml/SAX2.h:38
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @xmlSAX2IsStandalone[I32](ctx: Pointer[None] tag)
+

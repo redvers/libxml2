@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:182
+  Original Name: xmlFreeElementContent/usr/include/libxml2/libxml/valid.h:182
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f16]
+*/
+use @xmlFreeElementContent[None](cur: NullablePointer[XmlElementContent] tag)
+

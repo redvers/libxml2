@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:897
+  Original Name: xmlSAXParseMemory/usr/include/libxml2/libxml/parser.h:897
+
+  Return Value: [PointerType size=64]->[Struct size=1408,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=2048,fid: f17]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @xmlSAXParseMemory[NullablePointer[XmlDoc]](sax: NullablePointer[XmlSAXHandler] tag, buffer: Pointer[U8] tag, size: I32, recovery: I32)
+

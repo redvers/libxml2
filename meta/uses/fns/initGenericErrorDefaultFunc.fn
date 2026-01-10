@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlerror.h:866
+  Original Name: initGenericErrorDefaultFunc/usr/include/libxml2/libxml/xmlerror.h:866
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+  fun initGenericErrorDefaultFunc(handler: NullablePointer[Pointer[None]] tag): None =>
+    @initGenericErrorDefaultFunc(handler)

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:133
+  Original Name: xmlCatalogAdd/usr/include/libxml2/libxml/catalog.h:133
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlCatalogAdd(type: String, orig: String, replace: String): I32 =>
+    @xmlCatalogAdd(type.cstring(), orig.cstring(), replace.cstring())

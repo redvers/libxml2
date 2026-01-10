@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:163
+  Original Name: xmlSAX2InitHtmlDefaultSAXHandler/usr/include/libxml2/libxml/SAX2.h:163
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=2048,fid: f17]
+*/
+  fun xmlSAX2InitHtmlDefaultSAXHandler(hdlr: NullablePointer[XmlSAXHandler] tag): None =>
+    @xmlSAX2InitHtmlDefaultSAXHandler(hdlr)

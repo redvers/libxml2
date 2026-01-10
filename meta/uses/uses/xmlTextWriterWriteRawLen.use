@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:156
+  Original Name: xmlTextWriterWriteRawLen/usr/include/libxml2/libxml/xmlwriter.h:156
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f87]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlTextWriterWriteRawLen[I32](writer: NullablePointer[XmlTextWriter] tag, content: Pointer[U8] tag, len: I32)
+

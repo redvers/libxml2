@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlstring.h:134
+  Original Name: xmlUTF8Charcmp/usr/include/libxml2/libxml/xmlstring.h:134
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlUTF8Charcmp[I32](utf1: Pointer[U8] tag, utf2: Pointer[U8] tag)
+

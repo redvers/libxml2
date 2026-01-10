@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/chvalid.h:213
+  Original Name: xmlIsBlank/usr/include/libxml2/libxml/chvalid.h:213
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(unsigned int) size=32]
+*/
+use @xmlIsBlank[I32](ch: U32)
+

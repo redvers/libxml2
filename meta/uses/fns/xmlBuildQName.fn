@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:693
+  Original Name: xmlBuildQName/usr/include/libxml2/libxml/tree.h:693
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlBuildQName(ncname: String, prefix: String, memory: String, len: I32): String =>
+    var pcstring: Pointer[U8] =  @xmlBuildQName(ncname.cstring(), prefix.cstring(), memory.cstring(), len)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

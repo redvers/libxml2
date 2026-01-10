@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:56
+  Original Name: xmlTextWriterStartDocument/usr/include/libxml2/libxml/xmlwriter.h:56
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f87]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlTextWriterStartDocument[I32](writer: NullablePointer[XmlTextWriter] tag, version: Pointer[U8] tag, encoding: Pointer[U8] tag, standalone: Pointer[U8] tag)
+

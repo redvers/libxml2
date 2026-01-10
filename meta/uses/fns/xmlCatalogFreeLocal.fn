@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:148
+  Original Name: xmlCatalogFreeLocal/usr/include/libxml2/libxml/catalog.h:148
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlCatalogFreeLocal(catalogs: Pointer[None] tag): None =>
+    @xmlCatalogFreeLocal(catalogs)

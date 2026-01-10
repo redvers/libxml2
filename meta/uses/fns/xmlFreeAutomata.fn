@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlautomata.h:46
+  Original Name: xmlFreeAutomata/usr/include/libxml2/libxml/xmlautomata.h:46
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f27]
+*/
+  fun xmlFreeAutomata(am: NullablePointer[XmlAutomata] tag): None =>
+    @xmlFreeAutomata(am)

@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:108
+  Original Name: xmlXPathPopString/usr/include/libxml2/libxml/xpathInternals.h:108
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=704,fid: f65]
+*/
+use @xmlXPathPopString[Pointer[U8]](ctxt: NullablePointer[XmlXPathParserContext] tag)
+

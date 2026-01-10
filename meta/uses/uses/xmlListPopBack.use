@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/list.h:97
+  Original Name: xmlListPopBack/usr/include/libxml2/libxml/list.h:97
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f26]
+*/
+use @xmlListPopBack[None](l: NullablePointer[XmlList] tag)
+

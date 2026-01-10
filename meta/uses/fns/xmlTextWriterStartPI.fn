@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:248
+  Original Name: xmlTextWriterStartPI/usr/include/libxml2/libxml/xmlwriter.h:248
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f87]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlTextWriterStartPI(writer: NullablePointer[XmlTextWriter] tag, target: String): I32 =>
+    @xmlTextWriterStartPI(writer, target.cstring())

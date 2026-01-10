@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:170
+  Original Name: xmlUCSIsCatMe/usr/include/libxml2/libxml/xmlunicode.h:170
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsCatMe(code: I32): I32 =>
+    @xmlUCSIsCatMe(code)

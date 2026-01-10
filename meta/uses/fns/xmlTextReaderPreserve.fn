@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:266
+  Original Name: xmlTextReaderPreserve/usr/include/libxml2/libxml/xmlreader.h:266
+
+  Return Value: [PointerType size=64]->[Struct size=960,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+*/
+  fun xmlTextReaderPreserve(reader: NullablePointer[XmlTextReader] tag): NullablePointer[XmlNode] =>
+    @xmlTextReaderPreserve(reader)

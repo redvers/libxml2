@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:522
+  Original Name: xmlXPathNodeEval/usr/include/libxml2/libxml/xpath.h:522
+
+  Return Value: [PointerType size=64]->[Struct size=576,fid: f65]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[Struct size=3008,fid: f65]
+*/
+  fun xmlXPathNodeEval(node: NullablePointer[XmlNode] tag, str: String, ctx: NullablePointer[XmlXPathContext] tag): NullablePointer[XmlXPathObject] =>
+    @xmlXPathNodeEval(node, str.cstring(), ctx)

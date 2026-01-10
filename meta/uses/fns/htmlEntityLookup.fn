@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/HTMLparser.h:89
+  Original Name: htmlEntityLookup/usr/include/libxml2/libxml/HTMLparser.h:89
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f70]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun htmlEntityLookup(name: String): NullablePointer[HtmlEntityDesc] =>
+    @htmlEntityLookup(name.cstring())

@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlmemory.h:130
+  Original Name: xmlInitMemory/usr/include/libxml2/libxml/xmlmemory.h:130
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+*/
+use @xmlInitMemory[I32]()
+

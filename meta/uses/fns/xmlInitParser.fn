@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:825
+  Original Name: xmlInitParser/usr/include/libxml2/libxml/parser.h:825
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+  fun xmlInitParser(): None =>
+    @xmlInitParser()

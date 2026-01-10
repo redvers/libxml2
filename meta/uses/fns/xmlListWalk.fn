@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/list.h:111
+  Original Name: xmlListWalk/usr/include/libxml2/libxml/list.h:111
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f26]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlListWalk(l: NullablePointer[XmlList] tag, walker: Pointer[None] tag, user: Pointer[None] tag): None =>
+    @xmlListWalk(l, walker, user)

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:427
+  Original Name: xmlValidateNmtokenValue/usr/include/libxml2/libxml/valid.h:427
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlValidateNmtokenValue(value: String): I32 =>
+    @xmlValidateNmtokenValue(value.cstring())

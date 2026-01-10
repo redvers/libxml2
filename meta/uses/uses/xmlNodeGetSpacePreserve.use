@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1100
+  Original Name: xmlNodeGetSpacePreserve/usr/include/libxml2/libxml/tree.h:1100
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+use @xmlNodeGetSpacePreserve[I32](cur: NullablePointer[XmlNode] tag)
+

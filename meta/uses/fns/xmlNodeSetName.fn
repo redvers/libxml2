@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:950
+  Original Name: xmlNodeSetName/usr/include/libxml2/libxml/tree.h:950
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlNodeSetName(cur: NullablePointer[XmlNode] tag, name: String): None =>
+    @xmlNodeSetName(cur, name.cstring())

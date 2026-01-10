@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:355
+  Original Name: xmlIOFTPOpen/usr/include/libxml2/libxml/xmlIO.h:355
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlIOFTPOpen(filename: String): Pointer[None] =>
+    @xmlIOFTPOpen(filename.cstring())

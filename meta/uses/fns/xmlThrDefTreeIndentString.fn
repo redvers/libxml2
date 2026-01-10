@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:398
+  Original Name: xmlThrDefTreeIndentString/usr/include/libxml2/libxml/globals.h:398
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlThrDefTreeIndentString(v: String): String =>
+    var pcstring: Pointer[U8] =  @xmlThrDefTreeIndentString(v.cstring())
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

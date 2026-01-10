@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:542
+  Original Name: xmlXPathNodeSetRemove/usr/include/libxml2/libxml/xpathInternals.h:542
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f65]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlXPathNodeSetRemove(cur: NullablePointer[XmlNodeSet] tag, val: I32): None =>
+    @xmlXPathNodeSetRemove(cur, val)

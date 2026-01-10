@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:473
+  Original Name: xmlXPathCastBooleanToNumber/usr/include/libxml2/libxml/xpath.h:473
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlXPathCastBooleanToNumber[F64](val: I32)
+

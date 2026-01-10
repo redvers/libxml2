@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:407
+  Original Name: xmlParseExternalID/usr/include/libxml2/libxml/parserInternals.h:407
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlParseExternalID(ctxt: NullablePointer[XmlParserCtxt] tag, publicID: Array[String], strict: I32): String =>
+    var pcstring: Pointer[U8] =  @xmlParseExternalID(ctxt, publicID, strict)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

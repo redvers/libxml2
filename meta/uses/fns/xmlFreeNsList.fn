@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:790
+  Original Name: xmlFreeNsList/usr/include/libxml2/libxml/tree.h:790
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f16]
+*/
+  fun xmlFreeNsList(cur: NullablePointer[XmlNs] tag): None =>
+    @xmlFreeNsList(cur)

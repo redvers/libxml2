@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1307
+  Original Name: xmlNextElementSibling/usr/include/libxml2/libxml/tree.h:1307
+
+  Return Value: [PointerType size=64]->[Struct size=960,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+use @xmlNextElementSibling[NullablePointer[XmlNode]](node: NullablePointer[XmlNode] tag)
+

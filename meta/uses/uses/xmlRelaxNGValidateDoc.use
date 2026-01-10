@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/relaxng.h:189
+  Original Name: xmlRelaxNGValidateDoc/usr/include/libxml2/libxml/relaxng.h:189
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f76]
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+*/
+use @xmlRelaxNGValidateDoc[I32](ctxt: NullablePointer[XmlRelaxNGValidCtxt] tag, doc: NullablePointer[XmlDoc] tag)
+

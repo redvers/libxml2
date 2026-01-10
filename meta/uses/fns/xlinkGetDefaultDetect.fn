@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xlink.h:164
+  Original Name: xlinkGetDefaultDetect/usr/include/libxml2/libxml/xlink.h:164
+
+  Return Value: [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+
+  Arguments:
+*/
+  fun xlinkGetDefaultDetect(): Pointer[None] =>
+    @xlinkGetDefaultDetect()

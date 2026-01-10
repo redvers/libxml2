@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:123
+  Original Name: xmlUCSIsPrivateUseArea/usr/include/libxml2/libxml/xmlunicode.h:123
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsPrivateUseArea(code: I32): I32 =>
+    @xmlUCSIsPrivateUseArea(code)

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:41
+  Original Name: xmlNewTextWriterDoc/usr/include/libxml2/libxml/xmlwriter.h:41
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f87]
+
+  Arguments:
+    [PointerType size=64]->[PointerType size=64]->[Struct size=1408,fid: f16]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlNewTextWriterDoc(doc: Pointer[NullablePointer[XmlDoc]] tag, compression: I32): NullablePointer[XmlTextWriter] =>
+    @xmlNewTextWriterDoc(doc, compression)

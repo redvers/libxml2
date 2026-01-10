@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/hash.h:207
+  Original Name: xmlHashCopy/usr/include/libxml2/libxml/hash.h:207
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f24]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f24]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @xmlHashCopy[NullablePointer[XmlHashTable]](table: NullablePointer[XmlHashTable] tag, f: Pointer[None] tag)
+

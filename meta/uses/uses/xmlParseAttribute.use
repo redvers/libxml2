@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:463
+  Original Name: xmlParseAttribute/usr/include/libxml2/libxml/parserInternals.h:463
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlParseAttribute[Pointer[U8]](ctxt: NullablePointer[XmlParserCtxt] tag, value: Pointer[Pointer[U8]] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:856
+  Original Name: xmlStopParser/usr/include/libxml2/libxml/parser.h:856
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+  fun xmlStopParser(ctxt: NullablePointer[XmlParserCtxt] tag): None =>
+    @xmlStopParser(ctxt)

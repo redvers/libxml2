@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:1060
+  Original Name: xmlParserAddNodeInfo/usr/include/libxml2/libxml/parser.h:1060
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [PointerType size=64]->[Struct size=320,fid: f17]
+*/
+  fun xmlParserAddNodeInfo(ctxt: NullablePointer[XmlParserCtxt] tag, info: NullablePointer[XmlParserNodeInfo] tag): None =>
+    @xmlParserAddNodeInfo(ctxt, info)

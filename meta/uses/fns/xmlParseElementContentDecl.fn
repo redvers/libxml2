@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:444
+  Original Name: xmlParseElementContentDecl/usr/include/libxml2/libxml/parserInternals.h:444
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=384,fid: f16]
+*/
+  fun xmlParseElementContentDecl(ctxt: NullablePointer[XmlParserCtxt] tag, name: String, result: Pointer[NullablePointer[XmlElementContent]] tag): I32 =>
+    @xmlParseElementContentDecl(ctxt, name.cstring(), result)

@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:189
+  Original Name: xmlUCSIsCatZ/usr/include/libxml2/libxml/xmlunicode.h:189
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsCatZ[I32](code: I32)
+

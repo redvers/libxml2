@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:76
+  Original Name: xmlUCSIsHalfwidthandFullwidthForms/usr/include/libxml2/libxml/xmlunicode.h:76
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsHalfwidthandFullwidthForms(code: I32): I32 =>
+    @xmlUCSIsHalfwidthandFullwidthForms(code)

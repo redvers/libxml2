@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:938
+  Original Name: xmlIsBlankNode/usr/include/libxml2/libxml/tree.h:938
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+  fun xmlIsBlankNode(node: NullablePointer[XmlNode] tag): I32 =>
+    @xmlIsBlankNode(node)

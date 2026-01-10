@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemastypes.h:34
+  Original Name: xmlSchemaInitTypes/usr/include/libxml2/libxml/xmlschemastypes.h:34
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+use @xmlSchemaInitTypes[None]()
+

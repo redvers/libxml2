@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/debugXML.h:205
+  Original Name: xmlShell/usr/include/libxml2/libxml/debugXML.h:205
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[Struct size=1728,fid: f8]
+*/
+use @xmlShell[None](doc: NullablePointer[XmlDoc] tag, filename: Pointer[U8] tag, input: Pointer[None] tag, output: NullablePointer[IOFILE] tag)
+

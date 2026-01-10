@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:478
+  Original Name: xmlXPathFreeParserContext/usr/include/libxml2/libxml/xpathInternals.h:478
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=704,fid: f65]
+*/
+use @xmlXPathFreeParserContext[None](ctxt: NullablePointer[XmlXPathParserContext] tag)
+

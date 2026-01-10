@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:276
+  Original Name: xmlTextReaderExpand/usr/include/libxml2/libxml/xmlreader.h:276
+
+  Return Value: [PointerType size=64]->[Struct size=960,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+*/
+  fun xmlTextReaderExpand(reader: NullablePointer[XmlTextReader] tag): NullablePointer[XmlNode] =>
+    @xmlTextReaderExpand(reader)

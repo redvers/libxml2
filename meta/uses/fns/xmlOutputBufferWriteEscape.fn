@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:264
+  Original Name: xmlOutputBufferWriteEscape/usr/include/libxml2/libxml/xmlIO.h:264
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f15]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+  fun xmlOutputBufferWriteEscape(out: NullablePointer[XmlOutputBuffer] tag, str: String, escaping: Pointer[None] tag): I32 =>
+    @xmlOutputBufferWriteEscape(out, str.cstring(), escaping)

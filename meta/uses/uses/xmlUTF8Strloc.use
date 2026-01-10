@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlstring.h:123
+  Original Name: xmlUTF8Strloc/usr/include/libxml2/libxml/xmlstring.h:123
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlUTF8Strloc[I32](utf: Pointer[U8] tag, utfchar: Pointer[U8] tag)
+

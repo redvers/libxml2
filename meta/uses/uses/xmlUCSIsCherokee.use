@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:51
+  Original Name: xmlUCSIsCherokee/usr/include/libxml2/libxml/xmlunicode.h:51
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsCherokee[I32](code: I32)
+

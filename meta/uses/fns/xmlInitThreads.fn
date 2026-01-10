@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/threads.h:61
+  Original Name: xmlInitThreads/usr/include/libxml2/libxml/threads.h:61
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+  fun xmlInitThreads(): None =>
+    @xmlInitThreads()

@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:445
+  Original Name: xmlValidatePushCData/usr/include/libxml2/libxml/valid.h:445
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f28]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlValidatePushCData[I32](ctxt: NullablePointer[XmlValidCtxt] tag, data: Pointer[U8] tag, len: I32)
+

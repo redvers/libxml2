@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:545
+  Original Name: inputPop/usr/include/libxml2/libxml/parserInternals.h:545
+
+  Return Value: [PointerType size=64]->[Struct size=832,fid: f17]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+  fun inputPop(ctxt: NullablePointer[XmlParserCtxt] tag): NullablePointer[XmlParserInput] =>
+    @inputPop(ctxt)

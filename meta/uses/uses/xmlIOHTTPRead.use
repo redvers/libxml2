@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:341
+  Original Name: xmlIOHTTPRead/usr/include/libxml2/libxml/xmlIO.h:341
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlIOHTTPRead[I32](context: Pointer[None] tag, buffer: Pointer[U8] tag, len: I32)
+

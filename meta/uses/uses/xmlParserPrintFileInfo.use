@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlerror.h:892
+  Original Name: xmlParserPrintFileInfo/usr/include/libxml2/libxml/xmlerror.h:892
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=832,fid: f17]
+*/
+use @xmlParserPrintFileInfo[None](input: NullablePointer[XmlParserInput] tag)
+

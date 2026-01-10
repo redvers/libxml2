@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:1050
+  Original Name: xmlParserFindNodeInfo/usr/include/libxml2/libxml/parser.h:1050
+
+  Return Value: [PointerType size=64]->[Struct size=320,fid: f17]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+use @xmlParserFindNodeInfo[NullablePointer[XmlParserNodeInfo]](ctxt: NullablePointer[XmlParserCtxt] tag, node: NullablePointer[XmlNode] tag)
+

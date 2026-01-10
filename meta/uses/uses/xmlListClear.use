@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/list.h:84
+  Original Name: xmlListClear/usr/include/libxml2/libxml/list.h:84
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f26]
+*/
+use @xmlListClear[None](l: NullablePointer[XmlList] tag)
+

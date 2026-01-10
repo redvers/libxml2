@@ -1,0 +1,15 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:1017
+  Original Name: xmlCreatePushParserCtxt/usr/include/libxml2/libxml/parser.h:1017
+
+  Return Value: [PointerType size=64]->[Struct size=6016,fid: f17]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=2048,fid: f17]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlCreatePushParserCtxt[NullablePointer[XmlParserCtxt]](sax: NullablePointer[XmlSAXHandler] tag, userdata: Pointer[None] tag, chunk: Pointer[U8] tag, size: I32, filename: Pointer[U8] tag)
+

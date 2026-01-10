@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:406
+  Original Name: xmlGetDtdElementDesc/usr/include/libxml2/libxml/valid.h:406
+
+  Return Value: [PointerType size=64]->[Struct size=896,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1024,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlGetDtdElementDesc(dtd: NullablePointer[XmlDtd] tag, name: String): NullablePointer[XmlElement] =>
+    @xmlGetDtdElementDesc(dtd, name.cstring())

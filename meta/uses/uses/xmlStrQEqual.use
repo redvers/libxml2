@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlstring.h:81
+  Original Name: xmlStrQEqual/usr/include/libxml2/libxml/xmlstring.h:81
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlStrQEqual[I32](pref: Pointer[U8] tag, name: Pointer[U8] tag, str: Pointer[U8] tag)
+

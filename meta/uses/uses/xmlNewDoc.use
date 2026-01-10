@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:792
+  Original Name: xmlNewDoc/usr/include/libxml2/libxml/tree.h:792
+
+  Return Value: [PointerType size=64]->[Struct size=1408,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlNewDoc[NullablePointer[XmlDoc]](version: Pointer[U8] tag)
+

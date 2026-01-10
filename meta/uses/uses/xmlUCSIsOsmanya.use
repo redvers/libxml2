@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:120
+  Original Name: xmlUCSIsOsmanya/usr/include/libxml2/libxml/xmlunicode.h:120
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsOsmanya[I32](code: I32)
+

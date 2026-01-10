@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:225
+  Original Name: xmlAllocOutputBuffer/usr/include/libxml2/libxml/xmlIO.h:225
+
+  Return Value: [PointerType size=64]->[Struct size=448,fid: f15]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f42]
+*/
+  fun xmlAllocOutputBuffer(encoder: NullablePointer[XmlCharEncodingHandler] tag): NullablePointer[XmlOutputBuffer] =>
+    @xmlAllocOutputBuffer(encoder)

@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/uri.h:74
+  Original Name: xmlURIEscapeStr/usr/include/libxml2/libxml/uri.h:74
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlURIEscapeStr(str: String, list: String): String =>
+    var pcstring: Pointer[U8] =  @xmlURIEscapeStr(str.cstring(), list.cstring())
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xinclude.h:95
+  Original Name: xmlXIncludeProcessFlags/usr/include/libxml2/libxml/xinclude.h:95
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [FundamentalType(int) size=32]
+*/
+use @xmlXIncludeProcessFlags[I32](doc: NullablePointer[XmlDoc] tag, flags: I32)
+

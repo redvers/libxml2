@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:405
+  Original Name: xmlTextReaderLocatorLineNumber/usr/include/libxml2/libxml/xmlreader.h:405
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlTextReaderLocatorLineNumber(locator: Pointer[None] tag): I32 =>
+    @xmlTextReaderLocatorLineNumber(locator)

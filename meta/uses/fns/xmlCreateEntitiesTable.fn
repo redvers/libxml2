@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/entities.h:126
+  Original Name: xmlCreateEntitiesTable/usr/include/libxml2/libxml/entities.h:126
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f24]
+
+  Arguments:
+*/
+  fun xmlCreateEntitiesTable(): NullablePointer[XmlHashTable] =>
+    @xmlCreateEntitiesTable()

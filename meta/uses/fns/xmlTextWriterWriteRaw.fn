@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:159
+  Original Name: xmlTextWriterWriteRaw/usr/include/libxml2/libxml/xmlwriter.h:159
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f87]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlTextWriterWriteRaw(writer: NullablePointer[XmlTextWriter] tag, content: String): I32 =>
+    @xmlTextWriterWriteRaw(writer, content.cstring())

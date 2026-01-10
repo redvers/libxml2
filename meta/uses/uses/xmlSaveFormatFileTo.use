@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1222
+  Original Name: xmlSaveFormatFileTo/usr/include/libxml2/libxml/tree.h:1222
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f15]
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlSaveFormatFileTo[I32](buf: NullablePointer[XmlOutputBuffer] tag, cur: NullablePointer[XmlDoc] tag, encoding: Pointer[U8] tag, format: I32)
+

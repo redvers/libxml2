@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:481
+  Original Name: xmlXPathCastToNumber/usr/include/libxml2/libxml/xpath.h:481
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=576,fid: f65]
+*/
+  fun xmlXPathCastToNumber(val: NullablePointer[XmlXPathObject] tag): F64 =>
+    @xmlXPathCastToNumber(val)

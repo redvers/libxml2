@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:121
+  Original Name: xmlCatalogDump/usr/include/libxml2/libxml/catalog.h:121
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1728,fid: f8]
+*/
+use @xmlCatalogDump[None](out: NullablePointer[IOFILE] tag)
+

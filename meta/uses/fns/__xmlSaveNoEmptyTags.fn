@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:453
+  Original Name: __xmlSaveNoEmptyTags/usr/include/libxml2/libxml/globals.h:453
+
+  Return Value: [PointerType size=64]->[FundamentalType(int) size=32]
+
+  Arguments:
+*/
+  fun __xmlSaveNoEmptyTags(): Pointer[I32] =>
+    @__xmlSaveNoEmptyTags()

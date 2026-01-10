@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:34
+  Original Name: xmlUCSIsBengali/usr/include/libxml2/libxml/xmlunicode.h:34
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsBengali[I32](code: I32)
+

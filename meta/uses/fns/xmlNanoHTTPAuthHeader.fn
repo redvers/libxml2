@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/nanohttp.h:56
+  Original Name: xmlNanoHTTPAuthHeader/usr/include/libxml2/libxml/nanohttp.h:56
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlNanoHTTPAuthHeader(ctx: Pointer[None] tag): String =>
+    var pcstring: Pointer[U8] =  @xmlNanoHTTPAuthHeader(ctx)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

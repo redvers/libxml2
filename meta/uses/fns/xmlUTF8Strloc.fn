@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlstring.h:123
+  Original Name: xmlUTF8Strloc/usr/include/libxml2/libxml/xmlstring.h:123
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlUTF8Strloc(utf: String, utfchar: String): I32 =>
+    @xmlUTF8Strloc(utf.cstring(), utfchar.cstring())

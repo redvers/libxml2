@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:106
+  Original Name: xmlXPathPopNumber/usr/include/libxml2/libxml/xpathInternals.h:106
+
+  Return Value: [FundamentalType(double) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=704,fid: f65]
+*/
+use @xmlXPathPopNumber[F64](ctxt: NullablePointer[XmlXPathParserContext] tag)
+

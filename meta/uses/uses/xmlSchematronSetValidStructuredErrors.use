@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/schematron.h:103
+  Original Name: xmlSchematronSetValidStructuredErrors/usr/include/libxml2/libxml/schematron.h:103
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f78]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @xmlSchematronSetValidStructuredErrors[None](ctxt: NullablePointer[XmlSchematronValidCtxt] tag, serror: Pointer[None] tag, ctx: Pointer[None] tag)
+

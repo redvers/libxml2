@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:156
+  Original Name: xmlTextReaderIsDefault/usr/include/libxml2/libxml/xmlreader.h:156
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+*/
+  fun xmlTextReaderIsDefault(reader: NullablePointer[XmlTextReader] tag): I32 =>
+    @xmlTextReaderIsDefault(reader)

@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:66
+  Original Name: xmlSAX2EntityDecl/usr/include/libxml2/libxml/SAX2.h:66
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlSAX2EntityDecl(ctx: Pointer[None] tag, name: String, type: I32, publicId: String, systemId: String, content: String): None =>
+    @xmlSAX2EntityDecl(ctx, name.cstring(), type, publicId.cstring(), systemId.cstring(), content.cstring())

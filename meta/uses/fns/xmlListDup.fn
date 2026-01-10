@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/list.h:122
+  Original Name: xmlListDup/usr/include/libxml2/libxml/list.h:122
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f26]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f26]
+*/
+  fun xmlListDup(old: NullablePointer[XmlList] tag): NullablePointer[XmlList] =>
+    @xmlListDup(old)

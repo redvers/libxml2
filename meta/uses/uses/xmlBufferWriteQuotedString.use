@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1143
+  Original Name: xmlBufferWriteQuotedString/usr/include/libxml2/libxml/tree.h:1143
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlBufferWriteQuotedString[None](buf: NullablePointer[XmlBuffer] tag, string: Pointer[U8] tag)
+

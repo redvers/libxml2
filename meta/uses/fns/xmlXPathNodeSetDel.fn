@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:539
+  Original Name: xmlXPathNodeSetDel/usr/include/libxml2/libxml/xpathInternals.h:539
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f65]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+  fun xmlXPathNodeSetDel(cur: NullablePointer[XmlNodeSet] tag, val: NullablePointer[XmlNode] tag): None =>
+    @xmlXPathNodeSetDel(cur, val)

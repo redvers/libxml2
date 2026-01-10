@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:474
+  Original Name: xmlTextWriterSetQuoteChar/usr/include/libxml2/libxml/xmlwriter.h:474
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f87]
+    [FundamentalType(unsigned char) size=8]
+*/
+  fun xmlTextWriterSetQuoteChar(writer: NullablePointer[XmlTextWriter] tag, quotechar: U8): I32 =>
+    @xmlTextWriterSetQuoteChar(writer, quotechar)

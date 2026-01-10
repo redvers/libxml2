@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlautomata.h:62
+  Original Name: xmlAutomataNewTransition2/usr/include/libxml2/libxml/xmlautomata.h:62
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f27]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f27]
+    [PointerType size=64]->[Struct size=,fid: f27]
+    [PointerType size=64]->[Struct size=,fid: f27]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlAutomataNewTransition2(am: NullablePointer[XmlAutomata] tag, from: NullablePointer[XmlAutomataState] tag, to: NullablePointer[XmlAutomataState] tag, token: String, token2: String, data: Pointer[None] tag): NullablePointer[XmlAutomataState] =>
+    @xmlAutomataNewTransition2(am, from, to, token.cstring(), token2.cstring(), data)

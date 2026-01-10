@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:357
+  Original Name: __xmlGenericErrorContext/usr/include/libxml2/libxml/globals.h:357
+
+  Return Value: [PointerType size=64]->[PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+*/
+  fun __xmlGenericErrorContext(): NullablePointer[Pointer[None]] =>
+    @__xmlGenericErrorContext()

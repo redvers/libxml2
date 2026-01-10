@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/pattern.h:47
+  Original Name: xmlFreePattern/usr/include/libxml2/libxml/pattern.h:47
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f75]
+*/
+  fun xmlFreePattern(comp: NullablePointer[XmlPattern] tag): None =>
+    @xmlFreePattern(comp)

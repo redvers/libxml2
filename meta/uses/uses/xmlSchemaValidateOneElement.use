@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemas.h:206
+  Original Name: xmlSchemaValidateOneElement/usr/include/libxml2/libxml/xmlschemas.h:206
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f82]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+use @xmlSchemaValidateOneElement[I32](ctxt: NullablePointer[XmlSchemaValidCtxt] tag, elem: NullablePointer[XmlNode] tag)
+

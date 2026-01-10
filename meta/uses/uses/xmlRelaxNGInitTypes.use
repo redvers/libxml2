@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/relaxng.h:120
+  Original Name: xmlRelaxNGInitTypes/usr/include/libxml2/libxml/relaxng.h:120
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+*/
+use @xmlRelaxNGInitTypes[I32]()
+

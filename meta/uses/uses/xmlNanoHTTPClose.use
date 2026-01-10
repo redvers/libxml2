@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/nanohttp.h:75
+  Original Name: xmlNanoHTTPClose/usr/include/libxml2/libxml/nanohttp.h:75
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @xmlNanoHTTPClose[None](ctx: Pointer[None] tag)
+

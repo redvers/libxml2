@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/threads.h:51
+  Original Name: xmlRMutexLock/usr/include/libxml2/libxml/threads.h:51
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f23]
+*/
+use @xmlRMutexLock[None](tok: NullablePointer[XmlRMutex] tag)
+

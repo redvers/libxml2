@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:484
+  Original Name: xmlXPathCastBooleanToString/usr/include/libxml2/libxml/xpath.h:484
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlXPathCastBooleanToString[Pointer[U8]](val: I32)
+

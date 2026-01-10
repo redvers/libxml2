@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:77
+  Original Name: xmlUCSIsHangulCompatibilityJamo/usr/include/libxml2/libxml/xmlunicode.h:77
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsHangulCompatibilityJamo[I32](code: I32)
+

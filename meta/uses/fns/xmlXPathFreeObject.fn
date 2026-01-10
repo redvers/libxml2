@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:448
+  Original Name: xmlXPathFreeObject/usr/include/libxml2/libxml/xpath.h:448
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=576,fid: f65]
+*/
+  fun xmlXPathFreeObject(obj: NullablePointer[XmlXPathObject] tag): None =>
+    @xmlXPathFreeObject(obj)

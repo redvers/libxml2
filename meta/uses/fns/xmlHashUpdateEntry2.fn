@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/hash.h:136
+  Original Name: xmlHashUpdateEntry2/usr/include/libxml2/libxml/hash.h:136
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f24]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+  fun xmlHashUpdateEntry2(table: NullablePointer[XmlHashTable] tag, name: String, name2: String, userdata: Pointer[None] tag, f: Pointer[None] tag): I32 =>
+    @xmlHashUpdateEntry2(table, name.cstring(), name2.cstring(), userdata, f)

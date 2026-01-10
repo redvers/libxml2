@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:337
+  Original Name: xmlIOHTTPOpenW/usr/include/libxml2/libxml/xmlIO.h:337
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlIOHTTPOpenW(posturi: String, compression: I32): Pointer[None] =>
+    @xmlIOHTTPOpenW(posturi.cstring(), compression)

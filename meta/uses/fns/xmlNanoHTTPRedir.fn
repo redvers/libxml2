@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/nanohttp.h:58
+  Original Name: xmlNanoHTTPRedir/usr/include/libxml2/libxml/nanohttp.h:58
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlNanoHTTPRedir(ctx: Pointer[None] tag): String =>
+    var pcstring: Pointer[U8] =  @xmlNanoHTTPRedir(ctx)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

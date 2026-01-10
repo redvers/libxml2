@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/list.h:56
+  Original Name: xmlListCreate/usr/include/libxml2/libxml/list.h:56
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f26]
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @xmlListCreate[NullablePointer[XmlList]](deallocator: Pointer[None] tag, compare: Pointer[None] tag)
+

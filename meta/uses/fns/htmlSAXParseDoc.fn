@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/HTMLparser.h:118
+  Original Name: htmlSAXParseDoc/usr/include/libxml2/libxml/HTMLparser.h:118
+
+  Return Value: [PointerType size=64]->[Struct size=1408,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=2048,fid: f17]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun htmlSAXParseDoc(cur: String, encoding: String, sax: NullablePointer[XmlSAXHandler] tag, userData: Pointer[None] tag): NullablePointer[XmlDoc] =>
+    @htmlSAXParseDoc(cur.cstring(), encoding.cstring(), sax, userData)

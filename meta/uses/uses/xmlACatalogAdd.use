@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:78
+  Original Name: xmlACatalogAdd/usr/include/libxml2/libxml/catalog.h:78
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f67]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlACatalogAdd[I32](catal: NullablePointer[XmlCatalog] tag, type: Pointer[U8] tag, orig: Pointer[U8] tag, replace: Pointer[U8] tag)
+

@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemastypes.h:112
+  Original Name: xmlSchemaGetCanonValue/usr/include/libxml2/libxml/xmlschemastypes.h:112
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f77]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlSchemaGetCanonValue[I32](val: NullablePointer[XmlSchemaVal] tag, retValue: Pointer[Pointer[U8]] tag)
+

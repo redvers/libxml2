@@ -1,0 +1,21 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:242
+  Original Name: xmlAddAttributeDecl/usr/include/libxml2/libxml/valid.h:242
+
+  Return Value: [PointerType size=64]->[Struct size=960,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f28]
+    [PointerType size=64]->[Struct size=1024,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [Enumeration size=32,fid: f16]
+    [Enumeration size=32,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[Struct size=128,fid: f16]
+*/
+  fun xmlAddAttributeDecl(ctxt: NullablePointer[XmlValidCtxt] tag, dtd: NullablePointer[XmlDtd] tag, elem: String, name: String, ns: String, type: I32, def: I32, defaultValue: String, tree: NullablePointer[XmlEnumeration] tag): NullablePointer[XmlAttribute] =>
+    @xmlAddAttributeDecl(ctxt, dtd, elem.cstring(), name.cstring(), ns.cstring(), type, def, defaultValue.cstring(), tree)

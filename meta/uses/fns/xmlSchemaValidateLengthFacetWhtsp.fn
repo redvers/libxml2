@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemastypes.h:100
+  Original Name: xmlSchemaValidateLengthFacetWhtsp/usr/include/libxml2/libxml/xmlschemastypes.h:100
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=576,fid: f77]
+    [Enumeration size=32,fid: f77]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f77]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+    [Enumeration size=32,fid: f85]
+*/
+  fun xmlSchemaValidateLengthFacetWhtsp(facet: NullablePointer[XmlSchemaFacet] tag, valType: I32, value: String, val: NullablePointer[XmlSchemaVal] tag, length: Pointer[U64] tag, ws: I32): I32 =>
+    @xmlSchemaValidateLengthFacetWhtsp(facet, valType, value.cstring(), val, length, ws)

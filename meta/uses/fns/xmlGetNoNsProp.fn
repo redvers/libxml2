@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1038
+  Original Name: xmlGetNoNsProp/usr/include/libxml2/libxml/tree.h:1038
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlGetNoNsProp(node: NullablePointer[XmlNode] tag, name: String): String =>
+    var pcstring: Pointer[U8] =  @xmlGetNoNsProp(node, name.cstring())
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

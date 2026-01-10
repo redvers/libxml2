@@ -1,0 +1,21 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:529
+  Original Name: xmlStringLenDecodeEntities/usr/include/libxml2/libxml/parserInternals.h:529
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [FundamentalType(unsigned char) size=8]
+    [FundamentalType(unsigned char) size=8]
+    [FundamentalType(unsigned char) size=8]
+*/
+  fun xmlStringLenDecodeEntities(ctxt: NullablePointer[XmlParserCtxt] tag, str: String, len: I32, what: I32, end: U8, end2: U8, end3: U8): String =>
+    var pcstring: Pointer[U8] =  @xmlStringLenDecodeEntities(ctxt, str.cstring(), len, what, end, end2, end3)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

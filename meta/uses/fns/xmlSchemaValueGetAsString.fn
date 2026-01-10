@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemastypes.h:124
+  Original Name: xmlSchemaValueGetAsString/usr/include/libxml2/libxml/xmlschemastypes.h:124
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f77]
+*/
+  fun xmlSchemaValueGetAsString(val: NullablePointer[XmlSchemaVal] tag): String =>
+    var pcstring: Pointer[U8] =  @xmlSchemaValueGetAsString(val)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

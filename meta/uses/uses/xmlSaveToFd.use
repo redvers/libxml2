@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlsave.h:45
+  Original Name: xmlSaveToFd/usr/include/libxml2/libxml/xmlsave.h:45
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f84]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlSaveToFd[NullablePointer[XmlSaveCtxt]](fd: I32, encoding: Pointer[U8] tag, options: I32)
+

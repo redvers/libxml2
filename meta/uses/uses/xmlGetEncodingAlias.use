@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/encoding.h:195
+  Original Name: xmlGetEncodingAlias/usr/include/libxml2/libxml/encoding.h:195
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlGetEncodingAlias[Pointer[U8]](alias: Pointer[U8] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlmemory.h:161
+  Original Name: xmlMallocLoc/usr/include/libxml2/libxml/xmlmemory.h:161
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [FundamentalType(long unsigned int) size=64]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlMallocLoc(size: U64, file: String, line: I32): Pointer[None] =>
+    @xmlMallocLoc(size, file.cstring(), line)

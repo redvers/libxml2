@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:325
+  Original Name: xmlFileClose/usr/include/libxml2/libxml/xmlIO.h:325
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlFileClose(context: Pointer[None] tag): I32 =>
+    @xmlFileClose(context)

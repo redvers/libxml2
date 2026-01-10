@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:159
+  Original Name: xmlSAX2InitDefaultSAXHandler/usr/include/libxml2/libxml/SAX2.h:159
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=2048,fid: f17]
+    [FundamentalType(int) size=32]
+*/
+use @xmlSAX2InitDefaultSAXHandler[None](hdlr: NullablePointer[XmlSAXHandler] tag, warning: I32)
+

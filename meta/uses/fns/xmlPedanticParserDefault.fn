@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:858
+  Original Name: xmlPedanticParserDefault/usr/include/libxml2/libxml/parser.h:858
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlPedanticParserDefault(val: I32): I32 =>
+    @xmlPedanticParserDefault(val)

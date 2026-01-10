@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:1128
+  Original Name: xmlCtxtUseOptions/usr/include/libxml2/libxml/parser.h:1128
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [FundamentalType(int) size=32]
+*/
+use @xmlCtxtUseOptions[I32](ctxt: NullablePointer[XmlParserCtxt] tag, options: I32)
+

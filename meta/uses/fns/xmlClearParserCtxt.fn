@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:983
+  Original Name: xmlClearParserCtxt/usr/include/libxml2/libxml/parser.h:983
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+  fun xmlClearParserCtxt(ctxt: NullablePointer[XmlParserCtxt] tag): None =>
+    @xmlClearParserCtxt(ctxt)

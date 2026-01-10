@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:237
+  Original Name: xmlCopyEnumeration/usr/include/libxml2/libxml/valid.h:237
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f16]
+*/
+  fun xmlCopyEnumeration(cur: NullablePointer[XmlEnumeration] tag): NullablePointer[XmlEnumeration] =>
+    @xmlCopyEnumeration(cur)

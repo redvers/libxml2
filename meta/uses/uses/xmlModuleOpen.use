@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlmodule.h:40
+  Original Name: xmlModuleOpen/usr/include/libxml2/libxml/xmlmodule.h:40
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f81]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlModuleOpen[NullablePointer[XmlModule]](filename: Pointer[U8] tag, options: I32)
+

@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:444
+  Original Name: __xmlPedanticParserDefaultValue/usr/include/libxml2/libxml/globals.h:444
+
+  Return Value: [PointerType size=64]->[FundamentalType(int) size=32]
+
+  Arguments:
+*/
+use @__xmlPedanticParserDefaultValue[Pointer[I32]]()
+

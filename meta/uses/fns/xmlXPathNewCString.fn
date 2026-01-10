@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:490
+  Original Name: xmlXPathNewCString/usr/include/libxml2/libxml/xpathInternals.h:490
+
+  Return Value: [PointerType size=64]->[Struct size=576,fid: f65]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlXPathNewCString(val: String): NullablePointer[XmlXPathObject] =>
+    @xmlXPathNewCString(val.cstring())

@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:52
+  Original Name: xmlUCSIsCombiningDiacriticalMarks/usr/include/libxml2/libxml/xmlunicode.h:52
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsCombiningDiacriticalMarks[I32](code: I32)
+

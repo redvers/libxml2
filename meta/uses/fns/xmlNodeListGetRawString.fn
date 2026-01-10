@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1067
+  Original Name: xmlNodeListGetRawString/usr/include/libxml2/libxml/tree.h:1067
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlNodeListGetRawString(doc: NullablePointer[XmlDoc] tag, list: NullablePointer[XmlNode] tag, inLine: I32): String =>
+    var pcstring: Pointer[U8] =  @xmlNodeListGetRawString(doc, list, inLine)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

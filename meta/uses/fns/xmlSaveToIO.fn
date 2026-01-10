@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlsave.h:59
+  Original Name: xmlSaveToIO/usr/include/libxml2/libxml/xmlsave.h:59
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f84]
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlSaveToIO(iowrite: Pointer[None] tag, ioclose: Pointer[None] tag, ioctx: Pointer[None] tag, encoding: String, options: I32): NullablePointer[XmlSaveCtxt] =>
+    @xmlSaveToIO(iowrite, ioclose, ioctx, encoding.cstring(), options)

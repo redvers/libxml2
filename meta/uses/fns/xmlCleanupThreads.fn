@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/threads.h:71
+  Original Name: xmlCleanupThreads/usr/include/libxml2/libxml/threads.h:71
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+  fun xmlCleanupThreads(): None =>
+    @xmlCleanupThreads()

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:468
+  Original Name: xmlParseEndTag/usr/include/libxml2/libxml/parserInternals.h:468
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+  fun xmlParseEndTag(ctxt: NullablePointer[XmlParserCtxt] tag): None =>
+    @xmlParseEndTag(ctxt)

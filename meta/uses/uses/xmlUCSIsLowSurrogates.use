@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:103
+  Original Name: xmlUCSIsLowSurrogates/usr/include/libxml2/libxml/xmlunicode.h:103
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsLowSurrogates[I32](code: I32)
+

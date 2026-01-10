@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:468
+  Original Name: xmlXPathCastNodeSetToBoolean/usr/include/libxml2/libxml/xpath.h:468
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f65]
+*/
+use @xmlXPathCastNodeSetToBoolean[I32](ns: NullablePointer[XmlNodeSet] tag)
+

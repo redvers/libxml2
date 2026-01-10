@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:293
+  Original Name: xmlTextReaderRelaxNGSetSchema/usr/include/libxml2/libxml/xmlreader.h:293
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+    [PointerType size=64]->[Struct size=,fid: f76]
+*/
+  fun xmlTextReaderRelaxNGSetSchema(reader: NullablePointer[XmlTextReader] tag, schema: NullablePointer[XmlRelaxNG] tag): I32 =>
+    @xmlTextReaderRelaxNGSetSchema(reader, schema)

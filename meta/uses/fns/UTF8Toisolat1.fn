@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/encoding.h:231
+  Original Name: UTF8Toisolat1/usr/include/libxml2/libxml/encoding.h:231
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+  fun UTF8Toisolat1(out: String, outlen: Pointer[I32] tag, in: String, inlen: Pointer[I32] tag): I32 =>
+    @UTF8Toisolat1(out.cstring(), outlen, in.cstring(), inlen)

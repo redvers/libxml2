@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:250
+  Original Name: xmlTextWriterEndPI/usr/include/libxml2/libxml/xmlwriter.h:250
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f87]
+*/
+use @xmlTextWriterEndPI[I32](writer: NullablePointer[XmlTextWriter] tag)
+

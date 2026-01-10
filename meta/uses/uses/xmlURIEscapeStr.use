@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/uri.h:74
+  Original Name: xmlURIEscapeStr/usr/include/libxml2/libxml/uri.h:74
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlURIEscapeStr[Pointer[U8]](str: Pointer[U8] tag, list: Pointer[U8] tag)
+

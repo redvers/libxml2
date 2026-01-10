@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/uri.h:55
+  Original Name: xmlBuildURI/usr/include/libxml2/libxml/uri.h:55
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlBuildURI[Pointer[U8]](URI: Pointer[U8] tag, base: Pointer[U8] tag)
+

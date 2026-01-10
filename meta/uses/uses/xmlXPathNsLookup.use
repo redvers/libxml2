@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:429
+  Original Name: xmlXPathNsLookup/usr/include/libxml2/libxml/xpathInternals.h:429
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=3008,fid: f65]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlXPathNsLookup[Pointer[U8]](ctxt: NullablePointer[XmlXPathContext] tag, prefix: Pointer[U8] tag)
+

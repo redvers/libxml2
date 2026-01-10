@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:878
+  Original Name: xmlNewTextLen/usr/include/libxml2/libxml/tree.h:878
+
+  Return Value: [PointerType size=64]->[Struct size=960,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlNewTextLen[NullablePointer[XmlNode]](content: Pointer[U8] tag, len: I32)
+

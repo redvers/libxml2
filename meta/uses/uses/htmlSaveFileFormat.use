@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/HTMLtree.h:108
+  Original Name: htmlSaveFileFormat/usr/include/libxml2/libxml/HTMLtree.h:108
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @htmlSaveFileFormat[I32](filename: Pointer[U8] tag, cur: NullablePointer[XmlDoc] tag, encoding: Pointer[U8] tag, format: I32)
+

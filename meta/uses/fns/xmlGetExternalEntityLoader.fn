@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:1070
+  Original Name: xmlGetExternalEntityLoader/usr/include/libxml2/libxml/parser.h:1070
+
+  Return Value: [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+
+  Arguments:
+*/
+  fun xmlGetExternalEntityLoader(): Pointer[None] =>
+    @xmlGetExternalEntityLoader()

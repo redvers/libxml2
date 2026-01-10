@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1262
+  Original Name: xmlGetCompressMode/usr/include/libxml2/libxml/tree.h:1262
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+*/
+use @xmlGetCompressMode[I32]()
+

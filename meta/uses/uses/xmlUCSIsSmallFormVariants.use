@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:127
+  Original Name: xmlUCSIsSmallFormVariants/usr/include/libxml2/libxml/xmlunicode.h:127
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsSmallFormVariants[I32](code: I32)
+

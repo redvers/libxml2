@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:1007
+  Original Name: xmlSetFeature/usr/include/libxml2/libxml/parser.h:1007
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlSetFeature(ctxt: NullablePointer[XmlParserCtxt] tag, name: String, value: Pointer[None] tag): I32 =>
+    @xmlSetFeature(ctxt, name.cstring(), value)

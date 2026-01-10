@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:293
+  Original Name: xmlCheckHTTPInput/usr/include/libxml2/libxml/xmlIO.h:293
+
+  Return Value: [PointerType size=64]->[Struct size=832,fid: f17]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [PointerType size=64]->[Struct size=832,fid: f17]
+*/
+use @xmlCheckHTTPInput[NullablePointer[XmlParserInput]](ctxt: NullablePointer[XmlParserCtxt] tag, ret: NullablePointer[XmlParserInput] tag)
+

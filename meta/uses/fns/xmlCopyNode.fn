@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:896
+  Original Name: xmlCopyNode/usr/include/libxml2/libxml/tree.h:896
+
+  Return Value: [PointerType size=64]->[Struct size=960,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlCopyNode(node: NullablePointer[XmlNode] tag, recursive: I32): NullablePointer[XmlNode] =>
+    @xmlCopyNode(node, recursive)

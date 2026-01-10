@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlstring.h:94
+  Original Name: xmlStrncatNew/usr/include/libxml2/libxml/xmlstring.h:94
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlStrncatNew(str1: String, str2: String, len: I32): String =>
+    var pcstring: Pointer[U8] =  @xmlStrncatNew(str1.cstring(), str2.cstring(), len)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

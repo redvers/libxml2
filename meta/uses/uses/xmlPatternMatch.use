@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/pattern.h:58
+  Original Name: xmlPatternMatch/usr/include/libxml2/libxml/pattern.h:58
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f75]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+use @xmlPatternMatch[I32](comp: NullablePointer[XmlPattern] tag, node: NullablePointer[XmlNode] tag)
+

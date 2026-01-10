@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:469
+  Original Name: xmlThrDefSubstituteEntitiesDefaultValue/usr/include/libxml2/libxml/globals.h:469
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlThrDefSubstituteEntitiesDefaultValue[I32](v: I32)
+

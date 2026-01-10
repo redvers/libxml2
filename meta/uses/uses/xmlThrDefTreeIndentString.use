@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:398
+  Original Name: xmlThrDefTreeIndentString/usr/include/libxml2/libxml/globals.h:398
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlThrDefTreeIndentString[Pointer[U8]](v: Pointer[U8] tag)
+

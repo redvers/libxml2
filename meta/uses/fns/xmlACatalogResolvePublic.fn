@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:93
+  Original Name: xmlACatalogResolvePublic/usr/include/libxml2/libxml/catalog.h:93
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f67]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlACatalogResolvePublic(catal: NullablePointer[XmlCatalog] tag, pubID: String): String =>
+    var pcstring: Pointer[U8] =  @xmlACatalogResolvePublic(catal, pubID.cstring())
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

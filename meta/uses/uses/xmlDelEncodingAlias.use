@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/encoding.h:193
+  Original Name: xmlDelEncodingAlias/usr/include/libxml2/libxml/encoding.h:193
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlDelEncodingAlias[I32](alias: Pointer[U8] tag)
+

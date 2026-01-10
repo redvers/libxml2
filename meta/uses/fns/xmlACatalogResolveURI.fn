@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:96
+  Original Name: xmlACatalogResolveURI/usr/include/libxml2/libxml/catalog.h:96
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f67]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlACatalogResolveURI(catal: NullablePointer[XmlCatalog] tag, URI: String): String =>
+    var pcstring: Pointer[U8] =  @xmlACatalogResolveURI(catal, URI.cstring())
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

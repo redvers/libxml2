@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:884
+  Original Name: xmlNewComment/usr/include/libxml2/libxml/tree.h:884
+
+  Return Value: [PointerType size=64]->[Struct size=960,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlNewComment[NullablePointer[XmlNode]](content: Pointer[U8] tag)
+

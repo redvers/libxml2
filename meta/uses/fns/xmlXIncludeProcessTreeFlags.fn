@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xinclude.h:108
+  Original Name: xmlXIncludeProcessTreeFlags/usr/include/libxml2/libxml/xinclude.h:108
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlXIncludeProcessTreeFlags(tree: NullablePointer[XmlNode] tag, flags: I32): I32 =>
+    @xmlXIncludeProcessTreeFlags(tree, flags)

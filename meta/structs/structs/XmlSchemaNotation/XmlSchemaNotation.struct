@@ -1,0 +1,21 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/schemasInternals.h:841
+  Original Name: _xmlSchemaNotation
+  Struct Size (bits):  320
+  Struct Align (bits): 64
+
+  Fields (Offset in bits):
+     000000: [Enumeration size=32,fid: f77]: type  
+     000064: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: name  
+     000128: [PointerType size=64]->[Struct size=128,fid: f77]: annot  
+     000192: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: identifier  
+     000256: [PointerType size=64]->[FundamentalType(unsigned char) size=8]: targetNamespace  
+*/
+struct XmlSchemaNotation
+    var _type: I32 = I32(0)
+  _name: Pointer[U8] = Pointer[U8]
+    var _annot: NullablePointer[XmlSchemaAnnot] = NullablePointer[XmlSchemaAnnot].none()
+  _identifier: Pointer[U8] = Pointer[U8]
+  _targetNamespace: Pointer[U8] = Pointer[U8]

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1250
+  Original Name: xmlIsXHTML/usr/include/libxml2/libxml/tree.h:1250
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlIsXHTML(systemID: String, publicID: String): I32 =>
+    @xmlIsXHTML(systemID.cstring(), publicID.cstring())

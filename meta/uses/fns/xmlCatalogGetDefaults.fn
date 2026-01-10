@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:169
+  Original Name: xmlCatalogGetDefaults/usr/include/libxml2/libxml/catalog.h:169
+
+  Return Value: [Enumeration size=32,fid: f67]
+
+  Arguments:
+*/
+  fun xmlCatalogGetDefaults(): I32 =>
+    @xmlCatalogGetDefaults()

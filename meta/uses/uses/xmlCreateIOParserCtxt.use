@@ -1,0 +1,16 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:1034
+  Original Name: xmlCreateIOParserCtxt/usr/include/libxml2/libxml/parser.h:1034
+
+  Return Value: [PointerType size=64]->[Struct size=6016,fid: f17]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=2048,fid: f17]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [Enumeration size=32,fid: f42]
+*/
+use @xmlCreateIOParserCtxt[NullablePointer[XmlParserCtxt]](sax: NullablePointer[XmlSAXHandler] tag, userdata: Pointer[None] tag, ioread: Pointer[None] tag, ioclose: Pointer[None] tag, ioctx: Pointer[None] tag, enc: I32)
+

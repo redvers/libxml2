@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:460
+  Original Name: xmlThrDefSaveNoEmptyTags/usr/include/libxml2/libxml/globals.h:460
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlThrDefSaveNoEmptyTags[I32](v: I32)
+

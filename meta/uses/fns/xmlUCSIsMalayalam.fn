@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:104
+  Original Name: xmlUCSIsMalayalam/usr/include/libxml2/libxml/xmlunicode.h:104
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsMalayalam(code: I32): I32 =>
+    @xmlUCSIsMalayalam(code)

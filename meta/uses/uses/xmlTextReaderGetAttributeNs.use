@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:217
+  Original Name: xmlTextReaderGetAttributeNs/usr/include/libxml2/libxml/xmlreader.h:217
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlTextReaderGetAttributeNs[Pointer[U8]](reader: NullablePointer[XmlTextReader] tag, localName: Pointer[U8] tag, namespaceURI: Pointer[U8] tag)
+

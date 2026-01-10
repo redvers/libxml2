@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlstring.h:71
+  Original Name: xmlStrcasecmp/usr/include/libxml2/libxml/xmlstring.h:71
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlStrcasecmp[I32](str1: Pointer[U8] tag, str2: Pointer[U8] tag)
+

@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:188
+  Original Name: xmlTextWriterStartAttributeNS/usr/include/libxml2/libxml/xmlwriter.h:188
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f87]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlTextWriterStartAttributeNS(writer: NullablePointer[XmlTextWriter] tag, prefix: String, name: String, namespaceURI: String): I32 =>
+    @xmlTextWriterStartAttributeNS(writer, prefix.cstring(), name.cstring(), namespaceURI.cstring())

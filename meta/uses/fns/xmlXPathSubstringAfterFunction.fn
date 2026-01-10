@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:608
+  Original Name: xmlXPathSubstringAfterFunction/usr/include/libxml2/libxml/xpathInternals.h:608
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=704,fid: f65]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlXPathSubstringAfterFunction(ctxt: NullablePointer[XmlXPathParserContext] tag, nargs: I32): None =>
+    @xmlXPathSubstringAfterFunction(ctxt, nargs)

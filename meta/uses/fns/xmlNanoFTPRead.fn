@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/nanoftp.h:155
+  Original Name: xmlNanoFTPRead/usr/include/libxml2/libxml/nanoftp.h:155
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlNanoFTPRead(ctx: Pointer[None] tag, dest: Pointer[None] tag, len: I32): I32 =>
+    @xmlNanoFTPRead(ctx, dest, len)

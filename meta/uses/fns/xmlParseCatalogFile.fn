@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:139
+  Original Name: xmlParseCatalogFile/usr/include/libxml2/libxml/catalog.h:139
+
+  Return Value: [PointerType size=64]->[Struct size=1408,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlParseCatalogFile(filename: String): NullablePointer[XmlDoc] =>
+    @xmlParseCatalogFile(filename.cstring())

@@ -1,0 +1,11 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:172
+  Original Name: _xmlStartTag
+  Struct Size (bits):  
+  Struct Align (bits): 
+
+  Fields (Offset in bits):
+*/
+struct XmlStartTag

@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:380
+  Original Name: xmlThrDefGetWarningsDefaultValue/usr/include/libxml2/libxml/globals.h:380
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlThrDefGetWarningsDefaultValue[I32](v: I32)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlstring.h:114
+  Original Name: xmlUTF8Strsize/usr/include/libxml2/libxml/xmlstring.h:114
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUTF8Strsize(utf: String, len: I32): I32 =>
+    @xmlUTF8Strsize(utf.cstring(), len)

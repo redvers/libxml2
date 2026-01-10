@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:448
+  Original Name: xmlXPathRegisterVariableNS/usr/include/libxml2/libxml/xpathInternals.h:448
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=3008,fid: f65]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[Struct size=576,fid: f65]
+*/
+  fun xmlXPathRegisterVariableNS(ctxt: NullablePointer[XmlXPathContext] tag, name: String, nsuri: String, value: NullablePointer[XmlXPathObject] tag): I32 =>
+    @xmlXPathRegisterVariableNS(ctxt, name.cstring(), nsuri.cstring(), value)

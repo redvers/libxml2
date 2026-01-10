@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlautomata.h:137
+  Original Name: xmlAutomataIsDeterminist/usr/include/libxml2/libxml/xmlautomata.h:137
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f27]
+*/
+use @xmlAutomataIsDeterminist[I32](am: NullablePointer[XmlAutomata] tag)
+

@@ -1,0 +1,11 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/relaxng.h:57
+  Original Name: _xmlRelaxNGValidCtxt
+  Struct Size (bits):  
+  Struct Align (bits): 
+
+  Fields (Offset in bits):
+*/
+struct XmlRelaxNGValidCtxt

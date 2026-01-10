@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:58
+  Original Name: xmlSAX2GetParameterEntity/usr/include/libxml2/libxml/SAX2.h:58
+
+  Return Value: [PointerType size=64]->[Struct size=1088,fid: f18]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlSAX2GetParameterEntity(ctx: Pointer[None] tag, name: String): NullablePointer[XmlEntity] =>
+    @xmlSAX2GetParameterEntity(ctx, name.cstring())

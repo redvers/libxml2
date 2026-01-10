@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:407
+  Original Name: xmlXPathNodeTrailingSorted/usr/include/libxml2/libxml/xpathInternals.h:407
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f65]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f65]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+  fun xmlXPathNodeTrailingSorted(nodes: NullablePointer[XmlNodeSet] tag, node: NullablePointer[XmlNode] tag): NullablePointer[XmlNodeSet] =>
+    @xmlXPathNodeTrailingSorted(nodes, node)

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:344
+  Original Name: xmlValidateDtd/usr/include/libxml2/libxml/valid.h:344
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f28]
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[Struct size=1024,fid: f16]
+*/
+  fun xmlValidateDtd(ctxt: NullablePointer[XmlValidCtxt] tag, doc: NullablePointer[XmlDoc] tag, dtd: NullablePointer[XmlDtd] tag): I32 =>
+    @xmlValidateDtd(ctxt, doc, dtd)

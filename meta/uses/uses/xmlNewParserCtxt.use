@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:979
+  Original Name: xmlNewParserCtxt/usr/include/libxml2/libxml/parser.h:979
+
+  Return Value: [PointerType size=64]->[Struct size=6016,fid: f17]
+
+  Arguments:
+*/
+use @xmlNewParserCtxt[NullablePointer[XmlParserCtxt]]()
+

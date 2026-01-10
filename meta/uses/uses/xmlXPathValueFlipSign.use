@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:554
+  Original Name: xmlXPathValueFlipSign/usr/include/libxml2/libxml/xpathInternals.h:554
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=704,fid: f65]
+*/
+use @xmlXPathValueFlipSign[None](ctxt: NullablePointer[XmlXPathParserContext] tag)
+

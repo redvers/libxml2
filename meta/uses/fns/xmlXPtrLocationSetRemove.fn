@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpointer.h:89
+  Original Name: xmlXPtrLocationSetRemove/usr/include/libxml2/libxml/xpointer.h:89
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f89]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlXPtrLocationSetRemove(cur: NullablePointer[XmlLocationSet] tag, val: I32): None =>
+    @xmlXPtrLocationSetRemove(cur, val)

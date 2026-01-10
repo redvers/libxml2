@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:162
+  Original Name: xmlPopInputCallbacks/usr/include/libxml2/libxml/xmlIO.h:162
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+*/
+use @xmlPopInputCallbacks[I32]()
+

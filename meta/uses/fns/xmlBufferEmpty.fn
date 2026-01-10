@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:749
+  Original Name: xmlBufferEmpty/usr/include/libxml2/libxml/tree.h:749
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f16]
+*/
+  fun xmlBufferEmpty(buf: NullablePointer[XmlBuffer] tag): None =>
+    @xmlBufferEmpty(buf)

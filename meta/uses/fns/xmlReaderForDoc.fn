@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:324
+  Original Name: xmlReaderForDoc/usr/include/libxml2/libxml/xmlreader.h:324
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f83]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlReaderForDoc(cur: String, URL: String, encoding: String, options: I32): NullablePointer[XmlTextReader] =>
+    @xmlReaderForDoc(cur.cstring(), URL.cstring(), encoding.cstring(), options)

@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:352
+  Original Name: xmlXPatherror/usr/include/libxml2/libxml/xpathInternals.h:352
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=704,fid: f65]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @xmlXPatherror[None](ctxt: NullablePointer[XmlXPathParserContext] tag, file: Pointer[U8] tag, line: I32, no: I32)
+

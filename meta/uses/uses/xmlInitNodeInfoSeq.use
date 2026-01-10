@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:1053
+  Original Name: xmlInitNodeInfoSeq/usr/include/libxml2/libxml/parser.h:1053
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f17]
+*/
+use @xmlInitNodeInfoSeq[None](seq: NullablePointer[XmlParserNodeInfoSeq] tag)
+

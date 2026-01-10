@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlstring.h:126
+  Original Name: xmlUTF8Strsub/usr/include/libxml2/libxml/xmlstring.h:126
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUTF8Strsub(utf: String, start: I32, len: I32): String =>
+    var pcstring: Pointer[U8] =  @xmlUTF8Strsub(utf.cstring(), start, len)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

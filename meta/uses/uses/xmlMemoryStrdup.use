@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlmemory.h:159
+  Original Name: xmlMemoryStrdup/usr/include/libxml2/libxml/xmlmemory.h:159
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlMemoryStrdup[Pointer[U8]](str: Pointer[U8] tag)
+

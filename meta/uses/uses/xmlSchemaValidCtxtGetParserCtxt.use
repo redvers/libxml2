@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemas.h:220
+  Original Name: xmlSchemaValidCtxtGetParserCtxt/usr/include/libxml2/libxml/xmlschemas.h:220
+
+  Return Value: [PointerType size=64]->[Struct size=6016,fid: f17]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f82]
+*/
+use @xmlSchemaValidCtxtGetParserCtxt[NullablePointer[XmlParserCtxt]](ctxt: NullablePointer[XmlSchemaValidCtxt] tag)
+

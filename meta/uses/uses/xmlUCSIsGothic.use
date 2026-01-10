@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:70
+  Original Name: xmlUCSIsGothic/usr/include/libxml2/libxml/xmlunicode.h:70
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsGothic[I32](code: I32)
+

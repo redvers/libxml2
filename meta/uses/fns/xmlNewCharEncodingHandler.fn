@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/encoding.h:182
+  Original Name: xmlNewCharEncodingHandler/usr/include/libxml2/libxml/encoding.h:182
+
+  Return Value: [PointerType size=64]->[Struct size=448,fid: f42]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+  fun xmlNewCharEncodingHandler(name: String, input: Pointer[None] tag, output: Pointer[None] tag): NullablePointer[XmlCharEncodingHandler] =>
+    @xmlNewCharEncodingHandler(name.cstring(), input, output)

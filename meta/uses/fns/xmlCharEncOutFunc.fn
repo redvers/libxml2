@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/encoding.h:211
+  Original Name: xmlCharEncOutFunc/usr/include/libxml2/libxml/encoding.h:211
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f42]
+    [PointerType size=64]->[Struct size=256,fid: f16]
+    [PointerType size=64]->[Struct size=256,fid: f16]
+*/
+  fun xmlCharEncOutFunc(handler: NullablePointer[XmlCharEncodingHandler] tag, out: NullablePointer[XmlBuffer] tag, in: NullablePointer[XmlBuffer] tag): I32 =>
+    @xmlCharEncOutFunc(handler, out, in)

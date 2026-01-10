@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:234
+  Original Name: xmlFreeEnumeration/usr/include/libxml2/libxml/valid.h:234
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f16]
+*/
+use @xmlFreeEnumeration[None](cur: NullablePointer[XmlEnumeration] tag)
+

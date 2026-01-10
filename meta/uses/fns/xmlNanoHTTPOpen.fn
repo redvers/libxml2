@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/nanohttp.h:47
+  Original Name: xmlNanoHTTPOpen/usr/include/libxml2/libxml/nanohttp.h:47
+
+  Return Value: [PointerType size=64]->[FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlNanoHTTPOpen(URL: String, contentType: Array[String]): Pointer[None] =>
+    @xmlNanoHTTPOpen(URL.cstring(), contentType)

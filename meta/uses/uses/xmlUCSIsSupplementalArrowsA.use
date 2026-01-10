@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:131
+  Original Name: xmlUCSIsSupplementalArrowsA/usr/include/libxml2/libxml/xmlunicode.h:131
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsSupplementalArrowsA[I32](code: I32)
+

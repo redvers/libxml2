@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/schematron.h:73
+  Original Name: xmlSchematronNewParserCtxt/usr/include/libxml2/libxml/schematron.h:73
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f78]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlSchematronNewParserCtxt[NullablePointer[XmlSchematronParserCtxt]](URL: Pointer[U8] tag)
+

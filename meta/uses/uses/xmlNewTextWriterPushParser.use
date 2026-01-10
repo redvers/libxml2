@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:39
+  Original Name: xmlNewTextWriterPushParser/usr/include/libxml2/libxml/xmlwriter.h:39
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f87]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [FundamentalType(int) size=32]
+*/
+use @xmlNewTextWriterPushParser[NullablePointer[XmlTextWriter]](ctxt: NullablePointer[XmlParserCtxt] tag, compression: I32)
+

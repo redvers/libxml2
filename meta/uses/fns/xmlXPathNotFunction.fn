@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:611
+  Original Name: xmlXPathNotFunction/usr/include/libxml2/libxml/xpathInternals.h:611
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=704,fid: f65]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlXPathNotFunction(ctxt: NullablePointer[XmlXPathParserContext] tag, nargs: I32): None =>
+    @xmlXPathNotFunction(ctxt, nargs)

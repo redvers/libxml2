@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/nanoftp.h:150
+  Original Name: xmlNanoFTPGet/usr/include/libxml2/libxml/nanoftp.h:150
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlNanoFTPGet[I32](ctx: Pointer[None] tag, callback: Pointer[None] tag, userData: Pointer[None] tag, filename: Pointer[U8] tag)
+

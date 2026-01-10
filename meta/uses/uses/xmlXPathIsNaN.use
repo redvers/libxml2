@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:555
+  Original Name: xmlXPathIsNaN/usr/include/libxml2/libxml/xpath.h:555
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(double) size=64]
+*/
+use @xmlXPathIsNaN[I32](val: F64)
+

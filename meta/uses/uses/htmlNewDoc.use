@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/HTMLtree.h:63
+  Original Name: htmlNewDoc/usr/include/libxml2/libxml/HTMLtree.h:63
+
+  Return Value: [PointerType size=64]->[Struct size=1408,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @htmlNewDoc[NullablePointer[XmlDoc]](URI: Pointer[U8] tag, ExternalID: Pointer[U8] tag)
+

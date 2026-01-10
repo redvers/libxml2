@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:466
+  Original Name: xmlXPathCastStringToBoolean/usr/include/libxml2/libxml/xpath.h:466
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlXPathCastStringToBoolean(val: String): I32 =>
+    @xmlXPathCastStringToBoolean(val.cstring())

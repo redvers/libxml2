@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemastypes.h:41
+  Original Name: xmlSchemaValidatePredefinedType/usr/include/libxml2/libxml/xmlschemastypes.h:41
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1792,fid: f77]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=,fid: f77]
+*/
+  fun xmlSchemaValidatePredefinedType(type: NullablePointer[XmlSchemaType] tag, value: String, val: Pointer[NullablePointer[XmlSchemaVal]] tag): I32 =>
+    @xmlSchemaValidatePredefinedType(type, value.cstring(), val)

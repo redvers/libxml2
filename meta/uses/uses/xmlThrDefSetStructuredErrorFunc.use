@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:181
+  Original Name: xmlThrDefSetStructuredErrorFunc/usr/include/libxml2/libxml/globals.h:181
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @xmlThrDefSetStructuredErrorFunc[None](ctx: Pointer[None] tag, handler: Pointer[None] tag)
+

@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:489
+  Original Name: xmlParseTextDecl/usr/include/libxml2/libxml/parserInternals.h:489
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+  fun xmlParseTextDecl(ctxt: NullablePointer[XmlParserCtxt] tag): None =>
+    @xmlParseTextDecl(ctxt)

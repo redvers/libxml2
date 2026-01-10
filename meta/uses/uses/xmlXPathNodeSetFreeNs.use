@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:625
+  Original Name: xmlXPathNodeSetFreeNs/usr/include/libxml2/libxml/xpathInternals.h:625
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=384,fid: f16]
+*/
+use @xmlXPathNodeSetFreeNs[None](ns: NullablePointer[XmlNs] tag)
+

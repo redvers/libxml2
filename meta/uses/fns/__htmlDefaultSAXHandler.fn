@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:265
+  Original Name: __htmlDefaultSAXHandler/usr/include/libxml2/libxml/globals.h:265
+
+  Return Value: [PointerType size=64]->[Struct size=1792,fid: f17]
+
+  Arguments:
+*/
+  fun __htmlDefaultSAXHandler(): NullablePointer[XmlSAXHandlerV1] =>
+    @__htmlDefaultSAXHandler()

@@ -1,0 +1,15 @@
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:154
+  Original Name: xmlAddNotationDecl/usr/include/libxml2/libxml/valid.h:154
+
+  Return Value: [PointerType size=64]->[Struct size=192,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f28]
+    [PointerType size=64]->[Struct size=1024,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlAddNotationDecl[NullablePointer[XmlNotation]](ctxt: NullablePointer[XmlValidCtxt] tag, dtd: NullablePointer[XmlDtd] tag, name: Pointer[U8] tag, PublicID: Pointer[U8] tag, SystemID: Pointer[U8] tag)
+

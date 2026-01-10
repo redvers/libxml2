@@ -1,0 +1,15 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemas.h:209
+  Original Name: xmlSchemaValidateStream/usr/include/libxml2/libxml/xmlschemas.h:209
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f82]
+    [PointerType size=64]->[Struct size=512,fid: f15]
+    [Enumeration size=32,fid: f42]
+    [PointerType size=64]->[Struct size=2048,fid: f17]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @xmlSchemaValidateStream[I32](ctxt: NullablePointer[XmlSchemaValidCtxt] tag, input: NullablePointer[XmlParserInputBuffer] tag, enc: I32, sax: NullablePointer[XmlSAXHandler] tag, userdata: Pointer[None] tag)
+

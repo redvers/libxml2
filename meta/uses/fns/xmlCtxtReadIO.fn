@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:1182
+  Original Name: xmlCtxtReadIO/usr/include/libxml2/libxml/parser.h:1182
+
+  Return Value: [PointerType size=64]->[Struct size=1408,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlCtxtReadIO(ctxt: NullablePointer[XmlParserCtxt] tag, ioread: Pointer[None] tag, ioclose: Pointer[None] tag, ioctx: Pointer[None] tag, URL: String, encoding: String, options: I32): NullablePointer[XmlDoc] =>
+    @xmlCtxtReadIO(ctxt, ioread, ioclose, ioctx, URL.cstring(), encoding.cstring(), options)

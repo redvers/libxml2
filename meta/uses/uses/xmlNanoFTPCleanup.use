@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/nanoftp.h:84
+  Original Name: xmlNanoFTPCleanup/usr/include/libxml2/libxml/nanoftp.h:84
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+use @xmlNanoFTPCleanup[None]()
+

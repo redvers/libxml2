@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/dict.h:74
+  Original Name: xmlDictCleanup/usr/include/libxml2/libxml/dict.h:74
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+  fun xmlDictCleanup(): None =>
+    @xmlDictCleanup()

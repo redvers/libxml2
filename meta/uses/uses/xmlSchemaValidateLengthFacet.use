@@ -1,0 +1,15 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemastypes.h:94
+  Original Name: xmlSchemaValidateLengthFacet/usr/include/libxml2/libxml/xmlschemastypes.h:94
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1792,fid: f77]
+    [PointerType size=64]->[Struct size=576,fid: f77]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[Struct size=,fid: f77]
+    [PointerType size=64]->[FundamentalType(long unsigned int) size=64]
+*/
+use @xmlSchemaValidateLengthFacet[I32](type: NullablePointer[XmlSchemaType] tag, facet: NullablePointer[XmlSchemaFacet] tag, value: Pointer[U8] tag, val: NullablePointer[XmlSchemaVal] tag, length: Pointer[U64] tag)
+

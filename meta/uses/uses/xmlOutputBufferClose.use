@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:271
+  Original Name: xmlOutputBufferClose/usr/include/libxml2/libxml/xmlIO.h:271
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f15]
+*/
+use @xmlOutputBufferClose[I32](out: NullablePointer[XmlOutputBuffer] tag)
+

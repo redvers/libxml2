@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:280
+  Original Name: xmlTextWriterStartCDATA/usr/include/libxml2/libxml/xmlwriter.h:280
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f87]
+*/
+  fun xmlTextWriterStartCDATA(writer: NullablePointer[XmlTextWriter] tag): I32 =>
+    @xmlTextWriterStartCDATA(writer)

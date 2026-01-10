@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:113
+  Original Name: xmlUCSIsMusicalSymbols/usr/include/libxml2/libxml/xmlunicode.h:113
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsMusicalSymbols[I32](code: I32)
+

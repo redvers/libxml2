@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpointer.h:100
+  Original Name: xmlXPtrEval/usr/include/libxml2/libxml/xpointer.h:100
+
+  Return Value: [PointerType size=64]->[Struct size=576,fid: f65]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[Struct size=3008,fid: f65]
+*/
+  fun xmlXPtrEval(str: String, ctx: NullablePointer[XmlXPathContext] tag): NullablePointer[XmlXPathObject] =>
+    @xmlXPtrEval(str.cstring(), ctx)

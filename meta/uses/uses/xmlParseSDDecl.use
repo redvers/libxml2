@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:485
+  Original Name: xmlParseSDDecl/usr/include/libxml2/libxml/parserInternals.h:485
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+use @xmlParseSDDecl[I32](ctxt: NullablePointer[XmlParserCtxt] tag)
+

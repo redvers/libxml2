@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:260
+  Original Name: xmlTextReaderGetParserLineNumber/usr/include/libxml2/libxml/xmlreader.h:260
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+*/
+  fun xmlTextReaderGetParserLineNumber(reader: NullablePointer[XmlTextReader] tag): I32 =>
+    @xmlTextReaderGetParserLineNumber(reader)

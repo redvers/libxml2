@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:83
+  Original Name: xmlACatalogRemove/usr/include/libxml2/libxml/catalog.h:83
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f67]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlACatalogRemove(catal: NullablePointer[XmlCatalog] tag, value: String): I32 =>
+    @xmlACatalogRemove(catal, value.cstring())

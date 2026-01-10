@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:122
+  Original Name: xmlBufUse/usr/include/libxml2/libxml/tree.h:122
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f16]
+*/
+  fun xmlBufUse(buf: NullablePointer[XmlBuf] tag): U64 =>
+    @xmlBufUse(buf)

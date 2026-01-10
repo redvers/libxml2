@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/relaxng.h:140
+  Original Name: xmlRelaxNGFreeParserCtxt/usr/include/libxml2/libxml/relaxng.h:140
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f76]
+*/
+use @xmlRelaxNGFreeParserCtxt[None](ctxt: NullablePointer[XmlRelaxNGParserCtxt] tag)
+

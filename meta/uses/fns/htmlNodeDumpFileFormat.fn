@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/HTMLtree.h:98
+  Original Name: htmlNodeDumpFileFormat/usr/include/libxml2/libxml/HTMLtree.h:98
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1728,fid: f8]
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun htmlNodeDumpFileFormat(out: NullablePointer[IOFILE] tag, doc: NullablePointer[XmlDoc] tag, cur: NullablePointer[XmlNode] tag, encoding: String, format: I32): I32 =>
+    @htmlNodeDumpFileFormat(out, doc, cur, encoding.cstring(), format)

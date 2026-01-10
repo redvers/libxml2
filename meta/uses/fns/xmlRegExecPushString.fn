@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlregexp.h:87
+  Original Name: xmlRegExecPushString/usr/include/libxml2/libxml/xmlregexp.h:87
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f19]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlRegExecPushString(exec: NullablePointer[XmlRegExecCtxt] tag, value: String, data: Pointer[None] tag): I32 =>
+    @xmlRegExecPushString(exec, value.cstring(), data)

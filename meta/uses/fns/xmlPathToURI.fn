@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/uri.h:89
+  Original Name: xmlPathToURI/usr/include/libxml2/libxml/uri.h:89
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlPathToURI(path: String): String =>
+    var pcstring: Pointer[U8] =  @xmlPathToURI(path.cstring())
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

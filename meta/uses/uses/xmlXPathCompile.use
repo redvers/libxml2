@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:538
+  Original Name: xmlXPathCompile/usr/include/libxml2/libxml/xpath.h:538
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f65]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlXPathCompile[NullablePointer[XmlXPathCompExpr]](str: Pointer[U8] tag)
+

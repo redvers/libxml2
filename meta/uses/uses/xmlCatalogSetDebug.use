@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:163
+  Original Name: xmlCatalogSetDebug/usr/include/libxml2/libxml/catalog.h:163
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlCatalogSetDebug[I32](level: I32)
+

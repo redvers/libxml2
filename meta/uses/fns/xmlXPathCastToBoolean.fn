@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:470
+  Original Name: xmlXPathCastToBoolean/usr/include/libxml2/libxml/xpath.h:470
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=576,fid: f65]
+*/
+  fun xmlXPathCastToBoolean(val: NullablePointer[XmlXPathObject] tag): I32 =>
+    @xmlXPathCastToBoolean(val)

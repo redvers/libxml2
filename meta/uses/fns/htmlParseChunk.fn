@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/HTMLparser.h:160
+  Original Name: htmlParseChunk/usr/include/libxml2/libxml/HTMLparser.h:160
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+  fun htmlParseChunk(ctxt: NullablePointer[XmlParserCtxt] tag, chunk: String, size: I32, terminate: I32): I32 =>
+    @htmlParseChunk(ctxt, chunk.cstring(), size, terminate)

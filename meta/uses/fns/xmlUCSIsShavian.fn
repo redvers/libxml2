@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:125
+  Original Name: xmlUCSIsShavian/usr/include/libxml2/libxml/xmlunicode.h:125
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsShavian(code: I32): I32 =>
+    @xmlUCSIsShavian(code)

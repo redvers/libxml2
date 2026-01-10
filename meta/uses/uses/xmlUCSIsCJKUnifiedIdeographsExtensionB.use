@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:50
+  Original Name: xmlUCSIsCJKUnifiedIdeographsExtensionB/usr/include/libxml2/libxml/xmlunicode.h:50
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsCJKUnifiedIdeographsExtensionB[I32](code: I32)
+

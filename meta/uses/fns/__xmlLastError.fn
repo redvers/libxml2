@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:274
+  Original Name: __xmlLastError/usr/include/libxml2/libxml/globals.h:274
+
+  Return Value: [PointerType size=64]->[Struct size=704,fid: f25]
+
+  Arguments:
+*/
+  fun __xmlLastError(): NullablePointer[XmlError] =>
+    @__xmlLastError()

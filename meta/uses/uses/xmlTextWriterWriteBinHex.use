@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:178
+  Original Name: xmlTextWriterWriteBinHex/usr/include/libxml2/libxml/xmlwriter.h:178
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f87]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @xmlTextWriterWriteBinHex[I32](writer: NullablePointer[XmlTextWriter] tag, data: Pointer[U8] tag, start: I32, len: I32)
+

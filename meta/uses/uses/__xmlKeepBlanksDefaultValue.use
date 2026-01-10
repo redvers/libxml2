@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:400
+  Original Name: __xmlKeepBlanksDefaultValue/usr/include/libxml2/libxml/globals.h:400
+
+  Return Value: [PointerType size=64]->[FundamentalType(int) size=32]
+
+  Arguments:
+*/
+use @__xmlKeepBlanksDefaultValue[Pointer[I32]]()
+

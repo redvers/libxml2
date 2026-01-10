@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:92
+  Original Name: xmlUCSIsKhmer/usr/include/libxml2/libxml/xmlunicode.h:92
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsKhmer[I32](code: I32)
+

@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:379
+  Original Name: xmlReaderNewIO/usr/include/libxml2/libxml/xmlreader.h:379
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlReaderNewIO(reader: NullablePointer[XmlTextReader] tag, ioread: Pointer[None] tag, ioclose: Pointer[None] tag, ioctx: Pointer[None] tag, URL: String, encoding: String, options: I32): I32 =>
+    @xmlReaderNewIO(reader, ioread, ioclose, ioctx, URL.cstring(), encoding.cstring(), options)

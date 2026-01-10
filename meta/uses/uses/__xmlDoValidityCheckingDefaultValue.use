@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:332
+  Original Name: __xmlDoValidityCheckingDefaultValue/usr/include/libxml2/libxml/globals.h:332
+
+  Return Value: [PointerType size=64]->[FundamentalType(int) size=32]
+
+  Arguments:
+*/
+use @__xmlDoValidityCheckingDefaultValue[Pointer[I32]]()
+

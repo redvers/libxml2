@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpointer.h:106
+  Original Name: xmlXPtrBuildNodeList/usr/include/libxml2/libxml/xpointer.h:106
+
+  Return Value: [PointerType size=64]->[Struct size=960,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=576,fid: f65]
+*/
+  fun xmlXPtrBuildNodeList(obj: NullablePointer[XmlXPathObject] tag): NullablePointer[XmlNode] =>
+    @xmlXPtrBuildNodeList(obj)

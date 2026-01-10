@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:764
+  Original Name: xmlCreateIntSubset/usr/include/libxml2/libxml/tree.h:764
+
+  Return Value: [PointerType size=64]->[Struct size=1024,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlCreateIntSubset(doc: NullablePointer[XmlDoc] tag, name: String, ExternalID: String, SystemID: String): NullablePointer[XmlDtd] =>
+    @xmlCreateIntSubset(doc, name.cstring(), ExternalID.cstring(), SystemID.cstring())

@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:440
+  Original Name: xmlParseElementChildrenContentDecl/usr/include/libxml2/libxml/parserInternals.h:440
+
+  Return Value: [PointerType size=64]->[Struct size=384,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [FundamentalType(int) size=32]
+*/
+use @xmlParseElementChildrenContentDecl[NullablePointer[XmlElementContent]](ctxt: NullablePointer[XmlParserCtxt] tag, inputchk: I32)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:176
+  Original Name: xmlCatalogGetPublic/usr/include/libxml2/libxml/catalog.h:176
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlCatalogGetPublic(pubID: String): String =>
+    var pcstring: Pointer[U8] =  @xmlCatalogGetPublic(pubID.cstring())
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

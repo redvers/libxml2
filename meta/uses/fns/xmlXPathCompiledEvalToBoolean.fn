@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:546
+  Original Name: xmlXPathCompiledEvalToBoolean/usr/include/libxml2/libxml/xpath.h:546
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f65]
+    [PointerType size=64]->[Struct size=3008,fid: f65]
+*/
+  fun xmlXPathCompiledEvalToBoolean(comp: NullablePointer[XmlXPathCompExpr] tag, ctxt: NullablePointer[XmlXPathContext] tag): I32 =>
+    @xmlXPathCompiledEvalToBoolean(comp, ctxt)

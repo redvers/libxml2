@@ -1,0 +1,11 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemas.h:115
+  Original Name: _xmlSchemaValidCtxt
+  Struct Size (bits):  
+  Struct Align (bits): 
+
+  Fields (Offset in bits):
+*/
+struct XmlSchemaValidCtxt

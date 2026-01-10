@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/nanoftp.h:106
+  Original Name: xmlNanoFTPQuit/usr/include/libxml2/libxml/nanoftp.h:106
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlNanoFTPQuit(ctx: Pointer[None] tag): I32 =>
+    @xmlNanoFTPQuit(ctx)

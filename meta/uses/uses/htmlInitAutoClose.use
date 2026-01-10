@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:577
+  Original Name: htmlInitAutoClose/usr/include/libxml2/libxml/parserInternals.h:577
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+use @htmlInitAutoClose[None]()
+

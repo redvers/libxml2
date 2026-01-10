@@ -1,0 +1,19 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:73
+  Original Name: xmlSAX2AttributeDecl/usr/include/libxml2/libxml/SAX2.h:73
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[Struct size=128,fid: f16]
+*/
+  fun xmlSAX2AttributeDecl(ctx: Pointer[None] tag, elem: String, fullname: String, type: I32, def: I32, defaultValue: String, tree: NullablePointer[XmlEnumeration] tag): None =>
+    @xmlSAX2AttributeDecl(ctx, elem.cstring(), fullname.cstring(), type, def, defaultValue.cstring(), tree)

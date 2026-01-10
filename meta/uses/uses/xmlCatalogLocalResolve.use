@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:153
+  Original Name: xmlCatalogLocalResolve/usr/include/libxml2/libxml/catalog.h:153
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlCatalogLocalResolve[Pointer[U8]](catalogs: Pointer[None] tag, pubID: Pointer[U8] tag, sysID: Pointer[U8] tag)
+

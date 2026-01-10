@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/HTMLtree.h:75
+  Original Name: htmlDocDumpMemory/usr/include/libxml2/libxml/HTMLtree.h:75
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(int) size=32]
+*/
+  fun htmlDocDumpMemory(cur: NullablePointer[XmlDoc] tag, mem: Array[String], size: Pointer[I32] tag): None =>
+    @htmlDocDumpMemory(cur, mem, size)

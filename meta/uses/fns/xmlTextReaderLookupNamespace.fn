@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:223
+  Original Name: xmlTextReaderLookupNamespace/usr/include/libxml2/libxml/xmlreader.h:223
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlTextReaderLookupNamespace(reader: NullablePointer[XmlTextReader] tag, prefix: String): String =>
+    var pcstring: Pointer[U8] =  @xmlTextReaderLookupNamespace(reader, prefix.cstring())
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

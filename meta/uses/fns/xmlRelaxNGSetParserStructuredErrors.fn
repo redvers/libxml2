@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/relaxng.h:152
+  Original Name: xmlRelaxNGSetParserStructuredErrors/usr/include/libxml2/libxml/relaxng.h:152
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f76]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlRelaxNGSetParserStructuredErrors(ctxt: NullablePointer[XmlRelaxNGParserCtxt] tag, serror: Pointer[None] tag, ctx: Pointer[None] tag): None =>
+    @xmlRelaxNGSetParserStructuredErrors(ctxt, serror, ctx)

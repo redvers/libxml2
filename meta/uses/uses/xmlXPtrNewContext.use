@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpointer.h:96
+  Original Name: xmlXPtrNewContext/usr/include/libxml2/libxml/xpointer.h:96
+
+  Return Value: [PointerType size=64]->[Struct size=3008,fid: f65]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+use @xmlXPtrNewContext[NullablePointer[XmlXPathContext]](doc: NullablePointer[XmlDoc] tag, here: NullablePointer[XmlNode] tag, origin: NullablePointer[XmlNode] tag)
+

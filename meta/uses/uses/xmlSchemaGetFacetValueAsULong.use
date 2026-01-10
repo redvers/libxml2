@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemastypes.h:92
+  Original Name: xmlSchemaGetFacetValueAsULong/usr/include/libxml2/libxml/xmlschemastypes.h:92
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=576,fid: f77]
+*/
+use @xmlSchemaGetFacetValueAsULong[U64](facet: NullablePointer[XmlSchemaFacet] tag)
+

@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/hash.h:109
+  Original Name: xmlHashCreateDict/usr/include/libxml2/libxml/hash.h:109
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f24]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[Struct size=,fid: f21]
+*/
+  fun xmlHashCreateDict(size: I32, dict: NullablePointer[XmlDict] tag): NullablePointer[XmlHashTable] =>
+    @xmlHashCreateDict(size, dict)

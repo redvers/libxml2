@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:394
+  Original Name: xmlXPathNodeLeadingSorted/usr/include/libxml2/libxml/xpathInternals.h:394
+
+  Return Value: [PointerType size=64]->[Struct size=128,fid: f65]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f65]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+use @xmlXPathNodeLeadingSorted[NullablePointer[XmlNodeSet]](nodes: NullablePointer[XmlNodeSet] tag, node: NullablePointer[XmlNode] tag)
+

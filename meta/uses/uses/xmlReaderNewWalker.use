@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:352
+  Original Name: xmlReaderNewWalker/usr/include/libxml2/libxml/xmlreader.h:352
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+*/
+use @xmlReaderNewWalker[I32](reader: NullablePointer[XmlTextReader] tag, doc: NullablePointer[XmlDoc] tag)
+

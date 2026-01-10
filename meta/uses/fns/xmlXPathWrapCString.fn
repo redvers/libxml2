@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:494
+  Original Name: xmlXPathWrapCString/usr/include/libxml2/libxml/xpathInternals.h:494
+
+  Return Value: [PointerType size=64]->[Struct size=576,fid: f65]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlXPathWrapCString(val: String): NullablePointer[XmlXPathObject] =>
+    @xmlXPathWrapCString(val.cstring())

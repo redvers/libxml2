@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/nanohttp.h:26
+  Original Name: xmlNanoHTTPScanProxy/usr/include/libxml2/libxml/nanohttp.h:26
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlNanoHTTPScanProxy(URL: String): None =>
+    @xmlNanoHTTPScanProxy(URL.cstring())

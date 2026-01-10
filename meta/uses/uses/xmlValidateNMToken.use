@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:688
+  Original Name: xmlValidateNMToken/usr/include/libxml2/libxml/tree.h:688
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlValidateNMToken[I32](value: Pointer[U8] tag, space: I32)
+

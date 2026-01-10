@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:45
+  Original Name: xmlFreeTextWriter/usr/include/libxml2/libxml/xmlwriter.h:45
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f87]
+*/
+  fun xmlFreeTextWriter(writer: NullablePointer[XmlTextWriter] tag): None =>
+    @xmlFreeTextWriter(writer)

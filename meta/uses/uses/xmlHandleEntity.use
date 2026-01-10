@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:627
+  Original Name: xmlHandleEntity/usr/include/libxml2/libxml/parserInternals.h:627
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+    [PointerType size=64]->[Struct size=1088,fid: f18]
+*/
+use @xmlHandleEntity[None](ctxt: NullablePointer[XmlParserCtxt] tag, entity: NullablePointer[XmlEntity] tag)
+

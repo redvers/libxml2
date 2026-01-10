@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlstring.h:126
+  Original Name: xmlUTF8Strsub/usr/include/libxml2/libxml/xmlstring.h:126
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+use @xmlUTF8Strsub[Pointer[U8]](utf: Pointer[U8] tag, start: I32, len: I32)
+

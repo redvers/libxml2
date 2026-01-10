@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:124
+  Original Name: xmlUCSIsRunic/usr/include/libxml2/libxml/xmlunicode.h:124
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsRunic(code: I32): I32 =>
+    @xmlUCSIsRunic(code)

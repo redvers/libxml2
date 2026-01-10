@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:57
+  Original Name: xmlUCSIsCurrencySymbols/usr/include/libxml2/libxml/xmlunicode.h:57
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsCurrencySymbols(code: I32): I32 =>
+    @xmlUCSIsCurrencySymbols(code)

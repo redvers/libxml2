@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:42
+  Original Name: xmlSAX2HasExternalSubset/usr/include/libxml2/libxml/SAX2.h:42
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @xmlSAX2HasExternalSubset[I32](ctx: Pointer[None] tag)
+

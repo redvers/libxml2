@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemastypes.h:36
+  Original Name: xmlSchemaCleanupTypes/usr/include/libxml2/libxml/xmlschemastypes.h:36
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+use @xmlSchemaCleanupTypes[None]()
+

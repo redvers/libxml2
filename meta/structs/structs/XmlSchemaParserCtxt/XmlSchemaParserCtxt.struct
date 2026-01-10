@@ -1,0 +1,11 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemas.h:112
+  Original Name: _xmlSchemaParserCtxt
+  Struct Size (bits):  
+  Struct Align (bits): 
+
+  Fields (Offset in bits):
+*/
+struct XmlSchemaParserCtxt

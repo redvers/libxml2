@@ -1,0 +1,16 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:366
+  Original Name: xmlReaderNewMemory/usr/include/libxml2/libxml/xmlreader.h:366
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlReaderNewMemory[I32](reader: NullablePointer[XmlTextReader] tag, buffer: Pointer[U8] tag, size: I32, URL: Pointer[U8] tag, encoding: Pointer[U8] tag, options: I32)
+

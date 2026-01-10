@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/HTMLparser.h:109
+  Original Name: htmlNewParserCtxt/usr/include/libxml2/libxml/HTMLparser.h:109
+
+  Return Value: [PointerType size=64]->[Struct size=6016,fid: f17]
+
+  Arguments:
+*/
+use @htmlNewParserCtxt[NullablePointer[XmlParserCtxt]]()
+

@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1272
+  Original Name: xmlDOMWrapFreeCtxt/usr/include/libxml2/libxml/tree.h:1272
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f16]
+*/
+use @xmlDOMWrapFreeCtxt[None](ctxt: NullablePointer[XmlDOMWrapCtxt] tag)
+

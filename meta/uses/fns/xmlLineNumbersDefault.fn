@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:860
+  Original Name: xmlLineNumbersDefault/usr/include/libxml2/libxml/parser.h:860
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlLineNumbersDefault(val: I32): I32 =>
+    @xmlLineNumbersDefault(val)

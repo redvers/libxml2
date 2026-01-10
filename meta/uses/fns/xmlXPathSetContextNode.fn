@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:519
+  Original Name: xmlXPathSetContextNode/usr/include/libxml2/libxml/xpath.h:519
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[Struct size=3008,fid: f65]
+*/
+  fun xmlXPathSetContextNode(node: NullablePointer[XmlNode] tag, ctx: NullablePointer[XmlXPathContext] tag): I32 =>
+    @xmlXPathSetContextNode(node, ctx)

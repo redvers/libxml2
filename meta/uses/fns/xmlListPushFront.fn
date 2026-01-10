@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/list.h:99
+  Original Name: xmlListPushFront/usr/include/libxml2/libxml/list.h:99
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f26]
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+  fun xmlListPushFront(l: NullablePointer[XmlList] tag, data: Pointer[None] tag): I32 =>
+    @xmlListPushFront(l, data)

@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/threads.h:55
+  Original Name: xmlFreeRMutex/usr/include/libxml2/libxml/threads.h:55
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f23]
+*/
+use @xmlFreeRMutex[None](tok: NullablePointer[XmlRMutex] tag)
+

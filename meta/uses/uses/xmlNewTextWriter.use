@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:33
+  Original Name: xmlNewTextWriter/usr/include/libxml2/libxml/xmlwriter.h:33
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f87]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f15]
+*/
+use @xmlNewTextWriter[NullablePointer[XmlTextWriter]](out: NullablePointer[XmlOutputBuffer] tag)
+

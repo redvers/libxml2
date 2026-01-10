@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:130
+  Original Name: xmlUCSIsSuperscriptsandSubscripts/usr/include/libxml2/libxml/xmlunicode.h:130
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsSuperscriptsandSubscripts(code: I32): I32 =>
+    @xmlUCSIsSuperscriptsandSubscripts(code)

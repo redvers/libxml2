@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:844
+  Original Name: xmlNewDocNodeEatName/usr/include/libxml2/libxml/tree.h:844
+
+  Return Value: [PointerType size=64]->[Struct size=960,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[Struct size=384,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlNewDocNodeEatName[NullablePointer[XmlNode]](doc: NullablePointer[XmlDoc] tag, ns: NullablePointer[XmlNs] tag, name: Pointer[U8] tag, content: Pointer[U8] tag)
+

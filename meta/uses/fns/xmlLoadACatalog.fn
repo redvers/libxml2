@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/catalog.h:72
+  Original Name: xmlLoadACatalog/usr/include/libxml2/libxml/catalog.h:72
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f67]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlLoadACatalog(filename: String): NullablePointer[XmlCatalog] =>
+    @xmlLoadACatalog(filename.cstring())

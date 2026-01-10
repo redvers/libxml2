@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:257
+  Original Name: xmlOutputBufferWrite/usr/include/libxml2/libxml/xmlIO.h:257
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f15]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlOutputBufferWrite(out: NullablePointer[XmlOutputBuffer] tag, len: I32, buf: String): I32 =>
+    @xmlOutputBufferWrite(out, len, buf.cstring())

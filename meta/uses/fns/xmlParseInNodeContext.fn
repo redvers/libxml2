@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:946
+  Original Name: xmlParseInNodeContext/usr/include/libxml2/libxml/parser.h:946
+
+  Return Value: [Enumeration size=32,fid: f25]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[PointerType size=64]->[Struct size=960,fid: f16]
+*/
+  fun xmlParseInNodeContext(node: NullablePointer[XmlNode] tag, data: String, datalen: I32, options: I32, lst: Pointer[NullablePointer[XmlNode]] tag): I32 =>
+    @xmlParseInNodeContext(node, data.cstring(), datalen, options, lst)

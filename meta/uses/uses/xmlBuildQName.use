@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:693
+  Original Name: xmlBuildQName/usr/include/libxml2/libxml/tree.h:693
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlBuildQName[Pointer[U8]](ncname: Pointer[U8] tag, prefix: Pointer[U8] tag, memory: Pointer[U8] tag, len: I32)
+

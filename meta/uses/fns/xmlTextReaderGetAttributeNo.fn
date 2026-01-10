@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:211
+  Original Name: xmlTextReaderGetAttributeNo/usr/include/libxml2/libxml/xmlreader.h:211
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlTextReaderGetAttributeNo(reader: NullablePointer[XmlTextReader] tag, no: I32): String =>
+    var pcstring: Pointer[U8] =  @xmlTextReaderGetAttributeNo(reader, no)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

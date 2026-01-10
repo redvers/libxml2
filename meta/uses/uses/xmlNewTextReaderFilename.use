@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:115
+  Original Name: xmlNewTextReaderFilename/usr/include/libxml2/libxml/xmlreader.h:115
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f83]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlNewTextReaderFilename[NullablePointer[XmlTextReader]](URI: Pointer[U8] tag)
+

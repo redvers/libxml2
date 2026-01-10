@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:413
+  Original Name: xmlTextReaderSetStructuredErrorHandler/usr/include/libxml2/libxml/xmlreader.h:413
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f83]
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @xmlTextReaderSetStructuredErrorHandler[None](reader: NullablePointer[XmlTextReader] tag, f: Pointer[None] tag, arg: Pointer[None] tag)
+

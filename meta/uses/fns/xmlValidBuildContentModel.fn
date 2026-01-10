@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:436
+  Original Name: xmlValidBuildContentModel/usr/include/libxml2/libxml/valid.h:436
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f28]
+    [PointerType size=64]->[Struct size=896,fid: f16]
+*/
+  fun xmlValidBuildContentModel(ctxt: NullablePointer[XmlValidCtxt] tag, elem: NullablePointer[XmlElement] tag): I32 =>
+    @xmlValidBuildContentModel(ctxt, elem)

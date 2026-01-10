@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:327
+  Original Name: xmlCreateURLParserCtxt/usr/include/libxml2/libxml/parserInternals.h:327
+
+  Return Value: [PointerType size=64]->[Struct size=6016,fid: f17]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlCreateURLParserCtxt(filename: String, options: I32): NullablePointer[XmlParserCtxt] =>
+    @xmlCreateURLParserCtxt(filename.cstring(), options)

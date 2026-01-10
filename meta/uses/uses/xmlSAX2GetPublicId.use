@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:25
+  Original Name: xmlSAX2GetPublicId/usr/include/libxml2/libxml/SAX2.h:25
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @xmlSAX2GetPublicId[Pointer[U8]](ctx: Pointer[None] tag)
+

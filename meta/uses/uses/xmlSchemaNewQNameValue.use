@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemastypes.h:134
+  Original Name: xmlSchemaNewQNameValue/usr/include/libxml2/libxml/xmlschemastypes.h:134
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f77]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlSchemaNewQNameValue[NullablePointer[XmlSchemaVal]](namespaceName: Pointer[U8] tag, localName: Pointer[U8] tag)
+

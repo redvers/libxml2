@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlreader.h:339
+  Original Name: xmlReaderForFd/usr/include/libxml2/libxml/xmlreader.h:339
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f83]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlReaderForFd(fd: I32, URL: String, encoding: String, options: I32): NullablePointer[XmlTextReader] =>
+    @xmlReaderForFd(fd, URL.cstring(), encoding.cstring(), options)

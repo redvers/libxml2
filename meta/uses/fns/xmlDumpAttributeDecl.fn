@@ -1,0 +1,14 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:262
+  Original Name: xmlDumpAttributeDecl/usr/include/libxml2/libxml/valid.h:262
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=256,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+  fun xmlDumpAttributeDecl(buf: NullablePointer[XmlBuffer] tag, attr: NullablePointer[XmlAttribute] tag): None =>
+    @xmlDumpAttributeDecl(buf, attr)

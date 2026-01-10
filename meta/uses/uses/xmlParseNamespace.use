@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:605
+  Original Name: xmlParseNamespace/usr/include/libxml2/libxml/parserInternals.h:605
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+use @xmlParseNamespace[None](ctxt: NullablePointer[XmlParserCtxt] tag)
+

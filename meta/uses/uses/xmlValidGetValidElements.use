@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:418
+  Original Name: xmlValidGetValidElements/usr/include/libxml2/libxml/valid.h:418
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+use @xmlValidGetValidElements[I32](prev: NullablePointer[XmlNode] tag, next: NullablePointer[XmlNode] tag, names: Pointer[Pointer[U8]] tag, max: I32)
+

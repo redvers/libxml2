@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlerror.h:910
+  Original Name: xmlCopyError/usr/include/libxml2/libxml/xmlerror.h:910
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=704,fid: f25]
+    [PointerType size=64]->[Struct size=704,fid: f25]
+*/
+use @xmlCopyError[I32](from: NullablePointer[XmlError] tag, to: NullablePointer[XmlError] tag)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:490
+  Original Name: xmlXPathCastNodeSetToString/usr/include/libxml2/libxml/xpath.h:490
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f65]
+*/
+  fun xmlXPathCastNodeSetToString(ns: NullablePointer[XmlNodeSet] tag): String =>
+    var pcstring: Pointer[U8] =  @xmlXPathCastNodeSetToString(ns)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

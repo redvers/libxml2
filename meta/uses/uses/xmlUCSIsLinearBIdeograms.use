@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:101
+  Original Name: xmlUCSIsLinearBIdeograms/usr/include/libxml2/libxml/xmlunicode.h:101
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsLinearBIdeograms[I32](code: I32)
+

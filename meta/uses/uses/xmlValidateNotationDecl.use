@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:340
+  Original Name: xmlValidateNotationDecl/usr/include/libxml2/libxml/valid.h:340
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=896,fid: f28]
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[Struct size=192,fid: f16]
+*/
+use @xmlValidateNotationDecl[I32](ctxt: NullablePointer[XmlValidCtxt] tag, doc: NullablePointer[XmlDoc] tag, nota: NullablePointer[XmlNotation] tag)
+

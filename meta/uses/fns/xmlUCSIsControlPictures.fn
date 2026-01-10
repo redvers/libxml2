@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:56
+  Original Name: xmlUCSIsControlPictures/usr/include/libxml2/libxml/xmlunicode.h:56
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsControlPictures(code: I32): I32 =>
+    @xmlUCSIsControlPictures(code)

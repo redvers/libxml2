@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:84
+  Original Name: xmlUCSIsHiragana/usr/include/libxml2/libxml/xmlunicode.h:84
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsHiragana[I32](code: I32)
+

@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:510
+  Original Name: xmlXPathNodeSetAddNs/usr/include/libxml2/libxml/xpathInternals.h:510
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=128,fid: f65]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[Struct size=384,fid: f16]
+*/
+  fun xmlXPathNodeSetAddNs(cur: NullablePointer[XmlNodeSet] tag, node: NullablePointer[XmlNode] tag, ns: NullablePointer[XmlNs] tag): I32 =>
+    @xmlXPathNodeSetAddNs(cur, node, ns)

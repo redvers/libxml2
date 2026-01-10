@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/encoding.h:201
+  Original Name: xmlGetCharEncodingName/usr/include/libxml2/libxml/encoding.h:201
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [Enumeration size=32,fid: f42]
+*/
+use @xmlGetCharEncodingName[Pointer[U8]](enc: I32)
+

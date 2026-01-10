@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/parserInternals.h:570
+  Original Name: xmlNextChar/usr/include/libxml2/libxml/parserInternals.h:570
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=6016,fid: f17]
+*/
+use @xmlNextChar[None](ctxt: NullablePointer[XmlParserCtxt] tag)
+

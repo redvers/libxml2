@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/dict.h:36
+  Original Name: xmlDictCreate/usr/include/libxml2/libxml/dict.h:36
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f21]
+
+  Arguments:
+*/
+use @xmlDictCreate[NullablePointer[XmlDict]]()
+

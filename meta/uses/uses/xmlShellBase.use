@@ -1,0 +1,14 @@
+/*
+  Source: /usr/include/libxml2/libxml/debugXML.h:150
+  Original Name: xmlShellBase/usr/include/libxml2/libxml/debugXML.h:150
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=448,fid: f69]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+use @xmlShellBase[I32](ctxt: NullablePointer[XmlShellCtxt] tag, arg: Pointer[U8] tag, node: NullablePointer[XmlNode] tag, node2: NullablePointer[XmlNode] tag)
+

@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/threads.h:40
+  Original Name: xmlNewMutex/usr/include/libxml2/libxml/threads.h:40
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f23]
+
+  Arguments:
+*/
+use @xmlNewMutex[NullablePointer[XmlMutex]]()
+

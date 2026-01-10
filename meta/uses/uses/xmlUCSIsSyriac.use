@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:136
+  Original Name: xmlUCSIsSyriac/usr/include/libxml2/libxml/xmlunicode.h:136
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsSyriac[I32](code: I32)
+

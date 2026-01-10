@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:549
+  Original Name: xmlXPathWrapExternal/usr/include/libxml2/libxml/xpathInternals.h:549
+
+  Return Value: [PointerType size=64]->[Struct size=576,fid: f65]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @xmlXPathWrapExternal[NullablePointer[XmlXPathObject]](val: Pointer[None] tag)
+

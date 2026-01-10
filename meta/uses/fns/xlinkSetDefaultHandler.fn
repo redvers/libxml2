@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xlink.h:174
+  Original Name: xlinkSetDefaultHandler/usr/include/libxml2/libxml/xlink.h:174
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=192,fid: f62]
+*/
+  fun xlinkSetDefaultHandler(handler: NullablePointer[XlinkHandler] tag): None =>
+    @xlinkSetDefaultHandler(handler)

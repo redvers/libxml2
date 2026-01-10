@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlstring.h:120
+  Original Name: xmlUTF8Strpos/usr/include/libxml2/libxml/xmlstring.h:120
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUTF8Strpos(utf: String, pos: I32): String =>
+    var pcstring: Pointer[U8] =  @xmlUTF8Strpos(utf.cstring(), pos)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

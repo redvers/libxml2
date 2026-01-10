@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlIO.h:361
+  Original Name: xmlIOFTPClose/usr/include/libxml2/libxml/xmlIO.h:361
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @xmlIOFTPClose[I32](context: Pointer[None] tag)
+

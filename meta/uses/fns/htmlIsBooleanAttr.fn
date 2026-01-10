@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/HTMLtree.h:137
+  Original Name: htmlIsBooleanAttr/usr/include/libxml2/libxml/HTMLtree.h:137
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun htmlIsBooleanAttr(name: String): I32 =>
+    @htmlIsBooleanAttr(name.cstring())

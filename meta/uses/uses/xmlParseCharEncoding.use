@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/encoding.h:199
+  Original Name: xmlParseCharEncoding/usr/include/libxml2/libxml/encoding.h:199
+
+  Return Value: [Enumeration size=32,fid: f42]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+use @xmlParseCharEncoding[I32](name: Pointer[U8] tag)
+

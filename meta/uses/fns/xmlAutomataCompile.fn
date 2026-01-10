@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlautomata.h:135
+  Original Name: xmlAutomataCompile/usr/include/libxml2/libxml/xmlautomata.h:135
+
+  Return Value: [PointerType size=64]->[Struct size=,fid: f19]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f27]
+*/
+  fun xmlAutomataCompile(am: NullablePointer[XmlAutomata] tag): NullablePointer[XmlRegexp] =>
+    @xmlAutomataCompile(am)

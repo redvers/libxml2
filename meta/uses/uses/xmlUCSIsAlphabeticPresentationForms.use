@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:27
+  Original Name: xmlUCSIsAlphabeticPresentationForms/usr/include/libxml2/libxml/xmlunicode.h:27
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsAlphabeticPresentationForms[I32](code: I32)
+

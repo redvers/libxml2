@@ -1,0 +1,10 @@
+/*
+  Source: /usr/include/libxml2/libxml/globals.h:391
+  Original Name: __xmlTreeIndentString/usr/include/libxml2/libxml/globals.h:391
+
+  Return Value: [PointerType size=64]->[PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+*/
+use @__xmlTreeIndentString[Pointer[Pointer[U8]]]()
+

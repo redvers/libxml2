@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:115
+  Original Name: xmlUCSIsNumberForms/usr/include/libxml2/libxml/xmlunicode.h:115
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+use @xmlUCSIsNumberForms[I32](code: I32)
+

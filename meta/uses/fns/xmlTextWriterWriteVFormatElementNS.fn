@@ -1,0 +1,18 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:127
+  Original Name: xmlTextWriterWriteVFormatElementNS/usr/include/libxml2/libxml/xmlwriter.h:127
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f87]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=192,fid: f0]
+*/
+  fun xmlTextWriterWriteVFormatElementNS(writer: NullablePointer[XmlTextWriter] tag, prefix: String, name: String, namespaceURI: String, format: String, argptr: NullablePointer[Valisttag] tag): I32 =>
+    @xmlTextWriterWriteVFormatElementNS(writer, prefix.cstring(), name.cstring(), namespaceURI.cstring(), format.cstring(), argptr)

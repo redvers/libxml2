@@ -1,0 +1,12 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlerror.h:902
+  Original Name: xmlResetLastError/usr/include/libxml2/libxml/xmlerror.h:902
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+*/
+  fun xmlResetLastError(): None =>
+    @xmlResetLastError()

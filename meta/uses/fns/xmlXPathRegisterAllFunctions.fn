@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:534
+  Original Name: xmlXPathRegisterAllFunctions/usr/include/libxml2/libxml/xpathInternals.h:534
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=3008,fid: f65]
+*/
+  fun xmlXPathRegisterAllFunctions(ctxt: NullablePointer[XmlXPathContext] tag): None =>
+    @xmlXPathRegisterAllFunctions(ctxt)

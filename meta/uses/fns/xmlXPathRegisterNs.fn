@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpathInternals.h:425
+  Original Name: xmlXPathRegisterNs/usr/include/libxml2/libxml/xpathInternals.h:425
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=3008,fid: f65]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlXPathRegisterNs(ctxt: NullablePointer[XmlXPathContext] tag, prefix: String, nsuri: String): I32 =>
+    @xmlXPathRegisterNs(ctxt, prefix.cstring(), nsuri.cstring())

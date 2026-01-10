@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1038
+  Original Name: xmlGetNoNsProp/usr/include/libxml2/libxml/tree.h:1038
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlGetNoNsProp[Pointer[U8]](node: NullablePointer[XmlNode] tag, name: Pointer[U8] tag)
+

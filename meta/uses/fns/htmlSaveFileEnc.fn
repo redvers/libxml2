@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/HTMLtree.h:104
+  Original Name: htmlSaveFileEnc/usr/include/libxml2/libxml/HTMLtree.h:104
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun htmlSaveFileEnc(filename: String, cur: NullablePointer[XmlDoc] tag, encoding: String): I32 =>
+    @htmlSaveFileEnc(filename.cstring(), cur, encoding.cstring())

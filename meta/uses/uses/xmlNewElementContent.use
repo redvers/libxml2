@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/valid.h:177
+  Original Name: xmlNewElementContent/usr/include/libxml2/libxml/valid.h:177
+
+  Return Value: [PointerType size=64]->[Struct size=384,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [Enumeration size=32,fid: f16]
+*/
+use @xmlNewElementContent[NullablePointer[XmlElementContent]](name: Pointer[U8] tag, type: I32)
+

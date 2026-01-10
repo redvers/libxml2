@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/SAX2.h:123
+  Original Name: xmlSAX2EndElementNs/usr/include/libxml2/libxml/SAX2.h:123
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlSAX2EndElementNs(ctx: Pointer[None] tag, localname: String, prefix: String, URI: String): None =>
+    @xmlSAX2EndElementNs(ctx, localname.cstring(), prefix.cstring(), URI.cstring())

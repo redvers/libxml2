@@ -1,0 +1,13 @@
+/*
+  Source: /usr/include/libxml2/libxml/dict.h:61
+  Original Name: xmlDictQLookup/usr/include/libxml2/libxml/dict.h:61
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f21]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+use @xmlDictQLookup[Pointer[U8]](dict: NullablePointer[XmlDict] tag, prefix: Pointer[U8] tag, name: Pointer[U8] tag)
+

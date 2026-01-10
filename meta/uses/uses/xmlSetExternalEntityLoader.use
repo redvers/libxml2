@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/parser.h:1068
+  Original Name: xmlSetExternalEntityLoader/usr/include/libxml2/libxml/parser.h:1068
+
+  Return Value: [FundamentalType(void) size=0]
+
+  Arguments:
+    [PointerType size=64]->[FunctionType]  WRITE MANUALLY
+*/
+use @xmlSetExternalEntityLoader[None](f: Pointer[None] tag)
+

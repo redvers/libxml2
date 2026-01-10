@@ -1,0 +1,16 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlstring.h:58
+  Original Name: xmlStrstr/usr/include/libxml2/libxml/xmlstring.h:58
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlStrstr(str: String, val: String): String =>
+    var pcstring: Pointer[U8] =  @xmlStrstr(str.cstring(), val.cstring())
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

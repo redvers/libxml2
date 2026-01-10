@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:456
+  Original Name: xmlXPathObjectCopy/usr/include/libxml2/libxml/xpath.h:456
+
+  Return Value: [PointerType size=64]->[Struct size=576,fid: f65]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=576,fid: f65]
+*/
+use @xmlXPathObjectCopy[NullablePointer[XmlXPathObject]](val: NullablePointer[XmlXPathObject] tag)
+

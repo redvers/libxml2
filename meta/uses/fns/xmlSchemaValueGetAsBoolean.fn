@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemastypes.h:126
+  Original Name: xmlSchemaValueGetAsBoolean/usr/include/libxml2/libxml/xmlschemastypes.h:126
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f77]
+*/
+  fun xmlSchemaValueGetAsBoolean(val: NullablePointer[XmlSchemaVal] tag): I32 =>
+    @xmlSchemaValueGetAsBoolean(val)

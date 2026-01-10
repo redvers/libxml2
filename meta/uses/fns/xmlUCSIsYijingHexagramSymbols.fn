@@ -1,0 +1,13 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlunicode.h:153
+  Original Name: xmlUCSIsYijingHexagramSymbols/usr/include/libxml2/libxml/xmlunicode.h:153
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlUCSIsYijingHexagramSymbols(code: I32): I32 =>
+    @xmlUCSIsYijingHexagramSymbols(code)

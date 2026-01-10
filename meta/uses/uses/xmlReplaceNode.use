@@ -1,0 +1,12 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:961
+  Original Name: xmlReplaceNode/usr/include/libxml2/libxml/tree.h:961
+
+  Return Value: [PointerType size=64]->[Struct size=960,fid: f16]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+use @xmlReplaceNode[NullablePointer[XmlNode]](old: NullablePointer[XmlNode] tag, cur: NullablePointer[XmlNode] tag)
+

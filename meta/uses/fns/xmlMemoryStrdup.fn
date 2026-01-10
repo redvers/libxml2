@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlmemory.h:159
+  Original Name: xmlMemoryStrdup/usr/include/libxml2/libxml/xmlmemory.h:159
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(char) size=8]
+*/
+  fun xmlMemoryStrdup(str: String): String =>
+    var pcstring: Pointer[U8] =  @xmlMemoryStrdup(str.cstring())
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

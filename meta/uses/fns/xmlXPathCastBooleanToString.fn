@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xpath.h:484
+  Original Name: xmlXPathCastBooleanToString/usr/include/libxml2/libxml/xpath.h:484
+
+  Return Value: [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+
+  Arguments:
+    [FundamentalType(int) size=32]
+*/
+  fun xmlXPathCastBooleanToString(val: I32): String =>
+    var pcstring: Pointer[U8] =  @xmlXPathCastBooleanToString(val)
+    let p: String iso = String.from_cstring(pcstring).clone()
+    consume p

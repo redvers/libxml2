@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:936
+  Original Name: xmlNodeIsText/usr/include/libxml2/libxml/tree.h:936
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=960,fid: f16]
+*/
+use @xmlNodeIsText[I32](node: NullablePointer[XmlNode] tag)
+

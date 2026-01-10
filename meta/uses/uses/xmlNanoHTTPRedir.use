@@ -1,0 +1,11 @@
+/*
+  Source: /usr/include/libxml2/libxml/nanohttp.h:58
+  Original Name: xmlNanoHTTPRedir/usr/include/libxml2/libxml/nanohttp.h:58
+
+  Return Value: [PointerType size=64]->[FundamentalType(char) size=8]
+
+  Arguments:
+    [PointerType size=64]->[FundamentalType(void) size=0]
+*/
+use @xmlNanoHTTPRedir[Pointer[U8]](ctx: Pointer[None] tag)
+

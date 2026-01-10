@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlschemas.h:215
+  Original Name: xmlSchemaValidateFile/usr/include/libxml2/libxml/xmlschemas.h:215
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f82]
+    [PointerType size=64]->[FundamentalType(char) size=8]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlSchemaValidateFile(ctxt: NullablePointer[XmlSchemaValidCtxt] tag, filename: String, options: I32): I32 =>
+    @xmlSchemaValidateFile(ctxt, filename.cstring(), options)

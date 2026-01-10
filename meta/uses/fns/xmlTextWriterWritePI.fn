@@ -1,0 +1,15 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/xmlwriter.h:266
+  Original Name: xmlTextWriterWritePI/usr/include/libxml2/libxml/xmlwriter.h:266
+
+  Return Value: [FundamentalType(int) size=32]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f87]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+    [PointerType size=64]->[FundamentalType(unsigned char) size=8]
+*/
+  fun xmlTextWriterWritePI(writer: NullablePointer[XmlTextWriter] tag, target: String, content: String): I32 =>
+    @xmlTextWriterWritePI(writer, target.cstring(), content.cstring())

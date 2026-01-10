@@ -1,0 +1,17 @@
+
+
+/*
+  Source: /usr/include/libxml2/libxml/tree.h:1205
+  Original Name: xmlBufNodeDump/usr/include/libxml2/libxml/tree.h:1205
+
+  Return Value: [FundamentalType(long unsigned int) size=64]
+
+  Arguments:
+    [PointerType size=64]->[Struct size=,fid: f16]
+    [PointerType size=64]->[Struct size=1408,fid: f16]
+    [PointerType size=64]->[Struct size=960,fid: f16]
+    [FundamentalType(int) size=32]
+    [FundamentalType(int) size=32]
+*/
+  fun xmlBufNodeDump(buf: NullablePointer[XmlBuf] tag, doc: NullablePointer[XmlDoc] tag, cur: NullablePointer[XmlNode] tag, level: I32, format: I32): U64 =>
+    @xmlBufNodeDump(buf, doc, cur, level, format)
