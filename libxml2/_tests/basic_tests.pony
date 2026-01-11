@@ -2,7 +2,7 @@ use "../../libxml2"
 use "pony_test"
 use "files"
 
-class iso TestParseDocAndRoot is UnitTest
+class \nodoc\ iso TestParseDocAndRoot is UnitTest
   fun name(): String => "xml2doc/parse-doc-and-root"
 
   fun apply(h: TestHelper) =>
@@ -21,7 +21,7 @@ class iso TestParseDocAndRoot is UnitTest
       h.fail("Failed to parse XML or get root element")
     end
 
-class iso TestDocXPathSimpleNodeset is UnitTest
+class \nodoc\ iso TestDocXPathSimpleNodeset is UnitTest
   fun name(): String => "xml2doc/xpath-doc-nodeset"
 
   fun apply(h: TestHelper) =>
@@ -47,7 +47,7 @@ class iso TestDocXPathSimpleNodeset is UnitTest
       h.fail("Exception in TestDocXPathSimpleNodeset")
     end
 
-class iso TestNodeXPathRelative is UnitTest
+class \nodoc\ iso TestNodeXPathRelative is UnitTest
   fun name(): String => "xml2doc/xpath-node-relative"
 
   fun apply(h: TestHelper) =>
@@ -87,7 +87,7 @@ class iso TestNodeXPathRelative is UnitTest
       h.fail("Exception in TestNodeXPathRelative")
     end
 
-class iso TestNodeAttributesAndContent is UnitTest
+class \nodoc\ iso TestNodeAttributesAndContent is UnitTest
   fun name(): String => "xml2doc/node-attributes-and-content"
 
   fun apply(h: TestHelper) =>
@@ -116,7 +116,7 @@ class iso TestNodeAttributesAndContent is UnitTest
       h.fail("Exception in TestNodeAttributesAndContent")
     end
 
-class iso TestXPathScalarResults is UnitTest
+class \nodoc\ iso TestXPathScalarResults is UnitTest
   fun name(): String => "xml2doc/xpath-scalar-results"
 
   fun apply(h: TestHelper) =>
