@@ -6539,24 +6539,6 @@ primitive LibXML2
 
 
 /*
-  xmlFree - Free memory allocated by libxml2.
-
-  This function must be used to free memory returned by libxml2 functions
-  such as xmlDocDumpFormatMemory, xmlDocDumpFormatMemoryEnc, etc.
-
-  In libxml2, xmlFree is typically a macro that resolves to xmlMemFree.
-*/
-  fun xmlFree(ptr: Pointer[U8] tag): None =>
-    """
-    Free memory allocated by libxml2.
-
-    This must be used to free memory returned by functions like
-    xmlDocDumpFormatMemoryEnc() to avoid memory leaks.
-    """
-    @xmlFree(ptr)
-
-
-/*
   Source: /usr/include/libxml2/libxml/xmlmemory.h:109
   Original Name: xmlMemGet/usr/include/libxml2/libxml/xmlmemory.h:109
 

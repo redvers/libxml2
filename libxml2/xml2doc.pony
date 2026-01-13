@@ -2,6 +2,17 @@ use "raw"
 use "files"
 use "debug"
 
+/*
+ * Unfortunately, we have to use direct FFI calls in this case instead
+ * of calls to LibXML2 et al, because we use addressof, and that is
+ * only valid in direct FFI calls.
+ */
+
+use @xmlMemGet[I32](
+  freeFunc: Pointer[XmlFreeFunc] tag,
+  mallocFunc: Pointer[Pointer[None]] tag,  // Unused, so not defining
+  reallocFunc: Pointer[Pointer[None]] tag, // Unused, so not defining
+  strdupFunc: Pointer[Pointer[None]] tag)  // Unused, so not defining
 use @xmlDocDumpFormatMemoryEnc[None](
   outdoc: NullablePointer[XmlDoc] tag,
   doctxtptr: Pointer[Pointer[U8]] tag,
@@ -9,7 +20,7 @@ use @xmlDocDumpFormatMemoryEnc[None](
   txtencoding: Pointer[U8] tag,
   format: I32)
 
-use @xmlMemFree[None](ptr: Pointer[None] tag)
+type XmlFreeFunc is @{(Pointer[None] tag): None}
 
 class Xml2Doc
   """
@@ -149,33 +160,39 @@ class Xml2Doc
       let compact = doc.serialize(false)?  // Compact output
       ```
     """
-    // Create arrays to hold output parameters
-    // xmlDocDumpFormatMemoryEnc writes to *mem and *size
-    let mem_array: Array[Pointer[U8]] = Array[Pointer[U8]](1)
-    mem_array.push(Pointer[U8])
-    let size_array: Array[I32] = Array[I32](1)
-    size_array.push(I32(0))
+//  Allocate a pony variable to hold our Pointer[U8]
+//  Allocate a pony variable to hold the size
+    var c_str: Pointer[U8] ref = Pointer[U8]
+    var size: I32 = 0
+
+//  The function to free is available as a function pointer from
+//  the xmlMemGet function. We allocate a variable for it and
+//  pass the address of that to the function:
+    var freeFunc: XmlFreeFunc = @{(p: Pointer[None] tag) => None}
+    var mallocFunc: Pointer[None] = Pointer[None]
+    var reallocFunc: Pointer[None] = Pointer[None]
+    var strdupFunc: Pointer[None] = Pointer[None]
+    var rc: I32 = @xmlMemGet(addressof freeFunc, addressof mallocFunc, addressof reallocFunc, addressof strdupFunc)
 
     // Call xmlDocDumpFormatMemoryEnc
     // format parameter: 1 for formatted, 0 for compact
     let format_val: I32 = if format then I32(1) else I32(0) end
     @xmlDocDumpFormatMemoryEnc(
       ptr',                    // our xmlDoc pointer
-      mem_array.cpointer(),    // output: pointer to allocated memory
-      size_array.cpointer(),   // output: size of allocated memory
+      addressof c_str,         // output: pointer to allocated memory
+      addressof size,          // output: size of allocated memory
       encoding.cstring(),      // encoding string
       format_val)              // format flag
 
     // Check if memory was allocated
-    let mem: Pointer[U8] = try mem_array(0)? else Pointer[U8] end
-    if mem.is_null() then error end
+    if c_str.is_null() then error end
 
     // Convert to Pony String (String.from_cstring makes a copy)
-    let result: String iso = String.from_cstring(mem).clone()
+    let result: String iso = String.from_cpointer(c_str, size.usize()).clone()
 
     // FREE THE MEMORY (critical!)
-    // Call xmlMemFree directly via FFI (xmlFree is a macro)
-    @xmlMemFree[None](mem)
+    // Call the function pointer we retrieved earlier.
+    freeFunc(c_str)
 
     // Return the cloned string
     consume result
