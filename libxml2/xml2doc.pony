@@ -2,6 +2,15 @@ use "raw"
 use "files"
 use "debug"
 
+use @xmlDocDumpFormatMemoryEnc[None](
+  outdoc: NullablePointer[XmlDoc] tag,
+  doctxtptr: Pointer[Pointer[U8]] tag,
+  doctxtlen: Pointer[I32] tag,
+  txtencoding: Pointer[U8] tag,
+  format: I32)
+
+use @xmlMemFree[None](ptr: Pointer[None] tag)
+
 class Xml2Doc
   """
   Wrapper around a libxml2 `xmlDoc` pointer, providing convenient parsing and
@@ -116,6 +125,99 @@ class Xml2Doc
     """
     let ptrx: NullablePointer[XmlNode] = LibXML2.xmlDocGetRootElement(ptr')
     Xml2Node.fromPTR(recover tag this end, ptrx)?
+
+  fun serialize(
+    format: Bool = true,
+    encoding: String = "UTF-8")
+    : String ?
+  =>
+    """
+    Serialize this document to a String with optional formatting.
+
+    - `format`: If true, enables pretty-printing (indentation, newlines).
+                If false, produces compact output.
+    - `encoding`: Character encoding for the output (default: "UTF-8").
+                  Common values: "UTF-8", "ISO-8859-1", "UTF-16".
+
+    Returns the serialized XML as a String val. Raises an error if
+    serialization fails or returns null memory.
+
+    Example:
+      ```pony
+      let doc = Xml2Doc.parseDoc("<root><child>text</child></root>")?
+      let xml_string = doc.serialize()?  // Pretty-printed UTF-8
+      let compact = doc.serialize(false)?  // Compact output
+      ```
+    """
+    // Create arrays to hold output parameters
+    // xmlDocDumpFormatMemoryEnc writes to *mem and *size
+    let mem_array: Array[Pointer[U8]] = Array[Pointer[U8]](1)
+    mem_array.push(Pointer[U8])
+    let size_array: Array[I32] = Array[I32](1)
+    size_array.push(I32(0))
+
+    // Call xmlDocDumpFormatMemoryEnc
+    // format parameter: 1 for formatted, 0 for compact
+    let format_val: I32 = if format then I32(1) else I32(0) end
+    @xmlDocDumpFormatMemoryEnc(
+      ptr',                    // our xmlDoc pointer
+      mem_array.cpointer(),    // output: pointer to allocated memory
+      size_array.cpointer(),   // output: size of allocated memory
+      encoding.cstring(),      // encoding string
+      format_val)              // format flag
+
+    // Check if memory was allocated
+    let mem: Pointer[U8] = try mem_array(0)? else Pointer[U8] end
+    if mem.is_null() then error end
+
+    // Convert to Pony String (String.from_cstring makes a copy)
+    let result: String iso = String.from_cstring(mem).clone()
+
+    // FREE THE MEMORY (critical!)
+    // Call xmlMemFree directly via FFI (xmlFree is a macro)
+    @xmlMemFree[None](mem)
+
+    // Return the cloned string
+    consume result
+
+  fun saveToFile(
+    auth: FileAuth,
+    filename: String,
+    format: Bool = true,
+    encoding: String = "UTF-8")
+    : None ?
+  =>
+    """
+    Save this document to a file with optional formatting and encoding.
+
+    - `auth`: Capability proving the caller has permission to write files.
+    - `filename`: Path to the file where the document should be saved.
+    - `format`: If true, enables pretty-printing (indentation, newlines).
+                If false, produces compact output.
+    - `encoding`: Character encoding for the output (default: "UTF-8").
+                  Common values: "UTF-8", "ISO-8859-1", "UTF-16".
+
+    Returns None on success. Raises an error if the file cannot be written
+    or if libxml2 returns an error code (negative return value).
+
+    Example:
+      ```pony
+      let doc = Xml2Doc.parseDoc("<root><child>text</child></root>")?
+      doc.saveToFile(auth, "output.xml")?  // Pretty-printed UTF-8
+      doc.saveToFile(auth, "compact.xml", false, "ISO-8859-1")?
+      ```
+    """
+    // Call the C function
+    // Returns number of bytes written, or -1 on error
+    let format_val: I32 = if format then I32(1) else I32(0) end
+    let bytes_written: I32 = LibXML2.xmlSaveFormatFileEnc(
+      filename,
+      ptr',
+      encoding,
+      format_val)
+
+    // Check for error (negative return indicates failure)
+    if bytes_written < 0 then error end
 
   fun _final() =>
     LibXML2.xmlFreeDoc(ptr')

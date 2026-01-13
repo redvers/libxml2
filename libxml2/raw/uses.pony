@@ -5711,6 +5711,13 @@ use @xmlMemDisplayLast[None](fp: NullablePointer[IOFILE] tag, nbBytes: I64)
 use @xmlMemFree[None](ptr: Pointer[None] tag)
 
 /*
+  xmlFree - Wrapper for memory deallocation
+  In libxml2, xmlFree is typically a macro that resolves to xmlMemFree.
+  This declaration allows direct use of xmlFree if available as a symbol.
+*/
+use @xmlFree[None](ptr: Pointer[U8] tag)
+
+/*
   Source: /usr/include/libxml2/libxml/xmlmemory.h:109
   Original Name: xmlMemGet/usr/include/libxml2/libxml/xmlmemory.h:109
 
